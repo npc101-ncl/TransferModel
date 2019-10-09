@@ -8,6 +8,7 @@ INTERPOLATED_COPASI_FORMATTED_DATA_DIRECTORY = os.path.join(COPASI_FORMATTED_DAT
 COPASI_FORMATTED_DATA_DIRECTORY = os.path.join(COPASI_FORMATTED_DATA_DIRECTORY, 'NotInterpolated')
 MODELS_DIRECTORY = os.path.join(WORKING_DIRECTORY, 'models')
 SIMULATION_DIRECTORY = os.path.join(MODELS_DIRECTORY, 'simulation_data')
+PARAMETER_ESTIMATION_CONFIG_YAML = os.path.join(MODELS_DIRECTORY, 'param_est_config.yaml')
 
 # some important filenames that are used in subdirectories
 EXPERIMENTAL_DATA_FILE = os.path.join(DATA_DIRECTORY, 'experimental_data_with_norm_to_max.xlsx')

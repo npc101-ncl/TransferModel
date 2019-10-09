@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- generated with COPASI 4.25 (Build 207) (http://www.copasi.org) at 2019-10-09T13:08:22Z -->
+<!-- generated with COPASI 4.25 (Build 207) (http://www.copasi.org) at 2019-10-09T13:38:45Z -->
 <?oxygen RNGSchema="http://www.copasi.org/static/schema/CopasiML.rng" type="xml"?>
 <COPASI xmlns="http://www.copasi.org/static/schema" versionMajor="4" versionMinor="25" versionDevel="207" copasiSourcesModified="0">
   <ListOfFunctions>
@@ -113,22 +113,26 @@ Reaction scheme where the products are created from the reactants and the change
     </Function>
     <Function key="Function_44" name="Function for R4b" type="UserDefined" reversible="unspecified">
       <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-          <rdf:Description rdf:about="#Function_44">
-            <dcterms:created>
-              <rdf:Description>
-                <dcterms:W3CDTF>2019-10-09T12:42:33Z</dcterms:W3CDTF>
-              </rdf:Description>
-            </dcterms:created>
-          </rdf:Description>
-        </rdf:RDF>
+<rdf:RDF
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about="#Function_44">
+    <dcterms:created>
+      <rdf:Description>
+        <dcterms:W3CDTF>2019-10-09T12:42:33Z</dcterms:W3CDTF>
+      </rdf:Description>
+    </dcterms:created>
+  </rdf:Description>
+</rdf:RDF>
+
       </MiriamAnnotation>
       <Expression>
-        kAktDephos*pPI3K
+        kAktDephos*pPI3K*pAkt
       </Expression>
       <ListOfParameterDescriptions>
         <ParameterDescription key="FunctionParameter_274" name="kAktDephos" order="0" role="constant"/>
         <ParameterDescription key="FunctionParameter_273" name="pPI3K" order="1" role="modifier"/>
+        <ParameterDescription key="FunctionParameter_350" name="pAkt" order="2" role="substrate"/>
       </ListOfParameterDescriptions>
     </Function>
     <Function key="Function_45" name="Function for R5f" type="UserDefined" reversible="false">
@@ -1029,15 +1033,18 @@ Reaction scheme where the products are created from the reactants and the change
       </Reaction>
       <Reaction key="Reaction_6" name="R4b" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-            <rdf:Description rdf:about="#Reaction_6">
-              <dcterms:created>
-                <rdf:Description>
-                  <dcterms:W3CDTF>2019-10-09T12:42:33Z</dcterms:W3CDTF>
-                </rdf:Description>
-              </dcterms:created>
-            </rdf:Description>
-          </rdf:RDF>
+<rdf:RDF
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about="#Reaction_6">
+    <dcterms:created>
+      <rdf:Description>
+        <dcterms:W3CDTF>2019-10-09T12:42:33Z</dcterms:W3CDTF>
+      </rdf:Description>
+    </dcterms:created>
+  </rdf:Description>
+</rdf:RDF>
+
         </MiriamAnnotation>
         <ListOfSubstrates>
           <Substrate metabolite="Metabolite_4" stoichiometry="1"/>
@@ -1049,7 +1056,7 @@ Reaction scheme where the products are created from the reactants and the change
           <Modifier metabolite="Metabolite_14" stoichiometry="1"/>
         </ListOfModifiers>
         <ListOfConstants>
-          <Constant key="Parameter_5006" name="kAktDephos" value="0.1"/>
+          <Constant key="Parameter_4805" name="kAktDephos" value="0.1"/>
         </ListOfConstants>
         <KineticLaw function="Function_44" unitType="Default" scalingCompartment="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell]">
           <ListOfCallParameters>
@@ -1058,6 +1065,9 @@ Reaction scheme where the products are created from the reactants and the change
             </CallParameter>
             <CallParameter functionParameter="FunctionParameter_273">
               <SourceParameter reference="Metabolite_14"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_350">
+              <SourceParameter reference="Metabolite_4"/>
             </CallParameter>
           </ListOfCallParameters>
         </KineticLaw>
@@ -1450,15 +1460,18 @@ Reaction scheme where the products are created from the reactants and the change
       </Reaction>
       <Reaction key="Reaction_18" name="R10b" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-            <rdf:Description rdf:about="#Reaction_18">
-              <dcterms:created>
-                <rdf:Description>
-                  <dcterms:W3CDTF>2019-10-09T12:42:33Z</dcterms:W3CDTF>
-                </rdf:Description>
-              </dcterms:created>
-            </rdf:Description>
-          </rdf:RDF>
+<rdf:RDF
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about="#Reaction_18">
+    <dcterms:created>
+      <rdf:Description>
+        <dcterms:W3CDTF>2019-10-09T12:42:33Z</dcterms:W3CDTF>
+      </rdf:Description>
+    </dcterms:created>
+  </rdf:Description>
+</rdf:RDF>
+
         </MiriamAnnotation>
         <ListOfSubstrates>
           <Substrate metabolite="Metabolite_10" stoichiometry="1"/>
@@ -1503,18 +1516,18 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           <ModelParameter cn="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell]" value="1" type="Compartment" simulationType="fixed"/>
         </ModelParameterGroup>
         <ModelParameterGroup cn="String=Initial Species Values" type="Group">
-          <ModelParameter cn="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[IRS1]" value="1.3521550376974049e+24" type="Species" simulationType="reactions"/>
+          <ModelParameter cn="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[IRS1]" value="1.2650376964359778e+24" type="Species" simulationType="reactions"/>
           <ModelParameter cn="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[IRS1a]" value="0" type="Species" simulationType="reactions"/>
           <ModelParameter cn="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[IRS1pS636_639]" value="0" type="Species" simulationType="reactions"/>
-          <ModelParameter cn="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[Akt]" value="8.8087672099484961e+23" type="Species" simulationType="reactions"/>
+          <ModelParameter cn="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[Akt]" value="1.079429095473089e+24" type="Species" simulationType="reactions"/>
           <ModelParameter cn="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[AktpT308]" value="0" type="Species" simulationType="reactions"/>
-          <ModelParameter cn="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[TSC2]" value="4.1672277247028583e+24" type="Species" simulationType="reactions"/>
+          <ModelParameter cn="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[TSC2]" value="6.3890639058416036e+23" type="Species" simulationType="reactions"/>
           <ModelParameter cn="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[TSC2pT1462]" value="0" type="Species" simulationType="reactions"/>
-          <ModelParameter cn="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[PRAS40]" value="6.7453158315578602e+23" type="Species" simulationType="reactions"/>
+          <ModelParameter cn="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[PRAS40]" value="6.3436140437092362e+23" type="Species" simulationType="reactions"/>
           <ModelParameter cn="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[PRAS40pT246]" value="0" type="Species" simulationType="reactions"/>
-          <ModelParameter cn="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[S6K]" value="1.4552576542205073e+23" type="Species" simulationType="reactions"/>
+          <ModelParameter cn="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[S6K]" value="2.2309362553304374e+23" type="Species" simulationType="reactions"/>
           <ModelParameter cn="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[S6KpT389]" value="0" type="Species" simulationType="reactions"/>
-          <ModelParameter cn="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[FourEBP1]" value="4.3424094695134213e+23" type="Species" simulationType="reactions"/>
+          <ModelParameter cn="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[FourEBP1]" value="5.5696033131390683e+23" type="Species" simulationType="reactions"/>
           <ModelParameter cn="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[FourEBP1pT37_46]" value="0" type="Species" simulationType="reactions"/>
           <ModelParameter cn="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[PI3K]" value="6.0221417899999996e+24" type="Species" simulationType="reactions"/>
           <ModelParameter cn="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[pPI3K]" value="0" type="Species" simulationType="reactions"/>
@@ -1738,7 +1751,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       <StateTemplateVariable objectReference="ModelValue_21"/>
     </StateTemplate>
     <InitialState type="initialState">
-      0 0 0 8.8087672099484961e+23 4.1672277247028583e+24 6.7453158315578602e+23 1.4552576542205073e+23 4.3424094695134213e+23 6.0221417899999996e+24 0 0 1.3521550376974049e+24 0 0 0 6.0221417899999996e+24 0 0 0 1 1 0.10000000000000001 0.10000000000000001 0.10000000000000001 0.10000000000000001 0.10000000000000001 0.10000000000000001 0.10000000000000001 0.10000000000000001 0.10000000000000001 0.10000000000000001 0.10000000000000001 0.10000000000000001 0.10000000000000001 0.10000000000000001 0.10000000000000001 0.10000000000000001 0.10000000000000001 0.10000000000000001 0.10000000000000001 0.10000000000000001 1 
+      0 0 0 1.079429095473089e+24 6.3890639058416036e+23 6.3436140437092362e+23 2.2309362553304374e+23 5.5696033131390683e+23 6.0221417899999996e+24 0 0 1.2650376964359778e+24 0 0 0 6.0221417899999996e+24 0 0 0 1 1 0.10000000000000001 0.10000000000000001 0.10000000000000001 0.10000000000000001 0.10000000000000001 0.10000000000000001 0.10000000000000001 0.10000000000000001 0.10000000000000001 0.10000000000000001 0.10000000000000001 0.10000000000000001 0.10000000000000001 0.10000000000000001 0.10000000000000001 0.10000000000000001 0.10000000000000001 0.10000000000000001 0.10000000000000001 0.10000000000000001 1 
     </InitialState>
   </Model>
   <ListOfTasks>
@@ -1784,6 +1797,14 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       <Problem>
         <Parameter name="Subtask" type="unsignedInteger" value="1"/>
         <ParameterGroup name="ScanItems">
+          <ParameterGroup name="ScanItem">
+            <Parameter name="Number of steps" type="unsignedInteger" value="10"/>
+            <Parameter name="Type" type="unsignedInteger" value="1"/>
+            <Parameter name="Object" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[Akt],Reference=InitialConcentration"/>
+            <Parameter name="Minimum" type="float" value="0.10000000000000001"/>
+            <Parameter name="Maximum" type="float" value="1"/>
+            <Parameter name="log" type="bool" value="0"/>
+          </ParameterGroup>
         </ParameterGroup>
         <Parameter name="Output in subtask" type="bool" value="1"/>
         <Parameter name="Adjust initial conditions" type="bool" value="0"/>
@@ -1820,12 +1841,12 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
         <Parameter name="Seed" type="unsignedInteger" value="0"/>
       </Method>
     </Task>
-    <Task key="Task_19" name="Parameter Estimation" type="parameterFitting" scheduled="false" updateModel="false">
+    <Task key="Task_19" name="Parameter Estimation" type="parameterFitting" scheduled="false" updateModel="true">
       <Report reference="Report_21" target="PEData.txt" append="0" confirmOverwrite="0"/>
       <Problem>
         <Parameter name="Maximize" type="bool" value="0"/>
-        <Parameter name="Randomize Start Values" type="bool" value="1"/>
-        <Parameter name="Calculate Statistics" type="bool" value="1"/>
+        <Parameter name="Randomize Start Values" type="bool" value="0"/>
+        <Parameter name="Calculate Statistics" type="bool" value="0"/>
         <ParameterGroup name="OptimizationItemList">
           <ParameterGroup name="FitItem">
             <ParameterGroup name="Affected Experiments">
@@ -1835,7 +1856,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             </ParameterGroup>
             <Parameter name="LowerBound" type="cn" value="0.1"/>
             <Parameter name="UpperBound" type="cn" value="10"/>
-            <Parameter name="StartValue" type="float" value="0.12659067600000001"/>
+            <Parameter name="StartValue" type="float" value="1.237723846"/>
             <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[Akt],Reference=InitialConcentration"/>
           </ParameterGroup>
           <ParameterGroup name="FitItem">
@@ -1846,7 +1867,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             </ParameterGroup>
             <Parameter name="LowerBound" type="cn" value="0.1"/>
             <Parameter name="UpperBound" type="cn" value="10"/>
-            <Parameter name="StartValue" type="float" value="1.1351441795528237"/>
+            <Parameter name="StartValue" type="float" value="1.7924338767073251"/>
             <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[Akt],Reference=InitialConcentration"/>
           </ParameterGroup>
           <ParameterGroup name="FitItem">
@@ -1857,7 +1878,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             </ParameterGroup>
             <Parameter name="LowerBound" type="cn" value="0.1"/>
             <Parameter name="UpperBound" type="cn" value="10"/>
-            <Parameter name="StartValue" type="float" value="0.27347230470692596"/>
+            <Parameter name="StartValue" type="float" value="3.0345544595252893"/>
             <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[IRS1],Reference=InitialConcentration"/>
           </ParameterGroup>
           <ParameterGroup name="FitItem">
@@ -1868,7 +1889,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             </ParameterGroup>
             <Parameter name="LowerBound" type="cn" value="0.1"/>
             <Parameter name="UpperBound" type="cn" value="10"/>
-            <Parameter name="StartValue" type="float" value="0.52675606151927767"/>
+            <Parameter name="StartValue" type="float" value="2.1006441570947763"/>
             <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[IRS1],Reference=InitialConcentration"/>
           </ParameterGroup>
           <ParameterGroup name="FitItem">
@@ -1879,7 +1900,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             </ParameterGroup>
             <Parameter name="LowerBound" type="cn" value="0.1"/>
             <Parameter name="UpperBound" type="cn" value="10"/>
-            <Parameter name="StartValue" type="float" value="0.94081568679625627"/>
+            <Parameter name="StartValue" type="float" value="1.7992585224276758"/>
             <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[PRAS40],Reference=InitialConcentration"/>
           </ParameterGroup>
           <ParameterGroup name="FitItem">
@@ -1890,7 +1911,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             </ParameterGroup>
             <Parameter name="LowerBound" type="cn" value="0.1"/>
             <Parameter name="UpperBound" type="cn" value="10"/>
-            <Parameter name="StartValue" type="float" value="0.22958558164708617"/>
+            <Parameter name="StartValue" type="float" value="1.0533817144994915"/>
             <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[PRAS40],Reference=InitialConcentration"/>
           </ParameterGroup>
           <ParameterGroup name="FitItem">
@@ -1901,7 +1922,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             </ParameterGroup>
             <Parameter name="LowerBound" type="cn" value="0.1"/>
             <Parameter name="UpperBound" type="cn" value="10"/>
-            <Parameter name="StartValue" type="float" value="0.2827304054470941"/>
+            <Parameter name="StartValue" type="float" value="1.8736694624755679"/>
             <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[S6K],Reference=InitialConcentration"/>
           </ParameterGroup>
           <ParameterGroup name="FitItem">
@@ -1912,7 +1933,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             </ParameterGroup>
             <Parameter name="LowerBound" type="cn" value="0.1"/>
             <Parameter name="UpperBound" type="cn" value="10"/>
-            <Parameter name="StartValue" type="float" value="6.7585062788017654"/>
+            <Parameter name="StartValue" type="float" value="0.3704556174740013"/>
             <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[S6K],Reference=InitialConcentration"/>
           </ParameterGroup>
           <ParameterGroup name="FitItem">
@@ -1923,7 +1944,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             </ParameterGroup>
             <Parameter name="LowerBound" type="cn" value="0.1"/>
             <Parameter name="UpperBound" type="cn" value="10"/>
-            <Parameter name="StartValue" type="float" value="0.12595985629366585"/>
+            <Parameter name="StartValue" type="float" value="1.3835377199734258"/>
             <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[TSC2],Reference=InitialConcentration"/>
           </ParameterGroup>
           <ParameterGroup name="FitItem">
@@ -1934,14 +1955,14 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             </ParameterGroup>
             <Parameter name="LowerBound" type="cn" value="0.1"/>
             <Parameter name="UpperBound" type="cn" value="10"/>
-            <Parameter name="StartValue" type="float" value="1.3233446496675318"/>
+            <Parameter name="StartValue" type="float" value="1.0609288403755111"/>
             <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[TSC2],Reference=InitialConcentration"/>
           </ParameterGroup>
           <ParameterGroup name="FitItem">
             <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[FourEBP1],Reference=InitialConcentration"/>
             <Parameter name="LowerBound" type="cn" value="0.1"/>
             <Parameter name="UpperBound" type="cn" value="10"/>
-            <Parameter name="StartValue" type="float" value="7.5083036675432568"/>
+            <Parameter name="StartValue" type="float" value="0.68430111565285756"/>
             <ParameterGroup name="Affected Experiments">
               <Parameter name="Experiment Key" type="key" value="Experiment_0"/>
             </ParameterGroup>
@@ -1952,7 +1973,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[FourEBP1],Reference=InitialConcentration"/>
             <Parameter name="LowerBound" type="cn" value="0.1"/>
             <Parameter name="UpperBound" type="cn" value="10"/>
-            <Parameter name="StartValue" type="float" value="3.4899647898143042"/>
+            <Parameter name="StartValue" type="float" value="0.92485423082990348"/>
             <ParameterGroup name="Affected Experiments">
               <Parameter name="Experiment Key" type="key" value="Experiment_1"/>
             </ParameterGroup>
@@ -2216,14 +2237,11 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           <Parameter name="Threshold" type="unsignedInteger" value="5"/>
         </ParameterGroup>
       </Problem>
-      <Method name="Particle Swarm" type="ParticleSwarm">
+      <Method name="Hooke &amp; Jeeves" type="HookeJeeves">
         <Parameter name="Log Verbosity" type="unsignedInteger" value="0"/>
-        <Parameter name="Iteration Limit" type="unsignedInteger" value="2000"/>
-        <Parameter name="Swarm Size" type="unsignedInteger" value="50"/>
-        <Parameter name="Std. Deviation" type="unsignedFloat" value="9.9999999999999995e-07"/>
-        <Parameter name="Random Number Generator" type="unsignedInteger" value="1"/>
-        <Parameter name="Seed" type="unsignedInteger" value="0"/>
-        <Parameter name="Stop after # Stalled Iterations" type="unsignedInteger" value="0"/>
+        <Parameter name="Iteration Limit" type="unsignedInteger" value="50"/>
+        <Parameter name="Tolerance" type="float" value="1.0000000000000001e-05"/>
+        <Parameter name="Rho" type="float" value="0.20000000000000001"/>
       </Method>
     </Task>
     <Task key="Task_20" name="Metabolic Control Analysis" type="metabolicControlAnalysis" scheduled="false" updateModel="false">
@@ -2313,10 +2331,10 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
         <Parameter name="PositiveDirection" type="bool" value="1"/>
         <Parameter name="NumOutCrossingsLimit" type="unsignedInteger" value="0"/>
         <Parameter name="LimitUntilConvergence" type="bool" value="0"/>
-        <Parameter name="ConvergenceTolerance" type="float" value="9.9999999999999995e-07"/>
+        <Parameter name="ConvergenceTolerance" type="float" value="0"/>
         <Parameter name="Threshold" type="float" value="0"/>
         <Parameter name="DelayOutputUntilConvergence" type="bool" value="0"/>
-        <Parameter name="OutputConvergenceTolerance" type="float" value="9.9999999999999995e-07"/>
+        <Parameter name="OutputConvergenceTolerance" type="float" value="0"/>
         <ParameterText name="TriggerExpression" type="expression">
           
         </ParameterText>
@@ -2973,6 +2991,228 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           <ListOfChannels>
             <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=not_interpolated_T47D,Vector=Fitted Points[0],Reference=Independent Value"/>
             <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=not_interpolated_T47D,Vector=Fitted Points[5],Reference=Weighted Error"/>
+          </ListOfChannels>
+        </PlotItem>
+      </ListOfPlotItems>
+    </PlotSpecification>
+    <PlotSpecification name="Concentrations, Volumes, and Global Quantity Values" type="Plot2D" active="1" taskTypes="">
+      <Parameter name="log X" type="bool" value="0"/>
+      <Parameter name="log Y" type="bool" value="0"/>
+      <ListOfPlotItems>
+        <PlotItem name="[IRS1]" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=SimpleAktModel,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[IRS1],Reference=Concentration"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[IRS1a]" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=SimpleAktModel,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[IRS1a],Reference=Concentration"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[IRS1pS636_639]" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=SimpleAktModel,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[IRS1pS636_639],Reference=Concentration"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[Akt]" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=SimpleAktModel,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[Akt],Reference=Concentration"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[AktpT308]" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=SimpleAktModel,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[AktpT308],Reference=Concentration"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[TSC2]" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=SimpleAktModel,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[TSC2],Reference=Concentration"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[TSC2pT1462]" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=SimpleAktModel,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[TSC2pT1462],Reference=Concentration"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[PRAS40]" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=SimpleAktModel,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[PRAS40],Reference=Concentration"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[PRAS40pT246]" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=SimpleAktModel,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[PRAS40pT246],Reference=Concentration"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[S6K]" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=SimpleAktModel,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[S6K],Reference=Concentration"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[S6KpT389]" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=SimpleAktModel,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[S6KpT389],Reference=Concentration"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[FourEBP1]" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=SimpleAktModel,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[FourEBP1],Reference=Concentration"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[FourEBP1pT37_46]" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=SimpleAktModel,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[FourEBP1pT37_46],Reference=Concentration"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[PI3K]" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=SimpleAktModel,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[PI3K],Reference=Concentration"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[pPI3K]" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=SimpleAktModel,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[pPI3K],Reference=Concentration"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[pmTORC1]" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=SimpleAktModel,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[pmTORC1],Reference=Concentration"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[mTORC1cyt]" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=SimpleAktModel,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[mTORC1cyt],Reference=Concentration"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[mTORC1lys]" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=SimpleAktModel,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[mTORC1lys],Reference=Concentration"/>
           </ListOfChannels>
         </PlotItem>
       </ListOfPlotItems>

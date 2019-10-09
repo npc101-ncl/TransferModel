@@ -124,6 +124,15 @@ class ExperimentalDataProcessingTests(unittest.TestCase):
         gd = GetData('T47D')
         gd.to_copasi_format()
 
+    def test_Get_ic(self):
+        gd = GetData('T47D')
+        ics = gd.get_initial_conc_params()
+        ic = ics['MCF7']['PRAS40pT246']
+        expected = 0.3871902936254561
+        actual = ic
+        self.assertEqual(expected, actual)
+
+
 
 
 

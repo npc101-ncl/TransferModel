@@ -279,7 +279,8 @@ class GetData:
         plt.show()
         # plt.gca().annotate('Time (min)', xy=(0.1, 0.5), xytext=(0.1, 0.5), xycoords='figure fraction')
         # plt.suptitle('Insulin Stimulation: {}'.format(cell_line))
-        fname = os.path.join(DATA_DIRECTORY, 'experimental_data_ZR75.png' if 'ZR75' in cell_lines else 'experimental_data_T47D.png' )
+        fname = os.path.join(DATA_DIRECTORY,
+                             'experimental_data_ZR75.png' if 'ZR75' in cell_lines else 'experimental_data_T47D.png')
         fig.savefig(fname, dpi=300, bbox_inches='tight')
 
     def to_copasi_format(self, prefix='not_interpolated', interpolation_num=None):
@@ -290,9 +291,10 @@ class GetData:
             data = self.interpolate(data, num=interpolation_num)
         data = data.stack()
         avg = data.groupby(['cell_line', 'time']).mean()
+        df_dct = {}
         for label, df in avg.groupby(level=['cell_line']):
             ics = df.iloc[[0]]
-            ics =pandas.concat([ics]*df.shape[0], axis=0)
+            ics = pandas.concat([ics] * df.shape[0], axis=0)
             ics.index = df.index
             ics = ics.drop(total_proteins, axis=1)
             ics.columns = [f'{i}_indep' for i in ics.columns]
@@ -306,3 +308,20 @@ class GetData:
             fname = os.path.join(COPASI_FORMATTED_DATA_DIRECTORY, f'{prefix}_{label}.csv')
             df2 = df2.drop(total_proteins, axis=1)
             df2.to_csv(fname)
+            df_dct[label] = df2
+        return df_dct
+
+    def get_initial_conc_params(self):
+        """
+        Return dict of initial concentration parameters. (i.e. indep vars)
+        Returns:
+
+        """
+        df_dct = self.to_copasi_format()
+        ic_dct = {}
+        for k, df in df_dct.items():
+            cols = [i for i in df if 'indep' in i]
+            ic_dct[k] = df[cols].iloc[0].to_dict()
+        for cell_line, dct in ic_dct.items():
+            ic_dct[cell_line] = {k.replace('_indep', ''): v for k, v in dct.items() if '_indep' in k}
+        return ic_dct

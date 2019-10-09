@@ -1,0 +1,428 @@
+datasets:
+    experiments:
+        not_interpolated_MCF7:
+            affected_models:
+            - simple_akt_model
+            filename: /home/ncw135/Documents/MesiSTRAT2/TransferModel/transfer_model/data/CopasiFormattedData/NotInterpolated/not_interpolated_MCF7.csv
+            mappings:
+                AA_indep:
+                    model_object: AA_indep
+                    object_type: GlobalQuantity
+                    role: dependent
+                AktpS473:
+                    model_object: AktpS473
+                    object_type: list
+                    role: dependent
+                AktpS473_indep:
+                    model_object: AktpS473_indep
+                    object_type: list
+                    role: dependent
+                AktpT308:
+                    model_object: AktpT308
+                    object_type: Metabolite
+                    role: dependent
+                AktpT308_indep:
+                    model_object: AktpT308_indep
+                    object_type: Metabolite
+                    role: dependent
+                Coomassie_staining:
+                    model_object: Coomassie_staining
+                    object_type: list
+                    role: dependent
+                Coomassie_staining_indep:
+                    model_object: Coomassie_staining_indep
+                    object_type: list
+                    role: dependent
+                ERKpT202_Y204:
+                    model_object: ERKpT202_Y204
+                    object_type: list
+                    role: dependent
+                ERKpT202_Y204_indep:
+                    model_object: ERKpT202_Y204_indep
+                    object_type: list
+                    role: dependent
+                ER_alpha:
+                    model_object: ER_alpha
+                    object_type: list
+                    role: dependent
+                ER_alpha_indep:
+                    model_object: ER_alpha_indep
+                    object_type: list
+                    role: dependent
+                FourEBP1pT37_46:
+                    model_object: FourEBP1pT37_46
+                    object_type: Metabolite
+                    role: dependent
+                FourEBP1pT37_46_indep:
+                    model_object: FourEBP1pT37_46_indep
+                    object_type: Metabolite
+                    role: dependent
+                GAPDH:
+                    model_object: GAPDH
+                    object_type: list
+                    role: dependent
+                GAPDH_indep:
+                    model_object: GAPDH_indep
+                    object_type: list
+                    role: dependent
+                IRS1pS636_639:
+                    model_object: IRS1pS636_639
+                    object_type: Metabolite
+                    role: dependent
+                IRS1pS636_639_indep:
+                    model_object: IRS1pS636_639_indep
+                    object_type: Metabolite
+                    role: dependent
+                Insulin_indep:
+                    model_object: Insulin_indep
+                    object_type: GlobalQuantity
+                    role: dependent
+                PRAS40pS183:
+                    model_object: PRAS40pS183
+                    object_type: list
+                    role: dependent
+                PRAS40pS183_indep:
+                    model_object: PRAS40pS183_indep
+                    object_type: list
+                    role: dependent
+                PRAS40pT246:
+                    model_object: PRAS40pT246
+                    object_type: Metabolite
+                    role: dependent
+                PRAS40pT246_indep:
+                    model_object: PRAS40pT246_indep
+                    object_type: Metabolite
+                    role: dependent
+                S6KpT229:
+                    model_object: S6KpT229
+                    object_type: list
+                    role: dependent
+                S6KpT229_indep:
+                    model_object: S6KpT229_indep
+                    object_type: list
+                    role: dependent
+                S6KpT389:
+                    model_object: S6KpT389
+                    object_type: Metabolite
+                    role: dependent
+                S6KpT389_indep:
+                    model_object: S6KpT389_indep
+                    object_type: Metabolite
+                    role: dependent
+                TSC2pT1462:
+                    model_object: TSC2pT1462
+                    object_type: Metabolite
+                    role: dependent
+                TSC2pT1462_indep:
+                    model_object: TSC2pT1462_indep
+                    object_type: Metabolite
+                    role: dependent
+                p38_pT180_Y182:
+                    model_object: p38_pT180_Y182
+                    object_type: list
+                    role: dependent
+                p38_pT180_Y182_indep:
+                    model_object: p38_pT180_Y182_indep
+                    object_type: list
+                    role: dependent
+                time:
+                    model_object: time
+                    role: time
+            normalize_weights_per_experiment: true
+            separator: ','
+        not_interpolated_T47D:
+            affected_models:
+            - simple_akt_model
+            filename: /home/ncw135/Documents/MesiSTRAT2/TransferModel/transfer_model/data/CopasiFormattedData/NotInterpolated/not_interpolated_T47D.csv
+            mappings:
+                AA_indep:
+                    model_object: AA_indep
+                    object_type: GlobalQuantity
+                    role: dependent
+                AktpS473:
+                    model_object: AktpS473
+                    object_type: list
+                    role: dependent
+                AktpS473_indep:
+                    model_object: AktpS473_indep
+                    object_type: list
+                    role: dependent
+                AktpT308:
+                    model_object: AktpT308
+                    object_type: Metabolite
+                    role: dependent
+                AktpT308_indep:
+                    model_object: AktpT308_indep
+                    object_type: Metabolite
+                    role: dependent
+                Coomassie_staining:
+                    model_object: Coomassie_staining
+                    object_type: list
+                    role: dependent
+                Coomassie_staining_indep:
+                    model_object: Coomassie_staining_indep
+                    object_type: list
+                    role: dependent
+                ERKpT202_Y204:
+                    model_object: ERKpT202_Y204
+                    object_type: list
+                    role: dependent
+                ERKpT202_Y204_indep:
+                    model_object: ERKpT202_Y204_indep
+                    object_type: list
+                    role: dependent
+                ER_alpha:
+                    model_object: ER_alpha
+                    object_type: list
+                    role: dependent
+                ER_alpha_indep:
+                    model_object: ER_alpha_indep
+                    object_type: list
+                    role: dependent
+                FourEBP1pT37_46:
+                    model_object: FourEBP1pT37_46
+                    object_type: Metabolite
+                    role: dependent
+                FourEBP1pT37_46_indep:
+                    model_object: FourEBP1pT37_46_indep
+                    object_type: Metabolite
+                    role: dependent
+                GAPDH:
+                    model_object: GAPDH
+                    object_type: list
+                    role: dependent
+                GAPDH_indep:
+                    model_object: GAPDH_indep
+                    object_type: list
+                    role: dependent
+                IRS1pS636_639:
+                    model_object: IRS1pS636_639
+                    object_type: Metabolite
+                    role: dependent
+                IRS1pS636_639_indep:
+                    model_object: IRS1pS636_639_indep
+                    object_type: Metabolite
+                    role: dependent
+                Insulin_indep:
+                    model_object: Insulin_indep
+                    object_type: GlobalQuantity
+                    role: dependent
+                PRAS40pS183:
+                    model_object: PRAS40pS183
+                    object_type: list
+                    role: dependent
+                PRAS40pS183_indep:
+                    model_object: PRAS40pS183_indep
+                    object_type: list
+                    role: dependent
+                PRAS40pT246:
+                    model_object: PRAS40pT246
+                    object_type: Metabolite
+                    role: dependent
+                PRAS40pT246_indep:
+                    model_object: PRAS40pT246_indep
+                    object_type: Metabolite
+                    role: dependent
+                S6KpT229:
+                    model_object: S6KpT229
+                    object_type: list
+                    role: dependent
+                S6KpT229_indep:
+                    model_object: S6KpT229_indep
+                    object_type: list
+                    role: dependent
+                S6KpT389:
+                    model_object: S6KpT389
+                    object_type: Metabolite
+                    role: dependent
+                S6KpT389_indep:
+                    model_object: S6KpT389_indep
+                    object_type: Metabolite
+                    role: dependent
+                TSC2pT1462:
+                    model_object: TSC2pT1462
+                    object_type: Metabolite
+                    role: dependent
+                TSC2pT1462_indep:
+                    model_object: TSC2pT1462_indep
+                    object_type: Metabolite
+                    role: dependent
+                p38_pT180_Y182:
+                    model_object: p38_pT180_Y182
+                    object_type: list
+                    role: dependent
+                p38_pT180_Y182_indep:
+                    model_object: p38_pT180_Y182_indep
+                    object_type: list
+                    role: dependent
+                time:
+                    model_object: time
+                    role: time
+            normalize_weights_per_experiment: true
+            separator: ','
+    validations: {}
+items:
+    fit_items:
+        Akt:
+            affected_experiments:
+            - not_interpolated_T47D
+            - not_interpolated_MCF7
+            affected_models:
+            - simple_akt_model
+            affected_validation_experiments: []
+            lower_bound: 0.1
+            start_value: 0.1
+            upper_bound: 10
+        FourEBP1:
+            affected_experiments:
+            - not_interpolated_T47D
+            - not_interpolated_MCF7
+            affected_models:
+            - simple_akt_model
+            affected_validation_experiments: []
+            lower_bound: 0.1
+            start_value: 0.1
+            upper_bound: 10
+        IRS1:
+            affected_experiments:
+            - not_interpolated_T47D
+            - not_interpolated_MCF7
+            affected_models:
+            - simple_akt_model
+            affected_validation_experiments: []
+            lower_bound: 0.1
+            start_value: 0.1
+            upper_bound: 10
+        PRAS40:
+            affected_experiments:
+            - not_interpolated_T47D
+            - not_interpolated_MCF7
+            affected_models:
+            - simple_akt_model
+            affected_validation_experiments: []
+            lower_bound: 0.1
+            start_value: 0.1
+            upper_bound: 10
+        S6K:
+            affected_experiments:
+            - not_interpolated_T47D
+            - not_interpolated_MCF7
+            affected_models:
+            - simple_akt_model
+            affected_validation_experiments: []
+            lower_bound: 0.1
+            start_value: 0.1
+            upper_bound: 10
+        TSC2:
+            affected_experiments:
+            - not_interpolated_T47D
+            - not_interpolated_MCF7
+            affected_models:
+            - simple_akt_model
+            affected_validation_experiments: []
+            lower_bound: 0.1
+            start_value: 0.1
+            upper_bound: 10
+        Akt:
+            affected_experiments:
+            - not_interpolated_T47D
+            affected_models:
+            - simple_akt_model
+            affected_validation_experiments: []
+            lower_bound: 0.1
+            start_value: 0.1
+            upper_bound: 10
+        FourEBP1:
+            affected_experiments:
+            - not_interpolated_T47D
+            affected_models:
+            - simple_akt_model
+            affected_validation_experiments: []
+            lower_bound: 0.1
+            start_value: 0.1
+            upper_bound: 10
+        IRS1:
+            affected_experiments:
+            - not_interpolated_T47D
+            affected_models:
+            - simple_akt_model
+            affected_validation_experiments: []
+            lower_bound: 0.1
+            start_value: 0.1
+            upper_bound: 10
+        PRAS40:
+            affected_experiments:
+            - not_interpolated_T47D
+            affected_models:
+            - simple_akt_model
+            affected_validation_experiments: []
+            lower_bound: 0.1
+            start_value: 0.1
+            upper_bound: 10
+        S6K:
+            affected_experiments:
+            - not_interpolated_T47D
+            affected_models:
+            - simple_akt_model
+            affected_validation_experiments: []
+            lower_bound: 0.1
+            start_value: 0.1
+            upper_bound: 10
+        TSC2:
+            affected_experiments:
+            - not_interpolated_T47D
+            affected_models:
+            - simple_akt_model
+            affected_validation_experiments: []
+            lower_bound: 0.1
+            start_value: 0.1
+            upper_bound: 10
+models:
+    simple_akt_model:
+        copasi_file: /home/ncw135/Documents/MesiSTRAT2/TransferModel/transfer_model/models/simple_akt_model.cps
+settings:
+    calculate_statistics: false
+    config_filename: config.yml
+    context: s
+    cooling_factor: 0.85
+    copy_number: 1
+    create_parameter_sets: false
+    cross_validation_depth: 1
+    fit: 1
+    iteration_limit: 50
+    lower_bound: 0.1
+    max_active: 3
+    method: genetic_algorithm
+    number_of_generations: 200
+    number_of_iterations: 100000
+    overwrite_config_file: false
+    pe_number: 1
+    pf: 0.475
+    pl_lower_bound: 1000
+    pl_upper_bound: 1000
+    population_size: 50
+    prefix: null
+    problem: Problem1
+    quantity_type: concentration
+    random_number_generator: 1
+    randomize_start_values: false
+    report_name: PEData.txt
+    results_directory: ParameterEstimationData
+    rho: 0.2
+    run_mode: false
+    save: false
+    scale: 10
+    seed: 0
+    start_temperature: 1
+    start_value: 0.1
+    starting_parameter_sets: null
+    std_deviation: 1.0e-06
+    swarm_size: 50
+    tolerance: 1.0e-05
+    update_model: false
+    upper_bound: 10
+    use_config_start_values: false
+    validation_threshold: 5
+    validation_weight: 1
+    weight_method: mean_squared
+    working_directory: /home/ncw135/Documents/MesiSTRAT2/TransferModel/transfer_model/models

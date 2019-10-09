@@ -485,6 +485,7 @@
     </listOfSpecies>
     <listOfParameters>
       <parameter id="Insulin" value="1" constant="true"/>
+      <parameter id="AA" value="1" constant="true"/>
       <parameter id="kIRS1Act" value="0.1" constant="true"/>
       <parameter id="kIRS1Inact" value="0.1" constant="true"/>
       <parameter id="kIRS1Phos" value="0.1" constant="true"/>
@@ -505,7 +506,6 @@
       <parameter id="kFourEBP1Dephos" value="0.1" constant="true"/>
       <parameter id="kS6KPhos" value="0.1" constant="true"/>
       <parameter id="kS6KDephos" value="0.1" constant="true"/>
-      <parameter id="AA" constant="true"/>
     </listOfParameters>
     <listOfReactions>
       <reaction id="R1f" reversible="false" fast="false">
@@ -646,6 +646,7 @@
               <ci> Cell </ci>
               <ci> kAktDephos </ci>
               <ci> pPI3K </ci>
+              <ci> AktpT308 </ci>
             </apply>
           </math>
         </kineticLaw>
