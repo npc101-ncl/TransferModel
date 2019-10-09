@@ -10,28 +10,11 @@ import seaborn
 import matplotlib
 
 # from data.data_analysis import
-from .. import *
+from transfer_model import WORKING_DIRECTORY, MODELS_DIRECTORY, SIMULATION_DIRECTORY, EXPERIMENTAL_DATA_FILE, COPASI_FILE, DATA_DIRECTORY
 
-# matplotlib.use('Qt5Agg')
-# seaborn.set_context('talk')
-#
-# # WORKING_DIRECTORY = Path(os.path.abspath(__file__)).parents[1]
-#
-# # WORKING_DIRECTORY = r'D:\BreastCancerModel'
-# # DATA_DIRECTORY = os.path.join(WORKING_DIRECTORY, 'data')
-# # EXPERIMENTAL_DATA_FILE = os.path.join(DATA_DIRECTORY, 'experimental_data.xlsx')
-# # SIMULATION_GRAPHS_DIR = os.path.join(DATA_DIRECTORY, 'simulation_graphs')
-# # if not os.path.isdir(SIMULATION_GRAPHS_DIR):
-# #     os.makedirs(SIMULATION_GRAPHS_DIR)
-# #
-#
-# MODELS_DIRECTORY = os.path.join(WORKING_DIRECTORY, 'models')
-# SS_DATA_FILE = fname = os.path.join(DATA_DIRECTORY, 'ss_data.csv')
-# COPASI_FILE = os.path.join(MODELS_DIRECTORY, 'simple_akt_model.cps')
-# COPASI_FORMATTED_DATA = os.path.join(DATA_DIRECTORY, 'copasi_formatted_data.csv')
-# COPASI_INTERP_DATA = os.path.join(DATA_DIRECTORY, 'copasi_data_interp.csv')
-#
-#
+matplotlib.use('Qt5Agg')
+seaborn.set_context('talk')
+
 # model_string = f"""
 #
 # function MM(km, Vmax, S)
