@@ -12,6 +12,7 @@ import site
 from pathlib import Path
 
 from transfer_model import EXPERIMENTAL_DATA_FILE, REPLACEMENT_NAMES, OFFSET_PARAMETER, DATA_DIRECTORY
+from transfer_model import COPASI_FORMATTED_DATA_DIRECTORY
 
 
 class GetData:
@@ -207,7 +208,9 @@ class GetData:
                 df2_new.index.name = 'time'
                 middle_dct[antibody] = df2_new
             outer_dct[cell_line] = pandas.concat(middle_dct, axis=1)
-        return pandas.concat(outer_dct)
+        df = pandas.concat(outer_dct)
+        df.index.names = ['cell_line', 'time']
+        return df
 
     def plot(self, data=None, plot_selection={}, subplot_titles={},
              ncols=3, wspace=0.25, hspace=0.3, **kwargs):
@@ -278,3 +281,28 @@ class GetData:
         # plt.suptitle('Insulin Stimulation: {}'.format(cell_line))
         fname = os.path.join(DATA_DIRECTORY, 'experimental_data_ZR75.png' if 'ZR75' in cell_lines else 'experimental_data_T47D.png' )
         fig.savefig(fname, dpi=300, bbox_inches='tight')
+
+    def to_copasi_format(self, prefix='not_interpolated', interpolation_num=None):
+        total_proteins = ['IRS1', 'Akt', 'TSC2', 'S6K', 'FourEBP1',
+                          'PRAS40', 'p38', 'ERK']
+        data = self.normalised_to_coomassie_blue()
+        if interpolation_num is not None:
+            data = self.interpolate(data, num=interpolation_num)
+        data = data.stack()
+        avg = data.groupby(['cell_line', 'time']).mean()
+        for label, df in avg.groupby(level=['cell_line']):
+            ics = df.iloc[[0]]
+            ics =pandas.concat([ics]*df.shape[0], axis=0)
+            ics.index = df.index
+            ics = ics.drop(total_proteins, axis=1)
+            ics.columns = [f'{i}_indep' for i in ics.columns]
+            ics['Insulin_indep'] = 1
+            ics['AA_indep'] = 1
+
+            df2 = pandas.concat([df, ics], axis=1)
+            df2 = df2.loc[label]
+
+            df2 = df2.dropna(how='all', axis=1)
+            fname = os.path.join(COPASI_FORMATTED_DATA_DIRECTORY, f'{prefix}_{label}.csv')
+            df2 = df2.drop(total_proteins, axis=1)
+            df2.to_csv(fname)

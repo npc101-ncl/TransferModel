@@ -120,6 +120,11 @@ class ExperimentalDataProcessingTests(unittest.TestCase):
         gd = GetData('T47D')
         gd.plot()
 
+    def test_to_copasi_format(self):
+        gd = GetData('T47D')
+        gd.to_copasi_format()
+
+
 
 
 

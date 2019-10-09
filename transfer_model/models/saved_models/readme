@@ -1,0 +1,9 @@
+This directory contains a bunch of models that I have saved for some reason or another. This file is an index/guide to these saved models
+
+simple_akt_model_09_10_2019
+---------------------------
+- I tried calibrating the model to the MCF7 and T47D data simultaneously
+- All kinetic parameters are fixed
+- All non-phospho or active species are estimated and duplicated for each experiment
+- Estimated between boundaries of 0.1 and 10
+- Fits are reasonable. 
