@@ -5,7 +5,6 @@ are at the bottom.
 
 """
 
-
 from pathlib import Path
 import os, glob
 import pandas, numpy
@@ -307,18 +306,6 @@ class TheModel:
         else:
             plt.savefig(filename, dpi=300, bbox_inches='tight')
 
-        #     plot_data = data[selection]
-        #     for specie in selection:
-        #         plt.plot(plot_data.index, plot_data[specie], label=specie)
-        #     seaborn.despine(ax=ax, top=True, right=True)
-        #     plt.title(title)
-        #     plt.legend(loc='best')
-        # if filename is None:
-        #     plt.show()
-        # else:
-        #     plt.savefig(filename, dpi=300, bbox_inches='tight')
-        #
-
 
 if __name__ == '__main__':
 
@@ -333,9 +320,11 @@ if __name__ == '__main__':
 
     PLOT_SIMULATION = False
 
-    PLOT_BEST_FIT_MCF7_AND_T47D = True
+    PLOT_BEST_FIT_MCF7_AND_T47D = False
 
-    PLOT_BEST_FIT_MCF7_AND_ZR75 = True
+    PLOT_BEST_FIT_MCF7_AND_ZR75 = False
+
+    TRANSFER_BETWEEN_MCF7_FROM_ZR75_AND_T47D = True
 
     # ========================================
     py_mod = model.loada(TheModel.model_string, copasi_file=COPASI_FILE)
@@ -428,3 +417,32 @@ if __name__ == '__main__':
         zr75_zr75_fname = os.path.join(SIMULATION_DIRECTORY, 'ZR75_from_ZR75_experiment.png')
         te_mod_mcf7.plot_best_fit(which_data_file='ZR75', which_cell_line='MCF7', filename=zr75_mcf7_fname)
         te_mod_zr75.plot_best_fit(which_data_file='ZR75', which_cell_line='ZR75', filename=zr75_zr75_fname)
+
+
+    if TRANSFER_BETWEEN_MCF7_FROM_ZR75_AND_T47D:
+        # Calibrated with MCF7 and ZR75 (from same blot).
+        # Transfer: T47D
+        MCF7 = {}
+        ZR75 = {}
+        MCF7['Akt'] = 1.766284542044498
+        ZR75['Akt'] = 1.6169901853946649
+        MCF7['FourEBP1'] = 0.7528736731703629
+        ZR75['FourEBP1'] = 1.5644306858467456
+        MCF7['IRS1'] = 3.4224381192249163
+        ZR75['IRS1'] = 2.1371092389267043
+        MCF7['PRAS40'] = 1.7317272261472434
+        ZR75['PRAS40'] = 1.968537005784804
+        MCF7['S6K'] = 1.6916492798629466
+        ZR75['S6K'] = 0.7380178584075135
+        MCF7['TSC2'] = 1.909861364242059
+        ZR75['TSC2'] = 1.1657935902247676
+
+        ics = GetData('T47D').get_initial_conc_params()
+        print(ics['T47D'])
+        # ics['MCF7'].update(MCF7)
+        ics['T47D'].update(ZR75)
+
+        te_mod_zr75 = TheModel(ic_parameters=ics['T47D'])
+
+        transfer_fname = os.path.join(SIMULATION_DIRECTORY, 'zr75_t47d_transfer.png')
+        te_mod_zr75.plot_best_fit(which_data_file='T47D', which_cell_line='T47D', filename=transfer_fname)
