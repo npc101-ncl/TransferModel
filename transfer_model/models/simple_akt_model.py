@@ -342,8 +342,8 @@ if __name__ == '__main__':
     py_mod = tasks.TimeCourse(py_mod, start=0, end=150).model
 
     if WRITE_COPASI_FORMATTED_DATA:
-        gd_zr75 = GetData('ZR75', 'median').to_copasi_format()
-        gd_t47d = GetData('T47D', 'median').to_copasi_format()
+        gd_zr75 = GetData('ZR75', 'mean').to_copasi_format()
+        gd_t47d = GetData('T47D', 'mean').to_copasi_format()
 
     if OPEN_WITH_COPASI:
         py_mod.open()
