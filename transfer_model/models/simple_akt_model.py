@@ -415,7 +415,7 @@ if __name__ == '__main__':
 
         print(df_mcf7)
         # and plot
-        fig = plt.figure()
+        fig = plt.figure(figsize=(20, 10))
         ax = plt.subplot(121)
         seaborn.barplot(ax=ax, x='parameter', hue='cell_line', y='value', data=df_mcf7)
         plt.xlabel('')
@@ -483,7 +483,7 @@ if __name__ == '__main__':
         df_zr75.columns = ['cell_line', 'parameter', 'value']
 
         # and plot
-        fig = plt.figure()
+        fig = plt.figure(figsize=(20, 10))
         ax = plt.subplot(121)
         seaborn.barplot(ax=ax, x='parameter', hue='cell_line', y='value', data=df_mcf7)
         plt.xlabel('')
@@ -493,7 +493,6 @@ if __name__ == '__main__':
         seaborn.despine(fig=fig, top=True, right=True)
         ax = plt.subplot(122)
         seaborn.barplot(ax=ax, x='parameter', hue='cell_line', y='value', data=df_zr75)
-        plt.legend(loc=(0.1, 1))
         plt.title('ZR75')
         seaborn.despine(fig=fig, top=True, right=True)
 
