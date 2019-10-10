@@ -1,3 +1,11 @@
+"""
+This script defines a model of the PI3K/Akt system. Some flags that change the scripts behaviour
+are at the bottom. 
+
+
+"""
+
+
 from pathlib import Path
 import os, glob
 import pandas, numpy
@@ -10,9 +18,8 @@ import seaborn
 import matplotlib
 
 # from data.data_analysis import
-from transfer_model import WORKING_DIRECTORY, MODELS_DIRECTORY, SIMULATION_DIRECTORY, \
-    EXPERIMENTAL_DATA_FILE, COPASI_FILE, DATA_DIRECTORY, OFFSET_PARAMETER, \
-    COPASI_FORMATTED_DATA_DIRECTORY, PARAMETER_ESTIMATION_CONFIG_YAML
+from transfer_model import *
+from transfer_model.data.data_analysis import GetData
 
 import site
 
@@ -315,24 +322,40 @@ class TheModel:
 
 if __name__ == '__main__':
 
+    WRITE_COPASI_FORMATTED_DATA = False
+
     OPEN_WITH_COPASI = False
 
     CONFIGURE_PARAMETER_ESTIMATION = False
+    if CONFIGURE_PARAMETER_ESTIMATION:
+        WHICH_CELL_LINE = 'T47D'
+        assert WHICH_CELL_LINE in ['T47D', 'ZR75']
 
     PLOT_SIMULATION = False
 
-    PLOT_BEST_FIT = True
+    PLOT_BEST_FIT_MCF7_AND_T47D = True
+
+    PLOT_BEST_FIT_MCF7_AND_ZR75 = True
 
     # ========================================
     py_mod = model.loada(TheModel.model_string, copasi_file=COPASI_FILE)
     py_mod = tasks.TimeCourse(py_mod, start=0, end=150).model
+
+    if WRITE_COPASI_FORMATTED_DATA:
+        gd_zr75 = GetData('ZR75', 'median').to_copasi_format()
+        gd_t47d = GetData('T47D', 'median').to_copasi_format()
 
     if OPEN_WITH_COPASI:
         py_mod.open()
 
     if CONFIGURE_PARAMETER_ESTIMATION:
         params = ['IRS1', 'Akt', 'PRAS40', 'TSC2', 'FourEBP1', 'S6K']
-        exp_files = glob.glob(os.path.join(COPASI_FORMATTED_DATA_DIRECTORY, '*.csv'))
+
+        if WHICH_CELL_LINE == 'ZR75':
+            exp_files = glob.glob(os.path.join(ZR75_COPASI_FORMATED_DATA, '*.csv'))
+        else:
+            exp_files = glob.glob(os.path.join(T47D_COPASI_FORMATED_DATA, '*.csv'))
+
         with tasks.ParameterEstimation.Context(py_mod, exp_files, parameters='m', context='s') as context:
             context.set('run_mode', False)
             context.set('separator', ',')
@@ -341,16 +364,16 @@ if __name__ == '__main__':
             config = context.get_config()
 
         # print(config)
-        config = tasks.ParameterEstimation.Config.from_yaml(yml=PARAMETER_ESTIMATION_CONFIG_YAML)
+        # config = tasks.ParameterEstimation.Config.from_yaml(yml=PARAMETER_ESTIMATION_CONFIG_YAML)
         pe = tasks.ParameterEstimation(config)
         py_mod = pe.models['simple_akt_model'].model
-        # py_mod.open()
+        py_mod.open()
 
     if PLOT_SIMULATION:
         te_mod = TheModel()
         te_mod.plot()
 
-    if PLOT_BEST_FIT:
+    if PLOT_BEST_FIT_MCF7_AND_T47D:
         MCF7 = {}
         T47D = {}
         MCF7['Akt'] = 1.2818062896268356
@@ -366,8 +389,6 @@ if __name__ == '__main__':
         MCF7['TSC2'] = 1.34699754501788
         T47D['TSC2'] = 1.0281188142591413
 
-        from transfer_model.data.data_analysis import GetData
-
         ics = GetData('T47D').get_initial_conc_params()
         ics['MCF7'].update(MCF7)
         ics['T47D'].update(T47D)
@@ -377,9 +398,33 @@ if __name__ == '__main__':
 
         t47d_mcf7_fname = os.path.join(SIMULATION_DIRECTORY, 'MCF7_from_T47D_experiment.png')
         t47d_t47d_fname = os.path.join(SIMULATION_DIRECTORY, 'T47D_from_T47D_experiment.png')
-        zr75_mcf7 = os.path.join(SIMULATION_DIRECTORY, 'MCF7_from_ZR75_experiment.png')
-        zr75_zr75 = os.path.join(SIMULATION_DIRECTORY, 'ZR75_from_ZR75_experiment.png')
         te_mod_mcf7.plot_best_fit(which_data_file='T47D', which_cell_line='MCF7', filename=t47d_mcf7_fname)
         te_mod_t47d.plot_best_fit(which_data_file='T47D', which_cell_line='T47D', filename=t47d_t47d_fname)
-        # te_mod.plot_best_fit(which_data_file='ZR75', which_cell_line='MCF7', filename=zr75_mcf7)
-        # te_mod.plot_best_fit(which_data_file='ZR75', which_cell_line='ZR75', filename=zr75_zr75)
+
+    if PLOT_BEST_FIT_MCF7_AND_ZR75:
+        MCF7 = {}
+        ZR75 = {}
+        MCF7['Akt'] = 1.766284542044498
+        ZR75['Akt'] = 1.6169901853946649
+        MCF7['FourEBP1'] = 0.7528736731703629
+        ZR75['FourEBP1'] = 1.5644306858467456
+        MCF7['IRS1'] = 3.4224381192249163
+        ZR75['IRS1'] = 2.1371092389267043
+        MCF7['PRAS40'] = 1.7317272261472434
+        ZR75['PRAS40'] = 1.968537005784804
+        MCF7['S6K'] = 1.6916492798629466
+        ZR75['S6K'] = 0.7380178584075135
+        MCF7['TSC2'] = 1.909861364242059
+        ZR75['TSC2'] = 1.1657935902247676
+
+        ics = GetData('ZR75').get_initial_conc_params()
+        ics['MCF7'].update(MCF7)
+        ics['ZR75'].update(ZR75)
+
+        te_mod_mcf7 = TheModel(ic_parameters=ics['MCF7'])
+        te_mod_zr75 = TheModel(ic_parameters=ics['ZR75'])
+
+        zr75_mcf7_fname = os.path.join(SIMULATION_DIRECTORY, 'MCF7_from_ZR75_experiment.png')
+        zr75_zr75_fname = os.path.join(SIMULATION_DIRECTORY, 'ZR75_from_ZR75_experiment.png')
+        te_mod_mcf7.plot_best_fit(which_data_file='ZR75', which_cell_line='MCF7', filename=zr75_mcf7_fname)
+        te_mod_zr75.plot_best_fit(which_data_file='ZR75', which_cell_line='ZR75', filename=zr75_zr75_fname)

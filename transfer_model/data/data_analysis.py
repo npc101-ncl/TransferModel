@@ -11,8 +11,7 @@ from matplotlib.gridspec import GridSpec
 import site
 from pathlib import Path
 
-from transfer_model import EXPERIMENTAL_DATA_FILE, REPLACEMENT_NAMES, OFFSET_PARAMETER, DATA_DIRECTORY
-from transfer_model import COPASI_FORMATTED_DATA_DIRECTORY
+from transfer_model import *
 
 
 class GetData:
@@ -23,9 +22,10 @@ class GetData:
     zr75_sheet = 'MCF-7 vs ZR-75-1'
     t47d_sheet = 'MCF-7 vs T47D'
 
-    def __init__(self, cell_line='ZR75'):
+    def __init__(self, cell_line='ZR75', mean_or_median='mean'):
         self.workbook = xlrd.open_workbook(EXPERIMENTAL_DATA_FILE)
         self.cell_line = cell_line
+        self.mean_or_median = mean_or_median
 
     def get_sheet_names(self):
         return self.workbook.sheet_names()
@@ -125,13 +125,18 @@ class GetData:
             series_list.append(data[i] / data[i].median())
         return pandas.concat(series_list, axis=1)
 
-    def normalised_to_coomassie_blue(self, data=None):
+    def normalised_to_coomassie_blue(self, data=None, ):
         """
         Second step in normalisation process is to normalise for coomassie blue staining. This stain
         provides a metric for the total amount of protein loaded onto a gel.
         """
         if data is None:
-            data = self.normed_to_average()
+            if self.mean_or_median == 'mean':
+                data = self.normed_to_average()
+            elif self.mean_or_median == 'median':
+                data = self.normed_to_median()
+            else:
+                raise ValueError
         # we have added the offset parameter!
         df_dct = {}
         for ab in self.get_antibody_names():
@@ -305,7 +310,10 @@ class GetData:
             df2 = df2.loc[label]
 
             df2 = df2.dropna(how='all', axis=1)
-            fname = os.path.join(COPASI_FORMATTED_DATA_DIRECTORY, f'{prefix}_{label}.csv')
+            fname = os.path.join(
+                T47D_COPASI_FORMATED_DATA if self.cell_line == 'T47D' else ZR75_COPASI_FORMATED_DATA,
+                f'{prefix}_{label}.csv'
+            )
             df2 = df2.drop(total_proteins, axis=1)
             df2.to_csv(fname)
             df_dct[label] = df2

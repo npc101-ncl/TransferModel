@@ -113,7 +113,7 @@ class ExperimentalDataProcessingTests(unittest.TestCase):
         self.assertEqual(actual, expected)
 
     def test_plot1(self):
-        gd = GetData()
+        gd = GetData('ZR75')
         gd.plot()
 
     def test_plot2(self):

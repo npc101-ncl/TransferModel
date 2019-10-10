@@ -30,7 +30,7 @@ Reaction scheme where the products are created from the reactants and the change
           <rdf:Description rdf:about="#Function_51">
             <dcterms:created>
               <rdf:Description>
-                <dcterms:W3CDTF>2019-10-09T19:35:57Z</dcterms:W3CDTF>
+                <dcterms:W3CDTF>2019-10-10T08:01:24Z</dcterms:W3CDTF>
               </rdf:Description>
             </dcterms:created>
           </rdf:Description>
@@ -51,7 +51,7 @@ Reaction scheme where the products are created from the reactants and the change
           <rdf:Description rdf:about="#Function_52">
             <dcterms:created>
               <rdf:Description>
-                <dcterms:W3CDTF>2019-10-09T19:35:57Z</dcterms:W3CDTF>
+                <dcterms:W3CDTF>2019-10-10T08:01:24Z</dcterms:W3CDTF>
               </rdf:Description>
             </dcterms:created>
           </rdf:Description>
@@ -72,7 +72,7 @@ Reaction scheme where the products are created from the reactants and the change
           <rdf:Description rdf:about="#Function_53">
             <dcterms:created>
               <rdf:Description>
-                <dcterms:W3CDTF>2019-10-09T19:35:57Z</dcterms:W3CDTF>
+                <dcterms:W3CDTF>2019-10-10T08:01:24Z</dcterms:W3CDTF>
               </rdf:Description>
             </dcterms:created>
           </rdf:Description>
@@ -93,7 +93,7 @@ Reaction scheme where the products are created from the reactants and the change
           <rdf:Description rdf:about="#Function_54">
             <dcterms:created>
               <rdf:Description>
-                <dcterms:W3CDTF>2019-10-09T19:35:57Z</dcterms:W3CDTF>
+                <dcterms:W3CDTF>2019-10-10T08:01:24Z</dcterms:W3CDTF>
               </rdf:Description>
             </dcterms:created>
           </rdf:Description>
@@ -114,7 +114,7 @@ Reaction scheme where the products are created from the reactants and the change
           <rdf:Description rdf:about="#Function_55">
             <dcterms:created>
               <rdf:Description>
-                <dcterms:W3CDTF>2019-10-09T19:35:57Z</dcterms:W3CDTF>
+                <dcterms:W3CDTF>2019-10-10T08:01:24Z</dcterms:W3CDTF>
               </rdf:Description>
             </dcterms:created>
           </rdf:Description>
@@ -135,7 +135,7 @@ Reaction scheme where the products are created from the reactants and the change
           <rdf:Description rdf:about="#Function_56">
             <dcterms:created>
               <rdf:Description>
-                <dcterms:W3CDTF>2019-10-09T19:35:57Z</dcterms:W3CDTF>
+                <dcterms:W3CDTF>2019-10-10T08:01:24Z</dcterms:W3CDTF>
               </rdf:Description>
             </dcterms:created>
           </rdf:Description>
@@ -156,7 +156,7 @@ Reaction scheme where the products are created from the reactants and the change
           <rdf:Description rdf:about="#Function_57">
             <dcterms:created>
               <rdf:Description>
-                <dcterms:W3CDTF>2019-10-09T19:35:57Z</dcterms:W3CDTF>
+                <dcterms:W3CDTF>2019-10-10T08:01:24Z</dcterms:W3CDTF>
               </rdf:Description>
             </dcterms:created>
           </rdf:Description>
@@ -177,7 +177,7 @@ Reaction scheme where the products are created from the reactants and the change
           <rdf:Description rdf:about="#Function_58">
             <dcterms:created>
               <rdf:Description>
-                <dcterms:W3CDTF>2019-10-09T19:35:57Z</dcterms:W3CDTF>
+                <dcterms:W3CDTF>2019-10-10T08:01:24Z</dcterms:W3CDTF>
               </rdf:Description>
             </dcterms:created>
           </rdf:Description>
@@ -198,7 +198,7 @@ Reaction scheme where the products are created from the reactants and the change
           <rdf:Description rdf:about="#Function_59">
             <dcterms:created>
               <rdf:Description>
-                <dcterms:W3CDTF>2019-10-09T19:35:57Z</dcterms:W3CDTF>
+                <dcterms:W3CDTF>2019-10-10T08:01:24Z</dcterms:W3CDTF>
               </rdf:Description>
             </dcterms:created>
           </rdf:Description>
@@ -219,7 +219,7 @@ Reaction scheme where the products are created from the reactants and the change
           <rdf:Description rdf:about="#Function_60">
             <dcterms:created>
               <rdf:Description>
-                <dcterms:W3CDTF>2019-10-09T19:35:57Z</dcterms:W3CDTF>
+                <dcterms:W3CDTF>2019-10-10T08:01:24Z</dcterms:W3CDTF>
               </rdf:Description>
             </dcterms:created>
           </rdf:Description>
@@ -240,7 +240,7 @@ Reaction scheme where the products are created from the reactants and the change
           <rdf:Description rdf:about="#Function_61">
             <dcterms:created>
               <rdf:Description>
-                <dcterms:W3CDTF>2019-10-09T19:35:57Z</dcterms:W3CDTF>
+                <dcterms:W3CDTF>2019-10-10T08:01:24Z</dcterms:W3CDTF>
               </rdf:Description>
             </dcterms:created>
           </rdf:Description>
@@ -262,7 +262,7 @@ Reaction scheme where the products are created from the reactants and the change
         <rdf:Description rdf:about="#Model_1">
           <dcterms:created>
             <rdf:Description>
-              <dcterms:W3CDTF>2019-10-09T19:35:57Z</dcterms:W3CDTF>
+              <dcterms:W3CDTF>2019-10-10T08:01:24Z</dcterms:W3CDTF>
             </rdf:Description>
           </dcterms:created>
         </rdf:Description>
@@ -275,7 +275,7 @@ Reaction scheme where the products are created from the reactants and the change
             <rdf:Description rdf:about="#Compartment_0">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-10-09T19:35:57Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-10-10T08:01:24Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
@@ -290,7 +290,7 @@ Reaction scheme where the products are created from the reactants and the change
             <rdf:Description rdf:about="#Metabolite_0">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-10-09T19:35:57Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-10-10T08:01:24Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
@@ -303,7 +303,7 @@ Reaction scheme where the products are created from the reactants and the change
             <rdf:Description rdf:about="#Metabolite_1">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-10-09T19:35:57Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-10-10T08:01:24Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
@@ -316,7 +316,7 @@ Reaction scheme where the products are created from the reactants and the change
             <rdf:Description rdf:about="#Metabolite_2">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-10-09T19:35:57Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-10-10T08:01:24Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
@@ -329,7 +329,7 @@ Reaction scheme where the products are created from the reactants and the change
             <rdf:Description rdf:about="#Metabolite_3">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-10-09T19:35:57Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-10-10T08:01:24Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
@@ -342,7 +342,7 @@ Reaction scheme where the products are created from the reactants and the change
             <rdf:Description rdf:about="#Metabolite_4">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-10-09T19:35:57Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-10-10T08:01:24Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
@@ -355,7 +355,7 @@ Reaction scheme where the products are created from the reactants and the change
             <rdf:Description rdf:about="#Metabolite_5">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-10-09T19:35:57Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-10-10T08:01:24Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
@@ -368,7 +368,7 @@ Reaction scheme where the products are created from the reactants and the change
             <rdf:Description rdf:about="#Metabolite_6">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-10-09T19:35:57Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-10-10T08:01:24Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
@@ -381,7 +381,7 @@ Reaction scheme where the products are created from the reactants and the change
             <rdf:Description rdf:about="#Metabolite_7">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-10-09T19:35:57Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-10-10T08:01:24Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
@@ -394,7 +394,7 @@ Reaction scheme where the products are created from the reactants and the change
             <rdf:Description rdf:about="#Metabolite_8">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-10-09T19:35:57Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-10-10T08:01:24Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
@@ -407,7 +407,7 @@ Reaction scheme where the products are created from the reactants and the change
             <rdf:Description rdf:about="#Metabolite_9">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-10-09T19:35:57Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-10-10T08:01:24Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
@@ -420,7 +420,7 @@ Reaction scheme where the products are created from the reactants and the change
             <rdf:Description rdf:about="#Metabolite_10">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-10-09T19:35:57Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-10-10T08:01:24Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
@@ -433,7 +433,7 @@ Reaction scheme where the products are created from the reactants and the change
             <rdf:Description rdf:about="#Metabolite_11">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-10-09T19:35:57Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-10-10T08:01:24Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
@@ -446,7 +446,7 @@ Reaction scheme where the products are created from the reactants and the change
             <rdf:Description rdf:about="#Metabolite_12">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-10-09T19:35:57Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-10-10T08:01:24Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
@@ -459,7 +459,7 @@ Reaction scheme where the products are created from the reactants and the change
             <rdf:Description rdf:about="#Metabolite_13">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-10-09T19:35:57Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-10-10T08:01:24Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
@@ -472,7 +472,7 @@ Reaction scheme where the products are created from the reactants and the change
             <rdf:Description rdf:about="#Metabolite_14">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-10-09T19:35:57Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-10-10T08:01:24Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
@@ -485,7 +485,7 @@ Reaction scheme where the products are created from the reactants and the change
             <rdf:Description rdf:about="#Metabolite_15">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-10-09T19:35:57Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-10-10T08:01:24Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
@@ -498,7 +498,7 @@ Reaction scheme where the products are created from the reactants and the change
             <rdf:Description rdf:about="#Metabolite_16">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-10-09T19:35:57Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-10-10T08:01:24Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
@@ -511,7 +511,7 @@ Reaction scheme where the products are created from the reactants and the change
             <rdf:Description rdf:about="#Metabolite_17">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-10-09T19:35:57Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-10-10T08:01:24Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
@@ -526,7 +526,7 @@ Reaction scheme where the products are created from the reactants and the change
             <rdf:Description rdf:about="#ModelValue_0">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-10-09T19:35:57Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-10-10T08:01:24Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
@@ -539,7 +539,7 @@ Reaction scheme where the products are created from the reactants and the change
             <rdf:Description rdf:about="#ModelValue_1">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-10-09T19:35:57Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-10-10T08:01:24Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
@@ -552,7 +552,7 @@ Reaction scheme where the products are created from the reactants and the change
             <rdf:Description rdf:about="#ModelValue_2">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-10-09T19:35:57Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-10-10T08:01:24Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
@@ -565,7 +565,7 @@ Reaction scheme where the products are created from the reactants and the change
             <rdf:Description rdf:about="#ModelValue_3">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-10-09T19:35:57Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-10-10T08:01:24Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
@@ -578,7 +578,7 @@ Reaction scheme where the products are created from the reactants and the change
             <rdf:Description rdf:about="#ModelValue_4">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-10-09T19:35:57Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-10-10T08:01:24Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
@@ -591,7 +591,7 @@ Reaction scheme where the products are created from the reactants and the change
             <rdf:Description rdf:about="#ModelValue_5">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-10-09T19:35:57Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-10-10T08:01:24Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
@@ -604,7 +604,7 @@ Reaction scheme where the products are created from the reactants and the change
             <rdf:Description rdf:about="#ModelValue_6">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-10-09T19:35:57Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-10-10T08:01:24Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
@@ -617,7 +617,7 @@ Reaction scheme where the products are created from the reactants and the change
             <rdf:Description rdf:about="#ModelValue_7">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-10-09T19:35:57Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-10-10T08:01:24Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
@@ -630,7 +630,7 @@ Reaction scheme where the products are created from the reactants and the change
             <rdf:Description rdf:about="#ModelValue_8">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-10-09T19:35:57Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-10-10T08:01:24Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
@@ -643,7 +643,7 @@ Reaction scheme where the products are created from the reactants and the change
             <rdf:Description rdf:about="#ModelValue_9">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-10-09T19:35:57Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-10-10T08:01:24Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
@@ -656,7 +656,7 @@ Reaction scheme where the products are created from the reactants and the change
             <rdf:Description rdf:about="#ModelValue_10">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-10-09T19:35:57Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-10-10T08:01:24Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
@@ -669,7 +669,7 @@ Reaction scheme where the products are created from the reactants and the change
             <rdf:Description rdf:about="#ModelValue_11">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-10-09T19:35:57Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-10-10T08:01:24Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
@@ -682,7 +682,7 @@ Reaction scheme where the products are created from the reactants and the change
             <rdf:Description rdf:about="#ModelValue_12">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-10-09T19:35:57Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-10-10T08:01:24Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
@@ -695,7 +695,7 @@ Reaction scheme where the products are created from the reactants and the change
             <rdf:Description rdf:about="#ModelValue_13">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-10-09T19:35:57Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-10-10T08:01:24Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
@@ -708,7 +708,7 @@ Reaction scheme where the products are created from the reactants and the change
             <rdf:Description rdf:about="#ModelValue_14">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-10-09T19:35:57Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-10-10T08:01:24Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
@@ -721,7 +721,7 @@ Reaction scheme where the products are created from the reactants and the change
             <rdf:Description rdf:about="#ModelValue_15">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-10-09T19:35:57Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-10-10T08:01:24Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
@@ -734,7 +734,7 @@ Reaction scheme where the products are created from the reactants and the change
             <rdf:Description rdf:about="#ModelValue_16">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-10-09T19:35:57Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-10-10T08:01:24Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
@@ -747,7 +747,7 @@ Reaction scheme where the products are created from the reactants and the change
             <rdf:Description rdf:about="#ModelValue_17">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-10-09T19:35:57Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-10-10T08:01:24Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
@@ -760,7 +760,7 @@ Reaction scheme where the products are created from the reactants and the change
             <rdf:Description rdf:about="#ModelValue_18">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-10-09T19:35:57Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-10-10T08:01:24Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
@@ -773,7 +773,7 @@ Reaction scheme where the products are created from the reactants and the change
             <rdf:Description rdf:about="#ModelValue_19">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-10-09T19:35:57Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-10-10T08:01:24Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
@@ -786,7 +786,7 @@ Reaction scheme where the products are created from the reactants and the change
             <rdf:Description rdf:about="#ModelValue_20">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-10-09T19:35:57Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-10-10T08:01:24Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
@@ -799,7 +799,7 @@ Reaction scheme where the products are created from the reactants and the change
             <rdf:Description rdf:about="#ModelValue_21">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-10-09T19:35:57Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-10-10T08:01:24Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
@@ -814,7 +814,7 @@ Reaction scheme where the products are created from the reactants and the change
             <rdf:Description rdf:about="#Reaction_0">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-10-09T19:35:57Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-10-10T08:01:24Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
@@ -850,7 +850,7 @@ Reaction scheme where the products are created from the reactants and the change
             <rdf:Description rdf:about="#Reaction_1">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-10-09T19:35:57Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-10-10T08:01:24Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
@@ -888,7 +888,7 @@ Reaction scheme where the products are created from the reactants and the change
             <rdf:Description rdf:about="#Reaction_2">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-10-09T19:35:57Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-10-10T08:01:24Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
@@ -920,7 +920,7 @@ Reaction scheme where the products are created from the reactants and the change
             <rdf:Description rdf:about="#Reaction_3">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-10-09T19:35:57Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-10-10T08:01:24Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
@@ -958,7 +958,7 @@ Reaction scheme where the products are created from the reactants and the change
             <rdf:Description rdf:about="#Reaction_4">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-10-09T19:35:57Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-10-10T08:01:24Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
@@ -990,7 +990,7 @@ Reaction scheme where the products are created from the reactants and the change
             <rdf:Description rdf:about="#Reaction_5">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-10-09T19:35:57Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-10-10T08:01:24Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
@@ -1028,7 +1028,7 @@ Reaction scheme where the products are created from the reactants and the change
             <rdf:Description rdf:about="#Reaction_6">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-10-09T19:35:57Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-10-10T08:01:24Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
@@ -1066,7 +1066,7 @@ Reaction scheme where the products are created from the reactants and the change
             <rdf:Description rdf:about="#Reaction_7">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-10-09T19:35:57Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-10-10T08:01:24Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
@@ -1104,7 +1104,7 @@ Reaction scheme where the products are created from the reactants and the change
             <rdf:Description rdf:about="#Reaction_8">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-10-09T19:35:57Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-10-10T08:01:24Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
@@ -1136,7 +1136,7 @@ Reaction scheme where the products are created from the reactants and the change
             <rdf:Description rdf:about="#Reaction_9">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-10-09T19:35:57Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-10-10T08:01:24Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
@@ -1172,7 +1172,7 @@ Reaction scheme where the products are created from the reactants and the change
             <rdf:Description rdf:about="#Reaction_10">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-10-09T19:35:57Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-10-10T08:01:24Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
@@ -1204,7 +1204,7 @@ Reaction scheme where the products are created from the reactants and the change
             <rdf:Description rdf:about="#Reaction_11">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-10-09T19:35:57Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-10-10T08:01:24Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
@@ -1242,7 +1242,7 @@ Reaction scheme where the products are created from the reactants and the change
             <rdf:Description rdf:about="#Reaction_12">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-10-09T19:35:57Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-10-10T08:01:24Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
@@ -1274,7 +1274,7 @@ Reaction scheme where the products are created from the reactants and the change
             <rdf:Description rdf:about="#Reaction_13">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-10-09T19:35:57Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-10-10T08:01:24Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
@@ -1312,7 +1312,7 @@ Reaction scheme where the products are created from the reactants and the change
             <rdf:Description rdf:about="#Reaction_14">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-10-09T19:35:57Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-10-10T08:01:24Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
@@ -1344,7 +1344,7 @@ Reaction scheme where the products are created from the reactants and the change
             <rdf:Description rdf:about="#Reaction_15">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-10-09T19:35:57Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-10-10T08:01:24Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
@@ -1382,7 +1382,7 @@ Reaction scheme where the products are created from the reactants and the change
             <rdf:Description rdf:about="#Reaction_16">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-10-09T19:35:57Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-10-10T08:01:24Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
@@ -1414,7 +1414,7 @@ Reaction scheme where the products are created from the reactants and the change
             <rdf:Description rdf:about="#Reaction_17">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-10-09T19:35:57Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-10-10T08:01:24Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
@@ -1452,7 +1452,7 @@ Reaction scheme where the products are created from the reactants and the change
             <rdf:Description rdf:about="#Reaction_18">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-10-09T19:35:57Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-10-10T08:01:24Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
@@ -1486,7 +1486,7 @@ Reaction scheme where the products are created from the reactants and the change
             <rdf:Description rdf:about="#ModelParameterSet_1">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-10-09T19:35:57Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-10-10T08:01:24Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
@@ -1777,7 +1777,7 @@ Reaction scheme where the products are created from the reactants and the change
       </Method>
     </Task>
     <Task key="Task_16" name="Scan" type="scan" scheduled="true" updateModel="0">
-      <Report append="0" confirmOverwrite="0" reference="Report_36" target="/home/ncw135/Documents/MesiSTRAT2/TransferModel/transfer_model/models/Problem1/Fit1/simple_akt_model/ParameterEstimationData/PEData0.txt"/>
+      <Report append="0" confirmOverwrite="0" reference="Report_40" target="/home/ncw135/Documents/MesiSTRAT2/TransferModel/transfer_model/models/Problem1/Fit1/simple_akt_model/ParameterEstimationData/PEData0.txt"/>
       <Problem>
         <Parameter name="Subtask" type="unsignedInteger" value="5"/>
         <ParameterGroup name="ScanItems">
@@ -1825,9 +1825,7 @@ Reaction scheme where the products are created from the reactants and the change
         <Parameter name="Calculate Statistics" type="bool" value="0"/>
         <ParameterGroup name="OptimizationItemList">
           <ParameterGroup name="FitItem">
-            <ParameterGroup name="Affected Experiments">
-              <Parameter name="Experiment Key" type="key" value="Experiment_not_interpolated_T47D"/>
-            </ParameterGroup>
+            <ParameterGroup name="Affected Experiments"/>
             <ParameterGroup name="Affected Cross Validation Experiments"/>
             <Parameter name="LowerBound" type="cn" value="0.1"/>
             <Parameter name="UpperBound" type="cn" value="10"/>
@@ -1835,9 +1833,15 @@ Reaction scheme where the products are created from the reactants and the change
             <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[Akt],Reference=InitialConcentration"/>
           </ParameterGroup>
           <ParameterGroup name="FitItem">
-            <ParameterGroup name="Affected Experiments">
-              <Parameter name="Experiment Key" type="key" value="Experiment_not_interpolated_T47D"/>
-            </ParameterGroup>
+            <ParameterGroup name="Affected Experiments"/>
+            <ParameterGroup name="Affected Cross Validation Experiments"/>
+            <Parameter name="LowerBound" type="cn" value="0.1"/>
+            <Parameter name="UpperBound" type="cn" value="10"/>
+            <Parameter name="StartValue" type="float" value="0.1"/>
+            <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[AktpT308],Reference=InitialConcentration"/>
+          </ParameterGroup>
+          <ParameterGroup name="FitItem">
+            <ParameterGroup name="Affected Experiments"/>
             <ParameterGroup name="Affected Cross Validation Experiments"/>
             <Parameter name="LowerBound" type="cn" value="0.1"/>
             <Parameter name="UpperBound" type="cn" value="10"/>
@@ -1845,9 +1849,15 @@ Reaction scheme where the products are created from the reactants and the change
             <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[FourEBP1],Reference=InitialConcentration"/>
           </ParameterGroup>
           <ParameterGroup name="FitItem">
-            <ParameterGroup name="Affected Experiments">
-              <Parameter name="Experiment Key" type="key" value="Experiment_not_interpolated_T47D"/>
-            </ParameterGroup>
+            <ParameterGroup name="Affected Experiments"/>
+            <ParameterGroup name="Affected Cross Validation Experiments"/>
+            <Parameter name="LowerBound" type="cn" value="0.1"/>
+            <Parameter name="UpperBound" type="cn" value="10"/>
+            <Parameter name="StartValue" type="float" value="0.1"/>
+            <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[FourEBP1pT37_46],Reference=InitialConcentration"/>
+          </ParameterGroup>
+          <ParameterGroup name="FitItem">
+            <ParameterGroup name="Affected Experiments"/>
             <ParameterGroup name="Affected Cross Validation Experiments"/>
             <Parameter name="LowerBound" type="cn" value="0.1"/>
             <Parameter name="UpperBound" type="cn" value="10"/>
@@ -1855,9 +1865,31 @@ Reaction scheme where the products are created from the reactants and the change
             <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[IRS1],Reference=InitialConcentration"/>
           </ParameterGroup>
           <ParameterGroup name="FitItem">
-            <ParameterGroup name="Affected Experiments">
-              <Parameter name="Experiment Key" type="key" value="Experiment_not_interpolated_T47D"/>
-            </ParameterGroup>
+            <ParameterGroup name="Affected Experiments"/>
+            <ParameterGroup name="Affected Cross Validation Experiments"/>
+            <Parameter name="LowerBound" type="cn" value="0.1"/>
+            <Parameter name="UpperBound" type="cn" value="10"/>
+            <Parameter name="StartValue" type="float" value="0.1"/>
+            <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[IRS1a],Reference=InitialConcentration"/>
+          </ParameterGroup>
+          <ParameterGroup name="FitItem">
+            <ParameterGroup name="Affected Experiments"/>
+            <ParameterGroup name="Affected Cross Validation Experiments"/>
+            <Parameter name="LowerBound" type="cn" value="0.1"/>
+            <Parameter name="UpperBound" type="cn" value="10"/>
+            <Parameter name="StartValue" type="float" value="0.1"/>
+            <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[IRS1pS636_639],Reference=InitialConcentration"/>
+          </ParameterGroup>
+          <ParameterGroup name="FitItem">
+            <ParameterGroup name="Affected Experiments"/>
+            <ParameterGroup name="Affected Cross Validation Experiments"/>
+            <Parameter name="LowerBound" type="cn" value="0.1"/>
+            <Parameter name="UpperBound" type="cn" value="10"/>
+            <Parameter name="StartValue" type="float" value="0.1"/>
+            <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[PI3K],Reference=InitialConcentration"/>
+          </ParameterGroup>
+          <ParameterGroup name="FitItem">
+            <ParameterGroup name="Affected Experiments"/>
             <ParameterGroup name="Affected Cross Validation Experiments"/>
             <Parameter name="LowerBound" type="cn" value="0.1"/>
             <Parameter name="UpperBound" type="cn" value="10"/>
@@ -1865,9 +1897,15 @@ Reaction scheme where the products are created from the reactants and the change
             <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[PRAS40],Reference=InitialConcentration"/>
           </ParameterGroup>
           <ParameterGroup name="FitItem">
-            <ParameterGroup name="Affected Experiments">
-              <Parameter name="Experiment Key" type="key" value="Experiment_not_interpolated_T47D"/>
-            </ParameterGroup>
+            <ParameterGroup name="Affected Experiments"/>
+            <ParameterGroup name="Affected Cross Validation Experiments"/>
+            <Parameter name="LowerBound" type="cn" value="0.1"/>
+            <Parameter name="UpperBound" type="cn" value="10"/>
+            <Parameter name="StartValue" type="float" value="0.1"/>
+            <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[PRAS40pT246],Reference=InitialConcentration"/>
+          </ParameterGroup>
+          <ParameterGroup name="FitItem">
+            <ParameterGroup name="Affected Experiments"/>
             <ParameterGroup name="Affected Cross Validation Experiments"/>
             <Parameter name="LowerBound" type="cn" value="0.1"/>
             <Parameter name="UpperBound" type="cn" value="10"/>
@@ -1875,14 +1913,60 @@ Reaction scheme where the products are created from the reactants and the change
             <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[S6K],Reference=InitialConcentration"/>
           </ParameterGroup>
           <ParameterGroup name="FitItem">
-            <ParameterGroup name="Affected Experiments">
-              <Parameter name="Experiment Key" type="key" value="Experiment_not_interpolated_T47D"/>
-            </ParameterGroup>
+            <ParameterGroup name="Affected Experiments"/>
+            <ParameterGroup name="Affected Cross Validation Experiments"/>
+            <Parameter name="LowerBound" type="cn" value="0.1"/>
+            <Parameter name="UpperBound" type="cn" value="10"/>
+            <Parameter name="StartValue" type="float" value="0.1"/>
+            <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[S6KpT389],Reference=InitialConcentration"/>
+          </ParameterGroup>
+          <ParameterGroup name="FitItem">
+            <ParameterGroup name="Affected Experiments"/>
             <ParameterGroup name="Affected Cross Validation Experiments"/>
             <Parameter name="LowerBound" type="cn" value="0.1"/>
             <Parameter name="UpperBound" type="cn" value="10"/>
             <Parameter name="StartValue" type="float" value="0.1"/>
             <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[TSC2],Reference=InitialConcentration"/>
+          </ParameterGroup>
+          <ParameterGroup name="FitItem">
+            <ParameterGroup name="Affected Experiments"/>
+            <ParameterGroup name="Affected Cross Validation Experiments"/>
+            <Parameter name="LowerBound" type="cn" value="0.1"/>
+            <Parameter name="UpperBound" type="cn" value="10"/>
+            <Parameter name="StartValue" type="float" value="0.1"/>
+            <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[TSC2pT1462],Reference=InitialConcentration"/>
+          </ParameterGroup>
+          <ParameterGroup name="FitItem">
+            <ParameterGroup name="Affected Experiments"/>
+            <ParameterGroup name="Affected Cross Validation Experiments"/>
+            <Parameter name="LowerBound" type="cn" value="0.1"/>
+            <Parameter name="UpperBound" type="cn" value="10"/>
+            <Parameter name="StartValue" type="float" value="0.1"/>
+            <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[mTORC1cyt],Reference=InitialConcentration"/>
+          </ParameterGroup>
+          <ParameterGroup name="FitItem">
+            <ParameterGroup name="Affected Experiments"/>
+            <ParameterGroup name="Affected Cross Validation Experiments"/>
+            <Parameter name="LowerBound" type="cn" value="0.1"/>
+            <Parameter name="UpperBound" type="cn" value="10"/>
+            <Parameter name="StartValue" type="float" value="0.1"/>
+            <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[mTORC1lys],Reference=InitialConcentration"/>
+          </ParameterGroup>
+          <ParameterGroup name="FitItem">
+            <ParameterGroup name="Affected Experiments"/>
+            <ParameterGroup name="Affected Cross Validation Experiments"/>
+            <Parameter name="LowerBound" type="cn" value="0.1"/>
+            <Parameter name="UpperBound" type="cn" value="10"/>
+            <Parameter name="StartValue" type="float" value="0.1"/>
+            <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[pPI3K],Reference=InitialConcentration"/>
+          </ParameterGroup>
+          <ParameterGroup name="FitItem">
+            <ParameterGroup name="Affected Experiments"/>
+            <ParameterGroup name="Affected Cross Validation Experiments"/>
+            <Parameter name="LowerBound" type="cn" value="0.1"/>
+            <Parameter name="UpperBound" type="cn" value="10"/>
+            <Parameter name="StartValue" type="float" value="0.1"/>
+            <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[pmTORC1],Reference=InitialConcentration"/>
           </ParameterGroup>
         </ParameterGroup>
         <ParameterGroup name="OptimizationConstraintList">
@@ -1891,9 +1975,9 @@ Reaction scheme where the products are created from the reactants and the change
         <Parameter name="Time-Course" type="cn" value="CN=Root,Vector=TaskList[Time-Course]"/>
         <Parameter name="Create Parameter Sets" type="bool" value="0"/>
         <ParameterGroup name="Experiment Set">
-          <ParameterGroup name="not_interpolated_T47D">
-            <Parameter name="Key" type="key" value="Experiment_not_interpolated_T47D"/>
-            <Parameter name="File Name" type="file" value="/home/ncw135/Documents/MesiSTRAT2/TransferModel/transfer_model/data/CopasiFormattedData/NotInterpolated/not_interpolated_T47D.csv"/>
+          <ParameterGroup name="not_interpolated_MCF7">
+            <Parameter name="Key" type="key" value="Experiment_not_interpolated_MCF7"/>
+            <Parameter name="File Name" type="file" value="/home/ncw135/Documents/MesiSTRAT2/TransferModel/transfer_model/data/CopasiFormattedData/T47DSheet/not_interpolated_MCF7.csv"/>
             <Parameter name="Data is Row Oriented" type="bool" value="1"/>
             <Parameter name="First Row" type="unsignedInteger" value="1"/>
             <Parameter name="Last Row" type="unsignedInteger" value="7"/>
@@ -1905,85 +1989,85 @@ Reaction scheme where the products are created from the reactants and the change
             <Parameter name="Number of Columns" type="unsignedInteger" value="31"/>
             <ParameterGroup name="Object Map">
               <ParameterGroup name="0">
-                <Parameter name="Object CN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Values[AA],Reference=InitialValue"/>
-                <Parameter name="Role" type="unsignedInteger" value="1"/>
+                <Parameter name="Role" type="unsignedInteger" value="3"/>
               </ParameterGroup>
               <ParameterGroup name="1"/>
-              <ParameterGroup name="2"/>
-              <ParameterGroup name="3">
+              <ParameterGroup name="2">
                 <Parameter name="Object CN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[AktpT308],Reference=Concentration"/>
                 <Parameter name="Role" type="unsignedInteger" value="2"/>
               </ParameterGroup>
-              <ParameterGroup name="4">
-                <Parameter name="Object CN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[AktpT308],Reference=InitialConcentration"/>
-                <Parameter name="Role" type="unsignedInteger" value="1"/>
-              </ParameterGroup>
+              <ParameterGroup name="3"/>
+              <ParameterGroup name="4"/>
               <ParameterGroup name="5"/>
-              <ParameterGroup name="6"/>
-              <ParameterGroup name="7"/>
-              <ParameterGroup name="8"/>
-              <ParameterGroup name="9"/>
-              <ParameterGroup name="10"/>
-              <ParameterGroup name="11">
+              <ParameterGroup name="6">
                 <Parameter name="Object CN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[FourEBP1pT37_46],Reference=Concentration"/>
                 <Parameter name="Role" type="unsignedInteger" value="2"/>
               </ParameterGroup>
-              <ParameterGroup name="12">
-                <Parameter name="Object CN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[FourEBP1pT37_46],Reference=InitialConcentration"/>
-                <Parameter name="Role" type="unsignedInteger" value="1"/>
-              </ParameterGroup>
-              <ParameterGroup name="13"/>
-              <ParameterGroup name="14"/>
-              <ParameterGroup name="15">
+              <ParameterGroup name="7"/>
+              <ParameterGroup name="8">
                 <Parameter name="Object CN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[IRS1pS636_639],Reference=Concentration"/>
                 <Parameter name="Role" type="unsignedInteger" value="2"/>
               </ParameterGroup>
-              <ParameterGroup name="16">
-                <Parameter name="Object CN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[IRS1pS636_639],Reference=InitialConcentration"/>
-                <Parameter name="Role" type="unsignedInteger" value="1"/>
-              </ParameterGroup>
-              <ParameterGroup name="17">
-                <Parameter name="Object CN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Values[Insulin],Reference=InitialValue"/>
-                <Parameter name="Role" type="unsignedInteger" value="1"/>
-              </ParameterGroup>
-              <ParameterGroup name="18"/>
-              <ParameterGroup name="19"/>
-              <ParameterGroup name="20">
+              <ParameterGroup name="9"/>
+              <ParameterGroup name="10">
                 <Parameter name="Object CN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[PRAS40pT246],Reference=Concentration"/>
                 <Parameter name="Role" type="unsignedInteger" value="2"/>
               </ParameterGroup>
-              <ParameterGroup name="21">
-                <Parameter name="Object CN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[PRAS40pT246],Reference=InitialConcentration"/>
-                <Parameter name="Role" type="unsignedInteger" value="1"/>
-              </ParameterGroup>
-              <ParameterGroup name="22"/>
-              <ParameterGroup name="23"/>
-              <ParameterGroup name="24">
+              <ParameterGroup name="11"/>
+              <ParameterGroup name="12">
                 <Parameter name="Object CN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[S6KpT389],Reference=Concentration"/>
                 <Parameter name="Role" type="unsignedInteger" value="2"/>
               </ParameterGroup>
-              <ParameterGroup name="25">
-                <Parameter name="Object CN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[S6KpT389],Reference=InitialConcentration"/>
-                <Parameter name="Role" type="unsignedInteger" value="1"/>
-              </ParameterGroup>
-              <ParameterGroup name="26">
+              <ParameterGroup name="13">
                 <Parameter name="Object CN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[TSC2pT1462],Reference=Concentration"/>
                 <Parameter name="Role" type="unsignedInteger" value="2"/>
+              </ParameterGroup>
+              <ParameterGroup name="14"/>
+              <ParameterGroup name="15"/>
+              <ParameterGroup name="16">
+                <Parameter name="Object CN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[AktpT308],Reference=InitialConcentration"/>
+                <Parameter name="Role" type="unsignedInteger" value="1"/>
+              </ParameterGroup>
+              <ParameterGroup name="17"/>
+              <ParameterGroup name="18"/>
+              <ParameterGroup name="19"/>
+              <ParameterGroup name="20">
+                <Parameter name="Object CN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[FourEBP1pT37_46],Reference=InitialConcentration"/>
+                <Parameter name="Role" type="unsignedInteger" value="1"/>
+              </ParameterGroup>
+              <ParameterGroup name="21"/>
+              <ParameterGroup name="22">
+                <Parameter name="Object CN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[IRS1pS636_639],Reference=InitialConcentration"/>
+                <Parameter name="Role" type="unsignedInteger" value="1"/>
+              </ParameterGroup>
+              <ParameterGroup name="23"/>
+              <ParameterGroup name="24">
+                <Parameter name="Object CN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[PRAS40pT246],Reference=InitialConcentration"/>
+                <Parameter name="Role" type="unsignedInteger" value="1"/>
+              </ParameterGroup>
+              <ParameterGroup name="25"/>
+              <ParameterGroup name="26">
+                <Parameter name="Object CN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[S6KpT389],Reference=InitialConcentration"/>
+                <Parameter name="Role" type="unsignedInteger" value="1"/>
               </ParameterGroup>
               <ParameterGroup name="27">
                 <Parameter name="Object CN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[TSC2pT1462],Reference=InitialConcentration"/>
                 <Parameter name="Role" type="unsignedInteger" value="1"/>
               </ParameterGroup>
               <ParameterGroup name="28"/>
-              <ParameterGroup name="29"/>
+              <ParameterGroup name="29">
+                <Parameter name="Object CN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Values[Insulin],Reference=InitialValue"/>
+                <Parameter name="Role" type="unsignedInteger" value="1"/>
+              </ParameterGroup>
               <ParameterGroup name="30">
-                <Parameter name="Role" type="unsignedInteger" value="3"/>
+                <Parameter name="Object CN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Values[AA],Reference=InitialValue"/>
+                <Parameter name="Role" type="unsignedInteger" value="1"/>
               </ParameterGroup>
             </ParameterGroup>
           </ParameterGroup>
-          <ParameterGroup name="not_interpolated_MCF7">
-            <Parameter name="Key" type="key" value="Experiment_not_interpolated_MCF7"/>
-            <Parameter name="File Name" type="file" value="/home/ncw135/Documents/MesiSTRAT2/TransferModel/transfer_model/data/CopasiFormattedData/NotInterpolated/not_interpolated_MCF7.csv"/>
+          <ParameterGroup name="not_interpolated_T47D">
+            <Parameter name="Key" type="key" value="Experiment_not_interpolated_T47D"/>
+            <Parameter name="File Name" type="file" value="/home/ncw135/Documents/MesiSTRAT2/TransferModel/transfer_model/data/CopasiFormattedData/T47DSheet/not_interpolated_T47D.csv"/>
             <Parameter name="Data is Row Oriented" type="bool" value="1"/>
             <Parameter name="First Row" type="unsignedInteger" value="1"/>
             <Parameter name="Last Row" type="unsignedInteger" value="7"/>
@@ -1995,79 +2079,79 @@ Reaction scheme where the products are created from the reactants and the change
             <Parameter name="Number of Columns" type="unsignedInteger" value="31"/>
             <ParameterGroup name="Object Map">
               <ParameterGroup name="0">
-                <Parameter name="Object CN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Values[AA],Reference=InitialValue"/>
-                <Parameter name="Role" type="unsignedInteger" value="1"/>
+                <Parameter name="Role" type="unsignedInteger" value="3"/>
               </ParameterGroup>
               <ParameterGroup name="1"/>
-              <ParameterGroup name="2"/>
-              <ParameterGroup name="3">
+              <ParameterGroup name="2">
                 <Parameter name="Object CN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[AktpT308],Reference=Concentration"/>
                 <Parameter name="Role" type="unsignedInteger" value="2"/>
               </ParameterGroup>
-              <ParameterGroup name="4">
-                <Parameter name="Object CN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[AktpT308],Reference=InitialConcentration"/>
-                <Parameter name="Role" type="unsignedInteger" value="1"/>
-              </ParameterGroup>
+              <ParameterGroup name="3"/>
+              <ParameterGroup name="4"/>
               <ParameterGroup name="5"/>
-              <ParameterGroup name="6"/>
-              <ParameterGroup name="7"/>
-              <ParameterGroup name="8"/>
-              <ParameterGroup name="9"/>
-              <ParameterGroup name="10"/>
-              <ParameterGroup name="11">
+              <ParameterGroup name="6">
                 <Parameter name="Object CN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[FourEBP1pT37_46],Reference=Concentration"/>
                 <Parameter name="Role" type="unsignedInteger" value="2"/>
               </ParameterGroup>
-              <ParameterGroup name="12">
-                <Parameter name="Object CN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[FourEBP1pT37_46],Reference=InitialConcentration"/>
-                <Parameter name="Role" type="unsignedInteger" value="1"/>
-              </ParameterGroup>
-              <ParameterGroup name="13"/>
-              <ParameterGroup name="14"/>
-              <ParameterGroup name="15">
+              <ParameterGroup name="7"/>
+              <ParameterGroup name="8">
                 <Parameter name="Object CN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[IRS1pS636_639],Reference=Concentration"/>
                 <Parameter name="Role" type="unsignedInteger" value="2"/>
               </ParameterGroup>
-              <ParameterGroup name="16">
-                <Parameter name="Object CN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[IRS1pS636_639],Reference=InitialConcentration"/>
-                <Parameter name="Role" type="unsignedInteger" value="1"/>
-              </ParameterGroup>
-              <ParameterGroup name="17">
-                <Parameter name="Object CN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Values[Insulin],Reference=InitialValue"/>
-                <Parameter name="Role" type="unsignedInteger" value="1"/>
-              </ParameterGroup>
-              <ParameterGroup name="18"/>
-              <ParameterGroup name="19"/>
-              <ParameterGroup name="20">
+              <ParameterGroup name="9"/>
+              <ParameterGroup name="10">
                 <Parameter name="Object CN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[PRAS40pT246],Reference=Concentration"/>
                 <Parameter name="Role" type="unsignedInteger" value="2"/>
               </ParameterGroup>
-              <ParameterGroup name="21">
-                <Parameter name="Object CN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[PRAS40pT246],Reference=InitialConcentration"/>
-                <Parameter name="Role" type="unsignedInteger" value="1"/>
-              </ParameterGroup>
-              <ParameterGroup name="22"/>
-              <ParameterGroup name="23"/>
-              <ParameterGroup name="24">
+              <ParameterGroup name="11"/>
+              <ParameterGroup name="12">
                 <Parameter name="Object CN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[S6KpT389],Reference=Concentration"/>
                 <Parameter name="Role" type="unsignedInteger" value="2"/>
               </ParameterGroup>
-              <ParameterGroup name="25">
-                <Parameter name="Object CN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[S6KpT389],Reference=InitialConcentration"/>
-                <Parameter name="Role" type="unsignedInteger" value="1"/>
-              </ParameterGroup>
-              <ParameterGroup name="26">
+              <ParameterGroup name="13">
                 <Parameter name="Object CN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[TSC2pT1462],Reference=Concentration"/>
                 <Parameter name="Role" type="unsignedInteger" value="2"/>
+              </ParameterGroup>
+              <ParameterGroup name="14"/>
+              <ParameterGroup name="15"/>
+              <ParameterGroup name="16">
+                <Parameter name="Object CN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[AktpT308],Reference=InitialConcentration"/>
+                <Parameter name="Role" type="unsignedInteger" value="1"/>
+              </ParameterGroup>
+              <ParameterGroup name="17"/>
+              <ParameterGroup name="18"/>
+              <ParameterGroup name="19"/>
+              <ParameterGroup name="20">
+                <Parameter name="Object CN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[FourEBP1pT37_46],Reference=InitialConcentration"/>
+                <Parameter name="Role" type="unsignedInteger" value="1"/>
+              </ParameterGroup>
+              <ParameterGroup name="21"/>
+              <ParameterGroup name="22">
+                <Parameter name="Object CN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[IRS1pS636_639],Reference=InitialConcentration"/>
+                <Parameter name="Role" type="unsignedInteger" value="1"/>
+              </ParameterGroup>
+              <ParameterGroup name="23"/>
+              <ParameterGroup name="24">
+                <Parameter name="Object CN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[PRAS40pT246],Reference=InitialConcentration"/>
+                <Parameter name="Role" type="unsignedInteger" value="1"/>
+              </ParameterGroup>
+              <ParameterGroup name="25"/>
+              <ParameterGroup name="26">
+                <Parameter name="Object CN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[S6KpT389],Reference=InitialConcentration"/>
+                <Parameter name="Role" type="unsignedInteger" value="1"/>
               </ParameterGroup>
               <ParameterGroup name="27">
                 <Parameter name="Object CN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[TSC2pT1462],Reference=InitialConcentration"/>
                 <Parameter name="Role" type="unsignedInteger" value="1"/>
               </ParameterGroup>
               <ParameterGroup name="28"/>
-              <ParameterGroup name="29"/>
+              <ParameterGroup name="29">
+                <Parameter name="Object CN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Values[Insulin],Reference=InitialValue"/>
+                <Parameter name="Role" type="unsignedInteger" value="1"/>
+              </ParameterGroup>
               <ParameterGroup name="30">
-                <Parameter name="Role" type="unsignedInteger" value="3"/>
+                <Parameter name="Object CN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Values[AA],Reference=InitialValue"/>
+                <Parameter name="Role" type="unsignedInteger" value="1"/>
               </ParameterGroup>
             </ParameterGroup>
           </ParameterGroup>
@@ -2380,7 +2464,7 @@ Reaction scheme where the products are created from the reactants and the change
         <Object cn="CN=Root,Model=SimpleAktModel,Vector=Values[kS6KDephos],Reference=Value"/>
       </Table>
     </Report>
-    <Report precision="6" separator="&#9;" name="multi_parameter_estimation" key="Report_36" taskType="parameterFitting">
+    <Report precision="6" separator="&#9;" name="multi_parameter_estimation" key="Report_40" taskType="parameterFitting">
       <Comment/>
       <Table printTitle="1">
         <Object cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,Reference=Best Parameters"/>
@@ -2457,7 +2541,7 @@ Reaction scheme where the products are created from the reactants and the change
           <rdf:Description rdf:about="#Unit_0">
             <dcterms:created>
               <rdf:Description>
-                <dcterms:W3CDTF>2019-10-09T19:35:57Z</dcterms:W3CDTF>
+                <dcterms:W3CDTF>2019-10-10T08:01:24Z</dcterms:W3CDTF>
               </rdf:Description>
             </dcterms:created>
           </rdf:Description>
@@ -2473,7 +2557,7 @@ Reaction scheme where the products are created from the reactants and the change
           <rdf:Description rdf:about="#Unit_4">
             <dcterms:created>
               <rdf:Description>
-                <dcterms:W3CDTF>2019-10-09T19:35:57Z</dcterms:W3CDTF>
+                <dcterms:W3CDTF>2019-10-10T08:01:24Z</dcterms:W3CDTF>
               </rdf:Description>
             </dcterms:created>
           </rdf:Description>
@@ -2489,7 +2573,7 @@ Reaction scheme where the products are created from the reactants and the change
           <rdf:Description rdf:about="#Unit_12">
             <dcterms:created>
               <rdf:Description>
-                <dcterms:W3CDTF>2019-10-09T19:35:57Z</dcterms:W3CDTF>
+                <dcterms:W3CDTF>2019-10-10T08:01:24Z</dcterms:W3CDTF>
               </rdf:Description>
             </dcterms:created>
           </rdf:Description>
@@ -2505,7 +2589,7 @@ Reaction scheme where the products are created from the reactants and the change
           <rdf:Description rdf:about="#Unit_16">
             <dcterms:created>
               <rdf:Description>
-                <dcterms:W3CDTF>2019-10-09T19:35:57Z</dcterms:W3CDTF>
+                <dcterms:W3CDTF>2019-10-10T08:01:24Z</dcterms:W3CDTF>
               </rdf:Description>
             </dcterms:created>
           </rdf:Description>
@@ -2521,7 +2605,7 @@ Reaction scheme where the products are created from the reactants and the change
           <rdf:Description rdf:about="#Unit_34">
             <dcterms:created>
               <rdf:Description>
-                <dcterms:W3CDTF>2019-10-09T19:35:57Z</dcterms:W3CDTF>
+                <dcterms:W3CDTF>2019-10-10T08:01:24Z</dcterms:W3CDTF>
               </rdf:Description>
             </dcterms:created>
           </rdf:Description>
@@ -2537,7 +2621,7 @@ Reaction scheme where the products are created from the reactants and the change
           <rdf:Description rdf:about="#Unit_40">
             <dcterms:created>
               <rdf:Description>
-                <dcterms:W3CDTF>2019-10-09T19:35:57Z</dcterms:W3CDTF>
+                <dcterms:W3CDTF>2019-10-10T08:01:24Z</dcterms:W3CDTF>
               </rdf:Description>
             </dcterms:created>
           </rdf:Description>
