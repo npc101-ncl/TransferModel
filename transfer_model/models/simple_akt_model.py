@@ -320,11 +320,11 @@ if __name__ == '__main__':
 
     PLOT_SIMULATION = False
 
-    PLOT_BEST_FIT_MCF7_AND_T47D = False
+    PLOT_BEST_FIT_MCF7_AND_T47D = True
 
-    PLOT_BEST_FIT_MCF7_AND_ZR75 = False
+    PLOT_BEST_FIT_MCF7_AND_ZR75 = True
 
-    TRANSFER_BETWEEN_MCF7_FROM_ZR75_AND_T47D = True
+    TRANSFER_BETWEEN_MCF7_FROM_ZR75_AND_T47D = False
 
     # ========================================
     py_mod = model.loada(TheModel.model_string, copasi_file=COPASI_FILE)
@@ -363,84 +363,169 @@ if __name__ == '__main__':
         te_mod.plot()
 
     if PLOT_BEST_FIT_MCF7_AND_T47D:
-        MCF7 = {}
-        T47D = {}
-        MCF7['Akt'] = 1.2818062896268356
-        T47D['Akt'] = 1.7892466007955992
-        MCF7['FourEBP1'] = 0.7126284151168799
-        T47D['FourEBP1'] = 0.9270973665507092
-        MCF7['IRS1'] = 3.0781723004869344
-        T47D['IRS1'] = 1.7683077110052192
-        MCF7['PRAS40'] = 1.798018487973172
-        T47D['PRAS40'] = 1.0734662309797296
-        MCF7['S6K'] = 1.9731430564400243
-        T47D['S6K'] = 0.43090753855592484
-        MCF7['TSC2'] = 1.34699754501788
-        T47D['TSC2'] = 1.0281188142591413
+        estimated_mcf7_ics = {}
+        estimated_t47d_ics = {}
+        estimated_mcf7_ics['Akt'] = 1.2818062896268356
+        estimated_t47d_ics['Akt'] = 1.7892466007955992
+        estimated_mcf7_ics['FourEBP1'] = 0.7126284151168799
+        estimated_t47d_ics['FourEBP1'] = 0.9270973665507092
+        estimated_mcf7_ics['IRS1'] = 3.0781723004869344
+        estimated_t47d_ics['IRS1'] = 1.7683077110052192
+        estimated_mcf7_ics['PRAS40'] = 1.798018487973172
+        estimated_t47d_ics['PRAS40'] = 1.0734662309797296
+        estimated_mcf7_ics['S6K'] = 1.9731430564400243
+        estimated_t47d_ics['S6K'] = 0.43090753855592484
+        estimated_mcf7_ics['TSC2'] = 1.34699754501788
+        estimated_t47d_ics['TSC2'] = 1.0281188142591413
 
         ics = GetData('T47D').get_initial_conc_params()
-        ics['MCF7'].update(MCF7)
-        ics['T47D'].update(T47D)
+        ics['MCF7'].update(estimated_mcf7_ics)
+        ics['T47D'].update(estimated_t47d_ics)
 
         te_mod_mcf7 = TheModel(ic_parameters=ics['MCF7'])
         te_mod_t47d = TheModel(ic_parameters=ics['T47D'])
 
         t47d_mcf7_fname = os.path.join(SIMULATION_DIRECTORY, 'MCF7_from_T47D_experiment.png')
         t47d_t47d_fname = os.path.join(SIMULATION_DIRECTORY, 'T47D_from_T47D_experiment.png')
-        te_mod_mcf7.plot_best_fit(which_data_file='T47D', which_cell_line='MCF7', filename=t47d_mcf7_fname)
-        te_mod_t47d.plot_best_fit(which_data_file='T47D', which_cell_line='T47D', filename=t47d_t47d_fname)
+        # te_mod_mcf7.plot_best_fit(which_data_file='T47D', which_cell_line='MCF7', filename=t47d_mcf7_fname)
+        # te_mod_t47d.plot_best_fit(which_data_file='T47D', which_cell_line='T47D', filename=t47d_t47d_fname)
+
+
+
+        # produce a barplot comparing measured and simulated ics
+        tots = ['Akt', 'FourEBP1', 'IRS1', 'PRAS40', 'S6K', 'TSC2']
+        experimental_MCF7_ics = \
+        GetData('T47D').normalised_to_coomassie_blue().stack().groupby(['cell_line', 'time']).mean()[tots].loc[
+            'MCF7', 0].to_dict()
+        experimental_T47D_ics = \
+        GetData('T47D').normalised_to_coomassie_blue().stack().groupby(['cell_line', 'time']).mean()[tots].loc[
+            'T47D', 0].to_dict()
+
+        # collate into df
+        df_mcf7 = pandas.DataFrame([experimental_MCF7_ics, estimated_mcf7_ics],
+                                   index=['exp', 'sim'])
+        df_mcf7 = pandas.DataFrame(df_mcf7.stack()).reset_index()
+        df_mcf7.columns = ['cell_line', 'parameter', 'value']
+
+        # collate into df
+        df_t47d = pandas.DataFrame([experimental_T47D_ics, estimated_t47d_ics],
+                                   index=['exp', 'sim'])
+        df_t47d = pandas.DataFrame(df_t47d.stack()).reset_index()
+        df_t47d.columns = ['cell_line', 'parameter', 'value']
+
+        print(df_mcf7)
+        # and plot
+        fig = plt.figure()
+        ax = plt.subplot(121)
+        seaborn.barplot(ax=ax, x='parameter', hue='cell_line', y='value', data=df_mcf7)
+        plt.xlabel('')
+        plt.legend()
+        plt.title('MCF7')
+
+        seaborn.despine(fig=fig, top=True, right=True)
+        ax = plt.subplot(122)
+        seaborn.barplot(ax=ax, x='parameter', hue='cell_line', y='value', data=df_t47d)
+        plt.legend(loc=(0.1, 1))
+        plt.title('T47D')
+        seaborn.despine(fig=fig, top=True, right=True)
+
+        fname = os.path.join(SIMULATION_DIRECTORY, 't47d_sheet_barplot_comparing_estimated_and_total_ics.png')
+        plt.savefig(fname, dpi=300, bbox_inches='tight')
+
+
 
     if PLOT_BEST_FIT_MCF7_AND_ZR75:
-        MCF7 = {}
-        ZR75 = {}
-        MCF7['Akt'] = 1.766284542044498
-        ZR75['Akt'] = 1.6169901853946649
-        MCF7['FourEBP1'] = 0.7528736731703629
-        ZR75['FourEBP1'] = 1.5644306858467456
-        MCF7['IRS1'] = 3.4224381192249163
-        ZR75['IRS1'] = 2.1371092389267043
-        MCF7['PRAS40'] = 1.7317272261472434
-        ZR75['PRAS40'] = 1.968537005784804
-        MCF7['S6K'] = 1.6916492798629466
-        ZR75['S6K'] = 0.7380178584075135
-        MCF7['TSC2'] = 1.909861364242059
-        ZR75['TSC2'] = 1.1657935902247676
+        estimated_mcf7_ics = {}
+        estimated_zr75_ics = {}
+        # these were estimated.
+        estimated_mcf7_ics['Akt'] = 1.766284542044498
+        estimated_zr75_ics['Akt'] = 1.6169901853946649
+        estimated_mcf7_ics['FourEBP1'] = 0.7528736731703629
+        estimated_zr75_ics['FourEBP1'] = 1.5644306858467456
+        estimated_mcf7_ics['IRS1'] = 3.4224381192249163
+        estimated_zr75_ics['IRS1'] = 2.1371092389267043
+        estimated_mcf7_ics['PRAS40'] = 1.7317272261472434
+        estimated_zr75_ics['PRAS40'] = 1.968537005784804
+        estimated_mcf7_ics['S6K'] = 1.6916492798629466
+        estimated_zr75_ics['S6K'] = 0.7380178584075135
+        estimated_mcf7_ics['TSC2'] = 1.909861364242059
+        estimated_zr75_ics['TSC2'] = 1.1657935902247676
 
         ics = GetData('ZR75').get_initial_conc_params()
-        ics['MCF7'].update(MCF7)
-        ics['ZR75'].update(ZR75)
+
+        ics['MCF7'].update(estimated_mcf7_ics)
+        ics['ZR75'].update(estimated_zr75_ics)
 
         te_mod_mcf7 = TheModel(ic_parameters=ics['MCF7'])
         te_mod_zr75 = TheModel(ic_parameters=ics['ZR75'])
 
         zr75_mcf7_fname = os.path.join(SIMULATION_DIRECTORY, 'MCF7_from_ZR75_experiment.png')
         zr75_zr75_fname = os.path.join(SIMULATION_DIRECTORY, 'ZR75_from_ZR75_experiment.png')
-        te_mod_mcf7.plot_best_fit(which_data_file='ZR75', which_cell_line='MCF7', filename=zr75_mcf7_fname)
-        te_mod_zr75.plot_best_fit(which_data_file='ZR75', which_cell_line='ZR75', filename=zr75_zr75_fname)
+        # te_mod_mcf7.plot_best_fit(which_data_file='ZR75', which_cell_line='MCF7', filename=zr75_mcf7_fname)
+        # te_mod_zr75.plot_best_fit(which_data_file='ZR75', which_cell_line='ZR75', filename=zr75_zr75_fname)
+
+
+        # produce a barplot comparing measured and simulated ics
+        tots = ['Akt', 'FourEBP1', 'IRS1', 'PRAS40', 'S6K', 'TSC2']
+        experimental_MCF7_ics = GetData('ZR75').normalised_to_coomassie_blue().stack().groupby(['cell_line', 'time']).mean()[tots].loc['MCF7', 0].to_dict()
+        experimental_ZR75_ics = GetData('ZR75').normalised_to_coomassie_blue().stack().groupby(['cell_line', 'time']).mean()[tots].loc['ZR75', 0].to_dict()
+
+        # collate into df
+        df_mcf7 = pandas.DataFrame([experimental_MCF7_ics, estimated_mcf7_ics],
+                              index=['exp', 'sim'])
+        df_mcf7 = pandas.DataFrame(df_mcf7.stack()).reset_index()
+        df_mcf7.columns = ['cell_line', 'parameter', 'value']
+
+        # collate into df
+        df_zr75 = pandas.DataFrame([experimental_ZR75_ics, estimated_zr75_ics],
+                              index=['exp', 'sim'])
+        df_zr75 = pandas.DataFrame(df_zr75.stack()).reset_index()
+        df_zr75.columns = ['cell_line', 'parameter', 'value']
+
+        # and plot
+        fig = plt.figure()
+        ax = plt.subplot(121)
+        seaborn.barplot(ax=ax, x='parameter', hue='cell_line', y='value', data=df_mcf7)
+        plt.xlabel('')
+        plt.legend()
+        plt.title('MCF7')
+
+        seaborn.despine(fig=fig, top=True, right=True)
+        ax = plt.subplot(122)
+        seaborn.barplot(ax=ax, x='parameter', hue='cell_line', y='value', data=df_zr75)
+        plt.legend(loc=(0.1, 1))
+        plt.title('ZR75')
+        seaborn.despine(fig=fig, top=True, right=True)
+
+        fname = os.path.join(SIMULATION_DIRECTORY, 'zr75_sheet_barplot_comparing_estimated_and_total_ics.png')
+        plt.savefig(fname, dpi=300, bbox_inches='tight')
+
+
+
 
 
     if TRANSFER_BETWEEN_MCF7_FROM_ZR75_AND_T47D:
         # Calibrated with MCF7 and ZR75 (from same blot).
         # Transfer: T47D
-        MCF7 = {}
-        ZR75 = {}
-        MCF7['Akt'] = 1.766284542044498
-        ZR75['Akt'] = 1.6169901853946649
-        MCF7['FourEBP1'] = 0.7528736731703629
-        ZR75['FourEBP1'] = 1.5644306858467456
-        MCF7['IRS1'] = 3.4224381192249163
-        ZR75['IRS1'] = 2.1371092389267043
-        MCF7['PRAS40'] = 1.7317272261472434
-        ZR75['PRAS40'] = 1.968537005784804
-        MCF7['S6K'] = 1.6916492798629466
-        ZR75['S6K'] = 0.7380178584075135
-        MCF7['TSC2'] = 1.909861364242059
-        ZR75['TSC2'] = 1.1657935902247676
+        estimated_mcf7_ics = {}
+        estimated_zr75_ics = {}
+        estimated_mcf7_ics['Akt'] = 1.766284542044498
+        estimated_zr75_ics['Akt'] = 1.6169901853946649
+        estimated_mcf7_ics['FourEBP1'] = 0.7528736731703629
+        estimated_zr75_ics['FourEBP1'] = 1.5644306858467456
+        estimated_mcf7_ics['IRS1'] = 3.4224381192249163
+        estimated_zr75_ics['IRS1'] = 2.1371092389267043
+        estimated_mcf7_ics['PRAS40'] = 1.7317272261472434
+        estimated_zr75_ics['PRAS40'] = 1.968537005784804
+        estimated_mcf7_ics['S6K'] = 1.6916492798629466
+        estimated_zr75_ics['S6K'] = 0.7380178584075135
+        estimated_mcf7_ics['TSC2'] = 1.909861364242059
+        estimated_zr75_ics['TSC2'] = 1.1657935902247676
 
         ics = GetData('T47D').get_initial_conc_params()
         print(ics['T47D'])
         # ics['MCF7'].update(MCF7)
-        ics['T47D'].update(ZR75)
+        ics['T47D'].update(estimated_zr75_ics)
 
         te_mod_zr75 = TheModel(ic_parameters=ics['T47D'])
 
