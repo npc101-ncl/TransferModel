@@ -132,6 +132,21 @@ class ExperimentalDataProcessingTests(unittest.TestCase):
         actual = ic
         self.assertEqual(expected, actual)
 
+    def test_median_norm(self):
+        gd = GetData('T47D')
+        data = gd.get_raw_data()
+        data = gd.normed_to_average(data)
+        data = gd.normalised_to_coomassie_blue(data)
+        data = gd.median_normalisation(data)
+
+        gd = GetData('ZR75')
+        data = gd.get_raw_data()
+        data = gd.normed_to_average(data)
+        data = gd.normalised_to_coomassie_blue(data)
+        data = gd.median_normalisation(data)
+        print(data)
+
+
 
 
 

@@ -333,3 +333,32 @@ class GetData:
         for cell_line, dct in ic_dct.items():
             ic_dct[cell_line] = {k.replace('_indep', ''): v for k, v in dct.items() if '_indep' in k}
         return ic_dct
+
+    def median_normalisation(self, data=None, plot=True):
+        """
+        Normalise columns by median of columns and then the
+        rows by the median of the rows
+        Returns:
+
+        """
+        if data is None:
+            data = self.normalised_to_coomassie_blue()
+        # print(data)
+        # print(data.median())
+        df = pandas.DataFrame()
+        for i in data.columns:
+            df[i] = data[i] - data[i].median()
+
+        df.columns = pandas.MultiIndex.from_tuples(df.columns)
+
+        for i in df.index:
+            df.loc[i] = df.loc[i] - df.loc[i].median()
+
+        if plot:
+            self.plot(df)
+
+        return df
+
+
+
+

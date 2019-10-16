@@ -1,10 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- generated with COPASI 4.25 (Build 207) (http://www.copasi.org) at 2019-10-10T13:28:22Z -->
+<?oxygen RNGSchema="http://www.copasi.org/static/schema/CopasiML.rng" type="xml"?>
 <COPASI xmlns="http://www.copasi.org/static/schema" versionMajor="4" versionMinor="25" versionDevel="207" copasiSourcesModified="0">
   <ListOfFunctions>
     <Function key="Function_13" name="Mass action (irreversible)" type="MassAction" reversible="false">
       <MiriamAnnotation>
-        <rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           <rdf:Description rdf:about="#Function_13">
-            <CopasiMT:is rdf:resource="urn:miriam:obo.sbo:SBO:0000163"/>
+            <CopasiMT:is rdf:resource="urn:miriam:obo.sbo:SBO:0000163" />
           </rdf:Description>
         </rdf:RDF>
       </MiriamAnnotation>
@@ -17,20 +20,20 @@ Reaction scheme where the products are created from the reactants and the change
         </body>
       </Comment>
       <Expression>
-        k1*PRODUCT&lt;substrate_i&gt;
+        k1*PRODUCT&lt;substrate_i>
       </Expression>
       <ListOfParameterDescriptions>
         <ParameterDescription key="FunctionParameter_80" name="k1" order="0" role="constant"/>
         <ParameterDescription key="FunctionParameter_81" name="substrate" order="1" role="substrate"/>
       </ListOfParameterDescriptions>
     </Function>
-    <Function key="Function_51" name="Function for R1f" type="UserDefined" reversible="false">
+    <Function key="Function_40" name="Function for R1f" type="UserDefined" reversible="false">
       <MiriamAnnotation>
-        <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-          <rdf:Description rdf:about="#Function_51">
+<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+          <rdf:Description rdf:about="#Function_40">
             <dcterms:created>
               <rdf:Description>
-                <dcterms:W3CDTF>2019-10-10T12:46:51Z</dcterms:W3CDTF>
+                <dcterms:W3CDTF>2019-10-10T13:01:23Z</dcterms:W3CDTF>
               </rdf:Description>
             </dcterms:created>
           </rdf:Description>
@@ -40,18 +43,18 @@ Reaction scheme where the products are created from the reactants and the change
         kIRS1Act*IRS1*Insulin
       </Expression>
       <ListOfParameterDescriptions>
-        <ParameterDescription key="FunctionParameter_319" name="IRS1" order="0" role="substrate"/>
-        <ParameterDescription key="FunctionParameter_320" name="Insulin" order="1" role="constant"/>
-        <ParameterDescription key="FunctionParameter_321" name="kIRS1Act" order="2" role="constant"/>
+        <ParameterDescription key="FunctionParameter_264" name="IRS1" order="0" role="substrate"/>
+        <ParameterDescription key="FunctionParameter_263" name="Insulin" order="1" role="constant"/>
+        <ParameterDescription key="FunctionParameter_262" name="kIRS1Act" order="2" role="constant"/>
       </ListOfParameterDescriptions>
     </Function>
-    <Function key="Function_52" name="Function for R2f" type="UserDefined" reversible="false">
+    <Function key="Function_41" name="Function for R2f" type="UserDefined" reversible="false">
       <MiriamAnnotation>
-        <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-          <rdf:Description rdf:about="#Function_52">
+<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+          <rdf:Description rdf:about="#Function_41">
             <dcterms:created>
               <rdf:Description>
-                <dcterms:W3CDTF>2019-10-10T12:46:51Z</dcterms:W3CDTF>
+                <dcterms:W3CDTF>2019-10-10T13:01:23Z</dcterms:W3CDTF>
               </rdf:Description>
             </dcterms:created>
           </rdf:Description>
@@ -61,18 +64,18 @@ Reaction scheme where the products are created from the reactants and the change
         kIRS1Phos*IRS1a*S6KpT389
       </Expression>
       <ListOfParameterDescriptions>
-        <ParameterDescription key="FunctionParameter_325" name="IRS1a" order="0" role="substrate"/>
-        <ParameterDescription key="FunctionParameter_326" name="S6KpT389" order="1" role="modifier"/>
-        <ParameterDescription key="FunctionParameter_327" name="kIRS1Phos" order="2" role="constant"/>
+        <ParameterDescription key="FunctionParameter_265" name="IRS1a" order="0" role="substrate"/>
+        <ParameterDescription key="FunctionParameter_250" name="S6KpT389" order="1" role="modifier"/>
+        <ParameterDescription key="FunctionParameter_261" name="kIRS1Phos" order="2" role="constant"/>
       </ListOfParameterDescriptions>
     </Function>
-    <Function key="Function_53" name="Function for R3f" type="UserDefined" reversible="false">
+    <Function key="Function_42" name="Function for R3f" type="UserDefined" reversible="false">
       <MiriamAnnotation>
-        <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-          <rdf:Description rdf:about="#Function_53">
+<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+          <rdf:Description rdf:about="#Function_42">
             <dcterms:created>
               <rdf:Description>
-                <dcterms:W3CDTF>2019-10-10T12:46:51Z</dcterms:W3CDTF>
+                <dcterms:W3CDTF>2019-10-10T13:01:23Z</dcterms:W3CDTF>
               </rdf:Description>
             </dcterms:created>
           </rdf:Description>
@@ -82,18 +85,18 @@ Reaction scheme where the products are created from the reactants and the change
         kPI3KPhos*PI3K*IRS1a
       </Expression>
       <ListOfParameterDescriptions>
-        <ParameterDescription key="FunctionParameter_333" name="IRS1a" order="0" role="modifier"/>
-        <ParameterDescription key="FunctionParameter_334" name="PI3K" order="1" role="substrate"/>
-        <ParameterDescription key="FunctionParameter_335" name="kPI3KPhos" order="2" role="constant"/>
+        <ParameterDescription key="FunctionParameter_268" name="IRS1a" order="0" role="modifier"/>
+        <ParameterDescription key="FunctionParameter_267" name="PI3K" order="1" role="substrate"/>
+        <ParameterDescription key="FunctionParameter_266" name="kPI3KPhos" order="2" role="constant"/>
       </ListOfParameterDescriptions>
     </Function>
-    <Function key="Function_54" name="Function for R4f" type="UserDefined" reversible="false">
+    <Function key="Function_43" name="Function for R4f" type="UserDefined" reversible="false">
       <MiriamAnnotation>
-        <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-          <rdf:Description rdf:about="#Function_54">
+<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+          <rdf:Description rdf:about="#Function_43">
             <dcterms:created>
               <rdf:Description>
-                <dcterms:W3CDTF>2019-10-10T12:46:51Z</dcterms:W3CDTF>
+                <dcterms:W3CDTF>2019-10-10T13:01:23Z</dcterms:W3CDTF>
               </rdf:Description>
             </dcterms:created>
           </rdf:Description>
@@ -103,18 +106,18 @@ Reaction scheme where the products are created from the reactants and the change
         kAktPhos*Akt*pPI3K
       </Expression>
       <ListOfParameterDescriptions>
-        <ParameterDescription key="FunctionParameter_341" name="Akt" order="0" role="substrate"/>
-        <ParameterDescription key="FunctionParameter_342" name="kAktPhos" order="1" role="constant"/>
-        <ParameterDescription key="FunctionParameter_343" name="pPI3K" order="2" role="modifier"/>
+        <ParameterDescription key="FunctionParameter_271" name="Akt" order="0" role="substrate"/>
+        <ParameterDescription key="FunctionParameter_270" name="kAktPhos" order="1" role="constant"/>
+        <ParameterDescription key="FunctionParameter_269" name="pPI3K" order="2" role="modifier"/>
       </ListOfParameterDescriptions>
     </Function>
-    <Function key="Function_55" name="Function for R4b" type="UserDefined" reversible="false">
+    <Function key="Function_44" name="Function for R4b" type="UserDefined" reversible="false">
       <MiriamAnnotation>
-        <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-          <rdf:Description rdf:about="#Function_55">
+<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+          <rdf:Description rdf:about="#Function_44">
             <dcterms:created>
               <rdf:Description>
-                <dcterms:W3CDTF>2019-10-10T12:46:51Z</dcterms:W3CDTF>
+                <dcterms:W3CDTF>2019-10-10T13:01:23Z</dcterms:W3CDTF>
               </rdf:Description>
             </dcterms:created>
           </rdf:Description>
@@ -124,18 +127,18 @@ Reaction scheme where the products are created from the reactants and the change
         kAktDephos*pPI3K*AktpT308
       </Expression>
       <ListOfParameterDescriptions>
-        <ParameterDescription key="FunctionParameter_347" name="AktpT308" order="0" role="substrate"/>
-        <ParameterDescription key="FunctionParameter_348" name="kAktDephos" order="1" role="constant"/>
-        <ParameterDescription key="FunctionParameter_349" name="pPI3K" order="2" role="modifier"/>
+        <ParameterDescription key="FunctionParameter_274" name="AktpT308" order="0" role="substrate"/>
+        <ParameterDescription key="FunctionParameter_273" name="kAktDephos" order="1" role="constant"/>
+        <ParameterDescription key="FunctionParameter_272" name="pPI3K" order="2" role="modifier"/>
       </ListOfParameterDescriptions>
     </Function>
-    <Function key="Function_56" name="Function for R5f" type="UserDefined" reversible="false">
+    <Function key="Function_45" name="Function for R5f" type="UserDefined" reversible="false">
       <MiriamAnnotation>
-        <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-          <rdf:Description rdf:about="#Function_56">
+<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+          <rdf:Description rdf:about="#Function_45">
             <dcterms:created>
               <rdf:Description>
-                <dcterms:W3CDTF>2019-10-10T12:46:51Z</dcterms:W3CDTF>
+                <dcterms:W3CDTF>2019-10-10T13:01:23Z</dcterms:W3CDTF>
               </rdf:Description>
             </dcterms:created>
           </rdf:Description>
@@ -145,18 +148,18 @@ Reaction scheme where the products are created from the reactants and the change
         kTSC2Phos*TSC2*AktpT308
       </Expression>
       <ListOfParameterDescriptions>
-        <ParameterDescription key="FunctionParameter_353" name="AktpT308" order="0" role="modifier"/>
-        <ParameterDescription key="FunctionParameter_354" name="TSC2" order="1" role="substrate"/>
-        <ParameterDescription key="FunctionParameter_355" name="kTSC2Phos" order="2" role="constant"/>
+        <ParameterDescription key="FunctionParameter_277" name="AktpT308" order="0" role="modifier"/>
+        <ParameterDescription key="FunctionParameter_276" name="TSC2" order="1" role="substrate"/>
+        <ParameterDescription key="FunctionParameter_275" name="kTSC2Phos" order="2" role="constant"/>
       </ListOfParameterDescriptions>
     </Function>
-    <Function key="Function_57" name="Function for R6f" type="UserDefined" reversible="false">
+    <Function key="Function_46" name="Function for R6f" type="UserDefined" reversible="false">
       <MiriamAnnotation>
-        <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-          <rdf:Description rdf:about="#Function_57">
+<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+          <rdf:Description rdf:about="#Function_46">
             <dcterms:created>
               <rdf:Description>
-                <dcterms:W3CDTF>2019-10-10T12:46:51Z</dcterms:W3CDTF>
+                <dcterms:W3CDTF>2019-10-10T13:01:23Z</dcterms:W3CDTF>
               </rdf:Description>
             </dcterms:created>
           </rdf:Description>
@@ -166,18 +169,18 @@ Reaction scheme where the products are created from the reactants and the change
         kmTORC1cytToLys*mTORC1cyt*AA
       </Expression>
       <ListOfParameterDescriptions>
-        <ParameterDescription key="FunctionParameter_361" name="AA" order="0" role="constant"/>
-        <ParameterDescription key="FunctionParameter_362" name="kmTORC1cytToLys" order="1" role="constant"/>
-        <ParameterDescription key="FunctionParameter_363" name="mTORC1cyt" order="2" role="substrate"/>
+        <ParameterDescription key="FunctionParameter_280" name="AA" order="0" role="constant"/>
+        <ParameterDescription key="FunctionParameter_279" name="kmTORC1cytToLys" order="1" role="constant"/>
+        <ParameterDescription key="FunctionParameter_278" name="mTORC1cyt" order="2" role="substrate"/>
       </ListOfParameterDescriptions>
     </Function>
-    <Function key="Function_58" name="Function for R7f" type="UserDefined" reversible="false">
+    <Function key="Function_47" name="Function for R7f" type="UserDefined" reversible="false">
       <MiriamAnnotation>
-        <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-          <rdf:Description rdf:about="#Function_58">
+<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+          <rdf:Description rdf:about="#Function_47">
             <dcterms:created>
               <rdf:Description>
-                <dcterms:W3CDTF>2019-10-10T12:46:51Z</dcterms:W3CDTF>
+                <dcterms:W3CDTF>2019-10-10T13:01:23Z</dcterms:W3CDTF>
               </rdf:Description>
             </dcterms:created>
           </rdf:Description>
@@ -187,18 +190,18 @@ Reaction scheme where the products are created from the reactants and the change
         kmTORC1Phos*mTORC1lys*TSC2
       </Expression>
       <ListOfParameterDescriptions>
-        <ParameterDescription key="FunctionParameter_369" name="TSC2" order="0" role="modifier"/>
-        <ParameterDescription key="FunctionParameter_370" name="kmTORC1Phos" order="1" role="constant"/>
-        <ParameterDescription key="FunctionParameter_371" name="mTORC1lys" order="2" role="substrate"/>
+        <ParameterDescription key="FunctionParameter_283" name="TSC2" order="0" role="modifier"/>
+        <ParameterDescription key="FunctionParameter_282" name="kmTORC1Phos" order="1" role="constant"/>
+        <ParameterDescription key="FunctionParameter_281" name="mTORC1lys" order="2" role="substrate"/>
       </ListOfParameterDescriptions>
     </Function>
-    <Function key="Function_59" name="Function for R8f" type="UserDefined" reversible="false">
+    <Function key="Function_48" name="Function for R8f" type="UserDefined" reversible="false">
       <MiriamAnnotation>
-        <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-          <rdf:Description rdf:about="#Function_59">
+<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+          <rdf:Description rdf:about="#Function_48">
             <dcterms:created>
               <rdf:Description>
-                <dcterms:W3CDTF>2019-10-10T12:46:51Z</dcterms:W3CDTF>
+                <dcterms:W3CDTF>2019-10-10T13:01:23Z</dcterms:W3CDTF>
               </rdf:Description>
             </dcterms:created>
           </rdf:Description>
@@ -208,18 +211,18 @@ Reaction scheme where the products are created from the reactants and the change
         kPras40Phos*PRAS40*AktpT308
       </Expression>
       <ListOfParameterDescriptions>
-        <ParameterDescription key="FunctionParameter_377" name="AktpT308" order="0" role="modifier"/>
-        <ParameterDescription key="FunctionParameter_378" name="PRAS40" order="1" role="substrate"/>
-        <ParameterDescription key="FunctionParameter_379" name="kPras40Phos" order="2" role="constant"/>
+        <ParameterDescription key="FunctionParameter_286" name="AktpT308" order="0" role="modifier"/>
+        <ParameterDescription key="FunctionParameter_285" name="PRAS40" order="1" role="substrate"/>
+        <ParameterDescription key="FunctionParameter_284" name="kPras40Phos" order="2" role="constant"/>
       </ListOfParameterDescriptions>
     </Function>
-    <Function key="Function_60" name="Function for R9f" type="UserDefined" reversible="false">
+    <Function key="Function_49" name="Function for R9f" type="UserDefined" reversible="false">
       <MiriamAnnotation>
-        <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-          <rdf:Description rdf:about="#Function_60">
+<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+          <rdf:Description rdf:about="#Function_49">
             <dcterms:created>
               <rdf:Description>
-                <dcterms:W3CDTF>2019-10-10T12:46:51Z</dcterms:W3CDTF>
+                <dcterms:W3CDTF>2019-10-10T13:01:23Z</dcterms:W3CDTF>
               </rdf:Description>
             </dcterms:created>
           </rdf:Description>
@@ -229,18 +232,18 @@ Reaction scheme where the products are created from the reactants and the change
         kFourEBP1Phos*FourEBP1*pmTORC1
       </Expression>
       <ListOfParameterDescriptions>
-        <ParameterDescription key="FunctionParameter_385" name="FourEBP1" order="0" role="substrate"/>
-        <ParameterDescription key="FunctionParameter_386" name="kFourEBP1Phos" order="1" role="constant"/>
-        <ParameterDescription key="FunctionParameter_387" name="pmTORC1" order="2" role="modifier"/>
+        <ParameterDescription key="FunctionParameter_289" name="FourEBP1" order="0" role="substrate"/>
+        <ParameterDescription key="FunctionParameter_288" name="kFourEBP1Phos" order="1" role="constant"/>
+        <ParameterDescription key="FunctionParameter_287" name="pmTORC1" order="2" role="modifier"/>
       </ListOfParameterDescriptions>
     </Function>
-    <Function key="Function_61" name="Function for R10f" type="UserDefined" reversible="false">
+    <Function key="Function_50" name="Function for R10f" type="UserDefined" reversible="false">
       <MiriamAnnotation>
-        <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-          <rdf:Description rdf:about="#Function_61">
+<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+          <rdf:Description rdf:about="#Function_50">
             <dcterms:created>
               <rdf:Description>
-                <dcterms:W3CDTF>2019-10-10T12:46:51Z</dcterms:W3CDTF>
+                <dcterms:W3CDTF>2019-10-10T13:01:23Z</dcterms:W3CDTF>
               </rdf:Description>
             </dcterms:created>
           </rdf:Description>
@@ -250,32 +253,35 @@ Reaction scheme where the products are created from the reactants and the change
         kS6KPhos*S6K*pmTORC1
       </Expression>
       <ListOfParameterDescriptions>
-        <ParameterDescription key="FunctionParameter_393" name="S6K" order="0" role="substrate"/>
-        <ParameterDescription key="FunctionParameter_394" name="kS6KPhos" order="1" role="constant"/>
-        <ParameterDescription key="FunctionParameter_395" name="pmTORC1" order="2" role="modifier"/>
+        <ParameterDescription key="FunctionParameter_292" name="S6K" order="0" role="substrate"/>
+        <ParameterDescription key="FunctionParameter_291" name="kS6KPhos" order="1" role="constant"/>
+        <ParameterDescription key="FunctionParameter_290" name="pmTORC1" order="2" role="modifier"/>
       </ListOfParameterDescriptions>
     </Function>
   </ListOfFunctions>
-  <Model key="Model_1" name="SimpleAktModel" simulationType="time" timeUnit="s" volumeUnit="l" areaUnit="m&#178;" lengthUnit="m" quantityUnit="mol" type="deterministic" avogadroConstant="6.0221417899999999e+23">
+  <Model key="Model_1" name="SimpleAktModel" simulationType="time" timeUnit="s" volumeUnit="l" areaUnit="m²" lengthUnit="m" quantityUnit="mol" type="deterministic" avogadroConstant="6.0221417899999999e+23">
     <MiriamAnnotation>
-      <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-        <rdf:Description rdf:about="#Model_1">
-          <dcterms:created>
-            <rdf:Description>
-              <dcterms:W3CDTF>2019-10-10T12:46:51Z</dcterms:W3CDTF>
-            </rdf:Description>
-          </dcterms:created>
-        </rdf:Description>
-      </rdf:RDF>
+<rdf:RDF
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about="#Model_1">
+    <dcterms:created>
+      <rdf:Description>
+        <dcterms:W3CDTF>2019-10-10T13:01:23Z</dcterms:W3CDTF>
+      </rdf:Description>
+    </dcterms:created>
+  </rdf:Description>
+</rdf:RDF>
+
     </MiriamAnnotation>
     <ListOfCompartments>
       <Compartment key="Compartment_0" name="Cell" simulationType="fixed" dimensionality="3" addNoise="false">
         <MiriamAnnotation>
-          <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#Compartment_0">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-10-10T12:46:51Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-10-10T13:01:23Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
@@ -284,234 +290,234 @@ Reaction scheme where the products are created from the reactants and the change
       </Compartment>
     </ListOfCompartments>
     <ListOfMetabolites>
-      <Metabolite key="Metabolite_0" name="IRS1" simulationType="reactions" compartment="Compartment_0" addNoise="false" particle_numbers="6.02214179e+24">
+      <Metabolite key="Metabolite_0" name="IRS1" simulationType="reactions" compartment="Compartment_0" addNoise="false">
         <MiriamAnnotation>
-          <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#Metabolite_0">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-10-10T12:46:51Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-10-10T13:01:23Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
           </rdf:RDF>
         </MiriamAnnotation>
       </Metabolite>
-      <Metabolite key="Metabolite_1" name="IRS1a" simulationType="reactions" compartment="Compartment_0" addNoise="false" particle_numbers="0.0">
+      <Metabolite key="Metabolite_1" name="IRS1a" simulationType="reactions" compartment="Compartment_0" addNoise="false">
         <MiriamAnnotation>
-          <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#Metabolite_1">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-10-10T12:46:51Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-10-10T13:01:23Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
           </rdf:RDF>
         </MiriamAnnotation>
       </Metabolite>
-      <Metabolite key="Metabolite_2" name="IRS1pS636_639" simulationType="reactions" compartment="Compartment_0" addNoise="false" particle_numbers="0.0">
+      <Metabolite key="Metabolite_2" name="IRS1pS636_639" simulationType="reactions" compartment="Compartment_0" addNoise="false">
         <MiriamAnnotation>
-          <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#Metabolite_2">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-10-10T12:46:51Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-10-10T13:01:23Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
           </rdf:RDF>
         </MiriamAnnotation>
       </Metabolite>
-      <Metabolite key="Metabolite_3" name="Akt" simulationType="reactions" compartment="Compartment_0" addNoise="false" particle_numbers="6.02214179e+24">
+      <Metabolite key="Metabolite_3" name="Akt" simulationType="reactions" compartment="Compartment_0" addNoise="false">
         <MiriamAnnotation>
-          <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#Metabolite_3">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-10-10T12:46:51Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-10-10T13:01:23Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
           </rdf:RDF>
         </MiriamAnnotation>
       </Metabolite>
-      <Metabolite key="Metabolite_4" name="AktpT308" simulationType="reactions" compartment="Compartment_0" addNoise="false" particle_numbers="0.0">
+      <Metabolite key="Metabolite_4" name="AktpT308" simulationType="reactions" compartment="Compartment_0" addNoise="false">
         <MiriamAnnotation>
-          <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#Metabolite_4">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-10-10T12:46:51Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-10-10T13:01:23Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
           </rdf:RDF>
         </MiriamAnnotation>
       </Metabolite>
-      <Metabolite key="Metabolite_5" name="TSC2" simulationType="reactions" compartment="Compartment_0" addNoise="false" particle_numbers="0.0">
+      <Metabolite key="Metabolite_5" name="TSC2" simulationType="reactions" compartment="Compartment_0" addNoise="false">
         <MiriamAnnotation>
-          <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#Metabolite_5">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-10-10T12:46:51Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-10-10T13:01:23Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
           </rdf:RDF>
         </MiriamAnnotation>
       </Metabolite>
-      <Metabolite key="Metabolite_6" name="TSC2pT1462" simulationType="reactions" compartment="Compartment_0" addNoise="false" particle_numbers="6.02214179e+24">
+      <Metabolite key="Metabolite_6" name="TSC2pT1462" simulationType="reactions" compartment="Compartment_0" addNoise="false">
         <MiriamAnnotation>
-          <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#Metabolite_6">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-10-10T12:46:51Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-10-10T13:01:23Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
           </rdf:RDF>
         </MiriamAnnotation>
       </Metabolite>
-      <Metabolite key="Metabolite_7" name="PRAS40" simulationType="reactions" compartment="Compartment_0" addNoise="false" particle_numbers="6.02214179e+24">
+      <Metabolite key="Metabolite_7" name="PRAS40" simulationType="reactions" compartment="Compartment_0" addNoise="false">
         <MiriamAnnotation>
-          <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#Metabolite_7">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-10-10T12:46:51Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-10-10T13:01:23Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
           </rdf:RDF>
         </MiriamAnnotation>
       </Metabolite>
-      <Metabolite key="Metabolite_8" name="PRAS40pT246" simulationType="reactions" compartment="Compartment_0" addNoise="false" particle_numbers="0.0">
+      <Metabolite key="Metabolite_8" name="PRAS40pT246" simulationType="reactions" compartment="Compartment_0" addNoise="false">
         <MiriamAnnotation>
-          <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#Metabolite_8">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-10-10T12:46:51Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-10-10T13:01:23Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
           </rdf:RDF>
         </MiriamAnnotation>
       </Metabolite>
-      <Metabolite key="Metabolite_9" name="S6K" simulationType="reactions" compartment="Compartment_0" addNoise="false" particle_numbers="6.02214179e+24">
+      <Metabolite key="Metabolite_9" name="S6K" simulationType="reactions" compartment="Compartment_0" addNoise="false">
         <MiriamAnnotation>
-          <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#Metabolite_9">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-10-10T12:46:51Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-10-10T13:01:23Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
           </rdf:RDF>
         </MiriamAnnotation>
       </Metabolite>
-      <Metabolite key="Metabolite_10" name="S6KpT389" simulationType="reactions" compartment="Compartment_0" addNoise="false" particle_numbers="0.0">
+      <Metabolite key="Metabolite_10" name="S6KpT389" simulationType="reactions" compartment="Compartment_0" addNoise="false">
         <MiriamAnnotation>
-          <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#Metabolite_10">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-10-10T12:46:51Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-10-10T13:01:23Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
           </rdf:RDF>
         </MiriamAnnotation>
       </Metabolite>
-      <Metabolite key="Metabolite_11" name="FourEBP1" simulationType="reactions" compartment="Compartment_0" addNoise="false" particle_numbers="6.02214179e+24">
+      <Metabolite key="Metabolite_11" name="FourEBP1" simulationType="reactions" compartment="Compartment_0" addNoise="false">
         <MiriamAnnotation>
-          <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#Metabolite_11">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-10-10T12:46:51Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-10-10T13:01:23Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
           </rdf:RDF>
         </MiriamAnnotation>
       </Metabolite>
-      <Metabolite key="Metabolite_12" name="FourEBP1pT37_46" simulationType="reactions" compartment="Compartment_0" addNoise="false" particle_numbers="0.0">
+      <Metabolite key="Metabolite_12" name="FourEBP1pT37_46" simulationType="reactions" compartment="Compartment_0" addNoise="false">
         <MiriamAnnotation>
-          <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#Metabolite_12">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-10-10T12:46:51Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-10-10T13:01:23Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
           </rdf:RDF>
         </MiriamAnnotation>
       </Metabolite>
-      <Metabolite key="Metabolite_13" name="PI3K" simulationType="reactions" compartment="Compartment_0" addNoise="false" particle_numbers="6.02214179e+24">
+      <Metabolite key="Metabolite_13" name="PI3K" simulationType="reactions" compartment="Compartment_0" addNoise="false">
         <MiriamAnnotation>
-          <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#Metabolite_13">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-10-10T12:46:51Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-10-10T13:01:23Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
           </rdf:RDF>
         </MiriamAnnotation>
       </Metabolite>
-      <Metabolite key="Metabolite_14" name="pPI3K" simulationType="reactions" compartment="Compartment_0" addNoise="false" particle_numbers="0.0">
+      <Metabolite key="Metabolite_14" name="pPI3K" simulationType="reactions" compartment="Compartment_0" addNoise="false">
         <MiriamAnnotation>
-          <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#Metabolite_14">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-10-10T12:46:51Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-10-10T13:01:23Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
           </rdf:RDF>
         </MiriamAnnotation>
       </Metabolite>
-      <Metabolite key="Metabolite_15" name="pmTORC1" simulationType="reactions" compartment="Compartment_0" addNoise="false" particle_numbers="0.0">
+      <Metabolite key="Metabolite_15" name="pmTORC1" simulationType="reactions" compartment="Compartment_0" addNoise="false">
         <MiriamAnnotation>
-          <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#Metabolite_15">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-10-10T12:46:51Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-10-10T13:01:23Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
           </rdf:RDF>
         </MiriamAnnotation>
       </Metabolite>
-      <Metabolite key="Metabolite_16" name="mTORC1cyt" simulationType="reactions" compartment="Compartment_0" addNoise="false" particle_numbers="6.02214179e+24">
+      <Metabolite key="Metabolite_16" name="mTORC1cyt" simulationType="reactions" compartment="Compartment_0" addNoise="false">
         <MiriamAnnotation>
-          <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#Metabolite_16">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-10-10T12:46:51Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-10-10T13:01:23Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
           </rdf:RDF>
         </MiriamAnnotation>
       </Metabolite>
-      <Metabolite key="Metabolite_17" name="mTORC1lys" simulationType="reactions" compartment="Compartment_0" addNoise="false" particle_numbers="0.0">
+      <Metabolite key="Metabolite_17" name="mTORC1lys" simulationType="reactions" compartment="Compartment_0" addNoise="false">
         <MiriamAnnotation>
-          <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#Metabolite_17">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-10-10T12:46:51Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-10-10T13:01:23Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
@@ -520,286 +526,273 @@ Reaction scheme where the products are created from the reactants and the change
       </Metabolite>
     </ListOfMetabolites>
     <ListOfModelValues>
-      <ModelValue key="ModelValue_0" name="Insulin" simulationType="fixed" addNoise="false" initial_value="1.0">
+      <ModelValue key="ModelValue_0" name="Insulin" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
-          <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#ModelValue_0">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-10-10T12:46:51Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-10-10T13:01:23Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
           </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_1" name="AA" simulationType="fixed" addNoise="false" initial_value="1.0">
+      <ModelValue key="ModelValue_1" name="AA" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
-          <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#ModelValue_1">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-10-10T12:46:51Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-10-10T13:01:23Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
           </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_2" name="kIRS1Act" simulationType="fixed" addNoise="false" initial_value="0.1">
+      <ModelValue key="ModelValue_2" name="kIRS1Act" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
-          <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#ModelValue_2">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-10-10T12:46:51Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-10-10T13:01:23Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
           </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_3" name="kIRS1Inact" simulationType="fixed" addNoise="false" initial_value="0.1">
+      <ModelValue key="ModelValue_3" name="kIRS1Inact" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
-          <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#ModelValue_3">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-10-10T12:46:51Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-10-10T13:01:23Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
           </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_4" name="kIRS1Phos" simulationType="fixed" addNoise="false" initial_value="0.1">
+      <ModelValue key="ModelValue_4" name="kIRS1Phos" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
-          <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#ModelValue_4">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-10-10T12:46:51Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-10-10T13:01:23Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
           </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_5" name="kIRS1Dephos" simulationType="fixed" addNoise="false" initial_value="0.1">
+      <ModelValue key="ModelValue_6" name="kPI3KPhos" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
-          <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-            <rdf:Description rdf:about="#ModelValue_5">
-              <dcterms:created>
-                <rdf:Description>
-                  <dcterms:W3CDTF>2019-10-10T12:46:51Z</dcterms:W3CDTF>
-                </rdf:Description>
-              </dcterms:created>
-            </rdf:Description>
-          </rdf:RDF>
-        </MiriamAnnotation>
-      </ModelValue>
-      <ModelValue key="ModelValue_6" name="kPI3KPhos" simulationType="fixed" addNoise="false" initial_value="0.1">
-        <MiriamAnnotation>
-          <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#ModelValue_6">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-10-10T12:46:51Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-10-10T13:01:23Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
           </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_7" name="kPI3KDephos" simulationType="fixed" addNoise="false" initial_value="0.1">
+      <ModelValue key="ModelValue_7" name="kPI3KDephos" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
-          <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#ModelValue_7">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-10-10T12:46:51Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-10-10T13:01:23Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
           </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_8" name="kAktPhos" simulationType="fixed" addNoise="false" initial_value="0.1">
+      <ModelValue key="ModelValue_8" name="kAktPhos" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
-          <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#ModelValue_8">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-10-10T12:46:51Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-10-10T13:01:23Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
           </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_9" name="kAktDephos" simulationType="fixed" addNoise="false" initial_value="0.1">
+      <ModelValue key="ModelValue_9" name="kAktDephos" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
-          <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#ModelValue_9">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-10-10T12:46:51Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-10-10T13:01:23Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
           </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_10" name="kTSC2Phos" simulationType="fixed" addNoise="false" initial_value="0.1">
+      <ModelValue key="ModelValue_10" name="kTSC2Phos" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
-          <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#ModelValue_10">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-10-10T12:46:51Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-10-10T13:01:23Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
           </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_11" name="kTSC2Dephos" simulationType="fixed" addNoise="false" initial_value="0.1">
+      <ModelValue key="ModelValue_11" name="kTSC2Dephos" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
-          <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#ModelValue_11">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-10-10T12:46:51Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-10-10T13:01:23Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
           </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_12" name="kmTORC1cytToLys" simulationType="fixed" addNoise="false" initial_value="0.1">
+      <ModelValue key="ModelValue_12" name="kmTORC1cytToLys" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
-          <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#ModelValue_12">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-10-10T12:46:51Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-10-10T13:01:23Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
           </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_13" name="kmTORC1LysToCyt" simulationType="fixed" addNoise="false" initial_value="0.1">
+      <ModelValue key="ModelValue_13" name="kmTORC1LysToCyt" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
-          <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#ModelValue_13">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-10-10T12:46:51Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-10-10T13:01:23Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
           </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_14" name="kmTORC1Phos" simulationType="fixed" addNoise="false" initial_value="0.1">
+      <ModelValue key="ModelValue_14" name="kmTORC1Phos" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
-          <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#ModelValue_14">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-10-10T12:46:51Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-10-10T13:01:23Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
           </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_15" name="kmTORC1Dephos" simulationType="fixed" addNoise="false" initial_value="0.1">
+      <ModelValue key="ModelValue_15" name="kmTORC1Dephos" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
-          <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#ModelValue_15">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-10-10T12:46:51Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-10-10T13:01:23Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
           </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_16" name="kPras40Phos" simulationType="fixed" addNoise="false" initial_value="0.1">
+      <ModelValue key="ModelValue_16" name="kPras40Phos" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
-          <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#ModelValue_16">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-10-10T12:46:51Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-10-10T13:01:23Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
           </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_17" name="kPras40Dephos" simulationType="fixed" addNoise="false" initial_value="0.1">
+      <ModelValue key="ModelValue_17" name="kPras40Dephos" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
-          <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#ModelValue_17">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-10-10T12:46:51Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-10-10T13:01:23Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
           </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_18" name="kFourEBP1Phos" simulationType="fixed" addNoise="false" initial_value="0.1">
+      <ModelValue key="ModelValue_18" name="kFourEBP1Phos" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
-          <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#ModelValue_18">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-10-10T12:46:51Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-10-10T13:01:23Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
           </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_19" name="kFourEBP1Dephos" simulationType="fixed" addNoise="false" initial_value="0.1">
+      <ModelValue key="ModelValue_19" name="kFourEBP1Dephos" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
-          <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#ModelValue_19">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-10-10T12:46:51Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-10-10T13:01:23Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
           </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_20" name="kS6KPhos" simulationType="fixed" addNoise="false" initial_value="0.1">
+      <ModelValue key="ModelValue_20" name="kS6KPhos" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
-          <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#ModelValue_20">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-10-10T12:46:51Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-10-10T13:01:23Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
           </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_21" name="kS6KDephos" simulationType="fixed" addNoise="false" initial_value="0.1">
+      <ModelValue key="ModelValue_21" name="kS6KDephos" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
-          <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#ModelValue_21">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-10-10T12:46:51Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-10-10T13:01:23Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
@@ -810,11 +803,11 @@ Reaction scheme where the products are created from the reactants and the change
     <ListOfReactions>
       <Reaction key="Reaction_0" name="R1f" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
-          <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#Reaction_0">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-10-10T12:46:51Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-10-10T13:01:23Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
@@ -828,17 +821,17 @@ Reaction scheme where the products are created from the reactants and the change
         </ListOfProducts>
         <ListOfConstants>
           <Constant key="Parameter_5013" name="Insulin" value="1"/>
-          <Constant key="Parameter_5012" name="kIRS1Act" value="0.1"/>
+          <Constant key="Parameter_5012" name="kIRS1Act" value="0.05"/>
         </ListOfConstants>
-        <KineticLaw function="Function_51" unitType="Default" scalingCompartment="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell]">
+        <KineticLaw function="Function_40" unitType="Default" scalingCompartment="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell]">
           <ListOfCallParameters>
-            <CallParameter functionParameter="FunctionParameter_319">
+            <CallParameter functionParameter="FunctionParameter_264">
               <SourceParameter reference="Metabolite_0"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_320">
+            <CallParameter functionParameter="FunctionParameter_263">
               <SourceParameter reference="ModelValue_0"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_321">
+            <CallParameter functionParameter="FunctionParameter_262">
               <SourceParameter reference="ModelValue_2"/>
             </CallParameter>
           </ListOfCallParameters>
@@ -846,11 +839,11 @@ Reaction scheme where the products are created from the reactants and the change
       </Reaction>
       <Reaction key="Reaction_1" name="R2f" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
-          <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#Reaction_1">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-10-10T12:46:51Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-10-10T13:01:23Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
@@ -866,17 +859,17 @@ Reaction scheme where the products are created from the reactants and the change
           <Modifier metabolite="Metabolite_10" stoichiometry="1"/>
         </ListOfModifiers>
         <ListOfConstants>
-          <Constant key="Parameter_5011" name="kIRS1Phos" value="0.1"/>
+          <Constant key="Parameter_5011" name="kIRS1Phos" value="0.5"/>
         </ListOfConstants>
-        <KineticLaw function="Function_52" unitType="Default" scalingCompartment="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell]">
+        <KineticLaw function="Function_41" unitType="Default" scalingCompartment="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell]">
           <ListOfCallParameters>
-            <CallParameter functionParameter="FunctionParameter_325">
+            <CallParameter functionParameter="FunctionParameter_265">
               <SourceParameter reference="Metabolite_1"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_326">
+            <CallParameter functionParameter="FunctionParameter_250">
               <SourceParameter reference="Metabolite_10"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_327">
+            <CallParameter functionParameter="FunctionParameter_261">
               <SourceParameter reference="ModelValue_4"/>
             </CallParameter>
           </ListOfCallParameters>
@@ -884,11 +877,11 @@ Reaction scheme where the products are created from the reactants and the change
       </Reaction>
       <Reaction key="Reaction_2" name="R2b" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
-          <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#Reaction_2">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-10-10T12:46:51Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-10-10T13:01:23Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
@@ -901,7 +894,7 @@ Reaction scheme where the products are created from the reactants and the change
           <Product metabolite="Metabolite_0" stoichiometry="1"/>
         </ListOfProducts>
         <ListOfConstants>
-          <Constant key="Parameter_5010" name="k1" value="0.1"/>
+          <Constant key="Parameter_5010" name="k1" value="0.5"/>
         </ListOfConstants>
         <KineticLaw function="Function_13" unitType="Default" scalingCompartment="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell]">
           <ListOfCallParameters>
@@ -916,11 +909,11 @@ Reaction scheme where the products are created from the reactants and the change
       </Reaction>
       <Reaction key="Reaction_3" name="R3f" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
-          <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#Reaction_3">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-10-10T12:46:51Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-10-10T13:01:23Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
@@ -936,17 +929,17 @@ Reaction scheme where the products are created from the reactants and the change
           <Modifier metabolite="Metabolite_1" stoichiometry="1"/>
         </ListOfModifiers>
         <ListOfConstants>
-          <Constant key="Parameter_5009" name="kPI3KPhos" value="0.1"/>
+          <Constant key="Parameter_5009" name="kPI3KPhos" value="0.05"/>
         </ListOfConstants>
-        <KineticLaw function="Function_53" unitType="Default" scalingCompartment="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell]">
+        <KineticLaw function="Function_42" unitType="Default" scalingCompartment="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell]">
           <ListOfCallParameters>
-            <CallParameter functionParameter="FunctionParameter_333">
+            <CallParameter functionParameter="FunctionParameter_268">
               <SourceParameter reference="Metabolite_1"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_334">
+            <CallParameter functionParameter="FunctionParameter_267">
               <SourceParameter reference="Metabolite_13"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_335">
+            <CallParameter functionParameter="FunctionParameter_266">
               <SourceParameter reference="ModelValue_6"/>
             </CallParameter>
           </ListOfCallParameters>
@@ -954,11 +947,11 @@ Reaction scheme where the products are created from the reactants and the change
       </Reaction>
       <Reaction key="Reaction_4" name="R3b" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
-          <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#Reaction_4">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-10-10T12:46:51Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-10-10T13:01:23Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
@@ -971,7 +964,7 @@ Reaction scheme where the products are created from the reactants and the change
           <Product metabolite="Metabolite_13" stoichiometry="1"/>
         </ListOfProducts>
         <ListOfConstants>
-          <Constant key="Parameter_5008" name="k1" value="0.1"/>
+          <Constant key="Parameter_5008" name="k1" value="0.05"/>
         </ListOfConstants>
         <KineticLaw function="Function_13" unitType="Default" scalingCompartment="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell]">
           <ListOfCallParameters>
@@ -986,11 +979,11 @@ Reaction scheme where the products are created from the reactants and the change
       </Reaction>
       <Reaction key="Reaction_5" name="R4f" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
-          <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#Reaction_5">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-10-10T12:46:51Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-10-10T13:01:23Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
@@ -1006,17 +999,17 @@ Reaction scheme where the products are created from the reactants and the change
           <Modifier metabolite="Metabolite_14" stoichiometry="1"/>
         </ListOfModifiers>
         <ListOfConstants>
-          <Constant key="Parameter_5007" name="kAktPhos" value="0.1"/>
+          <Constant key="Parameter_5007" name="kAktPhos" value="0.05"/>
         </ListOfConstants>
-        <KineticLaw function="Function_54" unitType="Default" scalingCompartment="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell]">
+        <KineticLaw function="Function_43" unitType="Default" scalingCompartment="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell]">
           <ListOfCallParameters>
-            <CallParameter functionParameter="FunctionParameter_341">
+            <CallParameter functionParameter="FunctionParameter_271">
               <SourceParameter reference="Metabolite_3"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_342">
+            <CallParameter functionParameter="FunctionParameter_270">
               <SourceParameter reference="ModelValue_8"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_343">
+            <CallParameter functionParameter="FunctionParameter_269">
               <SourceParameter reference="Metabolite_14"/>
             </CallParameter>
           </ListOfCallParameters>
@@ -1024,11 +1017,11 @@ Reaction scheme where the products are created from the reactants and the change
       </Reaction>
       <Reaction key="Reaction_6" name="R4b" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
-          <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#Reaction_6">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-10-10T12:46:51Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-10-10T13:01:23Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
@@ -1044,17 +1037,17 @@ Reaction scheme where the products are created from the reactants and the change
           <Modifier metabolite="Metabolite_14" stoichiometry="1"/>
         </ListOfModifiers>
         <ListOfConstants>
-          <Constant key="Parameter_5006" name="kAktDephos" value="0.1"/>
+          <Constant key="Parameter_5006" name="kAktDephos" value="0.05"/>
         </ListOfConstants>
-        <KineticLaw function="Function_55" unitType="Default" scalingCompartment="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell]">
+        <KineticLaw function="Function_44" unitType="Default" scalingCompartment="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell]">
           <ListOfCallParameters>
-            <CallParameter functionParameter="FunctionParameter_347">
+            <CallParameter functionParameter="FunctionParameter_274">
               <SourceParameter reference="Metabolite_4"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_348">
+            <CallParameter functionParameter="FunctionParameter_273">
               <SourceParameter reference="ModelValue_9"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_349">
+            <CallParameter functionParameter="FunctionParameter_272">
               <SourceParameter reference="Metabolite_14"/>
             </CallParameter>
           </ListOfCallParameters>
@@ -1062,11 +1055,11 @@ Reaction scheme where the products are created from the reactants and the change
       </Reaction>
       <Reaction key="Reaction_7" name="R5f" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
-          <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#Reaction_7">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-10-10T12:46:51Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-10-10T13:01:23Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
@@ -1082,17 +1075,17 @@ Reaction scheme where the products are created from the reactants and the change
           <Modifier metabolite="Metabolite_4" stoichiometry="1"/>
         </ListOfModifiers>
         <ListOfConstants>
-          <Constant key="Parameter_5005" name="kTSC2Phos" value="0.1"/>
+          <Constant key="Parameter_5005" name="kTSC2Phos" value="0.05"/>
         </ListOfConstants>
-        <KineticLaw function="Function_56" unitType="Default" scalingCompartment="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell]">
+        <KineticLaw function="Function_45" unitType="Default" scalingCompartment="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell]">
           <ListOfCallParameters>
-            <CallParameter functionParameter="FunctionParameter_353">
+            <CallParameter functionParameter="FunctionParameter_277">
               <SourceParameter reference="Metabolite_4"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_354">
+            <CallParameter functionParameter="FunctionParameter_276">
               <SourceParameter reference="Metabolite_5"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_355">
+            <CallParameter functionParameter="FunctionParameter_275">
               <SourceParameter reference="ModelValue_10"/>
             </CallParameter>
           </ListOfCallParameters>
@@ -1100,11 +1093,11 @@ Reaction scheme where the products are created from the reactants and the change
       </Reaction>
       <Reaction key="Reaction_8" name="R5b" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
-          <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#Reaction_8">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-10-10T12:46:51Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-10-10T13:01:23Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
@@ -1117,7 +1110,7 @@ Reaction scheme where the products are created from the reactants and the change
           <Product metabolite="Metabolite_5" stoichiometry="1"/>
         </ListOfProducts>
         <ListOfConstants>
-          <Constant key="Parameter_5004" name="k1" value="0.1"/>
+          <Constant key="Parameter_5004" name="k1" value="0.05"/>
         </ListOfConstants>
         <KineticLaw function="Function_13" unitType="Default" scalingCompartment="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell]">
           <ListOfCallParameters>
@@ -1132,11 +1125,11 @@ Reaction scheme where the products are created from the reactants and the change
       </Reaction>
       <Reaction key="Reaction_9" name="R6f" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
-          <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#Reaction_9">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-10-10T12:46:51Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-10-10T13:01:23Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
@@ -1150,17 +1143,17 @@ Reaction scheme where the products are created from the reactants and the change
         </ListOfProducts>
         <ListOfConstants>
           <Constant key="Parameter_5003" name="AA" value="1"/>
-          <Constant key="Parameter_5002" name="kmTORC1cytToLys" value="0.1"/>
+          <Constant key="Parameter_5002" name="kmTORC1cytToLys" value="0.05"/>
         </ListOfConstants>
-        <KineticLaw function="Function_57" unitType="Default" scalingCompartment="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell]">
+        <KineticLaw function="Function_46" unitType="Default" scalingCompartment="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell]">
           <ListOfCallParameters>
-            <CallParameter functionParameter="FunctionParameter_361">
+            <CallParameter functionParameter="FunctionParameter_280">
               <SourceParameter reference="ModelValue_1"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_362">
+            <CallParameter functionParameter="FunctionParameter_279">
               <SourceParameter reference="ModelValue_12"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_363">
+            <CallParameter functionParameter="FunctionParameter_278">
               <SourceParameter reference="Metabolite_16"/>
             </CallParameter>
           </ListOfCallParameters>
@@ -1168,11 +1161,11 @@ Reaction scheme where the products are created from the reactants and the change
       </Reaction>
       <Reaction key="Reaction_10" name="R6b" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
-          <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#Reaction_10">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-10-10T12:46:51Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-10-10T13:01:23Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
@@ -1185,7 +1178,7 @@ Reaction scheme where the products are created from the reactants and the change
           <Product metabolite="Metabolite_16" stoichiometry="1"/>
         </ListOfProducts>
         <ListOfConstants>
-          <Constant key="Parameter_5001" name="k1" value="0.1"/>
+          <Constant key="Parameter_5001" name="k1" value="0.05"/>
         </ListOfConstants>
         <KineticLaw function="Function_13" unitType="Default" scalingCompartment="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell]">
           <ListOfCallParameters>
@@ -1200,11 +1193,11 @@ Reaction scheme where the products are created from the reactants and the change
       </Reaction>
       <Reaction key="Reaction_11" name="R7f" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
-          <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#Reaction_11">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-10-10T12:46:51Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-10-10T13:01:23Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
@@ -1220,17 +1213,17 @@ Reaction scheme where the products are created from the reactants and the change
           <Modifier metabolite="Metabolite_5" stoichiometry="1"/>
         </ListOfModifiers>
         <ListOfConstants>
-          <Constant key="Parameter_5000" name="kmTORC1Phos" value="0.1"/>
+          <Constant key="Parameter_5000" name="kmTORC1Phos" value="0.05"/>
         </ListOfConstants>
-        <KineticLaw function="Function_58" unitType="Default" scalingCompartment="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell]">
+        <KineticLaw function="Function_47" unitType="Default" scalingCompartment="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell]">
           <ListOfCallParameters>
-            <CallParameter functionParameter="FunctionParameter_369">
+            <CallParameter functionParameter="FunctionParameter_283">
               <SourceParameter reference="Metabolite_5"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_370">
+            <CallParameter functionParameter="FunctionParameter_282">
               <SourceParameter reference="ModelValue_14"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_371">
+            <CallParameter functionParameter="FunctionParameter_281">
               <SourceParameter reference="Metabolite_17"/>
             </CallParameter>
           </ListOfCallParameters>
@@ -1238,11 +1231,11 @@ Reaction scheme where the products are created from the reactants and the change
       </Reaction>
       <Reaction key="Reaction_12" name="R7b" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
-          <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#Reaction_12">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-10-10T12:46:51Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-10-10T13:01:23Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
@@ -1255,7 +1248,7 @@ Reaction scheme where the products are created from the reactants and the change
           <Product metabolite="Metabolite_17" stoichiometry="1"/>
         </ListOfProducts>
         <ListOfConstants>
-          <Constant key="Parameter_4999" name="k1" value="0.1"/>
+          <Constant key="Parameter_4999" name="k1" value="0.05"/>
         </ListOfConstants>
         <KineticLaw function="Function_13" unitType="Default" scalingCompartment="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell]">
           <ListOfCallParameters>
@@ -1270,11 +1263,11 @@ Reaction scheme where the products are created from the reactants and the change
       </Reaction>
       <Reaction key="Reaction_13" name="R8f" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
-          <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#Reaction_13">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-10-10T12:46:51Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-10-10T13:01:23Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
@@ -1290,17 +1283,17 @@ Reaction scheme where the products are created from the reactants and the change
           <Modifier metabolite="Metabolite_4" stoichiometry="1"/>
         </ListOfModifiers>
         <ListOfConstants>
-          <Constant key="Parameter_4998" name="kPras40Phos" value="0.1"/>
+          <Constant key="Parameter_4998" name="kPras40Phos" value="0.05"/>
         </ListOfConstants>
-        <KineticLaw function="Function_59" unitType="Default" scalingCompartment="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell]">
+        <KineticLaw function="Function_48" unitType="Default" scalingCompartment="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell]">
           <ListOfCallParameters>
-            <CallParameter functionParameter="FunctionParameter_377">
+            <CallParameter functionParameter="FunctionParameter_286">
               <SourceParameter reference="Metabolite_4"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_378">
+            <CallParameter functionParameter="FunctionParameter_285">
               <SourceParameter reference="Metabolite_7"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_379">
+            <CallParameter functionParameter="FunctionParameter_284">
               <SourceParameter reference="ModelValue_16"/>
             </CallParameter>
           </ListOfCallParameters>
@@ -1308,11 +1301,11 @@ Reaction scheme where the products are created from the reactants and the change
       </Reaction>
       <Reaction key="Reaction_14" name="R8b" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
-          <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#Reaction_14">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-10-10T12:46:51Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-10-10T13:01:23Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
@@ -1325,7 +1318,7 @@ Reaction scheme where the products are created from the reactants and the change
           <Product metabolite="Metabolite_7" stoichiometry="1"/>
         </ListOfProducts>
         <ListOfConstants>
-          <Constant key="Parameter_4997" name="k1" value="0.1"/>
+          <Constant key="Parameter_4997" name="k1" value="0.05"/>
         </ListOfConstants>
         <KineticLaw function="Function_13" unitType="Default" scalingCompartment="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell]">
           <ListOfCallParameters>
@@ -1340,11 +1333,11 @@ Reaction scheme where the products are created from the reactants and the change
       </Reaction>
       <Reaction key="Reaction_15" name="R9f" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
-          <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#Reaction_15">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-10-10T12:46:51Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-10-10T13:01:23Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
@@ -1360,17 +1353,17 @@ Reaction scheme where the products are created from the reactants and the change
           <Modifier metabolite="Metabolite_15" stoichiometry="1"/>
         </ListOfModifiers>
         <ListOfConstants>
-          <Constant key="Parameter_4996" name="kFourEBP1Phos" value="0.1"/>
+          <Constant key="Parameter_4996" name="kFourEBP1Phos" value="0.5"/>
         </ListOfConstants>
-        <KineticLaw function="Function_60" unitType="Default" scalingCompartment="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell]">
+        <KineticLaw function="Function_49" unitType="Default" scalingCompartment="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell]">
           <ListOfCallParameters>
-            <CallParameter functionParameter="FunctionParameter_385">
+            <CallParameter functionParameter="FunctionParameter_289">
               <SourceParameter reference="Metabolite_11"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_386">
+            <CallParameter functionParameter="FunctionParameter_288">
               <SourceParameter reference="ModelValue_18"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_387">
+            <CallParameter functionParameter="FunctionParameter_287">
               <SourceParameter reference="Metabolite_15"/>
             </CallParameter>
           </ListOfCallParameters>
@@ -1378,11 +1371,11 @@ Reaction scheme where the products are created from the reactants and the change
       </Reaction>
       <Reaction key="Reaction_16" name="R9b" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
-          <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#Reaction_16">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-10-10T12:46:51Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-10-10T13:01:23Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
@@ -1395,7 +1388,7 @@ Reaction scheme where the products are created from the reactants and the change
           <Product metabolite="Metabolite_11" stoichiometry="1"/>
         </ListOfProducts>
         <ListOfConstants>
-          <Constant key="Parameter_4995" name="k1" value="0.1"/>
+          <Constant key="Parameter_4995" name="k1" value="0.05"/>
         </ListOfConstants>
         <KineticLaw function="Function_13" unitType="Default" scalingCompartment="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell]">
           <ListOfCallParameters>
@@ -1410,11 +1403,11 @@ Reaction scheme where the products are created from the reactants and the change
       </Reaction>
       <Reaction key="Reaction_17" name="R10f" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
-          <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#Reaction_17">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-10-10T12:46:51Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-10-10T13:01:23Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
@@ -1430,17 +1423,17 @@ Reaction scheme where the products are created from the reactants and the change
           <Modifier metabolite="Metabolite_15" stoichiometry="1"/>
         </ListOfModifiers>
         <ListOfConstants>
-          <Constant key="Parameter_4994" name="kS6KPhos" value="0.1"/>
+          <Constant key="Parameter_4994" name="kS6KPhos" value="0.5"/>
         </ListOfConstants>
-        <KineticLaw function="Function_61" unitType="Default" scalingCompartment="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell]">
+        <KineticLaw function="Function_50" unitType="Default" scalingCompartment="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell]">
           <ListOfCallParameters>
-            <CallParameter functionParameter="FunctionParameter_393">
+            <CallParameter functionParameter="FunctionParameter_292">
               <SourceParameter reference="Metabolite_9"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_394">
+            <CallParameter functionParameter="FunctionParameter_291">
               <SourceParameter reference="ModelValue_20"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_395">
+            <CallParameter functionParameter="FunctionParameter_290">
               <SourceParameter reference="Metabolite_15"/>
             </CallParameter>
           </ListOfCallParameters>
@@ -1448,11 +1441,11 @@ Reaction scheme where the products are created from the reactants and the change
       </Reaction>
       <Reaction key="Reaction_18" name="R10b" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
-          <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#Reaction_18">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-10-10T12:46:51Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-10-10T13:01:23Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
@@ -1465,7 +1458,7 @@ Reaction scheme where the products are created from the reactants and the change
           <Product metabolite="Metabolite_9" stoichiometry="1"/>
         </ListOfProducts>
         <ListOfConstants>
-          <Constant key="Parameter_4993" name="k1" value="0.1"/>
+          <Constant key="Parameter_4993" name="k1" value="0.05"/>
         </ListOfConstants>
         <KineticLaw function="Function_13" unitType="Default" scalingCompartment="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell]">
           <ListOfCallParameters>
@@ -1482,15 +1475,17 @@ Reaction scheme where the products are created from the reactants and the change
     <ListOfModelParameterSets activeSet="ModelParameterSet_1">
       <ModelParameterSet key="ModelParameterSet_1" name="Initial State">
         <MiriamAnnotation>
-          <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-            <rdf:Description rdf:about="#ModelParameterSet_1">
-              <dcterms:created>
-                <rdf:Description>
-                  <dcterms:W3CDTF>2019-10-10T12:46:51Z</dcterms:W3CDTF>
-                </rdf:Description>
-              </dcterms:created>
-            </rdf:Description>
-          </rdf:RDF>
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:Description rdf:about="#ModelParameterSet_1">
+<dcterms:created>
+<rdf:Description>
+<dcterms:W3CDTF>2019-10-10T13:01:25Z</dcterms:W3CDTF>
+</rdf:Description>
+</dcterms:created>
+</rdf:Description>
+</rdf:RDF>
         </MiriamAnnotation>
         <ModelParameterGroup cn="String=Initial Time" type="Group">
           <ModelParameter cn="CN=Root,Model=SimpleAktModel" value="0" type="Model" simulationType="time"/>
@@ -1521,168 +1516,167 @@ Reaction scheme where the products are created from the reactants and the change
         <ModelParameterGroup cn="String=Initial Global Quantities" type="Group">
           <ModelParameter cn="CN=Root,Model=SimpleAktModel,Vector=Values[Insulin]" value="1" type="ModelValue" simulationType="fixed"/>
           <ModelParameter cn="CN=Root,Model=SimpleAktModel,Vector=Values[AA]" value="1" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=SimpleAktModel,Vector=Values[kIRS1Act]" value="0.10000000000000001" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=SimpleAktModel,Vector=Values[kIRS1Inact]" value="0.10000000000000001" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=SimpleAktModel,Vector=Values[kIRS1Phos]" value="0.10000000000000001" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=SimpleAktModel,Vector=Values[kIRS1Dephos]" value="0.10000000000000001" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=SimpleAktModel,Vector=Values[kPI3KPhos]" value="0.10000000000000001" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=SimpleAktModel,Vector=Values[kPI3KDephos]" value="0.10000000000000001" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=SimpleAktModel,Vector=Values[kAktPhos]" value="0.10000000000000001" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=SimpleAktModel,Vector=Values[kAktDephos]" value="0.10000000000000001" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=SimpleAktModel,Vector=Values[kTSC2Phos]" value="0.10000000000000001" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=SimpleAktModel,Vector=Values[kTSC2Dephos]" value="0.10000000000000001" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=SimpleAktModel,Vector=Values[kmTORC1cytToLys]" value="0.10000000000000001" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=SimpleAktModel,Vector=Values[kmTORC1LysToCyt]" value="0.10000000000000001" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=SimpleAktModel,Vector=Values[kmTORC1Phos]" value="0.10000000000000001" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=SimpleAktModel,Vector=Values[kmTORC1Dephos]" value="0.10000000000000001" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=SimpleAktModel,Vector=Values[kPras40Phos]" value="0.10000000000000001" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=SimpleAktModel,Vector=Values[kPras40Dephos]" value="0.10000000000000001" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=SimpleAktModel,Vector=Values[kFourEBP1Phos]" value="0.10000000000000001" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=SimpleAktModel,Vector=Values[kFourEBP1Dephos]" value="0.10000000000000001" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=SimpleAktModel,Vector=Values[kS6KPhos]" value="0.10000000000000001" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=SimpleAktModel,Vector=Values[kS6KDephos]" value="0.10000000000000001" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SimpleAktModel,Vector=Values[kIRS1Act]" value="0.050000000000000003" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SimpleAktModel,Vector=Values[kIRS1Inact]" value="0.5" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SimpleAktModel,Vector=Values[kIRS1Phos]" value="0.5" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SimpleAktModel,Vector=Values[kPI3KPhos]" value="0.050000000000000003" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SimpleAktModel,Vector=Values[kPI3KDephos]" value="0.050000000000000003" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SimpleAktModel,Vector=Values[kAktPhos]" value="0.050000000000000003" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SimpleAktModel,Vector=Values[kAktDephos]" value="0.050000000000000003" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SimpleAktModel,Vector=Values[kTSC2Phos]" value="0.050000000000000003" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SimpleAktModel,Vector=Values[kTSC2Dephos]" value="0.050000000000000003" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SimpleAktModel,Vector=Values[kmTORC1cytToLys]" value="0.050000000000000003" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SimpleAktModel,Vector=Values[kmTORC1LysToCyt]" value="0.050000000000000003" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SimpleAktModel,Vector=Values[kmTORC1Phos]" value="0.050000000000000003" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SimpleAktModel,Vector=Values[kmTORC1Dephos]" value="0.050000000000000003" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SimpleAktModel,Vector=Values[kPras40Phos]" value="0.050000000000000003" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SimpleAktModel,Vector=Values[kPras40Dephos]" value="0.050000000000000003" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SimpleAktModel,Vector=Values[kFourEBP1Phos]" value="0.5" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SimpleAktModel,Vector=Values[kFourEBP1Dephos]" value="0.050000000000000003" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SimpleAktModel,Vector=Values[kS6KPhos]" value="0.5" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SimpleAktModel,Vector=Values[kS6KDephos]" value="0.050000000000000003" type="ModelValue" simulationType="fixed"/>
         </ModelParameterGroup>
         <ModelParameterGroup cn="String=Kinetic Parameters" type="Group">
           <ModelParameterGroup cn="CN=Root,Model=SimpleAktModel,Vector=Reactions[R1f]" type="Reaction">
             <ModelParameter cn="CN=Root,Model=SimpleAktModel,Vector=Reactions[R1f],ParameterGroup=Parameters,Parameter=Insulin" value="1" type="ReactionParameter" simulationType="assignment">
               <InitialExpression>
-                &lt;CN=Root,Model=SimpleAktModel,Vector=Values[Insulin],Reference=InitialValue&gt;
+                &lt;CN=Root,Model=SimpleAktModel,Vector=Values[Insulin],Reference=InitialValue>
               </InitialExpression>
             </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=SimpleAktModel,Vector=Reactions[R1f],ParameterGroup=Parameters,Parameter=kIRS1Act" value="0.10000000000000001" type="ReactionParameter" simulationType="assignment">
+            <ModelParameter cn="CN=Root,Model=SimpleAktModel,Vector=Reactions[R1f],ParameterGroup=Parameters,Parameter=kIRS1Act" value="0.050000000000000003" type="ReactionParameter" simulationType="assignment">
               <InitialExpression>
-                &lt;CN=Root,Model=SimpleAktModel,Vector=Values[kIRS1Act],Reference=InitialValue&gt;
+                &lt;CN=Root,Model=SimpleAktModel,Vector=Values[kIRS1Act],Reference=InitialValue>
               </InitialExpression>
             </ModelParameter>
           </ModelParameterGroup>
           <ModelParameterGroup cn="CN=Root,Model=SimpleAktModel,Vector=Reactions[R2f]" type="Reaction">
-            <ModelParameter cn="CN=Root,Model=SimpleAktModel,Vector=Reactions[R2f],ParameterGroup=Parameters,Parameter=kIRS1Phos" value="0.10000000000000001" type="ReactionParameter" simulationType="assignment">
+            <ModelParameter cn="CN=Root,Model=SimpleAktModel,Vector=Reactions[R2f],ParameterGroup=Parameters,Parameter=kIRS1Phos" value="0.5" type="ReactionParameter" simulationType="assignment">
               <InitialExpression>
-                &lt;CN=Root,Model=SimpleAktModel,Vector=Values[kIRS1Phos],Reference=InitialValue&gt;
+                &lt;CN=Root,Model=SimpleAktModel,Vector=Values[kIRS1Phos],Reference=InitialValue>
               </InitialExpression>
             </ModelParameter>
           </ModelParameterGroup>
           <ModelParameterGroup cn="CN=Root,Model=SimpleAktModel,Vector=Reactions[R2b]" type="Reaction">
-            <ModelParameter cn="CN=Root,Model=SimpleAktModel,Vector=Reactions[R2b],ParameterGroup=Parameters,Parameter=k1" value="0.10000000000000001" type="ReactionParameter" simulationType="assignment">
+            <ModelParameter cn="CN=Root,Model=SimpleAktModel,Vector=Reactions[R2b],ParameterGroup=Parameters,Parameter=k1" value="0.5" type="ReactionParameter" simulationType="assignment">
               <InitialExpression>
-                &lt;CN=Root,Model=SimpleAktModel,Vector=Values[kIRS1Inact],Reference=InitialValue&gt;
+                &lt;CN=Root,Model=SimpleAktModel,Vector=Values[kIRS1Inact],Reference=InitialValue>
               </InitialExpression>
             </ModelParameter>
           </ModelParameterGroup>
           <ModelParameterGroup cn="CN=Root,Model=SimpleAktModel,Vector=Reactions[R3f]" type="Reaction">
-            <ModelParameter cn="CN=Root,Model=SimpleAktModel,Vector=Reactions[R3f],ParameterGroup=Parameters,Parameter=kPI3KPhos" value="0.10000000000000001" type="ReactionParameter" simulationType="assignment">
+            <ModelParameter cn="CN=Root,Model=SimpleAktModel,Vector=Reactions[R3f],ParameterGroup=Parameters,Parameter=kPI3KPhos" value="0.050000000000000003" type="ReactionParameter" simulationType="assignment">
               <InitialExpression>
-                &lt;CN=Root,Model=SimpleAktModel,Vector=Values[kPI3KPhos],Reference=InitialValue&gt;
+                &lt;CN=Root,Model=SimpleAktModel,Vector=Values[kPI3KPhos],Reference=InitialValue>
               </InitialExpression>
             </ModelParameter>
           </ModelParameterGroup>
           <ModelParameterGroup cn="CN=Root,Model=SimpleAktModel,Vector=Reactions[R3b]" type="Reaction">
-            <ModelParameter cn="CN=Root,Model=SimpleAktModel,Vector=Reactions[R3b],ParameterGroup=Parameters,Parameter=k1" value="0.10000000000000001" type="ReactionParameter" simulationType="assignment">
+            <ModelParameter cn="CN=Root,Model=SimpleAktModel,Vector=Reactions[R3b],ParameterGroup=Parameters,Parameter=k1" value="0.050000000000000003" type="ReactionParameter" simulationType="assignment">
               <InitialExpression>
-                &lt;CN=Root,Model=SimpleAktModel,Vector=Values[kPI3KDephos],Reference=InitialValue&gt;
+                &lt;CN=Root,Model=SimpleAktModel,Vector=Values[kPI3KDephos],Reference=InitialValue>
               </InitialExpression>
             </ModelParameter>
           </ModelParameterGroup>
           <ModelParameterGroup cn="CN=Root,Model=SimpleAktModel,Vector=Reactions[R4f]" type="Reaction">
-            <ModelParameter cn="CN=Root,Model=SimpleAktModel,Vector=Reactions[R4f],ParameterGroup=Parameters,Parameter=kAktPhos" value="0.10000000000000001" type="ReactionParameter" simulationType="assignment">
+            <ModelParameter cn="CN=Root,Model=SimpleAktModel,Vector=Reactions[R4f],ParameterGroup=Parameters,Parameter=kAktPhos" value="0.050000000000000003" type="ReactionParameter" simulationType="assignment">
               <InitialExpression>
-                &lt;CN=Root,Model=SimpleAktModel,Vector=Values[kAktPhos],Reference=InitialValue&gt;
+                &lt;CN=Root,Model=SimpleAktModel,Vector=Values[kAktPhos],Reference=InitialValue>
               </InitialExpression>
             </ModelParameter>
           </ModelParameterGroup>
           <ModelParameterGroup cn="CN=Root,Model=SimpleAktModel,Vector=Reactions[R4b]" type="Reaction">
-            <ModelParameter cn="CN=Root,Model=SimpleAktModel,Vector=Reactions[R4b],ParameterGroup=Parameters,Parameter=kAktDephos" value="0.10000000000000001" type="ReactionParameter" simulationType="assignment">
+            <ModelParameter cn="CN=Root,Model=SimpleAktModel,Vector=Reactions[R4b],ParameterGroup=Parameters,Parameter=kAktDephos" value="0.050000000000000003" type="ReactionParameter" simulationType="assignment">
               <InitialExpression>
-                &lt;CN=Root,Model=SimpleAktModel,Vector=Values[kAktDephos],Reference=InitialValue&gt;
+                &lt;CN=Root,Model=SimpleAktModel,Vector=Values[kAktDephos],Reference=InitialValue>
               </InitialExpression>
             </ModelParameter>
           </ModelParameterGroup>
           <ModelParameterGroup cn="CN=Root,Model=SimpleAktModel,Vector=Reactions[R5f]" type="Reaction">
-            <ModelParameter cn="CN=Root,Model=SimpleAktModel,Vector=Reactions[R5f],ParameterGroup=Parameters,Parameter=kTSC2Phos" value="0.10000000000000001" type="ReactionParameter" simulationType="assignment">
+            <ModelParameter cn="CN=Root,Model=SimpleAktModel,Vector=Reactions[R5f],ParameterGroup=Parameters,Parameter=kTSC2Phos" value="0.050000000000000003" type="ReactionParameter" simulationType="assignment">
               <InitialExpression>
-                &lt;CN=Root,Model=SimpleAktModel,Vector=Values[kTSC2Phos],Reference=InitialValue&gt;
+                &lt;CN=Root,Model=SimpleAktModel,Vector=Values[kTSC2Phos],Reference=InitialValue>
               </InitialExpression>
             </ModelParameter>
           </ModelParameterGroup>
           <ModelParameterGroup cn="CN=Root,Model=SimpleAktModel,Vector=Reactions[R5b]" type="Reaction">
-            <ModelParameter cn="CN=Root,Model=SimpleAktModel,Vector=Reactions[R5b],ParameterGroup=Parameters,Parameter=k1" value="0.10000000000000001" type="ReactionParameter" simulationType="assignment">
+            <ModelParameter cn="CN=Root,Model=SimpleAktModel,Vector=Reactions[R5b],ParameterGroup=Parameters,Parameter=k1" value="0.050000000000000003" type="ReactionParameter" simulationType="assignment">
               <InitialExpression>
-                &lt;CN=Root,Model=SimpleAktModel,Vector=Values[kTSC2Dephos],Reference=InitialValue&gt;
+                &lt;CN=Root,Model=SimpleAktModel,Vector=Values[kTSC2Dephos],Reference=InitialValue>
               </InitialExpression>
             </ModelParameter>
           </ModelParameterGroup>
           <ModelParameterGroup cn="CN=Root,Model=SimpleAktModel,Vector=Reactions[R6f]" type="Reaction">
             <ModelParameter cn="CN=Root,Model=SimpleAktModel,Vector=Reactions[R6f],ParameterGroup=Parameters,Parameter=AA" value="1" type="ReactionParameter" simulationType="assignment">
               <InitialExpression>
-                &lt;CN=Root,Model=SimpleAktModel,Vector=Values[AA],Reference=InitialValue&gt;
+                &lt;CN=Root,Model=SimpleAktModel,Vector=Values[AA],Reference=InitialValue>
               </InitialExpression>
             </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=SimpleAktModel,Vector=Reactions[R6f],ParameterGroup=Parameters,Parameter=kmTORC1cytToLys" value="0.10000000000000001" type="ReactionParameter" simulationType="assignment">
+            <ModelParameter cn="CN=Root,Model=SimpleAktModel,Vector=Reactions[R6f],ParameterGroup=Parameters,Parameter=kmTORC1cytToLys" value="0.050000000000000003" type="ReactionParameter" simulationType="assignment">
               <InitialExpression>
-                &lt;CN=Root,Model=SimpleAktModel,Vector=Values[kmTORC1cytToLys],Reference=InitialValue&gt;
+                &lt;CN=Root,Model=SimpleAktModel,Vector=Values[kmTORC1cytToLys],Reference=InitialValue>
               </InitialExpression>
             </ModelParameter>
           </ModelParameterGroup>
           <ModelParameterGroup cn="CN=Root,Model=SimpleAktModel,Vector=Reactions[R6b]" type="Reaction">
-            <ModelParameter cn="CN=Root,Model=SimpleAktModel,Vector=Reactions[R6b],ParameterGroup=Parameters,Parameter=k1" value="0.10000000000000001" type="ReactionParameter" simulationType="assignment">
+            <ModelParameter cn="CN=Root,Model=SimpleAktModel,Vector=Reactions[R6b],ParameterGroup=Parameters,Parameter=k1" value="0.050000000000000003" type="ReactionParameter" simulationType="assignment">
               <InitialExpression>
-                &lt;CN=Root,Model=SimpleAktModel,Vector=Values[kmTORC1LysToCyt],Reference=InitialValue&gt;
+                &lt;CN=Root,Model=SimpleAktModel,Vector=Values[kmTORC1LysToCyt],Reference=InitialValue>
               </InitialExpression>
             </ModelParameter>
           </ModelParameterGroup>
           <ModelParameterGroup cn="CN=Root,Model=SimpleAktModel,Vector=Reactions[R7f]" type="Reaction">
-            <ModelParameter cn="CN=Root,Model=SimpleAktModel,Vector=Reactions[R7f],ParameterGroup=Parameters,Parameter=kmTORC1Phos" value="0.10000000000000001" type="ReactionParameter" simulationType="assignment">
+            <ModelParameter cn="CN=Root,Model=SimpleAktModel,Vector=Reactions[R7f],ParameterGroup=Parameters,Parameter=kmTORC1Phos" value="0.050000000000000003" type="ReactionParameter" simulationType="assignment">
               <InitialExpression>
-                &lt;CN=Root,Model=SimpleAktModel,Vector=Values[kmTORC1Phos],Reference=InitialValue&gt;
+                &lt;CN=Root,Model=SimpleAktModel,Vector=Values[kmTORC1Phos],Reference=InitialValue>
               </InitialExpression>
             </ModelParameter>
           </ModelParameterGroup>
           <ModelParameterGroup cn="CN=Root,Model=SimpleAktModel,Vector=Reactions[R7b]" type="Reaction">
-            <ModelParameter cn="CN=Root,Model=SimpleAktModel,Vector=Reactions[R7b],ParameterGroup=Parameters,Parameter=k1" value="0.10000000000000001" type="ReactionParameter" simulationType="assignment">
+            <ModelParameter cn="CN=Root,Model=SimpleAktModel,Vector=Reactions[R7b],ParameterGroup=Parameters,Parameter=k1" value="0.050000000000000003" type="ReactionParameter" simulationType="assignment">
               <InitialExpression>
-                &lt;CN=Root,Model=SimpleAktModel,Vector=Values[kmTORC1Dephos],Reference=InitialValue&gt;
+                &lt;CN=Root,Model=SimpleAktModel,Vector=Values[kmTORC1Dephos],Reference=InitialValue>
               </InitialExpression>
             </ModelParameter>
           </ModelParameterGroup>
           <ModelParameterGroup cn="CN=Root,Model=SimpleAktModel,Vector=Reactions[R8f]" type="Reaction">
-            <ModelParameter cn="CN=Root,Model=SimpleAktModel,Vector=Reactions[R8f],ParameterGroup=Parameters,Parameter=kPras40Phos" value="0.10000000000000001" type="ReactionParameter" simulationType="assignment">
+            <ModelParameter cn="CN=Root,Model=SimpleAktModel,Vector=Reactions[R8f],ParameterGroup=Parameters,Parameter=kPras40Phos" value="0.050000000000000003" type="ReactionParameter" simulationType="assignment">
               <InitialExpression>
-                &lt;CN=Root,Model=SimpleAktModel,Vector=Values[kPras40Phos],Reference=InitialValue&gt;
+                &lt;CN=Root,Model=SimpleAktModel,Vector=Values[kPras40Phos],Reference=InitialValue>
               </InitialExpression>
             </ModelParameter>
           </ModelParameterGroup>
           <ModelParameterGroup cn="CN=Root,Model=SimpleAktModel,Vector=Reactions[R8b]" type="Reaction">
-            <ModelParameter cn="CN=Root,Model=SimpleAktModel,Vector=Reactions[R8b],ParameterGroup=Parameters,Parameter=k1" value="0.10000000000000001" type="ReactionParameter" simulationType="assignment">
+            <ModelParameter cn="CN=Root,Model=SimpleAktModel,Vector=Reactions[R8b],ParameterGroup=Parameters,Parameter=k1" value="0.050000000000000003" type="ReactionParameter" simulationType="assignment">
               <InitialExpression>
-                &lt;CN=Root,Model=SimpleAktModel,Vector=Values[kPras40Dephos],Reference=InitialValue&gt;
+                &lt;CN=Root,Model=SimpleAktModel,Vector=Values[kPras40Dephos],Reference=InitialValue>
               </InitialExpression>
             </ModelParameter>
           </ModelParameterGroup>
           <ModelParameterGroup cn="CN=Root,Model=SimpleAktModel,Vector=Reactions[R9f]" type="Reaction">
-            <ModelParameter cn="CN=Root,Model=SimpleAktModel,Vector=Reactions[R9f],ParameterGroup=Parameters,Parameter=kFourEBP1Phos" value="0.10000000000000001" type="ReactionParameter" simulationType="assignment">
+            <ModelParameter cn="CN=Root,Model=SimpleAktModel,Vector=Reactions[R9f],ParameterGroup=Parameters,Parameter=kFourEBP1Phos" value="0.5" type="ReactionParameter" simulationType="assignment">
               <InitialExpression>
-                &lt;CN=Root,Model=SimpleAktModel,Vector=Values[kFourEBP1Phos],Reference=InitialValue&gt;
+                &lt;CN=Root,Model=SimpleAktModel,Vector=Values[kFourEBP1Phos],Reference=InitialValue>
               </InitialExpression>
             </ModelParameter>
           </ModelParameterGroup>
           <ModelParameterGroup cn="CN=Root,Model=SimpleAktModel,Vector=Reactions[R9b]" type="Reaction">
-            <ModelParameter cn="CN=Root,Model=SimpleAktModel,Vector=Reactions[R9b],ParameterGroup=Parameters,Parameter=k1" value="0.10000000000000001" type="ReactionParameter" simulationType="assignment">
+            <ModelParameter cn="CN=Root,Model=SimpleAktModel,Vector=Reactions[R9b],ParameterGroup=Parameters,Parameter=k1" value="0.050000000000000003" type="ReactionParameter" simulationType="assignment">
               <InitialExpression>
-                &lt;CN=Root,Model=SimpleAktModel,Vector=Values[kFourEBP1Dephos],Reference=InitialValue&gt;
+                &lt;CN=Root,Model=SimpleAktModel,Vector=Values[kFourEBP1Dephos],Reference=InitialValue>
               </InitialExpression>
             </ModelParameter>
           </ModelParameterGroup>
           <ModelParameterGroup cn="CN=Root,Model=SimpleAktModel,Vector=Reactions[R10f]" type="Reaction">
-            <ModelParameter cn="CN=Root,Model=SimpleAktModel,Vector=Reactions[R10f],ParameterGroup=Parameters,Parameter=kS6KPhos" value="0.10000000000000001" type="ReactionParameter" simulationType="assignment">
+            <ModelParameter cn="CN=Root,Model=SimpleAktModel,Vector=Reactions[R10f],ParameterGroup=Parameters,Parameter=kS6KPhos" value="0.5" type="ReactionParameter" simulationType="assignment">
               <InitialExpression>
-                &lt;CN=Root,Model=SimpleAktModel,Vector=Values[kS6KPhos],Reference=InitialValue&gt;
+                &lt;CN=Root,Model=SimpleAktModel,Vector=Values[kS6KPhos],Reference=InitialValue>
               </InitialExpression>
             </ModelParameter>
           </ModelParameterGroup>
           <ModelParameterGroup cn="CN=Root,Model=SimpleAktModel,Vector=Reactions[R10b]" type="Reaction">
-            <ModelParameter cn="CN=Root,Model=SimpleAktModel,Vector=Reactions[R10b],ParameterGroup=Parameters,Parameter=k1" value="0.10000000000000001" type="ReactionParameter" simulationType="assignment">
+            <ModelParameter cn="CN=Root,Model=SimpleAktModel,Vector=Reactions[R10b],ParameterGroup=Parameters,Parameter=k1" value="0.050000000000000003" type="ReactionParameter" simulationType="assignment">
               <InitialExpression>
-                &lt;CN=Root,Model=SimpleAktModel,Vector=Values[kS6KDephos],Reference=InitialValue&gt;
+                &lt;CN=Root,Model=SimpleAktModel,Vector=Values[kS6KDephos],Reference=InitialValue>
               </InitialExpression>
             </ModelParameter>
           </ModelParameterGroup>
@@ -1715,7 +1709,6 @@ Reaction scheme where the products are created from the reactants and the change
       <StateTemplateVariable objectReference="ModelValue_2"/>
       <StateTemplateVariable objectReference="ModelValue_3"/>
       <StateTemplateVariable objectReference="ModelValue_4"/>
-      <StateTemplateVariable objectReference="ModelValue_5"/>
       <StateTemplateVariable objectReference="ModelValue_6"/>
       <StateTemplateVariable objectReference="ModelValue_7"/>
       <StateTemplateVariable objectReference="ModelValue_8"/>
@@ -1734,7 +1727,7 @@ Reaction scheme where the products are created from the reactants and the change
       <StateTemplateVariable objectReference="ModelValue_21"/>
     </StateTemplate>
     <InitialState type="initialState">
-      0 0 0 6.0221417899999996e+24 0 6.0221417899999996e+24 6.0221417899999996e+24 6.0221417899999996e+24 6.0221417899999996e+24 0 0 6.0221417899999996e+24 0 0 6.0221417899999996e+24 6.0221417899999996e+24 0 0 0 1 1 1 0.10000000000000001 0.10000000000000001 0.10000000000000001 0.10000000000000001 0.10000000000000001 0.10000000000000001 0.10000000000000001 0.10000000000000001 0.10000000000000001 0.10000000000000001 0.10000000000000001 0.10000000000000001 0.10000000000000001 0.10000000000000001 0.10000000000000001 0.10000000000000001 0.10000000000000001 0.10000000000000001 0.10000000000000001 0.10000000000000001 
+      0 0 0 6.0221417899999996e+24 0 6.0221417899999996e+24 6.0221417899999996e+24 6.0221417899999996e+24 6.0221417899999996e+24 0 0 6.0221417899999996e+24 0 0 6.0221417899999996e+24 6.0221417899999996e+24 0 0 0 1 1 1 0.050000000000000003 0.5 0.5 0.050000000000000003 0.050000000000000003 0.050000000000000003 0.050000000000000003 0.050000000000000003 0.050000000000000003 0.050000000000000003 0.050000000000000003 0.050000000000000003 0.050000000000000003 0.050000000000000003 0.050000000000000003 0.5 0.050000000000000003 0.5 0.050000000000000003 
     </InitialState>
   </Model>
   <ListOfTasks>
@@ -1756,22 +1749,22 @@ Reaction scheme where the products are created from the reactants and the change
         <Parameter name="Maximum duration for backward integration" type="unsignedFloat" value="1000000"/>
       </Method>
     </Task>
-    <Task key="Task_100" name="Time-Course" scheduled="true" type="timeCourse" update_model="false">
-      <Report append="0" confirmOverwrite="0" reference="Report_30" target="/home/ncw135/Documents/MesiSTRAT2/TransferModel/transfer_model/models/TimeCourseData.txt"/>
+    <Task key="Task_15" name="Time-Course" type="timeCourse" scheduled="true" updateModel="false">
+      <Report reference="Report_20" target="TimeCourseData.txt" append="0" confirmOverwrite="0"/>
       <Problem>
         <Parameter name="AutomaticStepSize" type="bool" value="0"/>
         <Parameter name="StepNumber" type="unsignedInteger" value="100"/>
         <Parameter name="StepSize" type="float" value="0.01"/>
         <Parameter name="Duration" type="float" value="150"/>
-        <Parameter name="TimeSeriesRequested" type="float" value="1"/>
+        <Parameter name="TimeSeriesRequested" type="bool" value="1"/>
         <Parameter name="OutputStartTime" type="float" value="0"/>
         <Parameter name="Output Event" type="bool" value="0"/>
         <Parameter name="Start in Steady State" type="bool" value="0"/>
       </Problem>
       <Method name="Deterministic (LSODA)" type="Deterministic(LSODA)">
         <Parameter name="Integrate Reduced Model" type="bool" value="0"/>
-        <Parameter name="Relative Tolerance" type="unsignedFloat" value="1e-06"/>
-        <Parameter name="Absolute Tolerance" type="unsignedFloat" value="1e-12"/>
+        <Parameter name="Relative Tolerance" type="unsignedFloat" value="9.9999999999999995e-07"/>
+        <Parameter name="Absolute Tolerance" type="unsignedFloat" value="9.9999999999999998e-13"/>
         <Parameter name="Max Internal Steps" type="unsignedInteger" value="10000"/>
         <Parameter name="Max Internal Step Size" type="unsignedFloat" value="0"/>
       </Method>
@@ -1817,12 +1810,184 @@ Reaction scheme where the products are created from the reactants and the change
       </Method>
     </Task>
     <Task key="Task_19" name="Parameter Estimation" type="parameterFitting" scheduled="false" updateModel="false">
-      <Report reference="Report_13" target="" append="1" confirmOverwrite="1"/>
+      <Report reference="Report_21" target="PEData.txt" append="0" confirmOverwrite="0"/>
       <Problem>
         <Parameter name="Maximize" type="bool" value="0"/>
-        <Parameter name="Randomize Start Values" type="bool" value="0"/>
-        <Parameter name="Calculate Statistics" type="bool" value="1"/>
+        <Parameter name="Randomize Start Values" type="bool" value="1"/>
+        <Parameter name="Calculate Statistics" type="bool" value="0"/>
         <ParameterGroup name="OptimizationItemList">
+          <ParameterGroup name="FitItem">
+            <ParameterGroup name="Affected Experiments">
+              <Parameter name="Experiment Key" type="key" value="Experiment_0"/>
+            </ParameterGroup>
+            <ParameterGroup name="Affected Cross Validation Experiments">
+            </ParameterGroup>
+            <Parameter name="LowerBound" type="cn" value="0.1"/>
+            <Parameter name="UpperBound" type="cn" value="10"/>
+            <Parameter name="StartValue" type="float" value="0.25046123809999998"/>
+            <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[Akt],Reference=InitialConcentration"/>
+          </ParameterGroup>
+          <ParameterGroup name="FitItem">
+            <ParameterGroup name="Affected Experiments">
+              <Parameter name="Experiment Key" type="key" value="Experiment_1"/>
+            </ParameterGroup>
+            <ParameterGroup name="Affected Cross Validation Experiments">
+            </ParameterGroup>
+            <Parameter name="LowerBound" type="cn" value="0.1"/>
+            <Parameter name="UpperBound" type="cn" value="10"/>
+            <Parameter name="StartValue" type="float" value="3.8344343322435699"/>
+            <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[Akt],Reference=InitialConcentration"/>
+          </ParameterGroup>
+          <ParameterGroup name="FitItem">
+            <ParameterGroup name="Affected Experiments">
+              <Parameter name="Experiment Key" type="key" value="Experiment_0"/>
+            </ParameterGroup>
+            <ParameterGroup name="Affected Cross Validation Experiments">
+            </ParameterGroup>
+            <Parameter name="LowerBound" type="cn" value="0.1"/>
+            <Parameter name="UpperBound" type="cn" value="10"/>
+            <Parameter name="StartValue" type="float" value="0.47776027521326242"/>
+            <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[FourEBP1],Reference=InitialConcentration"/>
+          </ParameterGroup>
+          <ParameterGroup name="FitItem">
+            <ParameterGroup name="Affected Experiments">
+              <Parameter name="Experiment Key" type="key" value="Experiment_1"/>
+            </ParameterGroup>
+            <ParameterGroup name="Affected Cross Validation Experiments">
+            </ParameterGroup>
+            <Parameter name="LowerBound" type="cn" value="0.1"/>
+            <Parameter name="UpperBound" type="cn" value="10"/>
+            <Parameter name="StartValue" type="float" value="0.34602536961210795"/>
+            <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[FourEBP1],Reference=InitialConcentration"/>
+          </ParameterGroup>
+          <ParameterGroup name="FitItem">
+            <ParameterGroup name="Affected Experiments">
+              <Parameter name="Experiment Key" type="key" value="Experiment_0"/>
+            </ParameterGroup>
+            <ParameterGroup name="Affected Cross Validation Experiments">
+            </ParameterGroup>
+            <Parameter name="LowerBound" type="cn" value="0.1"/>
+            <Parameter name="UpperBound" type="cn" value="10"/>
+            <Parameter name="StartValue" type="float" value="0.28637404169157038"/>
+            <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[IRS1],Reference=InitialConcentration"/>
+          </ParameterGroup>
+          <ParameterGroup name="FitItem">
+            <ParameterGroup name="Affected Experiments">
+              <Parameter name="Experiment Key" type="key" value="Experiment_1"/>
+            </ParameterGroup>
+            <ParameterGroup name="Affected Cross Validation Experiments">
+            </ParameterGroup>
+            <Parameter name="LowerBound" type="cn" value="0.1"/>
+            <Parameter name="UpperBound" type="cn" value="10"/>
+            <Parameter name="StartValue" type="float" value="1.6769123245335718"/>
+            <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[IRS1],Reference=InitialConcentration"/>
+          </ParameterGroup>
+          <ParameterGroup name="FitItem">
+            <ParameterGroup name="Affected Experiments">
+              <Parameter name="Experiment Key" type="key" value="Experiment_0"/>
+            </ParameterGroup>
+            <ParameterGroup name="Affected Cross Validation Experiments">
+            </ParameterGroup>
+            <Parameter name="LowerBound" type="cn" value="0.1"/>
+            <Parameter name="UpperBound" type="cn" value="10"/>
+            <Parameter name="StartValue" type="float" value="0.11531781778843637"/>
+            <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[PRAS40],Reference=InitialConcentration"/>
+          </ParameterGroup>
+          <ParameterGroup name="FitItem">
+            <ParameterGroup name="Affected Experiments">
+              <Parameter name="Experiment Key" type="key" value="Experiment_1"/>
+            </ParameterGroup>
+            <ParameterGroup name="Affected Cross Validation Experiments">
+            </ParameterGroup>
+            <Parameter name="LowerBound" type="cn" value="0.1"/>
+            <Parameter name="UpperBound" type="cn" value="10"/>
+            <Parameter name="StartValue" type="float" value="2.7178836503714847"/>
+            <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[PRAS40],Reference=InitialConcentration"/>
+          </ParameterGroup>
+          <ParameterGroup name="FitItem">
+            <ParameterGroup name="Affected Experiments">
+              <Parameter name="Experiment Key" type="key" value="Experiment_0"/>
+            </ParameterGroup>
+            <ParameterGroup name="Affected Cross Validation Experiments">
+            </ParameterGroup>
+            <Parameter name="LowerBound" type="cn" value="0.1"/>
+            <Parameter name="UpperBound" type="cn" value="10"/>
+            <Parameter name="StartValue" type="float" value="0.12733269843288481"/>
+            <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[S6K],Reference=InitialConcentration"/>
+          </ParameterGroup>
+          <ParameterGroup name="FitItem">
+            <ParameterGroup name="Affected Experiments">
+              <Parameter name="Experiment Key" type="key" value="Experiment_1"/>
+            </ParameterGroup>
+            <ParameterGroup name="Affected Cross Validation Experiments">
+            </ParameterGroup>
+            <Parameter name="LowerBound" type="cn" value="0.1"/>
+            <Parameter name="UpperBound" type="cn" value="10"/>
+            <Parameter name="StartValue" type="float" value="0.67472340407232845"/>
+            <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[S6K],Reference=InitialConcentration"/>
+          </ParameterGroup>
+          <ParameterGroup name="FitItem">
+            <ParameterGroup name="Affected Experiments">
+              <Parameter name="Experiment Key" type="key" value="Experiment_0"/>
+            </ParameterGroup>
+            <ParameterGroup name="Affected Cross Validation Experiments">
+            </ParameterGroup>
+            <Parameter name="LowerBound" type="cn" value="0.1"/>
+            <Parameter name="UpperBound" type="cn" value="10"/>
+            <Parameter name="StartValue" type="float" value="1.2795731354326285"/>
+            <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[TSC2],Reference=InitialConcentration"/>
+          </ParameterGroup>
+          <ParameterGroup name="FitItem">
+            <ParameterGroup name="Affected Experiments">
+              <Parameter name="Experiment Key" type="key" value="Experiment_1"/>
+            </ParameterGroup>
+            <ParameterGroup name="Affected Cross Validation Experiments">
+            </ParameterGroup>
+            <Parameter name="LowerBound" type="cn" value="0.1"/>
+            <Parameter name="UpperBound" type="cn" value="10"/>
+            <Parameter name="StartValue" type="float" value="1.5022130980755404"/>
+            <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[TSC2],Reference=InitialConcentration"/>
+          </ParameterGroup>
+          <ParameterGroup name="FitItem">
+            <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Values[kIRS1Inact],Reference=InitialValue"/>
+            <Parameter name="LowerBound" type="cn" value="0.1"/>
+            <Parameter name="UpperBound" type="cn" value="10"/>
+            <Parameter name="StartValue" type="float" value="3.5998828932400357"/>
+            <ParameterGroup name="Affected Experiments">
+            </ParameterGroup>
+            <ParameterGroup name="Affected Cross Validation Experiments">
+            </ParameterGroup>
+          </ParameterGroup>
+          <ParameterGroup name="FitItem">
+            <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Values[kIRS1Phos],Reference=InitialValue"/>
+            <Parameter name="LowerBound" type="cn" value="0.1"/>
+            <Parameter name="UpperBound" type="cn" value="10"/>
+            <Parameter name="StartValue" type="float" value="0.1045790664965736"/>
+            <ParameterGroup name="Affected Experiments">
+            </ParameterGroup>
+            <ParameterGroup name="Affected Cross Validation Experiments">
+            </ParameterGroup>
+          </ParameterGroup>
+          <ParameterGroup name="FitItem">
+            <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Values[kIRS1Act],Reference=InitialValue"/>
+            <Parameter name="LowerBound" type="cn" value="0.1"/>
+            <Parameter name="UpperBound" type="cn" value="10"/>
+            <Parameter name="StartValue" type="float" value="5.1565596870817343"/>
+            <ParameterGroup name="Affected Experiments">
+            </ParameterGroup>
+            <ParameterGroup name="Affected Cross Validation Experiments">
+            </ParameterGroup>
+          </ParameterGroup>
+          <ParameterGroup name="FitItem">
+            <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Values[kIRS1Inact],Reference=InitialValue"/>
+            <Parameter name="LowerBound" type="cn" value="0.1"/>
+            <Parameter name="UpperBound" type="cn" value="10"/>
+            <Parameter name="StartValue" type="float" value="1.9864437635607544"/>
+            <ParameterGroup name="Affected Experiments">
+            </ParameterGroup>
+            <ParameterGroup name="Affected Cross Validation Experiments">
+            </ParameterGroup>
+          </ParameterGroup>
         </ParameterGroup>
         <ParameterGroup name="OptimizationConstraintList">
         </ParameterGroup>
@@ -1830,18 +1995,264 @@ Reaction scheme where the products are created from the reactants and the change
         <Parameter name="Time-Course" type="cn" value="CN=Root,Vector=TaskList[Time-Course]"/>
         <Parameter name="Create Parameter Sets" type="bool" value="0"/>
         <ParameterGroup name="Experiment Set">
+          <ParameterGroup name="not_interpolated_MCF7">
+            <Parameter name="Key" type="key" value="Experiment_0"/>
+            <Parameter name="File Name" type="file" value="../data/CopasiFormattedData/T47DSheet/not_interpolated_MCF7.csv"/>
+            <Parameter name="Data is Row Oriented" type="bool" value="1"/>
+            <Parameter name="First Row" type="unsignedInteger" value="1"/>
+            <Parameter name="Last Row" type="unsignedInteger" value="7"/>
+            <Parameter name="Experiment Type" type="unsignedInteger" value="1"/>
+            <Parameter name="Normalize Weights per Experiment" type="bool" value="1"/>
+            <Parameter name="Separator" type="string" value=","/>
+            <Parameter name="Weight Method" type="unsignedInteger" value="1"/>
+            <Parameter name="Row containing Names" type="unsignedInteger" value="1"/>
+            <Parameter name="Number of Columns" type="unsignedInteger" value="31"/>
+            <ParameterGroup name="Object Map">
+              <ParameterGroup name="0">
+                <Parameter name="Role" type="unsignedInteger" value="3"/>
+              </ParameterGroup>
+              <ParameterGroup name="1">
+                <Parameter name="Role" type="unsignedInteger" value="0"/>
+              </ParameterGroup>
+              <ParameterGroup name="2">
+                <Parameter name="Object CN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[AktpT308],Reference=Concentration"/>
+                <Parameter name="Role" type="unsignedInteger" value="2"/>
+              </ParameterGroup>
+              <ParameterGroup name="3">
+                <Parameter name="Role" type="unsignedInteger" value="0"/>
+              </ParameterGroup>
+              <ParameterGroup name="4">
+                <Parameter name="Role" type="unsignedInteger" value="0"/>
+              </ParameterGroup>
+              <ParameterGroup name="5">
+                <Parameter name="Role" type="unsignedInteger" value="0"/>
+              </ParameterGroup>
+              <ParameterGroup name="6">
+                <Parameter name="Object CN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[FourEBP1pT37_46],Reference=Concentration"/>
+                <Parameter name="Role" type="unsignedInteger" value="2"/>
+              </ParameterGroup>
+              <ParameterGroup name="7">
+                <Parameter name="Role" type="unsignedInteger" value="0"/>
+              </ParameterGroup>
+              <ParameterGroup name="8">
+                <Parameter name="Object CN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[IRS1pS636_639],Reference=Concentration"/>
+                <Parameter name="Role" type="unsignedInteger" value="2"/>
+              </ParameterGroup>
+              <ParameterGroup name="9">
+                <Parameter name="Role" type="unsignedInteger" value="0"/>
+              </ParameterGroup>
+              <ParameterGroup name="10">
+                <Parameter name="Object CN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[PRAS40pT246],Reference=Concentration"/>
+                <Parameter name="Role" type="unsignedInteger" value="2"/>
+              </ParameterGroup>
+              <ParameterGroup name="11">
+                <Parameter name="Role" type="unsignedInteger" value="0"/>
+              </ParameterGroup>
+              <ParameterGroup name="12">
+                <Parameter name="Object CN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[S6KpT389],Reference=Concentration"/>
+                <Parameter name="Role" type="unsignedInteger" value="2"/>
+              </ParameterGroup>
+              <ParameterGroup name="13">
+                <Parameter name="Object CN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[TSC2pT1462],Reference=Concentration"/>
+                <Parameter name="Role" type="unsignedInteger" value="2"/>
+              </ParameterGroup>
+              <ParameterGroup name="14">
+                <Parameter name="Role" type="unsignedInteger" value="0"/>
+              </ParameterGroup>
+              <ParameterGroup name="15">
+                <Parameter name="Role" type="unsignedInteger" value="0"/>
+              </ParameterGroup>
+              <ParameterGroup name="16">
+                <Parameter name="Object CN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[AktpT308],Reference=InitialConcentration"/>
+                <Parameter name="Role" type="unsignedInteger" value="1"/>
+              </ParameterGroup>
+              <ParameterGroup name="17">
+                <Parameter name="Role" type="unsignedInteger" value="0"/>
+              </ParameterGroup>
+              <ParameterGroup name="18">
+                <Parameter name="Role" type="unsignedInteger" value="0"/>
+              </ParameterGroup>
+              <ParameterGroup name="19">
+                <Parameter name="Role" type="unsignedInteger" value="0"/>
+              </ParameterGroup>
+              <ParameterGroup name="20">
+                <Parameter name="Object CN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[FourEBP1pT37_46],Reference=InitialConcentration"/>
+                <Parameter name="Role" type="unsignedInteger" value="1"/>
+              </ParameterGroup>
+              <ParameterGroup name="21">
+                <Parameter name="Role" type="unsignedInteger" value="0"/>
+              </ParameterGroup>
+              <ParameterGroup name="22">
+                <Parameter name="Object CN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[IRS1pS636_639],Reference=InitialConcentration"/>
+                <Parameter name="Role" type="unsignedInteger" value="1"/>
+              </ParameterGroup>
+              <ParameterGroup name="23">
+                <Parameter name="Role" type="unsignedInteger" value="0"/>
+              </ParameterGroup>
+              <ParameterGroup name="24">
+                <Parameter name="Object CN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[PRAS40pT246],Reference=InitialConcentration"/>
+                <Parameter name="Role" type="unsignedInteger" value="1"/>
+              </ParameterGroup>
+              <ParameterGroup name="25">
+                <Parameter name="Role" type="unsignedInteger" value="0"/>
+              </ParameterGroup>
+              <ParameterGroup name="26">
+                <Parameter name="Object CN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[S6KpT389],Reference=InitialConcentration"/>
+                <Parameter name="Role" type="unsignedInteger" value="1"/>
+              </ParameterGroup>
+              <ParameterGroup name="27">
+                <Parameter name="Object CN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[TSC2pT1462],Reference=InitialConcentration"/>
+                <Parameter name="Role" type="unsignedInteger" value="1"/>
+              </ParameterGroup>
+              <ParameterGroup name="28">
+                <Parameter name="Role" type="unsignedInteger" value="0"/>
+              </ParameterGroup>
+              <ParameterGroup name="29">
+                <Parameter name="Object CN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Values[Insulin],Reference=InitialValue"/>
+                <Parameter name="Role" type="unsignedInteger" value="1"/>
+              </ParameterGroup>
+              <ParameterGroup name="30">
+                <Parameter name="Object CN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Values[AA],Reference=InitialValue"/>
+                <Parameter name="Role" type="unsignedInteger" value="1"/>
+              </ParameterGroup>
+            </ParameterGroup>
+          </ParameterGroup>
+          <ParameterGroup name="not_interpolated_T47D">
+            <Parameter name="Key" type="key" value="Experiment_1"/>
+            <Parameter name="File Name" type="file" value="../data/CopasiFormattedData/T47DSheet/not_interpolated_T47D.csv"/>
+            <Parameter name="Data is Row Oriented" type="bool" value="1"/>
+            <Parameter name="First Row" type="unsignedInteger" value="1"/>
+            <Parameter name="Last Row" type="unsignedInteger" value="7"/>
+            <Parameter name="Experiment Type" type="unsignedInteger" value="1"/>
+            <Parameter name="Normalize Weights per Experiment" type="bool" value="1"/>
+            <Parameter name="Separator" type="string" value=","/>
+            <Parameter name="Weight Method" type="unsignedInteger" value="1"/>
+            <Parameter name="Row containing Names" type="unsignedInteger" value="1"/>
+            <Parameter name="Number of Columns" type="unsignedInteger" value="31"/>
+            <ParameterGroup name="Object Map">
+              <ParameterGroup name="0">
+                <Parameter name="Role" type="unsignedInteger" value="3"/>
+              </ParameterGroup>
+              <ParameterGroup name="1">
+                <Parameter name="Role" type="unsignedInteger" value="0"/>
+              </ParameterGroup>
+              <ParameterGroup name="2">
+                <Parameter name="Object CN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[AktpT308],Reference=Concentration"/>
+                <Parameter name="Role" type="unsignedInteger" value="2"/>
+              </ParameterGroup>
+              <ParameterGroup name="3">
+                <Parameter name="Role" type="unsignedInteger" value="0"/>
+              </ParameterGroup>
+              <ParameterGroup name="4">
+                <Parameter name="Role" type="unsignedInteger" value="0"/>
+              </ParameterGroup>
+              <ParameterGroup name="5">
+                <Parameter name="Role" type="unsignedInteger" value="0"/>
+              </ParameterGroup>
+              <ParameterGroup name="6">
+                <Parameter name="Object CN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[FourEBP1pT37_46],Reference=Concentration"/>
+                <Parameter name="Role" type="unsignedInteger" value="2"/>
+              </ParameterGroup>
+              <ParameterGroup name="7">
+                <Parameter name="Role" type="unsignedInteger" value="0"/>
+              </ParameterGroup>
+              <ParameterGroup name="8">
+                <Parameter name="Object CN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[IRS1pS636_639],Reference=Concentration"/>
+                <Parameter name="Role" type="unsignedInteger" value="2"/>
+              </ParameterGroup>
+              <ParameterGroup name="9">
+                <Parameter name="Role" type="unsignedInteger" value="0"/>
+              </ParameterGroup>
+              <ParameterGroup name="10">
+                <Parameter name="Object CN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[PRAS40pT246],Reference=Concentration"/>
+                <Parameter name="Role" type="unsignedInteger" value="2"/>
+              </ParameterGroup>
+              <ParameterGroup name="11">
+                <Parameter name="Role" type="unsignedInteger" value="0"/>
+              </ParameterGroup>
+              <ParameterGroup name="12">
+                <Parameter name="Object CN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[S6KpT389],Reference=Concentration"/>
+                <Parameter name="Role" type="unsignedInteger" value="2"/>
+              </ParameterGroup>
+              <ParameterGroup name="13">
+                <Parameter name="Object CN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[TSC2pT1462],Reference=Concentration"/>
+                <Parameter name="Role" type="unsignedInteger" value="2"/>
+              </ParameterGroup>
+              <ParameterGroup name="14">
+                <Parameter name="Role" type="unsignedInteger" value="0"/>
+              </ParameterGroup>
+              <ParameterGroup name="15">
+                <Parameter name="Role" type="unsignedInteger" value="0"/>
+              </ParameterGroup>
+              <ParameterGroup name="16">
+                <Parameter name="Object CN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[AktpT308],Reference=InitialConcentration"/>
+                <Parameter name="Role" type="unsignedInteger" value="1"/>
+              </ParameterGroup>
+              <ParameterGroup name="17">
+                <Parameter name="Role" type="unsignedInteger" value="0"/>
+              </ParameterGroup>
+              <ParameterGroup name="18">
+                <Parameter name="Role" type="unsignedInteger" value="0"/>
+              </ParameterGroup>
+              <ParameterGroup name="19">
+                <Parameter name="Role" type="unsignedInteger" value="0"/>
+              </ParameterGroup>
+              <ParameterGroup name="20">
+                <Parameter name="Object CN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[FourEBP1pT37_46],Reference=InitialConcentration"/>
+                <Parameter name="Role" type="unsignedInteger" value="1"/>
+              </ParameterGroup>
+              <ParameterGroup name="21">
+                <Parameter name="Role" type="unsignedInteger" value="0"/>
+              </ParameterGroup>
+              <ParameterGroup name="22">
+                <Parameter name="Object CN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[IRS1pS636_639],Reference=InitialConcentration"/>
+                <Parameter name="Role" type="unsignedInteger" value="1"/>
+              </ParameterGroup>
+              <ParameterGroup name="23">
+                <Parameter name="Role" type="unsignedInteger" value="0"/>
+              </ParameterGroup>
+              <ParameterGroup name="24">
+                <Parameter name="Object CN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[PRAS40pT246],Reference=InitialConcentration"/>
+                <Parameter name="Role" type="unsignedInteger" value="1"/>
+              </ParameterGroup>
+              <ParameterGroup name="25">
+                <Parameter name="Role" type="unsignedInteger" value="0"/>
+              </ParameterGroup>
+              <ParameterGroup name="26">
+                <Parameter name="Object CN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[S6KpT389],Reference=InitialConcentration"/>
+                <Parameter name="Role" type="unsignedInteger" value="1"/>
+              </ParameterGroup>
+              <ParameterGroup name="27">
+                <Parameter name="Object CN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[TSC2pT1462],Reference=InitialConcentration"/>
+                <Parameter name="Role" type="unsignedInteger" value="1"/>
+              </ParameterGroup>
+              <ParameterGroup name="28">
+                <Parameter name="Role" type="unsignedInteger" value="0"/>
+              </ParameterGroup>
+              <ParameterGroup name="29">
+                <Parameter name="Object CN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Values[Insulin],Reference=InitialValue"/>
+                <Parameter name="Role" type="unsignedInteger" value="1"/>
+              </ParameterGroup>
+              <ParameterGroup name="30">
+                <Parameter name="Object CN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Values[AA],Reference=InitialValue"/>
+                <Parameter name="Role" type="unsignedInteger" value="1"/>
+              </ParameterGroup>
+            </ParameterGroup>
+          </ParameterGroup>
         </ParameterGroup>
         <ParameterGroup name="Validation Set">
           <Parameter name="Weight" type="unsignedFloat" value="1"/>
           <Parameter name="Threshold" type="unsignedInteger" value="5"/>
         </ParameterGroup>
       </Problem>
-      <Method name="Evolutionary Programming" type="EvolutionaryProgram">
+      <Method name="Genetic Algorithm SR" type="GeneticAlgorithmSR">
         <Parameter name="Log Verbosity" type="unsignedInteger" value="0"/>
-        <Parameter name="Number of Generations" type="unsignedInteger" value="200"/>
-        <Parameter name="Population Size" type="unsignedInteger" value="20"/>
+        <Parameter name="Number of Generations" type="unsignedInteger" value="300"/>
+        <Parameter name="Population Size" type="unsignedInteger" value="40"/>
         <Parameter name="Random Number Generator" type="unsignedInteger" value="1"/>
         <Parameter name="Seed" type="unsignedInteger" value="0"/>
+        <Parameter name="Pf" type="float" value="0.47499999999999998"/>
+        <Parameter name="Mutation Variance" type="float" value="0.10000000000000001"/>
         <Parameter name="Stop after # Stalled Generations" type="unsignedInteger" value="0"/>
       </Method>
     </Task>
@@ -1959,7 +2370,7 @@ Reaction scheme where the products are created from the reactants and the change
     </Task>
   </ListOfTasks>
   <ListOfReports>
-    <Report key="Report_10" name="Steady-State" taskType="steadyState" separator="&#9;" precision="6">
+    <Report key="Report_10" name="Steady-State" taskType="steadyState" separator="&#x09;" precision="6">
       <Comment>
         Automatically generated report.
       </Comment>
@@ -1967,7 +2378,7 @@ Reaction scheme where the products are created from the reactants and the change
         <Object cn="CN=Root,Vector=TaskList[Steady-State]"/>
       </Footer>
     </Report>
-    <Report key="Report_11" name="Elementary Flux Modes" taskType="fluxMode" separator="&#9;" precision="6">
+    <Report key="Report_11" name="Elementary Flux Modes" taskType="fluxMode" separator="&#x09;" precision="6">
       <Comment>
         Automatically generated report.
       </Comment>
@@ -1975,55 +2386,55 @@ Reaction scheme where the products are created from the reactants and the change
         <Object cn="CN=Root,Vector=TaskList[Elementary Flux Modes],Object=Result"/>
       </Footer>
     </Report>
-    <Report key="Report_12" name="Optimization" taskType="optimization" separator="&#9;" precision="6">
+    <Report key="Report_12" name="Optimization" taskType="optimization" separator="&#x09;" precision="6">
       <Comment>
         Automatically generated report.
       </Comment>
       <Header>
         <Object cn="CN=Root,Vector=TaskList[Optimization],Object=Description"/>
         <Object cn="String=\[Function Evaluations\]"/>
-        <Object cn="Separator=&#9;"/>
+        <Object cn="Separator=&#x09;"/>
         <Object cn="String=\[Best Value\]"/>
-        <Object cn="Separator=&#9;"/>
+        <Object cn="Separator=&#x09;"/>
         <Object cn="String=\[Best Parameters\]"/>
       </Header>
       <Body>
         <Object cn="CN=Root,Vector=TaskList[Optimization],Problem=Optimization,Reference=Function Evaluations"/>
-        <Object cn="Separator=&#9;"/>
+        <Object cn="Separator=&#x09;"/>
         <Object cn="CN=Root,Vector=TaskList[Optimization],Problem=Optimization,Reference=Best Value"/>
-        <Object cn="Separator=&#9;"/>
+        <Object cn="Separator=&#x09;"/>
         <Object cn="CN=Root,Vector=TaskList[Optimization],Problem=Optimization,Reference=Best Parameters"/>
       </Body>
       <Footer>
-        <Object cn="String=&#10;"/>
+        <Object cn="String=&#x0a;"/>
         <Object cn="CN=Root,Vector=TaskList[Optimization],Object=Result"/>
       </Footer>
     </Report>
-    <Report key="Report_13" name="Parameter Estimation" taskType="parameterFitting" separator="&#9;" precision="6">
+    <Report key="Report_13" name="Parameter Estimation" taskType="parameterFitting" separator="&#x09;" precision="6">
       <Comment>
         Automatically generated report.
       </Comment>
       <Header>
         <Object cn="CN=Root,Vector=TaskList[Parameter Estimation],Object=Description"/>
         <Object cn="String=\[Function Evaluations\]"/>
-        <Object cn="Separator=&#9;"/>
+        <Object cn="Separator=&#x09;"/>
         <Object cn="String=\[Best Value\]"/>
-        <Object cn="Separator=&#9;"/>
+        <Object cn="Separator=&#x09;"/>
         <Object cn="String=\[Best Parameters\]"/>
       </Header>
       <Body>
         <Object cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,Reference=Function Evaluations"/>
-        <Object cn="Separator=&#9;"/>
+        <Object cn="Separator=&#x09;"/>
         <Object cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,Reference=Best Value"/>
-        <Object cn="Separator=&#9;"/>
+        <Object cn="Separator=&#x09;"/>
         <Object cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,Reference=Best Parameters"/>
       </Body>
       <Footer>
-        <Object cn="String=&#10;"/>
+        <Object cn="String=&#x0a;"/>
         <Object cn="CN=Root,Vector=TaskList[Parameter Estimation],Object=Result"/>
       </Footer>
     </Report>
-    <Report key="Report_14" name="Metabolic Control Analysis" taskType="metabolicControlAnalysis" separator="&#9;" precision="6">
+    <Report key="Report_14" name="Metabolic Control Analysis" taskType="metabolicControlAnalysis" separator="&#x09;" precision="6">
       <Comment>
         Automatically generated report.
       </Comment>
@@ -2031,11 +2442,11 @@ Reaction scheme where the products are created from the reactants and the change
         <Object cn="CN=Root,Vector=TaskList[Metabolic Control Analysis],Object=Description"/>
       </Header>
       <Footer>
-        <Object cn="String=&#10;"/>
+        <Object cn="String=&#x0a;"/>
         <Object cn="CN=Root,Vector=TaskList[Metabolic Control Analysis],Object=Result"/>
       </Footer>
     </Report>
-    <Report key="Report_15" name="Lyapunov Exponents" taskType="lyapunovExponents" separator="&#9;" precision="6">
+    <Report key="Report_15" name="Lyapunov Exponents" taskType="lyapunovExponents" separator="&#x09;" precision="6">
       <Comment>
         Automatically generated report.
       </Comment>
@@ -2043,11 +2454,11 @@ Reaction scheme where the products are created from the reactants and the change
         <Object cn="CN=Root,Vector=TaskList[Lyapunov Exponents],Object=Description"/>
       </Header>
       <Footer>
-        <Object cn="String=&#10;"/>
+        <Object cn="String=&#x0a;"/>
         <Object cn="CN=Root,Vector=TaskList[Lyapunov Exponents],Object=Result"/>
       </Footer>
     </Report>
-    <Report key="Report_16" name="Time Scale Separation Analysis" taskType="timeScaleSeparationAnalysis" separator="&#9;" precision="6">
+    <Report key="Report_16" name="Time Scale Separation Analysis" taskType="timeScaleSeparationAnalysis" separator="&#x09;" precision="6">
       <Comment>
         Automatically generated report.
       </Comment>
@@ -2055,11 +2466,11 @@ Reaction scheme where the products are created from the reactants and the change
         <Object cn="CN=Root,Vector=TaskList[Time Scale Separation Analysis],Object=Description"/>
       </Header>
       <Footer>
-        <Object cn="String=&#10;"/>
+        <Object cn="String=&#x0a;"/>
         <Object cn="CN=Root,Vector=TaskList[Time Scale Separation Analysis],Object=Result"/>
       </Footer>
     </Report>
-    <Report key="Report_17" name="Sensitivities" taskType="sensitivities" separator="&#9;" precision="6">
+    <Report key="Report_17" name="Sensitivities" taskType="sensitivities" separator="&#x09;" precision="6">
       <Comment>
         Automatically generated report.
       </Comment>
@@ -2067,11 +2478,11 @@ Reaction scheme where the products are created from the reactants and the change
         <Object cn="CN=Root,Vector=TaskList[Sensitivities],Object=Description"/>
       </Header>
       <Footer>
-        <Object cn="String=&#10;"/>
+        <Object cn="String=&#x0a;"/>
         <Object cn="CN=Root,Vector=TaskList[Sensitivities],Object=Result"/>
       </Footer>
     </Report>
-    <Report key="Report_18" name="Moieties" taskType="moieties" separator="&#9;" precision="6">
+    <Report key="Report_18" name="Moieties" taskType="moieties" separator="&#x09;" precision="6">
       <Comment>
         Automatically generated report.
       </Comment>
@@ -2079,11 +2490,11 @@ Reaction scheme where the products are created from the reactants and the change
         <Object cn="CN=Root,Vector=TaskList[Moieties],Object=Description"/>
       </Header>
       <Footer>
-        <Object cn="String=&#10;"/>
+        <Object cn="String=&#x0a;"/>
         <Object cn="CN=Root,Vector=TaskList[Moieties],Object=Result"/>
       </Footer>
     </Report>
-    <Report key="Report_19" name="Linear Noise Approximation" taskType="linearNoiseApproximation" separator="&#9;" precision="6">
+    <Report key="Report_19" name="Linear Noise Approximation" taskType="linearNoiseApproximation" separator="&#x09;" precision="6">
       <Comment>
         Automatically generated report.
       </Comment>
@@ -2091,12 +2502,13 @@ Reaction scheme where the products are created from the reactants and the change
         <Object cn="CN=Root,Vector=TaskList[Linear Noise Approximation],Object=Description"/>
       </Header>
       <Footer>
-        <Object cn="String=&#10;"/>
+        <Object cn="String=&#x0a;"/>
         <Object cn="CN=Root,Vector=TaskList[Linear Noise Approximation],Object=Result"/>
       </Footer>
     </Report>
-    <Report key="Report_30" name="Time-Course" precision="6" separator="&#9;" taskType="Time-Course">
-      <Comment/>
+    <Report key="Report_20" name="Time-Course" taskType="unset" separator="&#x09;" precision="6">
+      <Comment>
+      </Comment>
       <Table printTitle="1">
         <Object cn="CN=Root,Model=SimpleAktModel,Reference=Time"/>
         <Object cn="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[IRS1],Reference=Concentration"/>
@@ -2141,7 +2553,468 @@ Reaction scheme where the products are created from the reactants and the change
         <Object cn="CN=Root,Model=SimpleAktModel,Vector=Values[kS6KDephos],Reference=Value"/>
       </Table>
     </Report>
+    <Report key="Report_21" name="multi_parameter_estimation" taskType="parameterFitting" separator="&#x09;" precision="6">
+      <Comment>
+      </Comment>
+      <Table printTitle="1">
+        <Object cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,Reference=Best Parameters"/>
+        <Object cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,Reference=Best Value"/>
+      </Table>
+    </Report>
   </ListOfReports>
+  <ListOfPlots>
+    <PlotSpecification name="not_interpolated_MCF7" type="Plot2D" active="1" taskTypes="Parameter Estimation">
+      <Parameter name="log X" type="bool" value="0"/>
+      <Parameter name="log Y" type="bool" value="0"/>
+      <ListOfPlotItems>
+        <PlotItem name="[AktpT308](Measured Value)" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="3"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="1"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="1"/>
+          <Parameter name="Color" type="string" value="#FF0000"/>
+          <Parameter name="Recording Activity" type="string" value="after"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=not_interpolated_MCF7,Vector=Fitted Points[0],Reference=Independent Value"/>
+            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=not_interpolated_MCF7,Vector=Fitted Points[0],Reference=Measured Value"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[AktpT308](Fitted Value)" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="#FF0000"/>
+          <Parameter name="Recording Activity" type="string" value="after"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=not_interpolated_MCF7,Vector=Fitted Points[0],Reference=Independent Value"/>
+            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=not_interpolated_MCF7,Vector=Fitted Points[0],Reference=Fitted Value"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[AktpT308](Weighted Error)" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="2"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="2"/>
+          <Parameter name="Color" type="string" value="#FF0000"/>
+          <Parameter name="Recording Activity" type="string" value="after"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=not_interpolated_MCF7,Vector=Fitted Points[0],Reference=Independent Value"/>
+            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=not_interpolated_MCF7,Vector=Fitted Points[0],Reference=Weighted Error"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[FourEBP1pT37_46](Measured Value)" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="3"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="1"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="1"/>
+          <Parameter name="Color" type="string" value="#0000FF"/>
+          <Parameter name="Recording Activity" type="string" value="after"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=not_interpolated_MCF7,Vector=Fitted Points[0],Reference=Independent Value"/>
+            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=not_interpolated_MCF7,Vector=Fitted Points[1],Reference=Measured Value"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[FourEBP1pT37_46](Fitted Value)" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="#0000FF"/>
+          <Parameter name="Recording Activity" type="string" value="after"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=not_interpolated_MCF7,Vector=Fitted Points[0],Reference=Independent Value"/>
+            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=not_interpolated_MCF7,Vector=Fitted Points[1],Reference=Fitted Value"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[FourEBP1pT37_46](Weighted Error)" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="2"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="2"/>
+          <Parameter name="Color" type="string" value="#0000FF"/>
+          <Parameter name="Recording Activity" type="string" value="after"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=not_interpolated_MCF7,Vector=Fitted Points[0],Reference=Independent Value"/>
+            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=not_interpolated_MCF7,Vector=Fitted Points[1],Reference=Weighted Error"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[IRS1pS636_639](Measured Value)" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="3"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="1"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="1"/>
+          <Parameter name="Color" type="string" value="#00E600"/>
+          <Parameter name="Recording Activity" type="string" value="after"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=not_interpolated_MCF7,Vector=Fitted Points[0],Reference=Independent Value"/>
+            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=not_interpolated_MCF7,Vector=Fitted Points[2],Reference=Measured Value"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[IRS1pS636_639](Fitted Value)" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="#00E600"/>
+          <Parameter name="Recording Activity" type="string" value="after"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=not_interpolated_MCF7,Vector=Fitted Points[0],Reference=Independent Value"/>
+            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=not_interpolated_MCF7,Vector=Fitted Points[2],Reference=Fitted Value"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[IRS1pS636_639](Weighted Error)" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="2"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="2"/>
+          <Parameter name="Color" type="string" value="#00E600"/>
+          <Parameter name="Recording Activity" type="string" value="after"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=not_interpolated_MCF7,Vector=Fitted Points[0],Reference=Independent Value"/>
+            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=not_interpolated_MCF7,Vector=Fitted Points[2],Reference=Weighted Error"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[PRAS40pT246](Measured Value)" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="3"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="1"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="1"/>
+          <Parameter name="Color" type="string" value="#00BEF0"/>
+          <Parameter name="Recording Activity" type="string" value="after"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=not_interpolated_MCF7,Vector=Fitted Points[0],Reference=Independent Value"/>
+            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=not_interpolated_MCF7,Vector=Fitted Points[3],Reference=Measured Value"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[PRAS40pT246](Fitted Value)" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="#00BEF0"/>
+          <Parameter name="Recording Activity" type="string" value="after"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=not_interpolated_MCF7,Vector=Fitted Points[0],Reference=Independent Value"/>
+            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=not_interpolated_MCF7,Vector=Fitted Points[3],Reference=Fitted Value"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[PRAS40pT246](Weighted Error)" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="2"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="2"/>
+          <Parameter name="Color" type="string" value="#00BEF0"/>
+          <Parameter name="Recording Activity" type="string" value="after"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=not_interpolated_MCF7,Vector=Fitted Points[0],Reference=Independent Value"/>
+            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=not_interpolated_MCF7,Vector=Fitted Points[3],Reference=Weighted Error"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[S6KpT389](Measured Value)" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="3"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="1"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="1"/>
+          <Parameter name="Color" type="string" value="#F000FF"/>
+          <Parameter name="Recording Activity" type="string" value="after"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=not_interpolated_MCF7,Vector=Fitted Points[0],Reference=Independent Value"/>
+            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=not_interpolated_MCF7,Vector=Fitted Points[4],Reference=Measured Value"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[S6KpT389](Fitted Value)" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="#F000FF"/>
+          <Parameter name="Recording Activity" type="string" value="after"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=not_interpolated_MCF7,Vector=Fitted Points[0],Reference=Independent Value"/>
+            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=not_interpolated_MCF7,Vector=Fitted Points[4],Reference=Fitted Value"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[S6KpT389](Weighted Error)" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="2"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="2"/>
+          <Parameter name="Color" type="string" value="#F000FF"/>
+          <Parameter name="Recording Activity" type="string" value="after"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=not_interpolated_MCF7,Vector=Fitted Points[0],Reference=Independent Value"/>
+            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=not_interpolated_MCF7,Vector=Fitted Points[4],Reference=Weighted Error"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[TSC2pT1462](Measured Value)" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="3"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="1"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="1"/>
+          <Parameter name="Color" type="string" value="#F0C800"/>
+          <Parameter name="Recording Activity" type="string" value="after"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=not_interpolated_MCF7,Vector=Fitted Points[0],Reference=Independent Value"/>
+            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=not_interpolated_MCF7,Vector=Fitted Points[5],Reference=Measured Value"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[TSC2pT1462](Fitted Value)" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="#F0C800"/>
+          <Parameter name="Recording Activity" type="string" value="after"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=not_interpolated_MCF7,Vector=Fitted Points[0],Reference=Independent Value"/>
+            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=not_interpolated_MCF7,Vector=Fitted Points[5],Reference=Fitted Value"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[TSC2pT1462](Weighted Error)" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="2"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="2"/>
+          <Parameter name="Color" type="string" value="#F0C800"/>
+          <Parameter name="Recording Activity" type="string" value="after"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=not_interpolated_MCF7,Vector=Fitted Points[0],Reference=Independent Value"/>
+            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=not_interpolated_MCF7,Vector=Fitted Points[5],Reference=Weighted Error"/>
+          </ListOfChannels>
+        </PlotItem>
+      </ListOfPlotItems>
+    </PlotSpecification>
+    <PlotSpecification name="not_interpolated_T47D" type="Plot2D" active="1" taskTypes="Parameter Estimation">
+      <Parameter name="log X" type="bool" value="0"/>
+      <Parameter name="log Y" type="bool" value="0"/>
+      <ListOfPlotItems>
+        <PlotItem name="[AktpT308](Measured Value)" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="3"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="1"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="1"/>
+          <Parameter name="Color" type="string" value="#FF0000"/>
+          <Parameter name="Recording Activity" type="string" value="after"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=not_interpolated_T47D,Vector=Fitted Points[0],Reference=Independent Value"/>
+            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=not_interpolated_T47D,Vector=Fitted Points[0],Reference=Measured Value"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[AktpT308](Fitted Value)" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="#FF0000"/>
+          <Parameter name="Recording Activity" type="string" value="after"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=not_interpolated_T47D,Vector=Fitted Points[0],Reference=Independent Value"/>
+            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=not_interpolated_T47D,Vector=Fitted Points[0],Reference=Fitted Value"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[AktpT308](Weighted Error)" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="2"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="2"/>
+          <Parameter name="Color" type="string" value="#FF0000"/>
+          <Parameter name="Recording Activity" type="string" value="after"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=not_interpolated_T47D,Vector=Fitted Points[0],Reference=Independent Value"/>
+            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=not_interpolated_T47D,Vector=Fitted Points[0],Reference=Weighted Error"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[FourEBP1pT37_46](Measured Value)" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="3"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="1"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="1"/>
+          <Parameter name="Color" type="string" value="#0000FF"/>
+          <Parameter name="Recording Activity" type="string" value="after"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=not_interpolated_T47D,Vector=Fitted Points[0],Reference=Independent Value"/>
+            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=not_interpolated_T47D,Vector=Fitted Points[1],Reference=Measured Value"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[FourEBP1pT37_46](Fitted Value)" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="#0000FF"/>
+          <Parameter name="Recording Activity" type="string" value="after"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=not_interpolated_T47D,Vector=Fitted Points[0],Reference=Independent Value"/>
+            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=not_interpolated_T47D,Vector=Fitted Points[1],Reference=Fitted Value"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[FourEBP1pT37_46](Weighted Error)" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="2"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="2"/>
+          <Parameter name="Color" type="string" value="#0000FF"/>
+          <Parameter name="Recording Activity" type="string" value="after"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=not_interpolated_T47D,Vector=Fitted Points[0],Reference=Independent Value"/>
+            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=not_interpolated_T47D,Vector=Fitted Points[1],Reference=Weighted Error"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[IRS1pS636_639](Measured Value)" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="3"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="1"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="1"/>
+          <Parameter name="Color" type="string" value="#00E600"/>
+          <Parameter name="Recording Activity" type="string" value="after"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=not_interpolated_T47D,Vector=Fitted Points[0],Reference=Independent Value"/>
+            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=not_interpolated_T47D,Vector=Fitted Points[2],Reference=Measured Value"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[IRS1pS636_639](Fitted Value)" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="#00E600"/>
+          <Parameter name="Recording Activity" type="string" value="after"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=not_interpolated_T47D,Vector=Fitted Points[0],Reference=Independent Value"/>
+            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=not_interpolated_T47D,Vector=Fitted Points[2],Reference=Fitted Value"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[IRS1pS636_639](Weighted Error)" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="2"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="2"/>
+          <Parameter name="Color" type="string" value="#00E600"/>
+          <Parameter name="Recording Activity" type="string" value="after"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=not_interpolated_T47D,Vector=Fitted Points[0],Reference=Independent Value"/>
+            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=not_interpolated_T47D,Vector=Fitted Points[2],Reference=Weighted Error"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[PRAS40pT246](Measured Value)" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="3"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="1"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="1"/>
+          <Parameter name="Color" type="string" value="#00BEF0"/>
+          <Parameter name="Recording Activity" type="string" value="after"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=not_interpolated_T47D,Vector=Fitted Points[0],Reference=Independent Value"/>
+            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=not_interpolated_T47D,Vector=Fitted Points[3],Reference=Measured Value"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[PRAS40pT246](Fitted Value)" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="#00BEF0"/>
+          <Parameter name="Recording Activity" type="string" value="after"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=not_interpolated_T47D,Vector=Fitted Points[0],Reference=Independent Value"/>
+            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=not_interpolated_T47D,Vector=Fitted Points[3],Reference=Fitted Value"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[PRAS40pT246](Weighted Error)" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="2"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="2"/>
+          <Parameter name="Color" type="string" value="#00BEF0"/>
+          <Parameter name="Recording Activity" type="string" value="after"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=not_interpolated_T47D,Vector=Fitted Points[0],Reference=Independent Value"/>
+            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=not_interpolated_T47D,Vector=Fitted Points[3],Reference=Weighted Error"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[S6KpT389](Measured Value)" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="3"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="1"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="1"/>
+          <Parameter name="Color" type="string" value="#F000FF"/>
+          <Parameter name="Recording Activity" type="string" value="after"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=not_interpolated_T47D,Vector=Fitted Points[0],Reference=Independent Value"/>
+            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=not_interpolated_T47D,Vector=Fitted Points[4],Reference=Measured Value"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[S6KpT389](Fitted Value)" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="#F000FF"/>
+          <Parameter name="Recording Activity" type="string" value="after"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=not_interpolated_T47D,Vector=Fitted Points[0],Reference=Independent Value"/>
+            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=not_interpolated_T47D,Vector=Fitted Points[4],Reference=Fitted Value"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[S6KpT389](Weighted Error)" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="2"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="2"/>
+          <Parameter name="Color" type="string" value="#F000FF"/>
+          <Parameter name="Recording Activity" type="string" value="after"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=not_interpolated_T47D,Vector=Fitted Points[0],Reference=Independent Value"/>
+            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=not_interpolated_T47D,Vector=Fitted Points[4],Reference=Weighted Error"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[TSC2pT1462](Measured Value)" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="3"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="1"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="1"/>
+          <Parameter name="Color" type="string" value="#F0C800"/>
+          <Parameter name="Recording Activity" type="string" value="after"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=not_interpolated_T47D,Vector=Fitted Points[0],Reference=Independent Value"/>
+            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=not_interpolated_T47D,Vector=Fitted Points[5],Reference=Measured Value"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[TSC2pT1462](Fitted Value)" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="#F0C800"/>
+          <Parameter name="Recording Activity" type="string" value="after"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=not_interpolated_T47D,Vector=Fitted Points[0],Reference=Independent Value"/>
+            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=not_interpolated_T47D,Vector=Fitted Points[5],Reference=Fitted Value"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[TSC2pT1462](Weighted Error)" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="2"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="2"/>
+          <Parameter name="Color" type="string" value="#F0C800"/>
+          <Parameter name="Recording Activity" type="string" value="after"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=not_interpolated_T47D,Vector=Fitted Points[0],Reference=Independent Value"/>
+            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=not_interpolated_T47D,Vector=Fitted Points[5],Reference=Weighted Error"/>
+          </ListOfChannels>
+        </PlotItem>
+      </ListOfPlotItems>
+    </PlotSpecification>
+  </ListOfPlots>
+  <GUI>
+    <ListOfSliders>
+      <Slider key="Slider_0" associatedEntityKey="Task_19" objectCN="CN=Root,Model=SimpleAktModel,Vector=Values[kFourEBP1Phos],Reference=InitialValue" objectType="float" objectValue="0.5" minValue="0.005" maxValue="0.5" tickNumber="1000" tickFactor="100" scaling="logarithmic"/>
+      <Slider key="Slider_1" associatedEntityKey="Task_19" objectCN="CN=Root,Model=SimpleAktModel,Vector=Values[kS6KPhos],Reference=InitialValue" objectType="float" objectValue="0.5" minValue="0.005" maxValue="0.5" tickNumber="1000" tickFactor="100" scaling="logarithmic"/>
+      <Slider key="Slider_4" associatedEntityKey="Task_19" objectCN="CN=Root,Model=SimpleAktModel,Vector=Values[kIRS1Phos],Reference=InitialValue" objectType="float" objectValue="0.5" minValue="0.005" maxValue="0.5" tickNumber="1000" tickFactor="100" scaling="logarithmic"/>
+    </ListOfSliders>
+  </GUI>
   <SBMLReference file="simple_akt_model.sbml">
     <SBMLMap SBMLid="AA" COPASIkey="ModelValue_1"/>
     <SBMLMap SBMLid="Akt" COPASIkey="Metabolite_3"/>
@@ -2184,7 +3057,6 @@ Reaction scheme where the products are created from the reactants and the change
     <SBMLMap SBMLid="kFourEBP1Dephos" COPASIkey="ModelValue_19"/>
     <SBMLMap SBMLid="kFourEBP1Phos" COPASIkey="ModelValue_18"/>
     <SBMLMap SBMLid="kIRS1Act" COPASIkey="ModelValue_2"/>
-    <SBMLMap SBMLid="kIRS1Dephos" COPASIkey="ModelValue_5"/>
     <SBMLMap SBMLid="kIRS1Inact" COPASIkey="ModelValue_3"/>
     <SBMLMap SBMLid="kIRS1Phos" COPASIkey="ModelValue_4"/>
     <SBMLMap SBMLid="kPI3KDephos" COPASIkey="ModelValue_7"/>
@@ -2207,15 +3079,17 @@ Reaction scheme where the products are created from the reactants and the change
   <ListOfUnitDefinitions>
     <UnitDefinition key="Unit_1" name="meter" symbol="m">
       <MiriamAnnotation>
-        <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-          <rdf:Description rdf:about="#Unit_0">
-            <dcterms:created>
-              <rdf:Description>
-                <dcterms:W3CDTF>2019-10-10T12:46:51Z</dcterms:W3CDTF>
-              </rdf:Description>
-            </dcterms:created>
-          </rdf:Description>
-        </rdf:RDF>
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:Description rdf:about="#Unit_0">
+<dcterms:created>
+<rdf:Description>
+<dcterms:W3CDTF>2019-10-10T13:01:24Z</dcterms:W3CDTF>
+</rdf:Description>
+</dcterms:created>
+</rdf:Description>
+</rdf:RDF>
       </MiriamAnnotation>
       <Expression>
         m
@@ -2223,15 +3097,17 @@ Reaction scheme where the products are created from the reactants and the change
     </UnitDefinition>
     <UnitDefinition key="Unit_5" name="second" symbol="s">
       <MiriamAnnotation>
-        <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-          <rdf:Description rdf:about="#Unit_4">
-            <dcterms:created>
-              <rdf:Description>
-                <dcterms:W3CDTF>2019-10-10T12:46:51Z</dcterms:W3CDTF>
-              </rdf:Description>
-            </dcterms:created>
-          </rdf:Description>
-        </rdf:RDF>
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:Description rdf:about="#Unit_4">
+<dcterms:created>
+<rdf:Description>
+<dcterms:W3CDTF>2019-10-10T13:01:24Z</dcterms:W3CDTF>
+</rdf:Description>
+</dcterms:created>
+</rdf:Description>
+</rdf:RDF>
       </MiriamAnnotation>
       <Expression>
         s
@@ -2239,15 +3115,17 @@ Reaction scheme where the products are created from the reactants and the change
     </UnitDefinition>
     <UnitDefinition key="Unit_13" name="Avogadro" symbol="Avogadro">
       <MiriamAnnotation>
-        <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-          <rdf:Description rdf:about="#Unit_12">
-            <dcterms:created>
-              <rdf:Description>
-                <dcterms:W3CDTF>2019-10-10T12:46:51Z</dcterms:W3CDTF>
-              </rdf:Description>
-            </dcterms:created>
-          </rdf:Description>
-        </rdf:RDF>
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:Description rdf:about="#Unit_12">
+<dcterms:created>
+<rdf:Description>
+<dcterms:W3CDTF>2019-10-10T13:01:24Z</dcterms:W3CDTF>
+</rdf:Description>
+</dcterms:created>
+</rdf:Description>
+</rdf:RDF>
       </MiriamAnnotation>
       <Expression>
         Avogadro
@@ -2255,15 +3133,17 @@ Reaction scheme where the products are created from the reactants and the change
     </UnitDefinition>
     <UnitDefinition key="Unit_17" name="item" symbol="#">
       <MiriamAnnotation>
-        <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-          <rdf:Description rdf:about="#Unit_16">
-            <dcterms:created>
-              <rdf:Description>
-                <dcterms:W3CDTF>2019-10-10T12:46:51Z</dcterms:W3CDTF>
-              </rdf:Description>
-            </dcterms:created>
-          </rdf:Description>
-        </rdf:RDF>
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:Description rdf:about="#Unit_16">
+<dcterms:created>
+<rdf:Description>
+<dcterms:W3CDTF>2019-10-10T13:01:24Z</dcterms:W3CDTF>
+</rdf:Description>
+</dcterms:created>
+</rdf:Description>
+</rdf:RDF>
       </MiriamAnnotation>
       <Expression>
         #
@@ -2271,15 +3151,17 @@ Reaction scheme where the products are created from the reactants and the change
     </UnitDefinition>
     <UnitDefinition key="Unit_35" name="liter" symbol="l">
       <MiriamAnnotation>
-        <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-          <rdf:Description rdf:about="#Unit_34">
-            <dcterms:created>
-              <rdf:Description>
-                <dcterms:W3CDTF>2019-10-10T12:46:51Z</dcterms:W3CDTF>
-              </rdf:Description>
-            </dcterms:created>
-          </rdf:Description>
-        </rdf:RDF>
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:Description rdf:about="#Unit_34">
+<dcterms:created>
+<rdf:Description>
+<dcterms:W3CDTF>2019-10-10T13:01:24Z</dcterms:W3CDTF>
+</rdf:Description>
+</dcterms:created>
+</rdf:Description>
+</rdf:RDF>
       </MiriamAnnotation>
       <Expression>
         0.001*m^3
@@ -2287,15 +3169,17 @@ Reaction scheme where the products are created from the reactants and the change
     </UnitDefinition>
     <UnitDefinition key="Unit_41" name="mole" symbol="mol">
       <MiriamAnnotation>
-        <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-          <rdf:Description rdf:about="#Unit_40">
-            <dcterms:created>
-              <rdf:Description>
-                <dcterms:W3CDTF>2019-10-10T12:46:51Z</dcterms:W3CDTF>
-              </rdf:Description>
-            </dcterms:created>
-          </rdf:Description>
-        </rdf:RDF>
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:Description rdf:about="#Unit_40">
+<dcterms:created>
+<rdf:Description>
+<dcterms:W3CDTF>2019-10-10T13:01:24Z</dcterms:W3CDTF>
+</rdf:Description>
+</dcterms:created>
+</rdf:Description>
+</rdf:RDF>
       </MiriamAnnotation>
       <Expression>
         Avogadro*#

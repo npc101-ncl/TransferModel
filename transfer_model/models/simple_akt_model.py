@@ -128,28 +128,27 @@ class TheModel:
     
     
         // kinetic parameters
-        kIRS1Act                =0.1;
-        kIRS1Inact              =0.1;
-        kIRS1Phos               =0.1;
-        kIRS1Dephos             =0.1;
-        kPI3KPhos               =0.1;
-        kPI3KDephos             =0.1;
-        kAktPhos                =0.1;
-        kAktDephos              =0.1;
-        kTSC2Phos               =0.1;
-        kTSC2Dephos             =0.1;
-        kmTORC1cytToLys         =0.1;
-        kmTORC1LysToCyt         =0.1;
-        kmTORC1Phos             =0.1;
-        kmTORC1Dephos           =0.1;
-        kPras40Phos             =0.1;
-        kPras40Dephos           =0.1;
-        kFourEBP1Phos           =0.1;
-        kFourEBP1Dephos         =0.1;
-        kS6KPhos                =0.1;
-        kS6KDephos              =0.1;
-        kmTORC1cytToLys         =0.1;
-        kmTORC1LysToCyt         =0.1;
+        kIRS1Act                =0.5;
+        kIRS1Inact              =0.5;
+        kIRS1Phos               =0.5;
+        kPI3KPhos               =0.5;
+        kPI3KDephos             =0.5;
+        kAktPhos                =0.5;
+        kAktDephos              =0.5;
+        kTSC2Phos               =0.5;
+        kTSC2Dephos             =0.5;
+        kmTORC1cytToLys         =0.5;
+        kmTORC1LysToCyt         =0.5;
+        kmTORC1Phos             =0.5;
+        kmTORC1Dephos           =0.5;
+        kPras40Phos             =0.5;
+        kPras40Dephos           =0.5;
+        kFourEBP1Phos           =0.5;
+        kFourEBP1Dephos         =0.5;
+        kS6KPhos                =0.5;
+        kS6KDephos              =0.5;
+        kmTORC1cytToLys         =0.5;
+        kmTORC1LysToCyt         =0.5;
     
     
     
@@ -313,16 +312,16 @@ if __name__ == '__main__':
 
     OPEN_WITH_COPASI = False
 
-    CONFIGURE_PARAMETER_ESTIMATION = False
+    CONFIGURE_PARAMETER_ESTIMATION = True
     if CONFIGURE_PARAMETER_ESTIMATION:
         WHICH_CELL_LINE = 'T47D'
         assert WHICH_CELL_LINE in ['T47D', 'ZR75']
 
     PLOT_SIMULATION = False
 
-    PLOT_BEST_FIT_MCF7_AND_T47D = True
+    PLOT_BEST_FIT_MCF7_AND_T47D = False
 
-    PLOT_BEST_FIT_MCF7_AND_ZR75 = True
+    PLOT_BEST_FIT_MCF7_AND_ZR75 = False
 
     TRANSFER_BETWEEN_MCF7_FROM_ZR75_AND_T47D = False
 
