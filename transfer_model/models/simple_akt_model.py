@@ -224,7 +224,6 @@ class TheModel:
         remainder = nplots % ncols
         if remainder > 0:
             nrows += 1
-
         seaborn.set_context(context='talk')
         fig = plt.figure()
         for i, (title, selection) in enumerate(plot_selection.items()):
@@ -310,7 +309,7 @@ if __name__ == '__main__':
 
     WRITE_COPASI_FORMATTED_DATA = False
 
-    OPEN_WITH_COPASI = False
+    OPEN_WITH_COPASI = True
 
     CONFIGURE_PARAMETER_ESTIMATION = True
     if CONFIGURE_PARAMETER_ESTIMATION:

@@ -489,7 +489,6 @@
       <parameter id="kIRS1Act" value="0.5" constant="true"/>
       <parameter id="kIRS1Inact" value="0.5" constant="true"/>
       <parameter id="kIRS1Phos" value="0.5" constant="true"/>
-      <parameter id="kIRS1Dephos" value="0.5" constant="true"/>
       <parameter id="kPI3KPhos" value="0.5" constant="true"/>
       <parameter id="kPI3KDephos" value="0.5" constant="true"/>
       <parameter id="kAktPhos" value="0.5" constant="true"/>
