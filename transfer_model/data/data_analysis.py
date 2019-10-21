@@ -19,11 +19,19 @@ class GetData:
     Extract data from excel file. Preprocess the data.
 
     """
-    zr75_sheet = 'MCF-7 vs ZR-75-1'
-    t47d_sheet = 'MCF-7 vs T47D'
+    zr75_data = ZR_75_DATA
+    t47d_data = T47D_DATA
+    steadystate_data = STEADY_STATE_DATA
 
     def __init__(self, cell_line='ZR75', mean_or_median='mean'):
-        self.workbook = xlrd.open_workbook(EXPERIMENTAL_DATA_FILE)
+        if cell_line == 'ZR75':
+            self.workbook = xlrd.open_workbook(self.zr75_data)
+        elif cell_line == 'T47D':
+            self.workbook = xlrd.open_workbook(self.t47d_data)
+        elif cell_line == 'steadystate':
+            self.workbook = xlrd.open_workbook(self.steadystate_data)
+        else:
+            raise ValueError
         self.cell_line = cell_line
         self.mean_or_median = mean_or_median
 
@@ -36,7 +44,7 @@ class GetData:
         Returns:
 
         """
-        sheet = self.workbook.sheet_by_name(self.zr75_sheet)
+        sheet = self.workbook.sheet_by_index(0)
         columns = sheet.row_slice(0)
         columns = [i.value for i in columns]
         columns = [i for i in columns if i not in ['', 'values']]
@@ -57,13 +65,7 @@ class GetData:
         Returns:
 
         """
-        if self.cell_line == 'T47D':
-            sheet = self.t47d_sheet
-        elif self.cell_line == 'ZR75':
-            sheet = self.zr75_sheet
-        else:
-            raise ValueError
-        sheet = self.workbook.sheet_by_name(sheet)
+        sheet = self.workbook.sheet_by_index(0)
 
         data = [sheet.col_slice(i, 2, 14) for i in range(1, 89)]
         new_data = []
@@ -107,7 +109,8 @@ class GetData:
         series_list = []
         for i in data:
             series_list.append(data[i] / data[i].mean())
-        return pandas.concat(series_list, axis=1)
+        df = pandas.concat(series_list, axis=1)
+        return df
 
     def normed_to_median(self, data=None):
         """
@@ -125,7 +128,7 @@ class GetData:
             series_list.append(data[i] / data[i].median())
         return pandas.concat(series_list, axis=1)
 
-    def normalised_to_coomassie_blue(self, data=None, ):
+    def normalised_to_coomassie_blue(self, data=None):
         """
         Second step in normalisation process is to normalise for coomassie blue staining. This stain
         provides a metric for the total amount of protein loaded onto a gel.
@@ -143,7 +146,8 @@ class GetData:
             df = data[ab]
             df_dct[ab] = df / data['Coomassie_staining']
 
-        return pandas.concat(df_dct, axis=1)
+        df = pandas.concat(df_dct, axis=1)
+        return df
 
     def add_offset_to_total_proteins(self, data=None, total_proteins=None):
         """
@@ -218,7 +222,7 @@ class GetData:
         return df
 
     def plot(self, data=None, plot_selection={}, subplot_titles={},
-             ncols=3, wspace=0.25, hspace=0.3, **kwargs):
+             ncols=5, wspace=0.05, hspace=0.2, **kwargs):
 
         if plot_selection == {}:
             plot_selection = {
@@ -230,6 +234,28 @@ class GetData:
                 'Pras40': ['PRAS40', 'PRAS40pT246', 'PRAS40pS183'],
                 'p38': ['p38', 'p38_pT180_Y182'],
                 'Erk': ['ERK', 'ERKpT202_Y204'],
+            }
+            plot_selection = {
+                'IRS1': ['IRS1'],
+                'IRS1pS636_639': ['IRS1pS636_639'],
+                'Akt': ['Akt'],
+                'AktpT308': ['AktpT308'],
+                'AktpS473': ['AktpS473'],
+                'TSC2': ['TSC2'],
+                'TSC2pT1462': ['TSC2pT1462'],
+                'S6K': ['S6K'],
+                'S6KpT229': ['S6KpT229'],
+                'S6KpT389': ['S6KpT389'],
+                '4EBP': ['FourEBP1'],
+                'FourEBP1pT37_46': ['FourEBP1pT37_46'],
+                'Pras40': ['PRAS40'],
+                'PRAS40pT246': ['PRAS40pT246'],
+                'PRAS40pS183': ['PRAS40pS183'],
+                'p38': ['p38'],
+                'p38_pT180_Y182': ['p38_pT180_Y182'],
+                'Erk': ['ERK'],
+                'ERKpT202_Y204': ['ERK'],
+                'ERalpha': ['ER_alpha']
             }
         _nplots = len(plot_selection)
         if _nplots == 1:
@@ -246,19 +272,20 @@ class GetData:
 
         avg = data.groupby(['cell_line', 'time']).mean()
         sem = data.groupby(['cell_line', 'time']).sem()
+
         line_styles = {'MCF7': '-', 'ZR75': '--', 'T47D': '-.'}
 
         import matplotlib.lines as mlines
         import matplotlib.patches as mpatch
         seaborn.set_context(context='talk')
-        fig = plt.figure(figsize=(12, 12))
+        fig = plt.figure(figsize=(18, 12))
         for i, (title, antibodies) in enumerate(plot_selection.items()):
             ax = plt.subplot(nrows, ncols, i + 1)
             # print(i, title, antibodies)
             cell_lines = []
             for cell_line in list(set(avg.index.get_level_values(0))):
                 # colours = iter(seaborn.color_palette("hls", len(antibodies)))
-                colours = iter(['red', 'green', 'blue', 'black', 'purple', 'yellow'])
+                colours = iter(['black', 'red', 'green', 'blue', 'black', 'purple', 'yellow'])
                 legend_markers = []
                 for ab in antibodies:
                     c = next(colours)
@@ -273,14 +300,17 @@ class GetData:
                         mpatch.Patch(color=c, label=ab)
                     )
                 plt.title(title)
-                legend1 = plt.legend(handles=legend_markers, loc='best', fontsize=10)
+                # legend1 = plt.legend(handles=legend_markers, loc='best', fontsize=10)
                 seaborn.despine(ax=ax, top=True, right=True)
-                plt.gca().add_artist(legend1)
+                # plt.gca().add_artist(legend1)
                 cell_lines.append(cell_line)
-        fig.legend(bbox_to_anchor=(0.85, 0.2), handles=[
+        # bbox_to_anchor (move to left, move down, )
+        fig.legend(bbox_to_anchor=(0.0, 1.025, 0.35, 0.00), handles=[
             mlines.Line2D([], [], color='black', linestyle=line_styles[i],
-                          label=i) for i in cell_lines
-        ], title='Cell Line')
+                          label=i) for i in cell_lines],
+                   # mode='expand',
+                   borderaxespad=0.1, ncol=2,
+                   loc='upper center', fontsize=25)
         plt.show()
         # plt.gca().annotate('Time (min)', xy=(0.1, 0.5), xytext=(0.1, 0.5), xycoords='figure fraction')
         # plt.suptitle('Insulin Stimulation: {}'.format(cell_line))
@@ -359,6 +389,101 @@ class GetData:
 
         return df
 
+
+class SteadyStateData(GetData):
+    data_file = STEADY_STATE_DATA
+
+    def get_raw_data(self):
+        data = pandas.read_csv(self.data_file, header=0, index_col=[0])
+        df_dct = {}
+        for label, df in data.groupby(level=0):
+            df = df.loc[label]
+            r = pandas.Series(range(df.shape[0]), index=df.index)
+            df = df.assign(repeat=r)
+            df = df.set_index('repeat')
+            df = df.drop('Repeat', axis=1)
+            df_dct[label] = df
+        data = pandas.concat(df_dct)
+        data = data.sort_index()
+        idx0 = data.index.get_level_values(0)
+
+        # # get rid of python unfriendly names
+        idx0 = [i.replace('-', '_') for i in idx0]
+        idx0 = [i.replace('/', '_') for i in idx0]
+        idx0 = [i.replace(' ', '_') for i in idx0]
+        new_idx = []
+        for i in idx0:
+            if i in REPLACEMENT_NAMES:
+                new_idx.append(REPLACEMENT_NAMES[i])
+            else:
+                new_idx.append(i)
+        data['antibody'] = new_idx
+        data = data.set_index('antibody', append=True)
+        data.index = data.index.droplevel(0).swaplevel(0, 1)
+        data.columns = ['MCF7', 'ZR75', 'T47D']
+        return data
+
+    def normed_to_average(self, data=None):
+        if data is None:
+            data = self.get_raw_data()
+        mean = data.mean(axis=1)
+        df_dct = {}
+        for i in data.columns:
+            df_dct[i] = data[i] / mean
+        df = pandas.concat(df_dct).unstack(level=0)
+        return df
+
+    def normalised_to_coomassie_blue(self, data=None):
+        if data is None:
+            data = self.normed_to_average()
+        df_dct = {}
+        for i in sorted(list(set(data.index.get_level_values(0)))):
+            df_dct[i] = data.loc[i] / data.loc['Coomassie_blue']
+        df = pandas.concat(df_dct)
+        return df
+
+    def plot(self, data=None, hue='cell_line'):
+        seaborn.set_context(context='talk', rc={'patch.linewidth': 1})
+        if data is None:
+            data = self.normalised_to_coomassie_blue()
+        data = pandas.DataFrame(data.stack())
+        data = data.reset_index()
+        data.columns = ['Antibody', 'Repeat', 'Cell Line', 'Normalised Intensity']
+
+        fig = plt.figure(figsize=(20, 10))
+        seaborn.barplot(x='Antibody', y='Normalised Intensity',
+                        hue='Cell Line', data=data, palette=['black', 'grey', 'white'], errcolor='black',
+                        errwidth=1, capsize=0.1, edgecolor='black')
+        seaborn.despine(fig=fig, top=True, right=True)
+        plt.xticks(rotation=90)
+        fname = os.path.join(DATA_DIRECTORY, 'steady_state_exp.png')
+        plt.savefig(fname, dpi=300, bbox_inches='tight')
+
+    def t_tests(self, antibody, cell_line_a, cell_line_b, thresh=0.05):
+        data = self.normalised_to_coomassie_blue()
+        a = data.loc[antibody, cell_line_a]
+        b = data.loc[antibody, cell_line_b]
+        from scipy.stats import ttest_ind
+        t, p = ttest_ind(a.dropna(), b.dropna())
+        return t, p, True if p < thresh else False
+
+    def to_copasi_format(self, prefix='steady_state'):
+        data = self.normalised_to_coomassie_blue()
+        mean = data.groupby(level=0).mean()
+        sem = data.groupby(level=0).sem()
+        mean = mean.transpose()
+        for i in list(set(mean.index.get_level_values(0))):
+            d = pandas.DataFrame(mean.loc[i]).transpose()
+            d['Insulin_indep'] = 1
+            d['AA_indep'] = 1
+            indeps = {}
+            for j in d:
+                indeps[f'{j}_indep'] = d[j].values
+            indeps = pandas.DataFrame(indeps, index=d.index)
+            d = pandas.concat([d, indeps], axis=1)
+            print(d)
+            fname = os.path.join(STEADTSTATE_COPASI_FORMATED_DATA, f'{i}.csv')
+            d.to_csv(fname, index=False)
 
 
 

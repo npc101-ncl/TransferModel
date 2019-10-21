@@ -128,27 +128,25 @@ class TheModel:
     
     
         // kinetic parameters
-        kIRS1Act                =0.5;
-        kIRS1Inact              =0.5;
-        kIRS1Phos               =0.5;
-        kPI3KPhos               =0.5;
-        kPI3KDephos             =0.5;
-        kAktPhos                =0.5;
-        kAktDephos              =0.5;
-        kTSC2Phos               =0.5;
-        kTSC2Dephos             =0.5;
-        kmTORC1cytToLys         =0.5;
-        kmTORC1LysToCyt         =0.5;
-        kmTORC1Phos             =0.5;
-        kmTORC1Dephos           =0.5;
-        kPras40Phos             =0.5;
-        kPras40Dephos           =0.5;
-        kFourEBP1Phos           =0.5;
-        kFourEBP1Dephos         =0.5;
-        kS6KPhos                =0.5;
-        kS6KDephos              =0.5;
-        kmTORC1cytToLys         =0.5;
-        kmTORC1LysToCyt         =0.5;
+        _kIRS1Act                = 0.1;
+        _kIRS1Inact              = 0.1;
+        kIRS1Phos               = 0.1;
+        _kPI3KPhos               = 0.1;
+        kPI3KDephos             = 0.1;
+        _kAktPhos                = 0.1;
+        kAktDephos              = 0.1;
+        kTSC2Phos               = 0.1;
+        _kTSC2Dephos             = 0.1;
+        _kmTORC1cytToLys         = 0.1;
+        _kmTORC1LysToCyt         = 0.1;
+        _kmTORC1Phos             = 0.1;
+        kmTORC1Dephos           = 0.1;
+        _kPras40Phos             = 0.1;
+        kPras40Dephos           = 0.1;
+        _kFourEBP1Phos           = 0.1;
+        kFourEBP1Dephos         = 0.1;
+        _kS6KPhos                = 0.1;
+        kS6KDephos              = 0.1;
     
     
     
@@ -156,24 +154,24 @@ class TheModel:
         // function CompetitiveInhibitionWithKcat(km, ki, kcat, E, I, S)
         // function MM(km, Vmax, S)
         // function NonCompetitiveInhibitionWithKcat(km, ki, kcat, E, n, I, S)
-        R1f     : IRS1 => IRS1a                         ; Cell * kIRS1Act*IRS1*Insulin;
+        R1f     : IRS1 => IRS1a                         ; Cell * _kIRS1Act*IRS1*Insulin;
         R2f     : IRS1a => IRS1pS636_639                ; Cell * kIRS1Phos*IRS1a*S6KpT389
-        R2b     : IRS1pS636_639 => IRS1                 ; Cell * kIRS1Inact*IRS1pS636_639
-        R3f     : PI3K => pPI3K                         ; Cell * kPI3KPhos*PI3K*IRS1a
+        R2b     : IRS1pS636_639 => IRS1                 ; Cell * _kIRS1Inact*IRS1pS636_639
+        R3f     : PI3K => pPI3K                         ; Cell * _kPI3KPhos*PI3K*IRS1a
         R3b     : pPI3K => PI3K                         ; Cell * kPI3KDephos*pPI3K
-        R4f     : Akt => AktpT308                       ; Cell * kAktPhos*Akt*pPI3K
+        R4f     : Akt => AktpT308                       ; Cell * _kAktPhos*Akt*pPI3K
         R4b     : AktpT308 => Akt                       ; Cell * kAktDephos*pPI3K*AktpT308
         R5f     : TSC2 => TSC2pT1462                    ; Cell * kTSC2Phos*TSC2*AktpT308
-        R5b     : TSC2pT1462 => TSC2                    ; Cell * kTSC2Dephos*TSC2pT1462
-        R6f     : mTORC1cyt => mTORC1lys                ; Cell * kmTORC1cytToLys*mTORC1cyt*AA
-        R6b     : mTORC1lys => mTORC1cyt                ; Cell * kmTORC1LysToCyt*mTORC1lys
-        R7f     : mTORC1lys => pmTORC1                  ; Cell * kmTORC1Phos*mTORC1lys*TSC2
+        R5b     : TSC2pT1462 => TSC2                    ; Cell * _kTSC2Dephos*TSC2pT1462
+        R6f     : mTORC1cyt => mTORC1lys                ; Cell * _kmTORC1cytToLys*mTORC1cyt*AA
+        R6b     : mTORC1lys => mTORC1cyt                ; Cell * _kmTORC1LysToCyt*mTORC1lys
+        R7f     : mTORC1lys => pmTORC1                  ; Cell * _kmTORC1Phos*mTORC1lys*TSC2
         R7b     : pmTORC1 => mTORC1lys                  ; Cell * kmTORC1Dephos*pmTORC1
-        R8f     : PRAS40 => PRAS40pT246                 ; Cell * kPras40Phos*PRAS40*AktpT308
+        R8f     : PRAS40 => PRAS40pT246                 ; Cell * _kPras40Phos*PRAS40*AktpT308
         R8b     : PRAS40pT246 => PRAS40                 ; Cell * kPras40Dephos*PRAS40pT246
-        R9f     : FourEBP1 => FourEBP1pT37_46           ; Cell * kFourEBP1Phos*FourEBP1*pmTORC1
+        R9f     : FourEBP1 => FourEBP1pT37_46           ; Cell * _kFourEBP1Phos*FourEBP1*pmTORC1
         R9b     : FourEBP1pT37_46 => FourEBP1           ; Cell * kFourEBP1Dephos*FourEBP1pT37_46
-        R10f    : S6K => S6KpT389                       ; Cell * kS6KPhos*S6K*pmTORC1
+        R10f    : S6K => S6KpT389                       ; Cell * _kS6KPhos*S6K*pmTORC1
         R10b    : S6KpT389 => S6K                       ; Cell * kS6KDephos*S6KpT389
     
     end
@@ -307,14 +305,19 @@ class TheModel:
 
 if __name__ == '__main__':
 
+    CLUSTER = True
+
     WRITE_COPASI_FORMATTED_DATA = False
 
-    OPEN_WITH_COPASI = True
+    OPEN_WITH_COPASI = False
 
     CONFIGURE_PARAMETER_ESTIMATION = True
     if CONFIGURE_PARAMETER_ESTIMATION:
         WHICH_CELL_LINE = 'T47D'
         assert WHICH_CELL_LINE in ['T47D', 'ZR75']
+
+    # configure the steady state data only
+    CONFIGURE_PARAMETER_ESTIMATION_SS = False
 
     PLOT_SIMULATION = False
 
@@ -325,6 +328,10 @@ if __name__ == '__main__':
     TRANSFER_BETWEEN_MCF7_FROM_ZR75_AND_T47D = False
 
     # ========================================
+
+    if CLUSTER:
+        WORKING_DIRECTORY = ''
+
     py_mod = model.loada(TheModel.model_string, copasi_file=COPASI_FILE)
     py_mod = tasks.TimeCourse(py_mod, start=0, end=150).model
 
@@ -338,10 +345,33 @@ if __name__ == '__main__':
     if CONFIGURE_PARAMETER_ESTIMATION:
         params = ['IRS1', 'Akt', 'PRAS40', 'TSC2', 'FourEBP1', 'S6K']
 
+
         if WHICH_CELL_LINE == 'ZR75':
             exp_files = glob.glob(os.path.join(ZR75_COPASI_FORMATED_DATA, '*.csv'))
         else:
             exp_files = glob.glob(os.path.join(T47D_COPASI_FORMATED_DATA, '*.csv'))
+
+        exp_files = exp_files + glob.glob(os.path.join(STEADTSTATE_COPASI_FORMATED_DATA, '*.csv'))
+
+
+        with tasks.ParameterEstimation.Context(py_mod, exp_files, parameters='g', context='s') as context:
+            context.set('run_mode', False)
+            context.set('separator', ',')
+            context.set('prefix', '_')
+            context.set('lower_bound', 0.1)
+            context.set('upper_bound', 10)
+            config = context.get_config()
+
+        # print(config)
+        # config = tasks.ParameterEstimation.Config.from_yaml(yml=PARAMETER_ESTIMATION_CONFIG_YAML)
+        pe = tasks.ParameterEstimation(config)
+        py_mod = pe.models['simple_akt_model'].model
+        py_mod.open()
+
+    if CONFIGURE_PARAMETER_ESTIMATION_SS:
+        params = ['IRS1', 'Akt', 'PRAS40', 'TSC2', 'FourEBP1', 'S6K']
+
+        exp_files = glob.glob(os.path.join(STEADTSTATE_COPASI_FORMATED_DATA, '*.csv'))
 
         with tasks.ParameterEstimation.Context(py_mod, exp_files, parameters='m', context='s') as context:
             context.set('run_mode', False)
@@ -388,16 +418,14 @@ if __name__ == '__main__':
         # te_mod_mcf7.plot_best_fit(which_data_file='T47D', which_cell_line='MCF7', filename=t47d_mcf7_fname)
         # te_mod_t47d.plot_best_fit(which_data_file='T47D', which_cell_line='T47D', filename=t47d_t47d_fname)
 
-
-
         # produce a barplot comparing measured and simulated ics
         tots = ['Akt', 'FourEBP1', 'IRS1', 'PRAS40', 'S6K', 'TSC2']
         experimental_MCF7_ics = \
-        GetData('T47D').normalised_to_coomassie_blue().stack().groupby(['cell_line', 'time']).mean()[tots].loc[
-            'MCF7', 0].to_dict()
+            GetData('T47D').normalised_to_coomassie_blue().stack().groupby(['cell_line', 'time']).mean()[tots].loc[
+                'MCF7', 0].to_dict()
         experimental_T47D_ics = \
-        GetData('T47D').normalised_to_coomassie_blue().stack().groupby(['cell_line', 'time']).mean()[tots].loc[
-            'T47D', 0].to_dict()
+            GetData('T47D').normalised_to_coomassie_blue().stack().groupby(['cell_line', 'time']).mean()[tots].loc[
+                'T47D', 0].to_dict()
 
         # collate into df
         df_mcf7 = pandas.DataFrame([experimental_MCF7_ics, estimated_mcf7_ics],
@@ -430,8 +458,6 @@ if __name__ == '__main__':
         fname = os.path.join(SIMULATION_DIRECTORY, 't47d_sheet_barplot_comparing_estimated_and_total_ics.png')
         plt.savefig(fname, dpi=300, bbox_inches='tight')
 
-
-
     if PLOT_BEST_FIT_MCF7_AND_ZR75:
         estimated_mcf7_ics = {}
         estimated_zr75_ics = {}
@@ -462,21 +488,24 @@ if __name__ == '__main__':
         # te_mod_mcf7.plot_best_fit(which_data_file='ZR75', which_cell_line='MCF7', filename=zr75_mcf7_fname)
         # te_mod_zr75.plot_best_fit(which_data_file='ZR75', which_cell_line='ZR75', filename=zr75_zr75_fname)
 
-
         # produce a barplot comparing measured and simulated ics
         tots = ['Akt', 'FourEBP1', 'IRS1', 'PRAS40', 'S6K', 'TSC2']
-        experimental_MCF7_ics = GetData('ZR75').normalised_to_coomassie_blue().stack().groupby(['cell_line', 'time']).mean()[tots].loc['MCF7', 0].to_dict()
-        experimental_ZR75_ics = GetData('ZR75').normalised_to_coomassie_blue().stack().groupby(['cell_line', 'time']).mean()[tots].loc['ZR75', 0].to_dict()
+        experimental_MCF7_ics = \
+        GetData('ZR75').normalised_to_coomassie_blue().stack().groupby(['cell_line', 'time']).mean()[tots].loc[
+            'MCF7', 0].to_dict()
+        experimental_ZR75_ics = \
+        GetData('ZR75').normalised_to_coomassie_blue().stack().groupby(['cell_line', 'time']).mean()[tots].loc[
+            'ZR75', 0].to_dict()
 
         # collate into df
         df_mcf7 = pandas.DataFrame([experimental_MCF7_ics, estimated_mcf7_ics],
-                              index=['exp', 'sim'])
+                                   index=['exp', 'sim'])
         df_mcf7 = pandas.DataFrame(df_mcf7.stack()).reset_index()
         df_mcf7.columns = ['cell_line', 'parameter', 'value']
 
         # collate into df
         df_zr75 = pandas.DataFrame([experimental_ZR75_ics, estimated_zr75_ics],
-                              index=['exp', 'sim'])
+                                   index=['exp', 'sim'])
         df_zr75 = pandas.DataFrame(df_zr75.stack()).reset_index()
         df_zr75.columns = ['cell_line', 'parameter', 'value']
 
@@ -496,10 +525,6 @@ if __name__ == '__main__':
 
         fname = os.path.join(SIMULATION_DIRECTORY, 'zr75_sheet_barplot_comparing_estimated_and_total_ics.png')
         plt.savefig(fname, dpi=300, bbox_inches='tight')
-
-
-
-
 
     if TRANSFER_BETWEEN_MCF7_FROM_ZR75_AND_T47D:
         # Calibrated with MCF7 and ZR75 (from same blot).

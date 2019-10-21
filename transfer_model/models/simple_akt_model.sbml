@@ -486,25 +486,25 @@
     <listOfParameters>
       <parameter id="Insulin" value="1" constant="true"/>
       <parameter id="AA" value="1" constant="true"/>
-      <parameter id="kIRS1Act" value="0.5" constant="true"/>
-      <parameter id="kIRS1Inact" value="0.5" constant="true"/>
-      <parameter id="kIRS1Phos" value="0.5" constant="true"/>
-      <parameter id="kPI3KPhos" value="0.5" constant="true"/>
-      <parameter id="kPI3KDephos" value="0.5" constant="true"/>
-      <parameter id="kAktPhos" value="0.5" constant="true"/>
-      <parameter id="kAktDephos" value="0.5" constant="true"/>
-      <parameter id="kTSC2Phos" value="0.5" constant="true"/>
-      <parameter id="kTSC2Dephos" value="0.5" constant="true"/>
-      <parameter id="kmTORC1cytToLys" value="0.5" constant="true"/>
-      <parameter id="kmTORC1LysToCyt" value="0.5" constant="true"/>
-      <parameter id="kmTORC1Phos" value="0.5" constant="true"/>
-      <parameter id="kmTORC1Dephos" value="0.5" constant="true"/>
-      <parameter id="kPras40Phos" value="0.5" constant="true"/>
-      <parameter id="kPras40Dephos" value="0.5" constant="true"/>
-      <parameter id="kFourEBP1Phos" value="0.5" constant="true"/>
-      <parameter id="kFourEBP1Dephos" value="0.5" constant="true"/>
-      <parameter id="kS6KPhos" value="0.5" constant="true"/>
-      <parameter id="kS6KDephos" value="0.5" constant="true"/>
+      <parameter id="_kIRS1Act" value="0.1" constant="true"/>
+      <parameter id="_kIRS1Inact" value="0.1" constant="true"/>
+      <parameter id="kIRS1Phos" value="0.1" constant="true"/>
+      <parameter id="_kPI3KPhos" value="0.1" constant="true"/>
+      <parameter id="kPI3KDephos" value="0.1" constant="true"/>
+      <parameter id="_kAktPhos" value="0.1" constant="true"/>
+      <parameter id="kAktDephos" value="0.1" constant="true"/>
+      <parameter id="kTSC2Phos" value="0.1" constant="true"/>
+      <parameter id="_kTSC2Dephos" value="0.1" constant="true"/>
+      <parameter id="_kmTORC1cytToLys" value="0.1" constant="true"/>
+      <parameter id="_kmTORC1LysToCyt" value="0.1" constant="true"/>
+      <parameter id="_kmTORC1Phos" value="0.1" constant="true"/>
+      <parameter id="kmTORC1Dephos" value="0.1" constant="true"/>
+      <parameter id="_kPras40Phos" value="0.1" constant="true"/>
+      <parameter id="kPras40Dephos" value="0.1" constant="true"/>
+      <parameter id="_kFourEBP1Phos" value="0.1" constant="true"/>
+      <parameter id="kFourEBP1Dephos" value="0.1" constant="true"/>
+      <parameter id="_kS6KPhos" value="0.1" constant="true"/>
+      <parameter id="kS6KDephos" value="0.1" constant="true"/>
     </listOfParameters>
     <listOfReactions>
       <reaction id="R1f" reversible="false" fast="false">
@@ -519,7 +519,7 @@
             <apply>
               <times/>
               <ci> Cell </ci>
-              <ci> kIRS1Act </ci>
+              <ci> _kIRS1Act </ci>
               <ci> IRS1 </ci>
               <ci> Insulin </ci>
             </apply>
@@ -560,7 +560,7 @@
             <apply>
               <times/>
               <ci> Cell </ci>
-              <ci> kIRS1Inact </ci>
+              <ci> _kIRS1Inact </ci>
               <ci> IRS1pS636_639 </ci>
             </apply>
           </math>
@@ -581,7 +581,7 @@
             <apply>
               <times/>
               <ci> Cell </ci>
-              <ci> kPI3KPhos </ci>
+              <ci> _kPI3KPhos </ci>
               <ci> PI3K </ci>
               <ci> IRS1a </ci>
             </apply>
@@ -621,7 +621,7 @@
             <apply>
               <times/>
               <ci> Cell </ci>
-              <ci> kAktPhos </ci>
+              <ci> _kAktPhos </ci>
               <ci> Akt </ci>
               <ci> pPI3K </ci>
             </apply>
@@ -684,7 +684,7 @@
             <apply>
               <times/>
               <ci> Cell </ci>
-              <ci> kTSC2Dephos </ci>
+              <ci> _kTSC2Dephos </ci>
               <ci> TSC2pT1462 </ci>
             </apply>
           </math>
@@ -702,7 +702,7 @@
             <apply>
               <times/>
               <ci> Cell </ci>
-              <ci> kmTORC1cytToLys </ci>
+              <ci> _kmTORC1cytToLys </ci>
               <ci> mTORC1cyt </ci>
               <ci> AA </ci>
             </apply>
@@ -721,7 +721,7 @@
             <apply>
               <times/>
               <ci> Cell </ci>
-              <ci> kmTORC1LysToCyt </ci>
+              <ci> _kmTORC1LysToCyt </ci>
               <ci> mTORC1lys </ci>
             </apply>
           </math>
@@ -742,7 +742,7 @@
             <apply>
               <times/>
               <ci> Cell </ci>
-              <ci> kmTORC1Phos </ci>
+              <ci> _kmTORC1Phos </ci>
               <ci> mTORC1lys </ci>
               <ci> TSC2 </ci>
             </apply>
@@ -782,7 +782,7 @@
             <apply>
               <times/>
               <ci> Cell </ci>
-              <ci> kPras40Phos </ci>
+              <ci> _kPras40Phos </ci>
               <ci> PRAS40 </ci>
               <ci> AktpT308 </ci>
             </apply>
@@ -822,7 +822,7 @@
             <apply>
               <times/>
               <ci> Cell </ci>
-              <ci> kFourEBP1Phos </ci>
+              <ci> _kFourEBP1Phos </ci>
               <ci> FourEBP1 </ci>
               <ci> pmTORC1 </ci>
             </apply>
@@ -862,7 +862,7 @@
             <apply>
               <times/>
               <ci> Cell </ci>
-              <ci> kS6KPhos </ci>
+              <ci> _kS6KPhos </ci>
               <ci> S6K </ci>
               <ci> pmTORC1 </ci>
             </apply>

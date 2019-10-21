@@ -1,21 +1,17 @@
 import unittest
 
-from .data_analysis import GetData
+from .data_analysis import GetData, SteadyStateData
 from transfer_model import REPLACEMENT_NAMES
-class ExperimentalDataProcessingTests(unittest.TestCase):
 
-    def test_sheet_names(self):
-        gd = GetData()
-        expected = ['MCF-7 vs ZR-75-1', 'MCF-7 vs T47D', 'Normalized to Maximum for MCF-7']
-        actual = gd.get_sheet_names()
-        self.assertEqual(expected, actual)
+
+class ExperimentalDataProcessingTests(unittest.TestCase):
 
     def test_antibody_names(self):
         gd = GetData()
         expected = ['Akt', 'AktpT308', 'AktpS473', 'PRAS40', 'PRAS40pT246', 'PRAS40pS183',
-                   'S6K', 'S6KpT389', 'S6KpT229', 'TSC2', 'TSC2pT1462', 'IRS1', 'IRS1pS636/639',
-                   '4E-BP1', '4E-BP1pT37/46', 'GAPDH', 'ERK', 'Coomassie staining', 'ERK-pT202/Y204',
-                   'p38', 'p38-pT180/Y182', 'ER alpha']
+                    'S6K', 'S6KpT389', 'S6KpT229', 'TSC2', 'TSC2pT1462', 'IRS1', 'IRS1pS636/639',
+                    '4E-BP1', '4E-BP1pT37/46', 'GAPDH', 'ERK', 'Coomassie staining', 'ERK-pT202/Y204',
+                    'p38', 'p38-pT180/Y182', 'ER alpha']
         expected = [i.replace('-', '_') for i in expected]
         expected = [i.replace('/', '_') for i in expected]
         expected = [i.replace(' ', '_') for i in expected]
@@ -23,26 +19,36 @@ class ExperimentalDataProcessingTests(unittest.TestCase):
         actual = gd.get_antibody_names()
         self.assertListEqual(expected, actual)
 
-    def test_get_raw_data_top_left_zr75(self):
-        gd = GetData()
+    def test_get_raw_data_top_left_zr7(self):
+        gd = GetData('ZR75')
         data = gd.get_raw_data()
         expected = 249053803
-        # print(data['Akt'])
+        print(sorted(list(data.columns)))
         actual = data.loc[('MCF7', 0), ('Akt', 0)]
         self.assertEqual(expected, actual)
 
+    def test_raw_has_no_empty_cells(self):
+        import numpy as np
+        gd = GetData('ZR75')
+        data = gd.get_raw_data()
+        nulls = False
+        for i in range(data.shape[0]):
+            for j in range(data.shape[1]):
+                if data.iloc[i, j] in ['', np.nan]:
+                    nulls = True
+        self.assertFalse(nulls)
+
     def test_get_raw_data_bottom_left_zr75(self):
-        gd = GetData()
+        gd = GetData('ZR75')
         data = gd.get_raw_data()
         expected = 230554096
-        print(data)
         actual = data.loc[('ZR75', 120), ('Akt', 0)]
         self.assertEqual(expected, actual)
 
-    def test_get_raw_data_top_right_zr75(self):
-        gd = GetData()
+    def test_get_raw_data_top_right_t47d(self):
+        gd = GetData('T47D')
         data = gd.get_raw_data()
-        expected = 128217
+        expected = 76100
         actual = data.loc[('MCF7', 0), ('ER_alpha', 3)]
         self.assertEqual(expected, actual)
 
@@ -54,29 +60,29 @@ class ExperimentalDataProcessingTests(unittest.TestCase):
         self.assertEqual(expected, actual)
 
     def test_get_raw_data_top_left_t47d(self):
-        gd = GetData()
-        data = gd.get_raw_data('T47D')
+        gd = GetData('T47D')
+        data = gd.get_raw_data()
         expected = 2599775
         actual = data.loc[('MCF7', 0), ('Akt', 0)]
         self.assertEqual(expected, actual)
 
     def test_get_raw_data_bottom_left_t47d(self):
-        gd = GetData()
-        data = gd.get_raw_data('T47D')
+        gd = GetData('T47D')
+        data = gd.get_raw_data()
         expected = 1503056
         actual = data.loc[('T47D', 120), ('Akt', 0)]
         self.assertEqual(expected, actual)
 
     def test_get_raw_data_top_right_t47d(self):
-        gd = GetData()
-        data = gd.get_raw_data('T47D')
+        gd = GetData('T47D')
+        data = gd.get_raw_data()
         expected = 76100
         actual = data.loc[('MCF7', 0), ('ER_alpha', 3)]
         self.assertEqual(expected, actual)
 
     def test_get_raw_data_bottom_right_t47d(self):
-        gd = GetData()
-        data = gd.get_raw_data('T47D')
+        gd = GetData('T47D')
+        data = gd.get_raw_data()
         expected = 20282
         actual = data.loc[('T47D', 120), ('ER_alpha', 3)]
         self.assertEqual(expected, actual)
@@ -147,9 +153,48 @@ class ExperimentalDataProcessingTests(unittest.TestCase):
         print(data)
 
 
+class SteadyStateDataTests(unittest.TestCase):
 
+    def setUp(self) -> None:
+        pass
 
+    def test_read_raw_data(self):
+        ss = SteadyStateData()
+        expected = 2554873.0
+        data = ss.read_data()
+        actual = data.loc[('FourEBP1', 1), 'ZR75']
+        self.assertEqual(expected, actual)
 
+    def test_normed_to_average(self):
+        ss = SteadyStateData()
+        exepected = 0.9209925042031529
+        data = ss.normed_to_average()
+        actual = data.loc[('Akt', 0), 'ZR75']
+        self.assertAlmostEqual(exepected, actual)
+
+    def test_normed_to_coomas(self):
+        ss = SteadyStateData()
+        mcf70_coom = 0.979734
+
+        exepected = 0.9209925042031529
+        data = ss.normalised_to_coomassie_blue()
+
+        # actual = data.loc[('Akt', 0), 'ZR75']
+        # self.assertAlmostEqual(exepected, actual)
+
+    def test_plot(self):
+        ss = SteadyStateData()
+        ss.plot()
+
+    def test_ttests(self):
+        ss = SteadyStateData()
+        t, p, passed = ss.t_tests('Akt', 'MCF7', 'T47D')
+
+        print(t, p, passed)
+
+    def test_to_Copasi_format(self):
+        ss = SteadyStateData()
+        ss.to_copasi_format()
 
 
 

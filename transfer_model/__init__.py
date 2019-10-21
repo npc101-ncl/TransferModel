@@ -3,9 +3,14 @@ import os
 # Some important global parameters for use in sub packages
 WORKING_DIRECTORY = os.path.dirname(__file__)
 DATA_DIRECTORY = os.path.join(WORKING_DIRECTORY, 'data')
+ZR_75_DATA = os.path.join(DATA_DIRECTORY, 'zr75_data.xlsx')
+T47D_DATA = os.path.join(DATA_DIRECTORY, 't47d_data.xlsx')
+STEADY_STATE_DATA = os.path.join(DATA_DIRECTORY, 'steadystate_data.csv')
+
 COPASI_FORMATTED_DATA_DIRECTORY = os.path.join(DATA_DIRECTORY, 'CopasiFormattedData')
 T47D_COPASI_FORMATED_DATA = os.path.join(COPASI_FORMATTED_DATA_DIRECTORY, 'T47DSheet')
 ZR75_COPASI_FORMATED_DATA = os.path.join(COPASI_FORMATTED_DATA_DIRECTORY, 'ZR75Sheet')
+STEADTSTATE_COPASI_FORMATED_DATA = os.path.join(COPASI_FORMATTED_DATA_DIRECTORY, 'steadystate')
 MODELS_DIRECTORY = os.path.join(WORKING_DIRECTORY, 'models')
 SIMULATION_DIRECTORY = os.path.join(MODELS_DIRECTORY, 'simulation_data')
 PARAMETER_ESTIMATION_CONFIG_YAML = os.path.join(MODELS_DIRECTORY, 'param_est_config.yaml')
@@ -26,6 +31,7 @@ REPLACEMENT_NAMES = {
     'AktpS473': 'AktpS473',
     'AktpT308': 'AktpT308',
     'Coomassie_staining': 'Coomassie_staining',
+    'Coomassie_blue': 'Coomassie_blue',
     'ER_alpha': 'ER_alpha',
     'ERK': 'ERK',
     'ERK_pT202_Y204': 'ERKpT202_Y204',
