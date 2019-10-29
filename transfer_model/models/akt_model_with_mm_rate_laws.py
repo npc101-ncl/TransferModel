@@ -48,7 +48,7 @@ model_string = f"""
         kcat * L * (S / km)^h  /   1 + (S / km)^h
     end
 
-    model SimpleAktModel()
+    model AktModelWithMMRateLaws()
         compartment             Cell = 1;
         var IRS1                in Cell;
         var IRS1a               in Cell;
@@ -100,7 +100,8 @@ model_string = f"""
         _kIRS1Phos               = 0.1;
         _kPI3KPhos               = 0.1;
         _kPI3KDephos             = 0.1;
-        _kAktPhos                = 0.1;
+        _kAktPhos_km            = 0.1;
+        _kAktPhos_kcat          = 0.1;
         _kAktDephos              = 0.1;
         _kTSC2Phos               = 0.1;
         _kTSC2Dephos             = 0.1;
@@ -126,7 +127,7 @@ model_string = f"""
         R2b     : IRS1pS636_639 => IRS1                 ; Cell * _kIRS1Inact*IRS1pS636_639
         R3f     : PI3K => pPI3K                         ; Cell * _kPI3KPhos*PI3K*IRS1a
         R3b     : pPI3K => PI3K                         ; Cell * _kPI3KDephos*pPI3K
-        R4f     : Akt => AktpT308                       ; Cell * _kAktPhos*Akt*pPI3K
+        R4f     : Akt => AktpT308                       ; Cell * MMWithKcat(_kAktPhos_km, _kAktPhos_kcat, Akt, pPI3K)
         R4b     : AktpT308 => Akt                       ; Cell * _kAktDephos*pPI3K*AktpT308
         R5f     : TSC2 => TSC2pT1462                    ; Cell * _kTSC2Phos*TSC2*AktpT308
         R5b     : TSC2pT1462 => TSC2                    ; Cell * _kTSC2Dephos*TSC2pT1462

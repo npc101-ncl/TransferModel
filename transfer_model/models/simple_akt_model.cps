@@ -1,13 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!-- generated with COPASI 4.25 (Build 207) (http://www.copasi.org) at 2019-10-21T15:21:09Z -->
-<?oxygen RNGSchema="http://www.copasi.org/static/schema/CopasiML.rng" type="xml"?>
 <COPASI xmlns="http://www.copasi.org/static/schema" versionMajor="4" versionMinor="25" versionDevel="207" copasiSourcesModified="0">
   <ListOfFunctions>
     <Function key="Function_13" name="Mass action (irreversible)" type="MassAction" reversible="false">
       <MiriamAnnotation>
-<rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+        <rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           <rdf:Description rdf:about="#Function_13">
-            <CopasiMT:is rdf:resource="urn:miriam:obo.sbo:SBO:0000163" />
+            <CopasiMT:is rdf:resource="urn:miriam:obo.sbo:SBO:0000163"/>
           </rdf:Description>
         </rdf:RDF>
       </MiriamAnnotation>
@@ -20,20 +17,20 @@ Reaction scheme where the products are created from the reactants and the change
         </body>
       </Comment>
       <Expression>
-        k1*PRODUCT&lt;substrate_i>
+        k1*PRODUCT&lt;substrate_i&gt;
       </Expression>
       <ListOfParameterDescriptions>
         <ParameterDescription key="FunctionParameter_80" name="k1" order="0" role="constant"/>
         <ParameterDescription key="FunctionParameter_81" name="substrate" order="1" role="substrate"/>
       </ListOfParameterDescriptions>
     </Function>
-    <Function key="Function_40" name="Function for R1f" type="UserDefined" reversible="false">
+    <Function key="Function_51" name="Function for R1f" type="UserDefined" reversible="false">
       <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-          <rdf:Description rdf:about="#Function_40">
+        <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+          <rdf:Description rdf:about="#Function_51">
             <dcterms:created>
               <rdf:Description>
-                <dcterms:W3CDTF>2019-10-21T15:14:11Z</dcterms:W3CDTF>
+                <dcterms:W3CDTF>2019-10-28T15:06:38Z</dcterms:W3CDTF>
               </rdf:Description>
             </dcterms:created>
           </rdf:Description>
@@ -43,39 +40,39 @@ Reaction scheme where the products are created from the reactants and the change
         _kIRS1Act*IRS1*Insulin
       </Expression>
       <ListOfParameterDescriptions>
-        <ParameterDescription key="FunctionParameter_264" name="IRS1" order="0" role="substrate"/>
-        <ParameterDescription key="FunctionParameter_263" name="Insulin" order="1" role="constant"/>
-        <ParameterDescription key="FunctionParameter_262" name="_kIRS1Act" order="2" role="constant"/>
+        <ParameterDescription key="FunctionParameter_319" name="IRS1" order="0" role="substrate"/>
+        <ParameterDescription key="FunctionParameter_320" name="Insulin" order="1" role="constant"/>
+        <ParameterDescription key="FunctionParameter_321" name="_kIRS1Act" order="2" role="constant"/>
       </ListOfParameterDescriptions>
     </Function>
-    <Function key="Function_41" name="Function for R2f" type="UserDefined" reversible="false">
+    <Function key="Function_52" name="Function for R2f" type="UserDefined" reversible="false">
       <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-          <rdf:Description rdf:about="#Function_41">
+        <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+          <rdf:Description rdf:about="#Function_52">
             <dcterms:created>
               <rdf:Description>
-                <dcterms:W3CDTF>2019-10-21T15:14:11Z</dcterms:W3CDTF>
+                <dcterms:W3CDTF>2019-10-28T15:06:38Z</dcterms:W3CDTF>
               </rdf:Description>
             </dcterms:created>
           </rdf:Description>
         </rdf:RDF>
       </MiriamAnnotation>
       <Expression>
-        kIRS1Phos*IRS1a*S6KpT389
+        _kIRS1Phos*IRS1a*S6KpT389
       </Expression>
       <ListOfParameterDescriptions>
-        <ParameterDescription key="FunctionParameter_265" name="IRS1a" order="0" role="substrate"/>
-        <ParameterDescription key="FunctionParameter_250" name="S6KpT389" order="1" role="modifier"/>
-        <ParameterDescription key="FunctionParameter_261" name="kIRS1Phos" order="2" role="constant"/>
+        <ParameterDescription key="FunctionParameter_325" name="IRS1a" order="0" role="substrate"/>
+        <ParameterDescription key="FunctionParameter_326" name="S6KpT389" order="1" role="modifier"/>
+        <ParameterDescription key="FunctionParameter_327" name="_kIRS1Phos" order="2" role="constant"/>
       </ListOfParameterDescriptions>
     </Function>
-    <Function key="Function_42" name="Function for R3f" type="UserDefined" reversible="false">
+    <Function key="Function_53" name="Function for R3f" type="UserDefined" reversible="false">
       <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-          <rdf:Description rdf:about="#Function_42">
+        <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+          <rdf:Description rdf:about="#Function_53">
             <dcterms:created>
               <rdf:Description>
-                <dcterms:W3CDTF>2019-10-21T15:14:11Z</dcterms:W3CDTF>
+                <dcterms:W3CDTF>2019-10-28T15:06:38Z</dcterms:W3CDTF>
               </rdf:Description>
             </dcterms:created>
           </rdf:Description>
@@ -85,81 +82,82 @@ Reaction scheme where the products are created from the reactants and the change
         _kPI3KPhos*PI3K*IRS1a
       </Expression>
       <ListOfParameterDescriptions>
-        <ParameterDescription key="FunctionParameter_268" name="IRS1a" order="0" role="modifier"/>
-        <ParameterDescription key="FunctionParameter_267" name="PI3K" order="1" role="substrate"/>
-        <ParameterDescription key="FunctionParameter_266" name="_kPI3KPhos" order="2" role="constant"/>
+        <ParameterDescription key="FunctionParameter_333" name="IRS1a" order="0" role="modifier"/>
+        <ParameterDescription key="FunctionParameter_334" name="PI3K" order="1" role="substrate"/>
+        <ParameterDescription key="FunctionParameter_335" name="_kPI3KPhos" order="2" role="constant"/>
       </ListOfParameterDescriptions>
     </Function>
-    <Function key="Function_43" name="Function for R4f" type="UserDefined" reversible="false">
+    <Function key="Function_54" name="MMWithKcat_1" type="UserDefined" reversible="false">
       <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-          <rdf:Description rdf:about="#Function_43">
+        <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+          <rdf:Description rdf:about="#Function_54">
             <dcterms:created>
               <rdf:Description>
-                <dcterms:W3CDTF>2019-10-21T15:14:11Z</dcterms:W3CDTF>
+                <dcterms:W3CDTF>2019-10-28T15:06:38Z</dcterms:W3CDTF>
               </rdf:Description>
             </dcterms:created>
           </rdf:Description>
         </rdf:RDF>
       </MiriamAnnotation>
       <Expression>
-        _kAktPhos*Akt*pPI3K
+        _kAktPhos_kcat*pPI3K*Akt/(_kAktPhos_km+Akt)
       </Expression>
       <ListOfParameterDescriptions>
-        <ParameterDescription key="FunctionParameter_271" name="Akt" order="0" role="substrate"/>
-        <ParameterDescription key="FunctionParameter_270" name="_kAktPhos" order="1" role="constant"/>
-        <ParameterDescription key="FunctionParameter_269" name="pPI3K" order="2" role="modifier"/>
+        <ParameterDescription key="FunctionParameter_342" name="Akt" order="0" role="substrate"/>
+        <ParameterDescription key="FunctionParameter_343" name="_kAktPhos_kcat" order="1" role="constant"/>
+        <ParameterDescription key="FunctionParameter_344" name="_kAktPhos_km" order="2" role="constant"/>
+        <ParameterDescription key="FunctionParameter_345" name="pPI3K" order="3" role="modifier"/>
       </ListOfParameterDescriptions>
     </Function>
-    <Function key="Function_44" name="Function for R4b" type="UserDefined" reversible="false">
+    <Function key="Function_55" name="Function for R4b" type="UserDefined" reversible="false">
       <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-          <rdf:Description rdf:about="#Function_44">
+        <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+          <rdf:Description rdf:about="#Function_55">
             <dcterms:created>
               <rdf:Description>
-                <dcterms:W3CDTF>2019-10-21T15:14:11Z</dcterms:W3CDTF>
+                <dcterms:W3CDTF>2019-10-28T15:06:38Z</dcterms:W3CDTF>
               </rdf:Description>
             </dcterms:created>
           </rdf:Description>
         </rdf:RDF>
       </MiriamAnnotation>
       <Expression>
-        kAktDephos*pPI3K*AktpT308
+        _kAktDephos*pPI3K*AktpT308
       </Expression>
       <ListOfParameterDescriptions>
-        <ParameterDescription key="FunctionParameter_274" name="AktpT308" order="0" role="substrate"/>
-        <ParameterDescription key="FunctionParameter_273" name="kAktDephos" order="1" role="constant"/>
-        <ParameterDescription key="FunctionParameter_272" name="pPI3K" order="2" role="modifier"/>
+        <ParameterDescription key="FunctionParameter_340" name="AktpT308" order="0" role="substrate"/>
+        <ParameterDescription key="FunctionParameter_350" name="_kAktDephos" order="1" role="constant"/>
+        <ParameterDescription key="FunctionParameter_351" name="pPI3K" order="2" role="modifier"/>
       </ListOfParameterDescriptions>
     </Function>
-    <Function key="Function_45" name="Function for R5f" type="UserDefined" reversible="false">
+    <Function key="Function_56" name="Function for R5f" type="UserDefined" reversible="false">
       <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-          <rdf:Description rdf:about="#Function_45">
+        <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+          <rdf:Description rdf:about="#Function_56">
             <dcterms:created>
               <rdf:Description>
-                <dcterms:W3CDTF>2019-10-21T15:14:11Z</dcterms:W3CDTF>
+                <dcterms:W3CDTF>2019-10-28T15:06:38Z</dcterms:W3CDTF>
               </rdf:Description>
             </dcterms:created>
           </rdf:Description>
         </rdf:RDF>
       </MiriamAnnotation>
       <Expression>
-        kTSC2Phos*TSC2*AktpT308
+        _kTSC2Phos*TSC2*AktpT308
       </Expression>
       <ListOfParameterDescriptions>
-        <ParameterDescription key="FunctionParameter_277" name="AktpT308" order="0" role="modifier"/>
-        <ParameterDescription key="FunctionParameter_276" name="TSC2" order="1" role="substrate"/>
-        <ParameterDescription key="FunctionParameter_275" name="kTSC2Phos" order="2" role="constant"/>
+        <ParameterDescription key="FunctionParameter_355" name="AktpT308" order="0" role="modifier"/>
+        <ParameterDescription key="FunctionParameter_356" name="TSC2" order="1" role="substrate"/>
+        <ParameterDescription key="FunctionParameter_357" name="_kTSC2Phos" order="2" role="constant"/>
       </ListOfParameterDescriptions>
     </Function>
-    <Function key="Function_46" name="Function for R6f" type="UserDefined" reversible="false">
+    <Function key="Function_57" name="Function for R6f" type="UserDefined" reversible="false">
       <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-          <rdf:Description rdf:about="#Function_46">
+        <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+          <rdf:Description rdf:about="#Function_57">
             <dcterms:created>
               <rdf:Description>
-                <dcterms:W3CDTF>2019-10-21T15:14:11Z</dcterms:W3CDTF>
+                <dcterms:W3CDTF>2019-10-28T15:06:38Z</dcterms:W3CDTF>
               </rdf:Description>
             </dcterms:created>
           </rdf:Description>
@@ -169,18 +167,18 @@ Reaction scheme where the products are created from the reactants and the change
         _kmTORC1cytToLys*mTORC1cyt*AA
       </Expression>
       <ListOfParameterDescriptions>
-        <ParameterDescription key="FunctionParameter_280" name="AA" order="0" role="constant"/>
-        <ParameterDescription key="FunctionParameter_279" name="_kmTORC1cytToLys" order="1" role="constant"/>
-        <ParameterDescription key="FunctionParameter_278" name="mTORC1cyt" order="2" role="substrate"/>
+        <ParameterDescription key="FunctionParameter_363" name="AA" order="0" role="constant"/>
+        <ParameterDescription key="FunctionParameter_364" name="_kmTORC1cytToLys" order="1" role="constant"/>
+        <ParameterDescription key="FunctionParameter_365" name="mTORC1cyt" order="2" role="substrate"/>
       </ListOfParameterDescriptions>
     </Function>
-    <Function key="Function_47" name="Function for R7f" type="UserDefined" reversible="false">
+    <Function key="Function_58" name="Function for R7f" type="UserDefined" reversible="false">
       <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-          <rdf:Description rdf:about="#Function_47">
+        <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+          <rdf:Description rdf:about="#Function_58">
             <dcterms:created>
               <rdf:Description>
-                <dcterms:W3CDTF>2019-10-21T15:14:11Z</dcterms:W3CDTF>
+                <dcterms:W3CDTF>2019-10-28T15:06:38Z</dcterms:W3CDTF>
               </rdf:Description>
             </dcterms:created>
           </rdf:Description>
@@ -190,18 +188,18 @@ Reaction scheme where the products are created from the reactants and the change
         _kmTORC1Phos*mTORC1lys*TSC2
       </Expression>
       <ListOfParameterDescriptions>
-        <ParameterDescription key="FunctionParameter_283" name="TSC2" order="0" role="modifier"/>
-        <ParameterDescription key="FunctionParameter_282" name="_kmTORC1Phos" order="1" role="constant"/>
-        <ParameterDescription key="FunctionParameter_281" name="mTORC1lys" order="2" role="substrate"/>
+        <ParameterDescription key="FunctionParameter_371" name="TSC2" order="0" role="modifier"/>
+        <ParameterDescription key="FunctionParameter_372" name="_kmTORC1Phos" order="1" role="constant"/>
+        <ParameterDescription key="FunctionParameter_373" name="mTORC1lys" order="2" role="substrate"/>
       </ListOfParameterDescriptions>
     </Function>
-    <Function key="Function_48" name="Function for R8f" type="UserDefined" reversible="false">
+    <Function key="Function_59" name="Function for R8f" type="UserDefined" reversible="false">
       <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-          <rdf:Description rdf:about="#Function_48">
+        <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+          <rdf:Description rdf:about="#Function_59">
             <dcterms:created>
               <rdf:Description>
-                <dcterms:W3CDTF>2019-10-21T15:14:11Z</dcterms:W3CDTF>
+                <dcterms:W3CDTF>2019-10-28T15:06:38Z</dcterms:W3CDTF>
               </rdf:Description>
             </dcterms:created>
           </rdf:Description>
@@ -211,18 +209,18 @@ Reaction scheme where the products are created from the reactants and the change
         _kPras40Phos*PRAS40*AktpT308
       </Expression>
       <ListOfParameterDescriptions>
-        <ParameterDescription key="FunctionParameter_286" name="AktpT308" order="0" role="modifier"/>
-        <ParameterDescription key="FunctionParameter_285" name="PRAS40" order="1" role="substrate"/>
-        <ParameterDescription key="FunctionParameter_284" name="_kPras40Phos" order="2" role="constant"/>
+        <ParameterDescription key="FunctionParameter_379" name="AktpT308" order="0" role="modifier"/>
+        <ParameterDescription key="FunctionParameter_380" name="PRAS40" order="1" role="substrate"/>
+        <ParameterDescription key="FunctionParameter_381" name="_kPras40Phos" order="2" role="constant"/>
       </ListOfParameterDescriptions>
     </Function>
-    <Function key="Function_49" name="Function for R9f" type="UserDefined" reversible="false">
+    <Function key="Function_60" name="Function for R9f" type="UserDefined" reversible="false">
       <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-          <rdf:Description rdf:about="#Function_49">
+        <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+          <rdf:Description rdf:about="#Function_60">
             <dcterms:created>
               <rdf:Description>
-                <dcterms:W3CDTF>2019-10-21T15:14:11Z</dcterms:W3CDTF>
+                <dcterms:W3CDTF>2019-10-28T15:06:38Z</dcterms:W3CDTF>
               </rdf:Description>
             </dcterms:created>
           </rdf:Description>
@@ -232,18 +230,18 @@ Reaction scheme where the products are created from the reactants and the change
         _kFourEBP1Phos*FourEBP1*pmTORC1
       </Expression>
       <ListOfParameterDescriptions>
-        <ParameterDescription key="FunctionParameter_289" name="FourEBP1" order="0" role="substrate"/>
-        <ParameterDescription key="FunctionParameter_288" name="_kFourEBP1Phos" order="1" role="constant"/>
-        <ParameterDescription key="FunctionParameter_287" name="pmTORC1" order="2" role="modifier"/>
+        <ParameterDescription key="FunctionParameter_387" name="FourEBP1" order="0" role="substrate"/>
+        <ParameterDescription key="FunctionParameter_388" name="_kFourEBP1Phos" order="1" role="constant"/>
+        <ParameterDescription key="FunctionParameter_389" name="pmTORC1" order="2" role="modifier"/>
       </ListOfParameterDescriptions>
     </Function>
-    <Function key="Function_50" name="Function for R10f" type="UserDefined" reversible="false">
+    <Function key="Function_61" name="Function for R10f" type="UserDefined" reversible="false">
       <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-          <rdf:Description rdf:about="#Function_50">
+        <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+          <rdf:Description rdf:about="#Function_61">
             <dcterms:created>
               <rdf:Description>
-                <dcterms:W3CDTF>2019-10-21T15:14:11Z</dcterms:W3CDTF>
+                <dcterms:W3CDTF>2019-10-28T15:06:38Z</dcterms:W3CDTF>
               </rdf:Description>
             </dcterms:created>
           </rdf:Description>
@@ -253,35 +251,32 @@ Reaction scheme where the products are created from the reactants and the change
         _kS6KPhos*S6K*pmTORC1
       </Expression>
       <ListOfParameterDescriptions>
-        <ParameterDescription key="FunctionParameter_292" name="S6K" order="0" role="substrate"/>
-        <ParameterDescription key="FunctionParameter_291" name="_kS6KPhos" order="1" role="constant"/>
-        <ParameterDescription key="FunctionParameter_290" name="pmTORC1" order="2" role="modifier"/>
+        <ParameterDescription key="FunctionParameter_395" name="S6K" order="0" role="substrate"/>
+        <ParameterDescription key="FunctionParameter_396" name="_kS6KPhos" order="1" role="constant"/>
+        <ParameterDescription key="FunctionParameter_397" name="pmTORC1" order="2" role="modifier"/>
       </ListOfParameterDescriptions>
     </Function>
   </ListOfFunctions>
-  <Model key="Model_1" name="SimpleAktModel" simulationType="time" timeUnit="s" volumeUnit="l" areaUnit="m²" lengthUnit="m" quantityUnit="mol" type="deterministic" avogadroConstant="6.0221417899999999e+23">
+  <Model key="Model_1" name="NoName" simulationType="time" timeUnit="s" volumeUnit="l" areaUnit="m&#178;" lengthUnit="m" quantityUnit="mol" type="deterministic" avogadroConstant="6.0221417899999999e+23">
     <MiriamAnnotation>
-<rdf:RDF
-   xmlns:dcterms="http://purl.org/dc/terms/"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Model_1">
-    <dcterms:created>
-      <rdf:Description>
-        <dcterms:W3CDTF>2019-10-21T15:14:11Z</dcterms:W3CDTF>
-      </rdf:Description>
-    </dcterms:created>
-  </rdf:Description>
-</rdf:RDF>
-
+      <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+        <rdf:Description rdf:about="#Model_1">
+          <dcterms:created>
+            <rdf:Description>
+              <dcterms:W3CDTF>2019-10-28T15:06:38Z</dcterms:W3CDTF>
+            </rdf:Description>
+          </dcterms:created>
+        </rdf:Description>
+      </rdf:RDF>
     </MiriamAnnotation>
     <ListOfCompartments>
       <Compartment key="Compartment_0" name="Cell" simulationType="fixed" dimensionality="3" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+          <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#Compartment_0">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-10-21T15:14:11Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-10-28T15:06:38Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
@@ -290,234 +285,234 @@ Reaction scheme where the products are created from the reactants and the change
       </Compartment>
     </ListOfCompartments>
     <ListOfMetabolites>
-      <Metabolite key="Metabolite_0" name="IRS1" simulationType="reactions" compartment="Compartment_0" addNoise="false">
+      <Metabolite key="Metabolite_0" name="IRS1" simulationType="reactions" compartment="Compartment_0" addNoise="false" particle_numbers="6.02214179e+24">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+          <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#Metabolite_0">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-10-21T15:14:11Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-10-28T15:06:38Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
           </rdf:RDF>
         </MiriamAnnotation>
       </Metabolite>
-      <Metabolite key="Metabolite_1" name="IRS1a" simulationType="reactions" compartment="Compartment_0" addNoise="false">
+      <Metabolite key="Metabolite_1" name="IRS1a" simulationType="reactions" compartment="Compartment_0" addNoise="false" particle_numbers="0.0">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+          <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#Metabolite_1">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-10-21T15:14:11Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-10-28T15:06:38Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
           </rdf:RDF>
         </MiriamAnnotation>
       </Metabolite>
-      <Metabolite key="Metabolite_2" name="IRS1pS636_639" simulationType="reactions" compartment="Compartment_0" addNoise="false">
+      <Metabolite key="Metabolite_2" name="IRS1pS636_639" simulationType="reactions" compartment="Compartment_0" addNoise="false" particle_numbers="0.0">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+          <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#Metabolite_2">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-10-21T15:14:11Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-10-28T15:06:38Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
           </rdf:RDF>
         </MiriamAnnotation>
       </Metabolite>
-      <Metabolite key="Metabolite_3" name="Akt" simulationType="reactions" compartment="Compartment_0" addNoise="false">
+      <Metabolite key="Metabolite_3" name="Akt" simulationType="reactions" compartment="Compartment_0" addNoise="false" particle_numbers="6.02214179e+24">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+          <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#Metabolite_3">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-10-21T15:14:11Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-10-28T15:06:38Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
           </rdf:RDF>
         </MiriamAnnotation>
       </Metabolite>
-      <Metabolite key="Metabolite_4" name="AktpT308" simulationType="reactions" compartment="Compartment_0" addNoise="false">
+      <Metabolite key="Metabolite_4" name="AktpT308" simulationType="reactions" compartment="Compartment_0" addNoise="false" particle_numbers="0.0">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+          <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#Metabolite_4">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-10-21T15:14:11Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-10-28T15:06:38Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
           </rdf:RDF>
         </MiriamAnnotation>
       </Metabolite>
-      <Metabolite key="Metabolite_5" name="TSC2" simulationType="reactions" compartment="Compartment_0" addNoise="false">
+      <Metabolite key="Metabolite_5" name="TSC2" simulationType="reactions" compartment="Compartment_0" addNoise="false" particle_numbers="0.0">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+          <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#Metabolite_5">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-10-21T15:14:11Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-10-28T15:06:38Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
           </rdf:RDF>
         </MiriamAnnotation>
       </Metabolite>
-      <Metabolite key="Metabolite_6" name="TSC2pT1462" simulationType="reactions" compartment="Compartment_0" addNoise="false">
+      <Metabolite key="Metabolite_6" name="TSC2pT1462" simulationType="reactions" compartment="Compartment_0" addNoise="false" particle_numbers="6.02214179e+24">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+          <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#Metabolite_6">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-10-21T15:14:11Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-10-28T15:06:38Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
           </rdf:RDF>
         </MiriamAnnotation>
       </Metabolite>
-      <Metabolite key="Metabolite_7" name="PRAS40" simulationType="reactions" compartment="Compartment_0" addNoise="false">
+      <Metabolite key="Metabolite_7" name="PRAS40" simulationType="reactions" compartment="Compartment_0" addNoise="false" particle_numbers="6.02214179e+24">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+          <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#Metabolite_7">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-10-21T15:14:11Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-10-28T15:06:38Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
           </rdf:RDF>
         </MiriamAnnotation>
       </Metabolite>
-      <Metabolite key="Metabolite_8" name="PRAS40pT246" simulationType="reactions" compartment="Compartment_0" addNoise="false">
+      <Metabolite key="Metabolite_8" name="PRAS40pT246" simulationType="reactions" compartment="Compartment_0" addNoise="false" particle_numbers="0.0">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+          <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#Metabolite_8">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-10-21T15:14:11Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-10-28T15:06:38Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
           </rdf:RDF>
         </MiriamAnnotation>
       </Metabolite>
-      <Metabolite key="Metabolite_9" name="S6K" simulationType="reactions" compartment="Compartment_0" addNoise="false">
+      <Metabolite key="Metabolite_9" name="S6K" simulationType="reactions" compartment="Compartment_0" addNoise="false" particle_numbers="6.02214179e+24">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+          <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#Metabolite_9">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-10-21T15:14:11Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-10-28T15:06:38Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
           </rdf:RDF>
         </MiriamAnnotation>
       </Metabolite>
-      <Metabolite key="Metabolite_10" name="S6KpT389" simulationType="reactions" compartment="Compartment_0" addNoise="false">
+      <Metabolite key="Metabolite_10" name="S6KpT389" simulationType="reactions" compartment="Compartment_0" addNoise="false" particle_numbers="0.0">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+          <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#Metabolite_10">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-10-21T15:14:11Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-10-28T15:06:38Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
           </rdf:RDF>
         </MiriamAnnotation>
       </Metabolite>
-      <Metabolite key="Metabolite_11" name="FourEBP1" simulationType="reactions" compartment="Compartment_0" addNoise="false">
+      <Metabolite key="Metabolite_11" name="FourEBP1" simulationType="reactions" compartment="Compartment_0" addNoise="false" particle_numbers="6.02214179e+24">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+          <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#Metabolite_11">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-10-21T15:14:11Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-10-28T15:06:38Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
           </rdf:RDF>
         </MiriamAnnotation>
       </Metabolite>
-      <Metabolite key="Metabolite_12" name="FourEBP1pT37_46" simulationType="reactions" compartment="Compartment_0" addNoise="false">
+      <Metabolite key="Metabolite_12" name="FourEBP1pT37_46" simulationType="reactions" compartment="Compartment_0" addNoise="false" particle_numbers="0.0">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+          <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#Metabolite_12">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-10-21T15:14:11Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-10-28T15:06:38Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
           </rdf:RDF>
         </MiriamAnnotation>
       </Metabolite>
-      <Metabolite key="Metabolite_13" name="PI3K" simulationType="reactions" compartment="Compartment_0" addNoise="false">
+      <Metabolite key="Metabolite_13" name="PI3K" simulationType="reactions" compartment="Compartment_0" addNoise="false" particle_numbers="6.02214179e+24">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+          <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#Metabolite_13">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-10-21T15:14:11Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-10-28T15:06:38Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
           </rdf:RDF>
         </MiriamAnnotation>
       </Metabolite>
-      <Metabolite key="Metabolite_14" name="pPI3K" simulationType="reactions" compartment="Compartment_0" addNoise="false">
+      <Metabolite key="Metabolite_14" name="pPI3K" simulationType="reactions" compartment="Compartment_0" addNoise="false" particle_numbers="0.0">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+          <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#Metabolite_14">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-10-21T15:14:11Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-10-28T15:06:38Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
           </rdf:RDF>
         </MiriamAnnotation>
       </Metabolite>
-      <Metabolite key="Metabolite_15" name="pmTORC1" simulationType="reactions" compartment="Compartment_0" addNoise="false">
+      <Metabolite key="Metabolite_15" name="pmTORC1" simulationType="reactions" compartment="Compartment_0" addNoise="false" particle_numbers="0.0">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+          <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#Metabolite_15">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-10-21T15:14:11Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-10-28T15:06:38Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
           </rdf:RDF>
         </MiriamAnnotation>
       </Metabolite>
-      <Metabolite key="Metabolite_16" name="mTORC1cyt" simulationType="reactions" compartment="Compartment_0" addNoise="false">
+      <Metabolite key="Metabolite_16" name="mTORC1cyt" simulationType="reactions" compartment="Compartment_0" addNoise="false" particle_numbers="6.02214179e+24">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+          <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#Metabolite_16">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-10-21T15:14:11Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-10-28T15:06:38Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
           </rdf:RDF>
         </MiriamAnnotation>
       </Metabolite>
-      <Metabolite key="Metabolite_17" name="mTORC1lys" simulationType="reactions" compartment="Compartment_0" addNoise="false">
+      <Metabolite key="Metabolite_17" name="mTORC1lys" simulationType="reactions" compartment="Compartment_0" addNoise="false" particle_numbers="0.0">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+          <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#Metabolite_17">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-10-21T15:14:11Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-10-28T15:06:38Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
@@ -526,273 +521,286 @@ Reaction scheme where the products are created from the reactants and the change
       </Metabolite>
     </ListOfMetabolites>
     <ListOfModelValues>
-      <ModelValue key="ModelValue_0" name="Insulin" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_0" name="Insulin" simulationType="fixed" addNoise="false" initial_value="1.0">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+          <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#ModelValue_0">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-10-21T15:14:11Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-10-28T15:06:38Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
           </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_1" name="AA" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_1" name="AA" simulationType="fixed" addNoise="false" initial_value="1.0">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+          <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#ModelValue_1">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-10-21T15:14:11Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-10-28T15:06:38Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
           </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_2" name="_kIRS1Act" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_2" name="_kIRS1Act" simulationType="fixed" addNoise="false" initial_value="0.1">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+          <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#ModelValue_2">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-10-21T15:14:11Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-10-28T15:06:38Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
           </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_3" name="_kIRS1Inact" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_3" name="_kIRS1Inact" simulationType="fixed" addNoise="false" initial_value="0.1">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+          <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#ModelValue_3">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-10-21T15:14:11Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-10-28T15:06:38Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
           </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_4" name="kIRS1Phos" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_4" name="_kIRS1Phos" simulationType="fixed" addNoise="false" initial_value="0.1">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+          <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#ModelValue_4">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-10-21T15:14:11Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-10-28T15:06:38Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
           </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_5" name="_kPI3KPhos" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_5" name="_kPI3KPhos" simulationType="fixed" addNoise="false" initial_value="0.1">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+          <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#ModelValue_5">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-10-21T15:14:11Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-10-28T15:06:38Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
           </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_6" name="kPI3KDephos" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_6" name="_kPI3KDephos" simulationType="fixed" addNoise="false" initial_value="0.1">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+          <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#ModelValue_6">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-10-21T15:14:11Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-10-28T15:06:38Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
           </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_7" name="_kAktPhos" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_7" name="_kAktPhos_km" simulationType="fixed" addNoise="false" initial_value="0.1">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+          <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#ModelValue_7">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-10-21T15:14:11Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-10-28T15:06:38Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
           </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_8" name="kAktDephos" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_8" name="_kAktPhos_kcat" simulationType="fixed" addNoise="false" initial_value="0.1">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+          <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#ModelValue_8">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-10-21T15:14:11Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-10-28T15:06:38Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
           </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_9" name="kTSC2Phos" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_9" name="_kAktDephos" simulationType="fixed" addNoise="false" initial_value="0.1">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+          <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#ModelValue_9">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-10-21T15:14:11Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-10-28T15:06:38Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
           </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_10" name="_kTSC2Dephos" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_10" name="_kTSC2Phos" simulationType="fixed" addNoise="false" initial_value="0.1">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+          <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#ModelValue_10">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-10-21T15:14:11Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-10-28T15:06:38Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
           </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_11" name="_kmTORC1cytToLys" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_11" name="_kTSC2Dephos" simulationType="fixed" addNoise="false" initial_value="0.1">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+          <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#ModelValue_11">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-10-21T15:14:11Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-10-28T15:06:38Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
           </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_12" name="_kmTORC1LysToCyt" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_12" name="_kmTORC1cytToLys" simulationType="fixed" addNoise="false" initial_value="0.1">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+          <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#ModelValue_12">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-10-21T15:14:11Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-10-28T15:06:38Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
           </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_13" name="_kmTORC1Phos" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_13" name="_kmTORC1LysToCyt" simulationType="fixed" addNoise="false" initial_value="0.1">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+          <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#ModelValue_13">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-10-21T15:14:11Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-10-28T15:06:38Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
           </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_14" name="kmTORC1Dephos" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_14" name="_kmTORC1Phos" simulationType="fixed" addNoise="false" initial_value="0.1">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+          <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#ModelValue_14">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-10-21T15:14:11Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-10-28T15:06:38Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
           </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_15" name="_kPras40Phos" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_15" name="_kmTORC1Dephos" simulationType="fixed" addNoise="false" initial_value="0.1">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+          <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#ModelValue_15">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-10-21T15:14:11Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-10-28T15:06:38Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
           </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_16" name="kPras40Dephos" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_16" name="_kPras40Phos" simulationType="fixed" addNoise="false" initial_value="0.1">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+          <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#ModelValue_16">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-10-21T15:14:11Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-10-28T15:06:38Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
           </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_17" name="_kFourEBP1Phos" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_17" name="_kPras40Dephos" simulationType="fixed" addNoise="false" initial_value="0.1">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+          <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#ModelValue_17">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-10-21T15:14:11Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-10-28T15:06:38Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
           </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_18" name="kFourEBP1Dephos" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_18" name="_kFourEBP1Phos" simulationType="fixed" addNoise="false" initial_value="0.1">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+          <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#ModelValue_18">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-10-21T15:14:11Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-10-28T15:06:38Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
           </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_19" name="_kS6KPhos" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_19" name="_kFourEBP1Dephos" simulationType="fixed" addNoise="false" initial_value="0.1">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+          <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#ModelValue_19">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-10-21T15:14:11Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-10-28T15:06:38Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
           </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_20" name="kS6KDephos" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_20" name="_kS6KPhos" simulationType="fixed" addNoise="false" initial_value="0.1">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+          <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#ModelValue_20">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-10-21T15:14:11Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-10-28T15:06:38Z</dcterms:W3CDTF>
+                </rdf:Description>
+              </dcterms:created>
+            </rdf:Description>
+          </rdf:RDF>
+        </MiriamAnnotation>
+      </ModelValue>
+      <ModelValue key="ModelValue_21" name="_kS6KDephos" simulationType="fixed" addNoise="false" initial_value="0.1">
+        <MiriamAnnotation>
+          <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+            <rdf:Description rdf:about="#ModelValue_21">
+              <dcterms:created>
+                <rdf:Description>
+                  <dcterms:W3CDTF>2019-10-28T15:06:38Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
@@ -803,11 +811,11 @@ Reaction scheme where the products are created from the reactants and the change
     <ListOfReactions>
       <Reaction key="Reaction_0" name="R1f" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+          <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#Reaction_0">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-10-21T15:14:11Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-10-28T15:06:38Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
@@ -823,15 +831,15 @@ Reaction scheme where the products are created from the reactants and the change
           <Constant key="Parameter_5013" name="Insulin" value="1"/>
           <Constant key="Parameter_5012" name="_kIRS1Act" value="0.1"/>
         </ListOfConstants>
-        <KineticLaw function="Function_40" unitType="Default" scalingCompartment="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell]">
+        <KineticLaw function="Function_51" unitType="Default" scalingCompartment="CN=Root,Model=NoName,Vector=Compartments[Cell]">
           <ListOfCallParameters>
-            <CallParameter functionParameter="FunctionParameter_264">
+            <CallParameter functionParameter="FunctionParameter_319">
               <SourceParameter reference="Metabolite_0"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_263">
+            <CallParameter functionParameter="FunctionParameter_320">
               <SourceParameter reference="ModelValue_0"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_262">
+            <CallParameter functionParameter="FunctionParameter_321">
               <SourceParameter reference="ModelValue_2"/>
             </CallParameter>
           </ListOfCallParameters>
@@ -839,11 +847,11 @@ Reaction scheme where the products are created from the reactants and the change
       </Reaction>
       <Reaction key="Reaction_1" name="R2f" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+          <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#Reaction_1">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-10-21T15:14:11Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-10-28T15:06:38Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
@@ -859,17 +867,17 @@ Reaction scheme where the products are created from the reactants and the change
           <Modifier metabolite="Metabolite_10" stoichiometry="1"/>
         </ListOfModifiers>
         <ListOfConstants>
-          <Constant key="Parameter_5011" name="kIRS1Phos" value="0.1"/>
+          <Constant key="Parameter_5011" name="_kIRS1Phos" value="0.1"/>
         </ListOfConstants>
-        <KineticLaw function="Function_41" unitType="Default" scalingCompartment="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell]">
+        <KineticLaw function="Function_52" unitType="Default" scalingCompartment="CN=Root,Model=NoName,Vector=Compartments[Cell]">
           <ListOfCallParameters>
-            <CallParameter functionParameter="FunctionParameter_265">
+            <CallParameter functionParameter="FunctionParameter_325">
               <SourceParameter reference="Metabolite_1"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_250">
+            <CallParameter functionParameter="FunctionParameter_326">
               <SourceParameter reference="Metabolite_10"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_261">
+            <CallParameter functionParameter="FunctionParameter_327">
               <SourceParameter reference="ModelValue_4"/>
             </CallParameter>
           </ListOfCallParameters>
@@ -877,11 +885,11 @@ Reaction scheme where the products are created from the reactants and the change
       </Reaction>
       <Reaction key="Reaction_2" name="R2b" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+          <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#Reaction_2">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-10-21T15:14:11Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-10-28T15:06:38Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
@@ -896,7 +904,7 @@ Reaction scheme where the products are created from the reactants and the change
         <ListOfConstants>
           <Constant key="Parameter_5010" name="k1" value="0.1"/>
         </ListOfConstants>
-        <KineticLaw function="Function_13" unitType="Default" scalingCompartment="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell]">
+        <KineticLaw function="Function_13" unitType="Default" scalingCompartment="CN=Root,Model=NoName,Vector=Compartments[Cell]">
           <ListOfCallParameters>
             <CallParameter functionParameter="FunctionParameter_80">
               <SourceParameter reference="ModelValue_3"/>
@@ -909,11 +917,11 @@ Reaction scheme where the products are created from the reactants and the change
       </Reaction>
       <Reaction key="Reaction_3" name="R3f" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+          <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#Reaction_3">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-10-21T15:14:11Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-10-28T15:06:38Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
@@ -931,15 +939,15 @@ Reaction scheme where the products are created from the reactants and the change
         <ListOfConstants>
           <Constant key="Parameter_5009" name="_kPI3KPhos" value="0.1"/>
         </ListOfConstants>
-        <KineticLaw function="Function_42" unitType="Default" scalingCompartment="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell]">
+        <KineticLaw function="Function_53" unitType="Default" scalingCompartment="CN=Root,Model=NoName,Vector=Compartments[Cell]">
           <ListOfCallParameters>
-            <CallParameter functionParameter="FunctionParameter_268">
+            <CallParameter functionParameter="FunctionParameter_333">
               <SourceParameter reference="Metabolite_1"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_267">
+            <CallParameter functionParameter="FunctionParameter_334">
               <SourceParameter reference="Metabolite_13"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_266">
+            <CallParameter functionParameter="FunctionParameter_335">
               <SourceParameter reference="ModelValue_5"/>
             </CallParameter>
           </ListOfCallParameters>
@@ -947,11 +955,11 @@ Reaction scheme where the products are created from the reactants and the change
       </Reaction>
       <Reaction key="Reaction_4" name="R3b" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+          <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#Reaction_4">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-10-21T15:14:11Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-10-28T15:06:38Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
@@ -966,7 +974,7 @@ Reaction scheme where the products are created from the reactants and the change
         <ListOfConstants>
           <Constant key="Parameter_5008" name="k1" value="0.1"/>
         </ListOfConstants>
-        <KineticLaw function="Function_13" unitType="Default" scalingCompartment="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell]">
+        <KineticLaw function="Function_13" unitType="Default" scalingCompartment="CN=Root,Model=NoName,Vector=Compartments[Cell]">
           <ListOfCallParameters>
             <CallParameter functionParameter="FunctionParameter_80">
               <SourceParameter reference="ModelValue_6"/>
@@ -979,11 +987,11 @@ Reaction scheme where the products are created from the reactants and the change
       </Reaction>
       <Reaction key="Reaction_5" name="R4f" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+          <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#Reaction_5">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-10-21T15:14:11Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-10-28T15:06:38Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
@@ -999,17 +1007,21 @@ Reaction scheme where the products are created from the reactants and the change
           <Modifier metabolite="Metabolite_14" stoichiometry="1"/>
         </ListOfModifiers>
         <ListOfConstants>
-          <Constant key="Parameter_5007" name="_kAktPhos" value="0.1"/>
+          <Constant key="Parameter_5007" name="_kAktPhos_kcat" value="0.1"/>
+          <Constant key="Parameter_5006" name="_kAktPhos_km" value="0.1"/>
         </ListOfConstants>
-        <KineticLaw function="Function_43" unitType="Default" scalingCompartment="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell]">
+        <KineticLaw function="Function_54" unitType="Default" scalingCompartment="CN=Root,Model=NoName,Vector=Compartments[Cell]">
           <ListOfCallParameters>
-            <CallParameter functionParameter="FunctionParameter_271">
+            <CallParameter functionParameter="FunctionParameter_342">
               <SourceParameter reference="Metabolite_3"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_270">
+            <CallParameter functionParameter="FunctionParameter_343">
+              <SourceParameter reference="ModelValue_8"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_344">
               <SourceParameter reference="ModelValue_7"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_269">
+            <CallParameter functionParameter="FunctionParameter_345">
               <SourceParameter reference="Metabolite_14"/>
             </CallParameter>
           </ListOfCallParameters>
@@ -1017,11 +1029,11 @@ Reaction scheme where the products are created from the reactants and the change
       </Reaction>
       <Reaction key="Reaction_6" name="R4b" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+          <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#Reaction_6">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-10-21T15:14:11Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-10-28T15:06:38Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
@@ -1037,17 +1049,17 @@ Reaction scheme where the products are created from the reactants and the change
           <Modifier metabolite="Metabolite_14" stoichiometry="1"/>
         </ListOfModifiers>
         <ListOfConstants>
-          <Constant key="Parameter_5006" name="kAktDephos" value="0.1"/>
+          <Constant key="Parameter_5005" name="_kAktDephos" value="0.1"/>
         </ListOfConstants>
-        <KineticLaw function="Function_44" unitType="Default" scalingCompartment="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell]">
+        <KineticLaw function="Function_55" unitType="Default" scalingCompartment="CN=Root,Model=NoName,Vector=Compartments[Cell]">
           <ListOfCallParameters>
-            <CallParameter functionParameter="FunctionParameter_274">
+            <CallParameter functionParameter="FunctionParameter_340">
               <SourceParameter reference="Metabolite_4"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_273">
-              <SourceParameter reference="ModelValue_8"/>
+            <CallParameter functionParameter="FunctionParameter_350">
+              <SourceParameter reference="ModelValue_9"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_272">
+            <CallParameter functionParameter="FunctionParameter_351">
               <SourceParameter reference="Metabolite_14"/>
             </CallParameter>
           </ListOfCallParameters>
@@ -1055,11 +1067,11 @@ Reaction scheme where the products are created from the reactants and the change
       </Reaction>
       <Reaction key="Reaction_7" name="R5f" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+          <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#Reaction_7">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-10-21T15:14:11Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-10-28T15:06:38Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
@@ -1075,29 +1087,29 @@ Reaction scheme where the products are created from the reactants and the change
           <Modifier metabolite="Metabolite_4" stoichiometry="1"/>
         </ListOfModifiers>
         <ListOfConstants>
-          <Constant key="Parameter_5005" name="kTSC2Phos" value="0.1"/>
+          <Constant key="Parameter_5004" name="_kTSC2Phos" value="0.1"/>
         </ListOfConstants>
-        <KineticLaw function="Function_45" unitType="Default" scalingCompartment="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell]">
+        <KineticLaw function="Function_56" unitType="Default" scalingCompartment="CN=Root,Model=NoName,Vector=Compartments[Cell]">
           <ListOfCallParameters>
-            <CallParameter functionParameter="FunctionParameter_277">
+            <CallParameter functionParameter="FunctionParameter_355">
               <SourceParameter reference="Metabolite_4"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_276">
+            <CallParameter functionParameter="FunctionParameter_356">
               <SourceParameter reference="Metabolite_5"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_275">
-              <SourceParameter reference="ModelValue_9"/>
+            <CallParameter functionParameter="FunctionParameter_357">
+              <SourceParameter reference="ModelValue_10"/>
             </CallParameter>
           </ListOfCallParameters>
         </KineticLaw>
       </Reaction>
       <Reaction key="Reaction_8" name="R5b" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+          <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#Reaction_8">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-10-21T15:14:11Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-10-28T15:06:38Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
@@ -1110,12 +1122,12 @@ Reaction scheme where the products are created from the reactants and the change
           <Product metabolite="Metabolite_5" stoichiometry="1"/>
         </ListOfProducts>
         <ListOfConstants>
-          <Constant key="Parameter_5004" name="k1" value="0.1"/>
+          <Constant key="Parameter_5003" name="k1" value="0.1"/>
         </ListOfConstants>
-        <KineticLaw function="Function_13" unitType="Default" scalingCompartment="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell]">
+        <KineticLaw function="Function_13" unitType="Default" scalingCompartment="CN=Root,Model=NoName,Vector=Compartments[Cell]">
           <ListOfCallParameters>
             <CallParameter functionParameter="FunctionParameter_80">
-              <SourceParameter reference="ModelValue_10"/>
+              <SourceParameter reference="ModelValue_11"/>
             </CallParameter>
             <CallParameter functionParameter="FunctionParameter_81">
               <SourceParameter reference="Metabolite_6"/>
@@ -1125,11 +1137,11 @@ Reaction scheme where the products are created from the reactants and the change
       </Reaction>
       <Reaction key="Reaction_9" name="R6f" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+          <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#Reaction_9">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-10-21T15:14:11Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-10-28T15:06:38Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
@@ -1142,18 +1154,18 @@ Reaction scheme where the products are created from the reactants and the change
           <Product metabolite="Metabolite_17" stoichiometry="1"/>
         </ListOfProducts>
         <ListOfConstants>
-          <Constant key="Parameter_5003" name="AA" value="1"/>
-          <Constant key="Parameter_5002" name="_kmTORC1cytToLys" value="0.1"/>
+          <Constant key="Parameter_5002" name="AA" value="1"/>
+          <Constant key="Parameter_5001" name="_kmTORC1cytToLys" value="0.1"/>
         </ListOfConstants>
-        <KineticLaw function="Function_46" unitType="Default" scalingCompartment="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell]">
+        <KineticLaw function="Function_57" unitType="Default" scalingCompartment="CN=Root,Model=NoName,Vector=Compartments[Cell]">
           <ListOfCallParameters>
-            <CallParameter functionParameter="FunctionParameter_280">
+            <CallParameter functionParameter="FunctionParameter_363">
               <SourceParameter reference="ModelValue_1"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_279">
-              <SourceParameter reference="ModelValue_11"/>
+            <CallParameter functionParameter="FunctionParameter_364">
+              <SourceParameter reference="ModelValue_12"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_278">
+            <CallParameter functionParameter="FunctionParameter_365">
               <SourceParameter reference="Metabolite_16"/>
             </CallParameter>
           </ListOfCallParameters>
@@ -1161,11 +1173,11 @@ Reaction scheme where the products are created from the reactants and the change
       </Reaction>
       <Reaction key="Reaction_10" name="R6b" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+          <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#Reaction_10">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-10-21T15:14:11Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-10-28T15:06:38Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
@@ -1178,12 +1190,12 @@ Reaction scheme where the products are created from the reactants and the change
           <Product metabolite="Metabolite_16" stoichiometry="1"/>
         </ListOfProducts>
         <ListOfConstants>
-          <Constant key="Parameter_5001" name="k1" value="0.1"/>
+          <Constant key="Parameter_5000" name="k1" value="0.1"/>
         </ListOfConstants>
-        <KineticLaw function="Function_13" unitType="Default" scalingCompartment="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell]">
+        <KineticLaw function="Function_13" unitType="Default" scalingCompartment="CN=Root,Model=NoName,Vector=Compartments[Cell]">
           <ListOfCallParameters>
             <CallParameter functionParameter="FunctionParameter_80">
-              <SourceParameter reference="ModelValue_12"/>
+              <SourceParameter reference="ModelValue_13"/>
             </CallParameter>
             <CallParameter functionParameter="FunctionParameter_81">
               <SourceParameter reference="Metabolite_17"/>
@@ -1193,11 +1205,11 @@ Reaction scheme where the products are created from the reactants and the change
       </Reaction>
       <Reaction key="Reaction_11" name="R7f" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+          <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#Reaction_11">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-10-21T15:14:11Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-10-28T15:06:38Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
@@ -1213,17 +1225,17 @@ Reaction scheme where the products are created from the reactants and the change
           <Modifier metabolite="Metabolite_5" stoichiometry="1"/>
         </ListOfModifiers>
         <ListOfConstants>
-          <Constant key="Parameter_5000" name="_kmTORC1Phos" value="0.1"/>
+          <Constant key="Parameter_4999" name="_kmTORC1Phos" value="0.1"/>
         </ListOfConstants>
-        <KineticLaw function="Function_47" unitType="Default" scalingCompartment="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell]">
+        <KineticLaw function="Function_58" unitType="Default" scalingCompartment="CN=Root,Model=NoName,Vector=Compartments[Cell]">
           <ListOfCallParameters>
-            <CallParameter functionParameter="FunctionParameter_283">
+            <CallParameter functionParameter="FunctionParameter_371">
               <SourceParameter reference="Metabolite_5"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_282">
-              <SourceParameter reference="ModelValue_13"/>
+            <CallParameter functionParameter="FunctionParameter_372">
+              <SourceParameter reference="ModelValue_14"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_281">
+            <CallParameter functionParameter="FunctionParameter_373">
               <SourceParameter reference="Metabolite_17"/>
             </CallParameter>
           </ListOfCallParameters>
@@ -1231,11 +1243,11 @@ Reaction scheme where the products are created from the reactants and the change
       </Reaction>
       <Reaction key="Reaction_12" name="R7b" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+          <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#Reaction_12">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-10-21T15:14:11Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-10-28T15:06:38Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
@@ -1248,12 +1260,12 @@ Reaction scheme where the products are created from the reactants and the change
           <Product metabolite="Metabolite_17" stoichiometry="1"/>
         </ListOfProducts>
         <ListOfConstants>
-          <Constant key="Parameter_4999" name="k1" value="0.1"/>
+          <Constant key="Parameter_4998" name="k1" value="0.1"/>
         </ListOfConstants>
-        <KineticLaw function="Function_13" unitType="Default" scalingCompartment="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell]">
+        <KineticLaw function="Function_13" unitType="Default" scalingCompartment="CN=Root,Model=NoName,Vector=Compartments[Cell]">
           <ListOfCallParameters>
             <CallParameter functionParameter="FunctionParameter_80">
-              <SourceParameter reference="ModelValue_14"/>
+              <SourceParameter reference="ModelValue_15"/>
             </CallParameter>
             <CallParameter functionParameter="FunctionParameter_81">
               <SourceParameter reference="Metabolite_15"/>
@@ -1263,11 +1275,11 @@ Reaction scheme where the products are created from the reactants and the change
       </Reaction>
       <Reaction key="Reaction_13" name="R8f" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+          <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#Reaction_13">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-10-21T15:14:11Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-10-28T15:06:38Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
@@ -1283,29 +1295,29 @@ Reaction scheme where the products are created from the reactants and the change
           <Modifier metabolite="Metabolite_4" stoichiometry="1"/>
         </ListOfModifiers>
         <ListOfConstants>
-          <Constant key="Parameter_4998" name="_kPras40Phos" value="0.1"/>
+          <Constant key="Parameter_4997" name="_kPras40Phos" value="0.1"/>
         </ListOfConstants>
-        <KineticLaw function="Function_48" unitType="Default" scalingCompartment="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell]">
+        <KineticLaw function="Function_59" unitType="Default" scalingCompartment="CN=Root,Model=NoName,Vector=Compartments[Cell]">
           <ListOfCallParameters>
-            <CallParameter functionParameter="FunctionParameter_286">
+            <CallParameter functionParameter="FunctionParameter_379">
               <SourceParameter reference="Metabolite_4"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_285">
+            <CallParameter functionParameter="FunctionParameter_380">
               <SourceParameter reference="Metabolite_7"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_284">
-              <SourceParameter reference="ModelValue_15"/>
+            <CallParameter functionParameter="FunctionParameter_381">
+              <SourceParameter reference="ModelValue_16"/>
             </CallParameter>
           </ListOfCallParameters>
         </KineticLaw>
       </Reaction>
       <Reaction key="Reaction_14" name="R8b" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+          <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#Reaction_14">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-10-21T15:14:11Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-10-28T15:06:38Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
@@ -1318,12 +1330,12 @@ Reaction scheme where the products are created from the reactants and the change
           <Product metabolite="Metabolite_7" stoichiometry="1"/>
         </ListOfProducts>
         <ListOfConstants>
-          <Constant key="Parameter_4997" name="k1" value="0.1"/>
+          <Constant key="Parameter_4996" name="k1" value="0.1"/>
         </ListOfConstants>
-        <KineticLaw function="Function_13" unitType="Default" scalingCompartment="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell]">
+        <KineticLaw function="Function_13" unitType="Default" scalingCompartment="CN=Root,Model=NoName,Vector=Compartments[Cell]">
           <ListOfCallParameters>
             <CallParameter functionParameter="FunctionParameter_80">
-              <SourceParameter reference="ModelValue_16"/>
+              <SourceParameter reference="ModelValue_17"/>
             </CallParameter>
             <CallParameter functionParameter="FunctionParameter_81">
               <SourceParameter reference="Metabolite_8"/>
@@ -1333,11 +1345,11 @@ Reaction scheme where the products are created from the reactants and the change
       </Reaction>
       <Reaction key="Reaction_15" name="R9f" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+          <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#Reaction_15">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-10-21T15:14:11Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-10-28T15:06:38Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
@@ -1353,17 +1365,17 @@ Reaction scheme where the products are created from the reactants and the change
           <Modifier metabolite="Metabolite_15" stoichiometry="1"/>
         </ListOfModifiers>
         <ListOfConstants>
-          <Constant key="Parameter_4996" name="_kFourEBP1Phos" value="0.1"/>
+          <Constant key="Parameter_4995" name="_kFourEBP1Phos" value="0.1"/>
         </ListOfConstants>
-        <KineticLaw function="Function_49" unitType="Default" scalingCompartment="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell]">
+        <KineticLaw function="Function_60" unitType="Default" scalingCompartment="CN=Root,Model=NoName,Vector=Compartments[Cell]">
           <ListOfCallParameters>
-            <CallParameter functionParameter="FunctionParameter_289">
+            <CallParameter functionParameter="FunctionParameter_387">
               <SourceParameter reference="Metabolite_11"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_288">
-              <SourceParameter reference="ModelValue_17"/>
+            <CallParameter functionParameter="FunctionParameter_388">
+              <SourceParameter reference="ModelValue_18"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_287">
+            <CallParameter functionParameter="FunctionParameter_389">
               <SourceParameter reference="Metabolite_15"/>
             </CallParameter>
           </ListOfCallParameters>
@@ -1371,11 +1383,11 @@ Reaction scheme where the products are created from the reactants and the change
       </Reaction>
       <Reaction key="Reaction_16" name="R9b" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+          <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#Reaction_16">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-10-21T15:14:11Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-10-28T15:06:38Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
@@ -1388,12 +1400,12 @@ Reaction scheme where the products are created from the reactants and the change
           <Product metabolite="Metabolite_11" stoichiometry="1"/>
         </ListOfProducts>
         <ListOfConstants>
-          <Constant key="Parameter_4995" name="k1" value="0.1"/>
+          <Constant key="Parameter_4994" name="k1" value="0.1"/>
         </ListOfConstants>
-        <KineticLaw function="Function_13" unitType="Default" scalingCompartment="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell]">
+        <KineticLaw function="Function_13" unitType="Default" scalingCompartment="CN=Root,Model=NoName,Vector=Compartments[Cell]">
           <ListOfCallParameters>
             <CallParameter functionParameter="FunctionParameter_80">
-              <SourceParameter reference="ModelValue_18"/>
+              <SourceParameter reference="ModelValue_19"/>
             </CallParameter>
             <CallParameter functionParameter="FunctionParameter_81">
               <SourceParameter reference="Metabolite_12"/>
@@ -1403,11 +1415,11 @@ Reaction scheme where the products are created from the reactants and the change
       </Reaction>
       <Reaction key="Reaction_17" name="R10f" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+          <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#Reaction_17">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-10-21T15:14:11Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-10-28T15:06:38Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
@@ -1423,17 +1435,17 @@ Reaction scheme where the products are created from the reactants and the change
           <Modifier metabolite="Metabolite_15" stoichiometry="1"/>
         </ListOfModifiers>
         <ListOfConstants>
-          <Constant key="Parameter_4994" name="_kS6KPhos" value="0.1"/>
+          <Constant key="Parameter_4993" name="_kS6KPhos" value="0.1"/>
         </ListOfConstants>
-        <KineticLaw function="Function_50" unitType="Default" scalingCompartment="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell]">
+        <KineticLaw function="Function_61" unitType="Default" scalingCompartment="CN=Root,Model=NoName,Vector=Compartments[Cell]">
           <ListOfCallParameters>
-            <CallParameter functionParameter="FunctionParameter_292">
+            <CallParameter functionParameter="FunctionParameter_395">
               <SourceParameter reference="Metabolite_9"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_291">
-              <SourceParameter reference="ModelValue_19"/>
+            <CallParameter functionParameter="FunctionParameter_396">
+              <SourceParameter reference="ModelValue_20"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_290">
+            <CallParameter functionParameter="FunctionParameter_397">
               <SourceParameter reference="Metabolite_15"/>
             </CallParameter>
           </ListOfCallParameters>
@@ -1441,11 +1453,11 @@ Reaction scheme where the products are created from the reactants and the change
       </Reaction>
       <Reaction key="Reaction_18" name="R10b" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+          <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#Reaction_18">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-10-21T15:14:11Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-10-28T15:06:38Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
@@ -1458,12 +1470,12 @@ Reaction scheme where the products are created from the reactants and the change
           <Product metabolite="Metabolite_9" stoichiometry="1"/>
         </ListOfProducts>
         <ListOfConstants>
-          <Constant key="Parameter_4993" name="k1" value="0.1"/>
+          <Constant key="Parameter_4992" name="k1" value="0.1"/>
         </ListOfConstants>
-        <KineticLaw function="Function_13" unitType="Default" scalingCompartment="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell]">
+        <KineticLaw function="Function_13" unitType="Default" scalingCompartment="CN=Root,Model=NoName,Vector=Compartments[Cell]">
           <ListOfCallParameters>
             <CallParameter functionParameter="FunctionParameter_80">
-              <SourceParameter reference="ModelValue_20"/>
+              <SourceParameter reference="ModelValue_21"/>
             </CallParameter>
             <CallParameter functionParameter="FunctionParameter_81">
               <SourceParameter reference="Metabolite_10"/>
@@ -1475,208 +1487,212 @@ Reaction scheme where the products are created from the reactants and the change
     <ListOfModelParameterSets activeSet="ModelParameterSet_1">
       <ModelParameterSet key="ModelParameterSet_1" name="Initial State">
         <MiriamAnnotation>
-<rdf:RDF
-xmlns:dcterms="http://purl.org/dc/terms/"
-xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-<rdf:Description rdf:about="#ModelParameterSet_1">
-<dcterms:created>
-<rdf:Description>
-<dcterms:W3CDTF>2019-10-21T15:14:13Z</dcterms:W3CDTF>
-</rdf:Description>
-</dcterms:created>
-</rdf:Description>
-</rdf:RDF>
+          <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+            <rdf:Description rdf:about="#ModelParameterSet_1">
+              <dcterms:created>
+                <rdf:Description>
+                  <dcterms:W3CDTF>2019-10-28T15:06:38Z</dcterms:W3CDTF>
+                </rdf:Description>
+              </dcterms:created>
+            </rdf:Description>
+          </rdf:RDF>
         </MiriamAnnotation>
         <ModelParameterGroup cn="String=Initial Time" type="Group">
-          <ModelParameter cn="CN=Root,Model=SimpleAktModel" value="0" type="Model" simulationType="time"/>
+          <ModelParameter cn="CN=Root,Model=NoName" value="0" type="Model" simulationType="time"/>
         </ModelParameterGroup>
         <ModelParameterGroup cn="String=Initial Compartment Sizes" type="Group">
-          <ModelParameter cn="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell]" value="1" type="Compartment" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=NoName,Vector=Compartments[Cell]" value="1" type="Compartment" simulationType="fixed"/>
         </ModelParameterGroup>
         <ModelParameterGroup cn="String=Initial Species Values" type="Group">
-          <ModelParameter cn="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[IRS1]" value="6.0221417899999996e+24" type="Species" simulationType="reactions"/>
-          <ModelParameter cn="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[IRS1a]" value="0" type="Species" simulationType="reactions"/>
-          <ModelParameter cn="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[IRS1pS636_639]" value="0" type="Species" simulationType="reactions"/>
-          <ModelParameter cn="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[Akt]" value="6.0221417899999996e+24" type="Species" simulationType="reactions"/>
-          <ModelParameter cn="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[AktpT308]" value="0" type="Species" simulationType="reactions"/>
-          <ModelParameter cn="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[TSC2]" value="0" type="Species" simulationType="reactions"/>
-          <ModelParameter cn="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[TSC2pT1462]" value="6.0221417899999996e+24" type="Species" simulationType="reactions"/>
-          <ModelParameter cn="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[PRAS40]" value="6.0221417899999996e+24" type="Species" simulationType="reactions"/>
-          <ModelParameter cn="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[PRAS40pT246]" value="0" type="Species" simulationType="reactions"/>
-          <ModelParameter cn="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[S6K]" value="6.0221417899999996e+24" type="Species" simulationType="reactions"/>
-          <ModelParameter cn="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[S6KpT389]" value="0" type="Species" simulationType="reactions"/>
-          <ModelParameter cn="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[FourEBP1]" value="6.0221417899999996e+24" type="Species" simulationType="reactions"/>
-          <ModelParameter cn="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[FourEBP1pT37_46]" value="0" type="Species" simulationType="reactions"/>
-          <ModelParameter cn="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[PI3K]" value="6.0221417899999996e+24" type="Species" simulationType="reactions"/>
-          <ModelParameter cn="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[pPI3K]" value="0" type="Species" simulationType="reactions"/>
-          <ModelParameter cn="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[pmTORC1]" value="0" type="Species" simulationType="reactions"/>
-          <ModelParameter cn="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[mTORC1cyt]" value="6.0221417899999996e+24" type="Species" simulationType="reactions"/>
-          <ModelParameter cn="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[mTORC1lys]" value="0" type="Species" simulationType="reactions"/>
+          <ModelParameter cn="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[IRS1]" value="6.0221417899999996e+24" type="Species" simulationType="reactions"/>
+          <ModelParameter cn="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[IRS1a]" value="0" type="Species" simulationType="reactions"/>
+          <ModelParameter cn="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[IRS1pS636_639]" value="0" type="Species" simulationType="reactions"/>
+          <ModelParameter cn="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[Akt]" value="6.0221417899999996e+24" type="Species" simulationType="reactions"/>
+          <ModelParameter cn="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[AktpT308]" value="0" type="Species" simulationType="reactions"/>
+          <ModelParameter cn="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[TSC2]" value="0" type="Species" simulationType="reactions"/>
+          <ModelParameter cn="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[TSC2pT1462]" value="6.0221417899999996e+24" type="Species" simulationType="reactions"/>
+          <ModelParameter cn="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[PRAS40]" value="6.0221417899999996e+24" type="Species" simulationType="reactions"/>
+          <ModelParameter cn="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[PRAS40pT246]" value="0" type="Species" simulationType="reactions"/>
+          <ModelParameter cn="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[S6K]" value="6.0221417899999996e+24" type="Species" simulationType="reactions"/>
+          <ModelParameter cn="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[S6KpT389]" value="0" type="Species" simulationType="reactions"/>
+          <ModelParameter cn="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[FourEBP1]" value="6.0221417899999996e+24" type="Species" simulationType="reactions"/>
+          <ModelParameter cn="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[FourEBP1pT37_46]" value="0" type="Species" simulationType="reactions"/>
+          <ModelParameter cn="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[PI3K]" value="6.0221417899999996e+24" type="Species" simulationType="reactions"/>
+          <ModelParameter cn="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[pPI3K]" value="0" type="Species" simulationType="reactions"/>
+          <ModelParameter cn="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[pmTORC1]" value="0" type="Species" simulationType="reactions"/>
+          <ModelParameter cn="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[mTORC1cyt]" value="6.0221417899999996e+24" type="Species" simulationType="reactions"/>
+          <ModelParameter cn="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[mTORC1lys]" value="0" type="Species" simulationType="reactions"/>
         </ModelParameterGroup>
         <ModelParameterGroup cn="String=Initial Global Quantities" type="Group">
-          <ModelParameter cn="CN=Root,Model=SimpleAktModel,Vector=Values[Insulin]" value="1" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=SimpleAktModel,Vector=Values[AA]" value="1" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=SimpleAktModel,Vector=Values[_kIRS1Act]" value="0.10000000000000001" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=SimpleAktModel,Vector=Values[_kIRS1Inact]" value="0.10000000000000001" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=SimpleAktModel,Vector=Values[kIRS1Phos]" value="0.10000000000000001" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=SimpleAktModel,Vector=Values[_kPI3KPhos]" value="0.10000000000000001" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=SimpleAktModel,Vector=Values[kPI3KDephos]" value="0.10000000000000001" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=SimpleAktModel,Vector=Values[_kAktPhos]" value="0.10000000000000001" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=SimpleAktModel,Vector=Values[kAktDephos]" value="0.10000000000000001" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=SimpleAktModel,Vector=Values[kTSC2Phos]" value="0.10000000000000001" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=SimpleAktModel,Vector=Values[_kTSC2Dephos]" value="0.10000000000000001" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=SimpleAktModel,Vector=Values[_kmTORC1cytToLys]" value="0.10000000000000001" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=SimpleAktModel,Vector=Values[_kmTORC1LysToCyt]" value="0.10000000000000001" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=SimpleAktModel,Vector=Values[_kmTORC1Phos]" value="0.10000000000000001" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=SimpleAktModel,Vector=Values[kmTORC1Dephos]" value="0.10000000000000001" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=SimpleAktModel,Vector=Values[_kPras40Phos]" value="0.10000000000000001" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=SimpleAktModel,Vector=Values[kPras40Dephos]" value="0.10000000000000001" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=SimpleAktModel,Vector=Values[_kFourEBP1Phos]" value="0.10000000000000001" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=SimpleAktModel,Vector=Values[kFourEBP1Dephos]" value="0.10000000000000001" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=SimpleAktModel,Vector=Values[_kS6KPhos]" value="0.10000000000000001" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=SimpleAktModel,Vector=Values[kS6KDephos]" value="0.10000000000000001" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=NoName,Vector=Values[Insulin]" value="1" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=NoName,Vector=Values[AA]" value="1" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=NoName,Vector=Values[_kIRS1Act]" value="0.10000000000000001" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=NoName,Vector=Values[_kIRS1Inact]" value="0.10000000000000001" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=NoName,Vector=Values[_kIRS1Phos]" value="0.10000000000000001" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=NoName,Vector=Values[_kPI3KPhos]" value="0.10000000000000001" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=NoName,Vector=Values[_kPI3KDephos]" value="0.10000000000000001" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=NoName,Vector=Values[_kAktPhos_km]" value="0.10000000000000001" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=NoName,Vector=Values[_kAktPhos_kcat]" value="0.10000000000000001" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=NoName,Vector=Values[_kAktDephos]" value="0.10000000000000001" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=NoName,Vector=Values[_kTSC2Phos]" value="0.10000000000000001" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=NoName,Vector=Values[_kTSC2Dephos]" value="0.10000000000000001" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=NoName,Vector=Values[_kmTORC1cytToLys]" value="0.10000000000000001" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=NoName,Vector=Values[_kmTORC1LysToCyt]" value="0.10000000000000001" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=NoName,Vector=Values[_kmTORC1Phos]" value="0.10000000000000001" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=NoName,Vector=Values[_kmTORC1Dephos]" value="0.10000000000000001" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=NoName,Vector=Values[_kPras40Phos]" value="0.10000000000000001" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=NoName,Vector=Values[_kPras40Dephos]" value="0.10000000000000001" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=NoName,Vector=Values[_kFourEBP1Phos]" value="0.10000000000000001" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=NoName,Vector=Values[_kFourEBP1Dephos]" value="0.10000000000000001" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=NoName,Vector=Values[_kS6KPhos]" value="0.10000000000000001" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=NoName,Vector=Values[_kS6KDephos]" value="0.10000000000000001" type="ModelValue" simulationType="fixed"/>
         </ModelParameterGroup>
         <ModelParameterGroup cn="String=Kinetic Parameters" type="Group">
-          <ModelParameterGroup cn="CN=Root,Model=SimpleAktModel,Vector=Reactions[R1f]" type="Reaction">
-            <ModelParameter cn="CN=Root,Model=SimpleAktModel,Vector=Reactions[R1f],ParameterGroup=Parameters,Parameter=Insulin" value="1" type="ReactionParameter" simulationType="assignment">
+          <ModelParameterGroup cn="CN=Root,Model=NoName,Vector=Reactions[R1f]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=NoName,Vector=Reactions[R1f],ParameterGroup=Parameters,Parameter=Insulin" value="1" type="ReactionParameter" simulationType="assignment">
               <InitialExpression>
-                &lt;CN=Root,Model=SimpleAktModel,Vector=Values[Insulin],Reference=InitialValue>
+                &lt;CN=Root,Model=NoName,Vector=Values[Insulin],Reference=InitialValue&gt;
               </InitialExpression>
             </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=SimpleAktModel,Vector=Reactions[R1f],ParameterGroup=Parameters,Parameter=_kIRS1Act" value="0.10000000000000001" type="ReactionParameter" simulationType="assignment">
+            <ModelParameter cn="CN=Root,Model=NoName,Vector=Reactions[R1f],ParameterGroup=Parameters,Parameter=_kIRS1Act" value="0.10000000000000001" type="ReactionParameter" simulationType="assignment">
               <InitialExpression>
-                &lt;CN=Root,Model=SimpleAktModel,Vector=Values[_kIRS1Act],Reference=InitialValue>
-              </InitialExpression>
-            </ModelParameter>
-          </ModelParameterGroup>
-          <ModelParameterGroup cn="CN=Root,Model=SimpleAktModel,Vector=Reactions[R2f]" type="Reaction">
-            <ModelParameter cn="CN=Root,Model=SimpleAktModel,Vector=Reactions[R2f],ParameterGroup=Parameters,Parameter=kIRS1Phos" value="0.10000000000000001" type="ReactionParameter" simulationType="assignment">
-              <InitialExpression>
-                &lt;CN=Root,Model=SimpleAktModel,Vector=Values[kIRS1Phos],Reference=InitialValue>
+                &lt;CN=Root,Model=NoName,Vector=Values[_kIRS1Act],Reference=InitialValue&gt;
               </InitialExpression>
             </ModelParameter>
           </ModelParameterGroup>
-          <ModelParameterGroup cn="CN=Root,Model=SimpleAktModel,Vector=Reactions[R2b]" type="Reaction">
-            <ModelParameter cn="CN=Root,Model=SimpleAktModel,Vector=Reactions[R2b],ParameterGroup=Parameters,Parameter=k1" value="0.10000000000000001" type="ReactionParameter" simulationType="assignment">
+          <ModelParameterGroup cn="CN=Root,Model=NoName,Vector=Reactions[R2f]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=NoName,Vector=Reactions[R2f],ParameterGroup=Parameters,Parameter=_kIRS1Phos" value="0.10000000000000001" type="ReactionParameter" simulationType="assignment">
               <InitialExpression>
-                &lt;CN=Root,Model=SimpleAktModel,Vector=Values[_kIRS1Inact],Reference=InitialValue>
+                &lt;CN=Root,Model=NoName,Vector=Values[_kIRS1Phos],Reference=InitialValue&gt;
               </InitialExpression>
             </ModelParameter>
           </ModelParameterGroup>
-          <ModelParameterGroup cn="CN=Root,Model=SimpleAktModel,Vector=Reactions[R3f]" type="Reaction">
-            <ModelParameter cn="CN=Root,Model=SimpleAktModel,Vector=Reactions[R3f],ParameterGroup=Parameters,Parameter=_kPI3KPhos" value="0.10000000000000001" type="ReactionParameter" simulationType="assignment">
+          <ModelParameterGroup cn="CN=Root,Model=NoName,Vector=Reactions[R2b]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=NoName,Vector=Reactions[R2b],ParameterGroup=Parameters,Parameter=k1" value="0.10000000000000001" type="ReactionParameter" simulationType="assignment">
               <InitialExpression>
-                &lt;CN=Root,Model=SimpleAktModel,Vector=Values[_kPI3KPhos],Reference=InitialValue>
+                &lt;CN=Root,Model=NoName,Vector=Values[_kIRS1Inact],Reference=InitialValue&gt;
               </InitialExpression>
             </ModelParameter>
           </ModelParameterGroup>
-          <ModelParameterGroup cn="CN=Root,Model=SimpleAktModel,Vector=Reactions[R3b]" type="Reaction">
-            <ModelParameter cn="CN=Root,Model=SimpleAktModel,Vector=Reactions[R3b],ParameterGroup=Parameters,Parameter=k1" value="0.10000000000000001" type="ReactionParameter" simulationType="assignment">
+          <ModelParameterGroup cn="CN=Root,Model=NoName,Vector=Reactions[R3f]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=NoName,Vector=Reactions[R3f],ParameterGroup=Parameters,Parameter=_kPI3KPhos" value="0.10000000000000001" type="ReactionParameter" simulationType="assignment">
               <InitialExpression>
-                &lt;CN=Root,Model=SimpleAktModel,Vector=Values[kPI3KDephos],Reference=InitialValue>
+                &lt;CN=Root,Model=NoName,Vector=Values[_kPI3KPhos],Reference=InitialValue&gt;
               </InitialExpression>
             </ModelParameter>
           </ModelParameterGroup>
-          <ModelParameterGroup cn="CN=Root,Model=SimpleAktModel,Vector=Reactions[R4f]" type="Reaction">
-            <ModelParameter cn="CN=Root,Model=SimpleAktModel,Vector=Reactions[R4f],ParameterGroup=Parameters,Parameter=_kAktPhos" value="0.10000000000000001" type="ReactionParameter" simulationType="assignment">
+          <ModelParameterGroup cn="CN=Root,Model=NoName,Vector=Reactions[R3b]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=NoName,Vector=Reactions[R3b],ParameterGroup=Parameters,Parameter=k1" value="0.10000000000000001" type="ReactionParameter" simulationType="assignment">
               <InitialExpression>
-                &lt;CN=Root,Model=SimpleAktModel,Vector=Values[_kAktPhos],Reference=InitialValue>
+                &lt;CN=Root,Model=NoName,Vector=Values[_kPI3KDephos],Reference=InitialValue&gt;
               </InitialExpression>
             </ModelParameter>
           </ModelParameterGroup>
-          <ModelParameterGroup cn="CN=Root,Model=SimpleAktModel,Vector=Reactions[R4b]" type="Reaction">
-            <ModelParameter cn="CN=Root,Model=SimpleAktModel,Vector=Reactions[R4b],ParameterGroup=Parameters,Parameter=kAktDephos" value="0.10000000000000001" type="ReactionParameter" simulationType="assignment">
+          <ModelParameterGroup cn="CN=Root,Model=NoName,Vector=Reactions[R4f]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=NoName,Vector=Reactions[R4f],ParameterGroup=Parameters,Parameter=_kAktPhos_kcat" value="0.10000000000000001" type="ReactionParameter" simulationType="assignment">
               <InitialExpression>
-                &lt;CN=Root,Model=SimpleAktModel,Vector=Values[kAktDephos],Reference=InitialValue>
+                &lt;CN=Root,Model=NoName,Vector=Values[_kAktPhos_kcat],Reference=InitialValue&gt;
+              </InitialExpression>
+            </ModelParameter>
+            <ModelParameter cn="CN=Root,Model=NoName,Vector=Reactions[R4f],ParameterGroup=Parameters,Parameter=_kAktPhos_km" value="0.10000000000000001" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=NoName,Vector=Values[_kAktPhos_km],Reference=InitialValue&gt;
               </InitialExpression>
             </ModelParameter>
           </ModelParameterGroup>
-          <ModelParameterGroup cn="CN=Root,Model=SimpleAktModel,Vector=Reactions[R5f]" type="Reaction">
-            <ModelParameter cn="CN=Root,Model=SimpleAktModel,Vector=Reactions[R5f],ParameterGroup=Parameters,Parameter=kTSC2Phos" value="0.10000000000000001" type="ReactionParameter" simulationType="assignment">
+          <ModelParameterGroup cn="CN=Root,Model=NoName,Vector=Reactions[R4b]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=NoName,Vector=Reactions[R4b],ParameterGroup=Parameters,Parameter=_kAktDephos" value="0.10000000000000001" type="ReactionParameter" simulationType="assignment">
               <InitialExpression>
-                &lt;CN=Root,Model=SimpleAktModel,Vector=Values[kTSC2Phos],Reference=InitialValue>
+                &lt;CN=Root,Model=NoName,Vector=Values[_kAktDephos],Reference=InitialValue&gt;
               </InitialExpression>
             </ModelParameter>
           </ModelParameterGroup>
-          <ModelParameterGroup cn="CN=Root,Model=SimpleAktModel,Vector=Reactions[R5b]" type="Reaction">
-            <ModelParameter cn="CN=Root,Model=SimpleAktModel,Vector=Reactions[R5b],ParameterGroup=Parameters,Parameter=k1" value="0.10000000000000001" type="ReactionParameter" simulationType="assignment">
+          <ModelParameterGroup cn="CN=Root,Model=NoName,Vector=Reactions[R5f]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=NoName,Vector=Reactions[R5f],ParameterGroup=Parameters,Parameter=_kTSC2Phos" value="0.10000000000000001" type="ReactionParameter" simulationType="assignment">
               <InitialExpression>
-                &lt;CN=Root,Model=SimpleAktModel,Vector=Values[_kTSC2Dephos],Reference=InitialValue>
+                &lt;CN=Root,Model=NoName,Vector=Values[_kTSC2Phos],Reference=InitialValue&gt;
               </InitialExpression>
             </ModelParameter>
           </ModelParameterGroup>
-          <ModelParameterGroup cn="CN=Root,Model=SimpleAktModel,Vector=Reactions[R6f]" type="Reaction">
-            <ModelParameter cn="CN=Root,Model=SimpleAktModel,Vector=Reactions[R6f],ParameterGroup=Parameters,Parameter=AA" value="1" type="ReactionParameter" simulationType="assignment">
+          <ModelParameterGroup cn="CN=Root,Model=NoName,Vector=Reactions[R5b]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=NoName,Vector=Reactions[R5b],ParameterGroup=Parameters,Parameter=k1" value="0.10000000000000001" type="ReactionParameter" simulationType="assignment">
               <InitialExpression>
-                &lt;CN=Root,Model=SimpleAktModel,Vector=Values[AA],Reference=InitialValue>
-              </InitialExpression>
-            </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=SimpleAktModel,Vector=Reactions[R6f],ParameterGroup=Parameters,Parameter=_kmTORC1cytToLys" value="0.10000000000000001" type="ReactionParameter" simulationType="assignment">
-              <InitialExpression>
-                &lt;CN=Root,Model=SimpleAktModel,Vector=Values[_kmTORC1cytToLys],Reference=InitialValue>
+                &lt;CN=Root,Model=NoName,Vector=Values[_kTSC2Dephos],Reference=InitialValue&gt;
               </InitialExpression>
             </ModelParameter>
           </ModelParameterGroup>
-          <ModelParameterGroup cn="CN=Root,Model=SimpleAktModel,Vector=Reactions[R6b]" type="Reaction">
-            <ModelParameter cn="CN=Root,Model=SimpleAktModel,Vector=Reactions[R6b],ParameterGroup=Parameters,Parameter=k1" value="0.10000000000000001" type="ReactionParameter" simulationType="assignment">
+          <ModelParameterGroup cn="CN=Root,Model=NoName,Vector=Reactions[R6f]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=NoName,Vector=Reactions[R6f],ParameterGroup=Parameters,Parameter=AA" value="1" type="ReactionParameter" simulationType="assignment">
               <InitialExpression>
-                &lt;CN=Root,Model=SimpleAktModel,Vector=Values[_kmTORC1LysToCyt],Reference=InitialValue>
+                &lt;CN=Root,Model=NoName,Vector=Values[AA],Reference=InitialValue&gt;
+              </InitialExpression>
+            </ModelParameter>
+            <ModelParameter cn="CN=Root,Model=NoName,Vector=Reactions[R6f],ParameterGroup=Parameters,Parameter=_kmTORC1cytToLys" value="0.10000000000000001" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=NoName,Vector=Values[_kmTORC1cytToLys],Reference=InitialValue&gt;
               </InitialExpression>
             </ModelParameter>
           </ModelParameterGroup>
-          <ModelParameterGroup cn="CN=Root,Model=SimpleAktModel,Vector=Reactions[R7f]" type="Reaction">
-            <ModelParameter cn="CN=Root,Model=SimpleAktModel,Vector=Reactions[R7f],ParameterGroup=Parameters,Parameter=_kmTORC1Phos" value="0.10000000000000001" type="ReactionParameter" simulationType="assignment">
+          <ModelParameterGroup cn="CN=Root,Model=NoName,Vector=Reactions[R6b]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=NoName,Vector=Reactions[R6b],ParameterGroup=Parameters,Parameter=k1" value="0.10000000000000001" type="ReactionParameter" simulationType="assignment">
               <InitialExpression>
-                &lt;CN=Root,Model=SimpleAktModel,Vector=Values[_kmTORC1Phos],Reference=InitialValue>
+                &lt;CN=Root,Model=NoName,Vector=Values[_kmTORC1LysToCyt],Reference=InitialValue&gt;
               </InitialExpression>
             </ModelParameter>
           </ModelParameterGroup>
-          <ModelParameterGroup cn="CN=Root,Model=SimpleAktModel,Vector=Reactions[R7b]" type="Reaction">
-            <ModelParameter cn="CN=Root,Model=SimpleAktModel,Vector=Reactions[R7b],ParameterGroup=Parameters,Parameter=k1" value="0.10000000000000001" type="ReactionParameter" simulationType="assignment">
+          <ModelParameterGroup cn="CN=Root,Model=NoName,Vector=Reactions[R7f]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=NoName,Vector=Reactions[R7f],ParameterGroup=Parameters,Parameter=_kmTORC1Phos" value="0.10000000000000001" type="ReactionParameter" simulationType="assignment">
               <InitialExpression>
-                &lt;CN=Root,Model=SimpleAktModel,Vector=Values[kmTORC1Dephos],Reference=InitialValue>
+                &lt;CN=Root,Model=NoName,Vector=Values[_kmTORC1Phos],Reference=InitialValue&gt;
               </InitialExpression>
             </ModelParameter>
           </ModelParameterGroup>
-          <ModelParameterGroup cn="CN=Root,Model=SimpleAktModel,Vector=Reactions[R8f]" type="Reaction">
-            <ModelParameter cn="CN=Root,Model=SimpleAktModel,Vector=Reactions[R8f],ParameterGroup=Parameters,Parameter=_kPras40Phos" value="0.10000000000000001" type="ReactionParameter" simulationType="assignment">
+          <ModelParameterGroup cn="CN=Root,Model=NoName,Vector=Reactions[R7b]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=NoName,Vector=Reactions[R7b],ParameterGroup=Parameters,Parameter=k1" value="0.10000000000000001" type="ReactionParameter" simulationType="assignment">
               <InitialExpression>
-                &lt;CN=Root,Model=SimpleAktModel,Vector=Values[_kPras40Phos],Reference=InitialValue>
+                &lt;CN=Root,Model=NoName,Vector=Values[_kmTORC1Dephos],Reference=InitialValue&gt;
               </InitialExpression>
             </ModelParameter>
           </ModelParameterGroup>
-          <ModelParameterGroup cn="CN=Root,Model=SimpleAktModel,Vector=Reactions[R8b]" type="Reaction">
-            <ModelParameter cn="CN=Root,Model=SimpleAktModel,Vector=Reactions[R8b],ParameterGroup=Parameters,Parameter=k1" value="0.10000000000000001" type="ReactionParameter" simulationType="assignment">
+          <ModelParameterGroup cn="CN=Root,Model=NoName,Vector=Reactions[R8f]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=NoName,Vector=Reactions[R8f],ParameterGroup=Parameters,Parameter=_kPras40Phos" value="0.10000000000000001" type="ReactionParameter" simulationType="assignment">
               <InitialExpression>
-                &lt;CN=Root,Model=SimpleAktModel,Vector=Values[kPras40Dephos],Reference=InitialValue>
+                &lt;CN=Root,Model=NoName,Vector=Values[_kPras40Phos],Reference=InitialValue&gt;
               </InitialExpression>
             </ModelParameter>
           </ModelParameterGroup>
-          <ModelParameterGroup cn="CN=Root,Model=SimpleAktModel,Vector=Reactions[R9f]" type="Reaction">
-            <ModelParameter cn="CN=Root,Model=SimpleAktModel,Vector=Reactions[R9f],ParameterGroup=Parameters,Parameter=_kFourEBP1Phos" value="0.10000000000000001" type="ReactionParameter" simulationType="assignment">
+          <ModelParameterGroup cn="CN=Root,Model=NoName,Vector=Reactions[R8b]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=NoName,Vector=Reactions[R8b],ParameterGroup=Parameters,Parameter=k1" value="0.10000000000000001" type="ReactionParameter" simulationType="assignment">
               <InitialExpression>
-                &lt;CN=Root,Model=SimpleAktModel,Vector=Values[_kFourEBP1Phos],Reference=InitialValue>
+                &lt;CN=Root,Model=NoName,Vector=Values[_kPras40Dephos],Reference=InitialValue&gt;
               </InitialExpression>
             </ModelParameter>
           </ModelParameterGroup>
-          <ModelParameterGroup cn="CN=Root,Model=SimpleAktModel,Vector=Reactions[R9b]" type="Reaction">
-            <ModelParameter cn="CN=Root,Model=SimpleAktModel,Vector=Reactions[R9b],ParameterGroup=Parameters,Parameter=k1" value="0.10000000000000001" type="ReactionParameter" simulationType="assignment">
+          <ModelParameterGroup cn="CN=Root,Model=NoName,Vector=Reactions[R9f]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=NoName,Vector=Reactions[R9f],ParameterGroup=Parameters,Parameter=_kFourEBP1Phos" value="0.10000000000000001" type="ReactionParameter" simulationType="assignment">
               <InitialExpression>
-                &lt;CN=Root,Model=SimpleAktModel,Vector=Values[kFourEBP1Dephos],Reference=InitialValue>
+                &lt;CN=Root,Model=NoName,Vector=Values[_kFourEBP1Phos],Reference=InitialValue&gt;
               </InitialExpression>
             </ModelParameter>
           </ModelParameterGroup>
-          <ModelParameterGroup cn="CN=Root,Model=SimpleAktModel,Vector=Reactions[R10f]" type="Reaction">
-            <ModelParameter cn="CN=Root,Model=SimpleAktModel,Vector=Reactions[R10f],ParameterGroup=Parameters,Parameter=_kS6KPhos" value="0.10000000000000001" type="ReactionParameter" simulationType="assignment">
+          <ModelParameterGroup cn="CN=Root,Model=NoName,Vector=Reactions[R9b]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=NoName,Vector=Reactions[R9b],ParameterGroup=Parameters,Parameter=k1" value="0.10000000000000001" type="ReactionParameter" simulationType="assignment">
               <InitialExpression>
-                &lt;CN=Root,Model=SimpleAktModel,Vector=Values[_kS6KPhos],Reference=InitialValue>
+                &lt;CN=Root,Model=NoName,Vector=Values[_kFourEBP1Dephos],Reference=InitialValue&gt;
               </InitialExpression>
             </ModelParameter>
           </ModelParameterGroup>
-          <ModelParameterGroup cn="CN=Root,Model=SimpleAktModel,Vector=Reactions[R10b]" type="Reaction">
-            <ModelParameter cn="CN=Root,Model=SimpleAktModel,Vector=Reactions[R10b],ParameterGroup=Parameters,Parameter=k1" value="0.10000000000000001" type="ReactionParameter" simulationType="assignment">
+          <ModelParameterGroup cn="CN=Root,Model=NoName,Vector=Reactions[R10f]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=NoName,Vector=Reactions[R10f],ParameterGroup=Parameters,Parameter=_kS6KPhos" value="0.10000000000000001" type="ReactionParameter" simulationType="assignment">
               <InitialExpression>
-                &lt;CN=Root,Model=SimpleAktModel,Vector=Values[kS6KDephos],Reference=InitialValue>
+                &lt;CN=Root,Model=NoName,Vector=Values[_kS6KPhos],Reference=InitialValue&gt;
+              </InitialExpression>
+            </ModelParameter>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=NoName,Vector=Reactions[R10b]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=NoName,Vector=Reactions[R10b],ParameterGroup=Parameters,Parameter=k1" value="0.10000000000000001" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=NoName,Vector=Values[_kS6KDephos],Reference=InitialValue&gt;
               </InitialExpression>
             </ModelParameter>
           </ModelParameterGroup>
@@ -1725,9 +1741,10 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       <StateTemplateVariable objectReference="ModelValue_18"/>
       <StateTemplateVariable objectReference="ModelValue_19"/>
       <StateTemplateVariable objectReference="ModelValue_20"/>
+      <StateTemplateVariable objectReference="ModelValue_21"/>
     </StateTemplate>
     <InitialState type="initialState">
-      0 0 0 6.0221417899999996e+24 0 6.0221417899999996e+24 6.0221417899999996e+24 6.0221417899999996e+24 6.0221417899999996e+24 0 0 6.0221417899999996e+24 0 0 6.0221417899999996e+24 6.0221417899999996e+24 0 0 0 1 1 1 0.10000000000000001 0.10000000000000001 0.10000000000000001 0.10000000000000001 0.10000000000000001 0.10000000000000001 0.10000000000000001 0.10000000000000001 0.10000000000000001 0.10000000000000001 0.10000000000000001 0.10000000000000001 0.10000000000000001 0.10000000000000001 0.10000000000000001 0.10000000000000001 0.10000000000000001 0.10000000000000001 0.10000000000000001 
+      0 0 0 6.0221417899999996e+24 0 6.0221417899999996e+24 6.0221417899999996e+24 6.0221417899999996e+24 6.0221417899999996e+24 0 0 6.0221417899999996e+24 0 0 6.0221417899999996e+24 6.0221417899999996e+24 0 0 0 1 1 1 0.10000000000000001 0.10000000000000001 0.10000000000000001 0.10000000000000001 0.10000000000000001 0.10000000000000001 0.10000000000000001 0.10000000000000001 0.10000000000000001 0.10000000000000001 0.10000000000000001 0.10000000000000001 0.10000000000000001 0.10000000000000001 0.10000000000000001 0.10000000000000001 0.10000000000000001 0.10000000000000001 0.10000000000000001 0.10000000000000001 
     </InitialState>
   </Model>
   <ListOfTasks>
@@ -1749,22 +1766,22 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
         <Parameter name="Maximum duration for backward integration" type="unsignedFloat" value="1000000"/>
       </Method>
     </Task>
-    <Task key="Task_15" name="Time-Course" type="timeCourse" scheduled="true" updateModel="false">
-      <Report reference="Report_20" target="TimeCourseData.txt" append="0" confirmOverwrite="0"/>
+    <Task key="Task_100" name="Time-Course" type="timeCourse" scheduled="true" update_model="false">
+      <Report append="0" target="/home/ncw135/Documents/MesiSTRAT2/TransferModel/transfer_model/models/TimeCourseData.txt" reference="Report_30" confirmOverwrite="0"/>
       <Problem>
         <Parameter name="AutomaticStepSize" type="bool" value="0"/>
         <Parameter name="StepNumber" type="unsignedInteger" value="100"/>
         <Parameter name="StepSize" type="float" value="0.01"/>
         <Parameter name="Duration" type="float" value="150"/>
-        <Parameter name="TimeSeriesRequested" type="bool" value="1"/>
+        <Parameter name="TimeSeriesRequested" type="float" value="1"/>
         <Parameter name="OutputStartTime" type="float" value="0"/>
         <Parameter name="Output Event" type="bool" value="0"/>
         <Parameter name="Start in Steady State" type="bool" value="0"/>
       </Problem>
       <Method name="Deterministic (LSODA)" type="Deterministic(LSODA)">
         <Parameter name="Integrate Reduced Model" type="bool" value="0"/>
-        <Parameter name="Relative Tolerance" type="unsignedFloat" value="9.9999999999999995e-07"/>
-        <Parameter name="Absolute Tolerance" type="unsignedFloat" value="9.9999999999999998e-13"/>
+        <Parameter name="Relative Tolerance" type="unsignedFloat" value="1e-06"/>
+        <Parameter name="Absolute Tolerance" type="unsignedFloat" value="1e-12"/>
         <Parameter name="Max Internal Steps" type="unsignedInteger" value="10000"/>
         <Parameter name="Max Internal Step Size" type="unsignedFloat" value="0"/>
       </Method>
@@ -1809,1035 +1826,30 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
         <Parameter name="Seed" type="unsignedInteger" value="0"/>
       </Method>
     </Task>
-    <Task key="Task_19" name="Parameter Estimation" type="parameterFitting" scheduled="false" updateModel="false">
-      <Report reference="Report_21" target="PEData.txt" append="0" confirmOverwrite="0"/>
+    <Task key="Task_19" name="Parameter Estimation" type="parameterFitting" scheduled="False" updateModel="0">
+      <Report reference="Report_32" target="PEData.txt" append="False" confirmOverwrite="False"/>
       <Problem>
         <Parameter name="Maximize" type="bool" value="0"/>
-        <Parameter name="Randomize Start Values" type="bool" value="0"/>
-        <Parameter name="Calculate Statistics" type="bool" value="1"/>
+        <Parameter name="Randomize Start Values" type="bool" value="1"/>
+        <Parameter name="Calculate Statistics" type="bool" value="0"/>
         <ParameterGroup name="OptimizationItemList">
-          <ParameterGroup name="FitItem">
-            <ParameterGroup name="Affected Experiments">
-            </ParameterGroup>
-            <ParameterGroup name="Affected Cross Validation Experiments">
-            </ParameterGroup>
-            <Parameter name="LowerBound" type="cn" value="0.01"/>
-            <Parameter name="UpperBound" type="cn" value="10"/>
-            <Parameter name="StartValue" type="float" value="0.033699542579999998"/>
-            <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Values[_kAktPhos],Reference=InitialValue"/>
-          </ParameterGroup>
-          <ParameterGroup name="FitItem">
-            <ParameterGroup name="Affected Experiments">
-            </ParameterGroup>
-            <ParameterGroup name="Affected Cross Validation Experiments">
-            </ParameterGroup>
-            <Parameter name="LowerBound" type="cn" value="0.01"/>
-            <Parameter name="UpperBound" type="cn" value="10"/>
-            <Parameter name="StartValue" type="float" value="0.040258761662545856"/>
-            <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Values[_kFourEBP1Phos],Reference=InitialValue"/>
-          </ParameterGroup>
-          <ParameterGroup name="FitItem">
-            <ParameterGroup name="Affected Experiments">
-            </ParameterGroup>
-            <ParameterGroup name="Affected Cross Validation Experiments">
-            </ParameterGroup>
-            <Parameter name="LowerBound" type="cn" value="0.01"/>
-            <Parameter name="UpperBound" type="cn" value="10"/>
-            <Parameter name="StartValue" type="float" value="0.089673954934988004"/>
-            <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Values[_kIRS1Act],Reference=InitialValue"/>
-          </ParameterGroup>
-          <ParameterGroup name="FitItem">
-            <ParameterGroup name="Affected Experiments">
-            </ParameterGroup>
-            <ParameterGroup name="Affected Cross Validation Experiments">
-            </ParameterGroup>
-            <Parameter name="LowerBound" type="cn" value="0.01"/>
-            <Parameter name="UpperBound" type="cn" value="10"/>
-            <Parameter name="StartValue" type="float" value="6.6456076988421584"/>
-            <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Values[_kIRS1Inact],Reference=InitialValue"/>
-          </ParameterGroup>
-          <ParameterGroup name="FitItem">
-            <ParameterGroup name="Affected Experiments">
-            </ParameterGroup>
-            <ParameterGroup name="Affected Cross Validation Experiments">
-            </ParameterGroup>
-            <Parameter name="LowerBound" type="cn" value="0.01"/>
-            <Parameter name="UpperBound" type="cn" value="10"/>
-            <Parameter name="StartValue" type="float" value="0.13800108968164568"/>
-            <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Values[_kPI3KPhos],Reference=InitialValue"/>
-          </ParameterGroup>
-          <ParameterGroup name="FitItem">
-            <ParameterGroup name="Affected Experiments">
-            </ParameterGroup>
-            <ParameterGroup name="Affected Cross Validation Experiments">
-            </ParameterGroup>
-            <Parameter name="LowerBound" type="cn" value="0.01"/>
-            <Parameter name="UpperBound" type="cn" value="10"/>
-            <Parameter name="StartValue" type="float" value="0.55847290243284897"/>
-            <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Values[_kPras40Phos],Reference=InitialValue"/>
-          </ParameterGroup>
-          <ParameterGroup name="FitItem">
-            <ParameterGroup name="Affected Experiments">
-            </ParameterGroup>
-            <ParameterGroup name="Affected Cross Validation Experiments">
-            </ParameterGroup>
-            <Parameter name="LowerBound" type="cn" value="0.01"/>
-            <Parameter name="UpperBound" type="cn" value="10"/>
-            <Parameter name="StartValue" type="float" value="0.020469568156628752"/>
-            <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Values[_kS6KPhos],Reference=InitialValue"/>
-          </ParameterGroup>
-          <ParameterGroup name="FitItem">
-            <ParameterGroup name="Affected Experiments">
-            </ParameterGroup>
-            <ParameterGroup name="Affected Cross Validation Experiments">
-            </ParameterGroup>
-            <Parameter name="LowerBound" type="cn" value="0.01"/>
-            <Parameter name="UpperBound" type="cn" value="10"/>
-            <Parameter name="StartValue" type="float" value="3.6367258804339291"/>
-            <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Values[_kTSC2Dephos],Reference=InitialValue"/>
-          </ParameterGroup>
-          <ParameterGroup name="FitItem">
-            <ParameterGroup name="Affected Experiments">
-            </ParameterGroup>
-            <ParameterGroup name="Affected Cross Validation Experiments">
-            </ParameterGroup>
-            <Parameter name="LowerBound" type="cn" value="0.01"/>
-            <Parameter name="UpperBound" type="cn" value="10"/>
-            <Parameter name="StartValue" type="float" value="5.852664047913982"/>
-            <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Values[_kmTORC1LysToCyt],Reference=InitialValue"/>
-          </ParameterGroup>
-          <ParameterGroup name="FitItem">
-            <ParameterGroup name="Affected Experiments">
-            </ParameterGroup>
-            <ParameterGroup name="Affected Cross Validation Experiments">
-            </ParameterGroup>
-            <Parameter name="LowerBound" type="cn" value="0.01"/>
-            <Parameter name="UpperBound" type="cn" value="10"/>
-            <Parameter name="StartValue" type="float" value="0.237964736878925"/>
-            <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Values[_kmTORC1Phos],Reference=InitialValue"/>
-          </ParameterGroup>
-          <ParameterGroup name="FitItem">
-            <ParameterGroup name="Affected Experiments">
-            </ParameterGroup>
-            <ParameterGroup name="Affected Cross Validation Experiments">
-            </ParameterGroup>
-            <Parameter name="LowerBound" type="cn" value="0.01"/>
-            <Parameter name="UpperBound" type="cn" value="10"/>
-            <Parameter name="StartValue" type="float" value="0.012532174891968607"/>
-            <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Values[_kmTORC1cytToLys],Reference=InitialValue"/>
-          </ParameterGroup>
-          <ParameterGroup name="FitItem">
-            <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Values[kAktDephos],Reference=InitialValue"/>
-            <Parameter name="LowerBound" type="cn" value="0.01"/>
-            <Parameter name="UpperBound" type="cn" value="10"/>
-            <Parameter name="StartValue" type="float" value="0.10419269709760516"/>
-            <ParameterGroup name="Affected Experiments">
-            </ParameterGroup>
-            <ParameterGroup name="Affected Cross Validation Experiments">
-            </ParameterGroup>
-          </ParameterGroup>
-          <ParameterGroup name="FitItem">
-            <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Values[kFourEBP1Dephos],Reference=InitialValue"/>
-            <Parameter name="LowerBound" type="cn" value="0.01"/>
-            <Parameter name="UpperBound" type="cn" value="10"/>
-            <Parameter name="StartValue" type="float" value="4.9575978863887391"/>
-            <ParameterGroup name="Affected Experiments">
-            </ParameterGroup>
-            <ParameterGroup name="Affected Cross Validation Experiments">
-            </ParameterGroup>
-          </ParameterGroup>
-          <ParameterGroup name="FitItem">
-            <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Values[kIRS1Phos],Reference=InitialValue"/>
-            <Parameter name="LowerBound" type="cn" value="0.01"/>
-            <Parameter name="UpperBound" type="cn" value="10"/>
-            <Parameter name="StartValue" type="float" value="3.8341249822290138"/>
-            <ParameterGroup name="Affected Experiments">
-            </ParameterGroup>
-            <ParameterGroup name="Affected Cross Validation Experiments">
-            </ParameterGroup>
-          </ParameterGroup>
-          <ParameterGroup name="FitItem">
-            <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Values[kPI3KDephos],Reference=InitialValue"/>
-            <Parameter name="LowerBound" type="cn" value="0.01"/>
-            <Parameter name="UpperBound" type="cn" value="10"/>
-            <Parameter name="StartValue" type="float" value="0.01061450352143271"/>
-            <ParameterGroup name="Affected Experiments">
-            </ParameterGroup>
-            <ParameterGroup name="Affected Cross Validation Experiments">
-            </ParameterGroup>
-          </ParameterGroup>
-          <ParameterGroup name="FitItem">
-            <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Values[kPras40Dephos],Reference=InitialValue"/>
-            <Parameter name="LowerBound" type="cn" value="0.01"/>
-            <Parameter name="UpperBound" type="cn" value="10"/>
-            <Parameter name="StartValue" type="float" value="0.67758014087340979"/>
-            <ParameterGroup name="Affected Experiments">
-            </ParameterGroup>
-            <ParameterGroup name="Affected Cross Validation Experiments">
-            </ParameterGroup>
-          </ParameterGroup>
-          <ParameterGroup name="FitItem">
-            <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Values[kS6KDephos],Reference=InitialValue"/>
-            <Parameter name="LowerBound" type="cn" value="0.01"/>
-            <Parameter name="UpperBound" type="cn" value="10"/>
-            <Parameter name="StartValue" type="float" value="2.7528907118586647"/>
-            <ParameterGroup name="Affected Experiments">
-            </ParameterGroup>
-            <ParameterGroup name="Affected Cross Validation Experiments">
-            </ParameterGroup>
-          </ParameterGroup>
-          <ParameterGroup name="FitItem">
-            <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Values[kTSC2Phos],Reference=InitialValue"/>
-            <Parameter name="LowerBound" type="cn" value="0.01"/>
-            <Parameter name="UpperBound" type="cn" value="10"/>
-            <Parameter name="StartValue" type="float" value="3.46900657720786"/>
-            <ParameterGroup name="Affected Experiments">
-            </ParameterGroup>
-            <ParameterGroup name="Affected Cross Validation Experiments">
-            </ParameterGroup>
-          </ParameterGroup>
-          <ParameterGroup name="FitItem">
-            <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Values[kmTORC1Dephos],Reference=InitialValue"/>
-            <Parameter name="LowerBound" type="cn" value="0.01"/>
-            <Parameter name="UpperBound" type="cn" value="10"/>
-            <Parameter name="StartValue" type="float" value="0.70348711750726001"/>
-            <ParameterGroup name="Affected Experiments">
-            </ParameterGroup>
-            <ParameterGroup name="Affected Cross Validation Experiments">
-            </ParameterGroup>
-          </ParameterGroup>
-        </ParameterGroup>
+        <ParameterGroup name="FitItem"><ParameterGroup name="Affected Experiments"/><ParameterGroup name="Affected Cross Validation Experiments"/><Parameter type="cn" name="LowerBound" value="0.001"/><Parameter type="cn" name="UpperBound" value="10"/><Parameter type="float" name="StartValue" value="0.1"/><Parameter type="cn" name="ObjectCN" value="CN=Root,Model=NoName,Vector=Values[_kAktDephos],Reference=InitialValue"/></ParameterGroup><ParameterGroup name="FitItem"><ParameterGroup name="Affected Experiments"/><ParameterGroup name="Affected Cross Validation Experiments"/><Parameter type="cn" name="LowerBound" value="0.001"/><Parameter type="cn" name="UpperBound" value="10"/><Parameter type="float" name="StartValue" value="0.1"/><Parameter type="cn" name="ObjectCN" value="CN=Root,Model=NoName,Vector=Values[_kAktPhos_kcat],Reference=InitialValue"/></ParameterGroup><ParameterGroup name="FitItem"><ParameterGroup name="Affected Experiments"/><ParameterGroup name="Affected Cross Validation Experiments"/><Parameter type="cn" name="LowerBound" value="0.001"/><Parameter type="cn" name="UpperBound" value="10"/><Parameter type="float" name="StartValue" value="0.1"/><Parameter type="cn" name="ObjectCN" value="CN=Root,Model=NoName,Vector=Values[_kAktPhos_km],Reference=InitialValue"/></ParameterGroup><ParameterGroup name="FitItem"><ParameterGroup name="Affected Experiments"/><ParameterGroup name="Affected Cross Validation Experiments"/><Parameter type="cn" name="LowerBound" value="0.001"/><Parameter type="cn" name="UpperBound" value="10"/><Parameter type="float" name="StartValue" value="0.1"/><Parameter type="cn" name="ObjectCN" value="CN=Root,Model=NoName,Vector=Values[_kFourEBP1Dephos],Reference=InitialValue"/></ParameterGroup><ParameterGroup name="FitItem"><ParameterGroup name="Affected Experiments"/><ParameterGroup name="Affected Cross Validation Experiments"/><Parameter type="cn" name="LowerBound" value="0.001"/><Parameter type="cn" name="UpperBound" value="10"/><Parameter type="float" name="StartValue" value="0.1"/><Parameter type="cn" name="ObjectCN" value="CN=Root,Model=NoName,Vector=Values[_kFourEBP1Phos],Reference=InitialValue"/></ParameterGroup><ParameterGroup name="FitItem"><ParameterGroup name="Affected Experiments"/><ParameterGroup name="Affected Cross Validation Experiments"/><Parameter type="cn" name="LowerBound" value="0.001"/><Parameter type="cn" name="UpperBound" value="10"/><Parameter type="float" name="StartValue" value="0.1"/><Parameter type="cn" name="ObjectCN" value="CN=Root,Model=NoName,Vector=Values[_kIRS1Act],Reference=InitialValue"/></ParameterGroup><ParameterGroup name="FitItem"><ParameterGroup name="Affected Experiments"/><ParameterGroup name="Affected Cross Validation Experiments"/><Parameter type="cn" name="LowerBound" value="0.001"/><Parameter type="cn" name="UpperBound" value="10"/><Parameter type="float" name="StartValue" value="0.1"/><Parameter type="cn" name="ObjectCN" value="CN=Root,Model=NoName,Vector=Values[_kIRS1Inact],Reference=InitialValue"/></ParameterGroup><ParameterGroup name="FitItem"><ParameterGroup name="Affected Experiments"/><ParameterGroup name="Affected Cross Validation Experiments"/><Parameter type="cn" name="LowerBound" value="0.001"/><Parameter type="cn" name="UpperBound" value="10"/><Parameter type="float" name="StartValue" value="0.1"/><Parameter type="cn" name="ObjectCN" value="CN=Root,Model=NoName,Vector=Values[_kIRS1Phos],Reference=InitialValue"/></ParameterGroup><ParameterGroup name="FitItem"><ParameterGroup name="Affected Experiments"/><ParameterGroup name="Affected Cross Validation Experiments"/><Parameter type="cn" name="LowerBound" value="0.001"/><Parameter type="cn" name="UpperBound" value="10"/><Parameter type="float" name="StartValue" value="0.1"/><Parameter type="cn" name="ObjectCN" value="CN=Root,Model=NoName,Vector=Values[_kPI3KDephos],Reference=InitialValue"/></ParameterGroup><ParameterGroup name="FitItem"><ParameterGroup name="Affected Experiments"/><ParameterGroup name="Affected Cross Validation Experiments"/><Parameter type="cn" name="LowerBound" value="0.001"/><Parameter type="cn" name="UpperBound" value="10"/><Parameter type="float" name="StartValue" value="0.1"/><Parameter type="cn" name="ObjectCN" value="CN=Root,Model=NoName,Vector=Values[_kPI3KPhos],Reference=InitialValue"/></ParameterGroup><ParameterGroup name="FitItem"><ParameterGroup name="Affected Experiments"/><ParameterGroup name="Affected Cross Validation Experiments"/><Parameter type="cn" name="LowerBound" value="0.001"/><Parameter type="cn" name="UpperBound" value="10"/><Parameter type="float" name="StartValue" value="0.1"/><Parameter type="cn" name="ObjectCN" value="CN=Root,Model=NoName,Vector=Values[_kPras40Dephos],Reference=InitialValue"/></ParameterGroup><ParameterGroup name="FitItem"><ParameterGroup name="Affected Experiments"/><ParameterGroup name="Affected Cross Validation Experiments"/><Parameter type="cn" name="LowerBound" value="0.001"/><Parameter type="cn" name="UpperBound" value="10"/><Parameter type="float" name="StartValue" value="0.1"/><Parameter type="cn" name="ObjectCN" value="CN=Root,Model=NoName,Vector=Values[_kPras40Phos],Reference=InitialValue"/></ParameterGroup><ParameterGroup name="FitItem"><ParameterGroup name="Affected Experiments"/><ParameterGroup name="Affected Cross Validation Experiments"/><Parameter type="cn" name="LowerBound" value="0.001"/><Parameter type="cn" name="UpperBound" value="10"/><Parameter type="float" name="StartValue" value="0.1"/><Parameter type="cn" name="ObjectCN" value="CN=Root,Model=NoName,Vector=Values[_kS6KDephos],Reference=InitialValue"/></ParameterGroup><ParameterGroup name="FitItem"><ParameterGroup name="Affected Experiments"/><ParameterGroup name="Affected Cross Validation Experiments"/><Parameter type="cn" name="LowerBound" value="0.001"/><Parameter type="cn" name="UpperBound" value="10"/><Parameter type="float" name="StartValue" value="0.1"/><Parameter type="cn" name="ObjectCN" value="CN=Root,Model=NoName,Vector=Values[_kS6KPhos],Reference=InitialValue"/></ParameterGroup><ParameterGroup name="FitItem"><ParameterGroup name="Affected Experiments"/><ParameterGroup name="Affected Cross Validation Experiments"/><Parameter type="cn" name="LowerBound" value="0.001"/><Parameter type="cn" name="UpperBound" value="10"/><Parameter type="float" name="StartValue" value="0.1"/><Parameter type="cn" name="ObjectCN" value="CN=Root,Model=NoName,Vector=Values[_kTSC2Dephos],Reference=InitialValue"/></ParameterGroup><ParameterGroup name="FitItem"><ParameterGroup name="Affected Experiments"/><ParameterGroup name="Affected Cross Validation Experiments"/><Parameter type="cn" name="LowerBound" value="0.001"/><Parameter type="cn" name="UpperBound" value="10"/><Parameter type="float" name="StartValue" value="0.1"/><Parameter type="cn" name="ObjectCN" value="CN=Root,Model=NoName,Vector=Values[_kTSC2Phos],Reference=InitialValue"/></ParameterGroup><ParameterGroup name="FitItem"><ParameterGroup name="Affected Experiments"/><ParameterGroup name="Affected Cross Validation Experiments"/><Parameter type="cn" name="LowerBound" value="0.001"/><Parameter type="cn" name="UpperBound" value="10"/><Parameter type="float" name="StartValue" value="0.1"/><Parameter type="cn" name="ObjectCN" value="CN=Root,Model=NoName,Vector=Values[_kmTORC1Dephos],Reference=InitialValue"/></ParameterGroup><ParameterGroup name="FitItem"><ParameterGroup name="Affected Experiments"/><ParameterGroup name="Affected Cross Validation Experiments"/><Parameter type="cn" name="LowerBound" value="0.001"/><Parameter type="cn" name="UpperBound" value="10"/><Parameter type="float" name="StartValue" value="0.1"/><Parameter type="cn" name="ObjectCN" value="CN=Root,Model=NoName,Vector=Values[_kmTORC1LysToCyt],Reference=InitialValue"/></ParameterGroup><ParameterGroup name="FitItem"><ParameterGroup name="Affected Experiments"/><ParameterGroup name="Affected Cross Validation Experiments"/><Parameter type="cn" name="LowerBound" value="0.001"/><Parameter type="cn" name="UpperBound" value="10"/><Parameter type="float" name="StartValue" value="0.1"/><Parameter type="cn" name="ObjectCN" value="CN=Root,Model=NoName,Vector=Values[_kmTORC1Phos],Reference=InitialValue"/></ParameterGroup><ParameterGroup name="FitItem"><ParameterGroup name="Affected Experiments"/><ParameterGroup name="Affected Cross Validation Experiments"/><Parameter type="cn" name="LowerBound" value="0.001"/><Parameter type="cn" name="UpperBound" value="10"/><Parameter type="float" name="StartValue" value="0.1"/><Parameter type="cn" name="ObjectCN" value="CN=Root,Model=NoName,Vector=Values[_kmTORC1cytToLys],Reference=InitialValue"/></ParameterGroup></ParameterGroup>
         <ParameterGroup name="OptimizationConstraintList">
         </ParameterGroup>
         <Parameter name="Steady-State" type="cn" value="CN=Root,Vector=TaskList[Steady-State]"/>
         <Parameter name="Time-Course" type="cn" value="CN=Root,Vector=TaskList[Time-Course]"/>
         <Parameter name="Create Parameter Sets" type="bool" value="0"/>
         <ParameterGroup name="Experiment Set">
-          <ParameterGroup name="not_interpolated_MCF7">
-            <Parameter name="Key" type="key" value="Experiment_3"/>
-            <Parameter name="File Name" type="file" value="../data/CopasiFormattedData/T47DSheet/not_interpolated_MCF7.csv"/>
-            <Parameter name="Data is Row Oriented" type="bool" value="1"/>
-            <Parameter name="First Row" type="unsignedInteger" value="1"/>
-            <Parameter name="Last Row" type="unsignedInteger" value="7"/>
-            <Parameter name="Experiment Type" type="unsignedInteger" value="1"/>
-            <Parameter name="Normalize Weights per Experiment" type="bool" value="1"/>
-            <Parameter name="Separator" type="string" value=","/>
-            <Parameter name="Weight Method" type="unsignedInteger" value="1"/>
-            <Parameter name="Row containing Names" type="unsignedInteger" value="1"/>
-            <Parameter name="Number of Columns" type="unsignedInteger" value="31"/>
-            <ParameterGroup name="Object Map">
-              <ParameterGroup name="0">
-                <Parameter name="Role" type="unsignedInteger" value="3"/>
-              </ParameterGroup>
-              <ParameterGroup name="1">
-                <Parameter name="Role" type="unsignedInteger" value="0"/>
-              </ParameterGroup>
-              <ParameterGroup name="2">
-                <Parameter name="Object CN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[AktpT308],Reference=Concentration"/>
-                <Parameter name="Role" type="unsignedInteger" value="2"/>
-              </ParameterGroup>
-              <ParameterGroup name="3">
-                <Parameter name="Role" type="unsignedInteger" value="0"/>
-              </ParameterGroup>
-              <ParameterGroup name="4">
-                <Parameter name="Role" type="unsignedInteger" value="0"/>
-              </ParameterGroup>
-              <ParameterGroup name="5">
-                <Parameter name="Role" type="unsignedInteger" value="0"/>
-              </ParameterGroup>
-              <ParameterGroup name="6">
-                <Parameter name="Object CN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[FourEBP1pT37_46],Reference=Concentration"/>
-                <Parameter name="Role" type="unsignedInteger" value="2"/>
-              </ParameterGroup>
-              <ParameterGroup name="7">
-                <Parameter name="Role" type="unsignedInteger" value="0"/>
-              </ParameterGroup>
-              <ParameterGroup name="8">
-                <Parameter name="Object CN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[IRS1pS636_639],Reference=Concentration"/>
-                <Parameter name="Role" type="unsignedInteger" value="2"/>
-              </ParameterGroup>
-              <ParameterGroup name="9">
-                <Parameter name="Role" type="unsignedInteger" value="0"/>
-              </ParameterGroup>
-              <ParameterGroup name="10">
-                <Parameter name="Object CN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[PRAS40pT246],Reference=Concentration"/>
-                <Parameter name="Role" type="unsignedInteger" value="2"/>
-              </ParameterGroup>
-              <ParameterGroup name="11">
-                <Parameter name="Role" type="unsignedInteger" value="0"/>
-              </ParameterGroup>
-              <ParameterGroup name="12">
-                <Parameter name="Object CN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[S6KpT389],Reference=Concentration"/>
-                <Parameter name="Role" type="unsignedInteger" value="2"/>
-              </ParameterGroup>
-              <ParameterGroup name="13">
-                <Parameter name="Object CN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[TSC2pT1462],Reference=Concentration"/>
-                <Parameter name="Role" type="unsignedInteger" value="2"/>
-              </ParameterGroup>
-              <ParameterGroup name="14">
-                <Parameter name="Role" type="unsignedInteger" value="0"/>
-              </ParameterGroup>
-              <ParameterGroup name="15">
-                <Parameter name="Role" type="unsignedInteger" value="0"/>
-              </ParameterGroup>
-              <ParameterGroup name="16">
-                <Parameter name="Object CN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[AktpT308],Reference=InitialConcentration"/>
-                <Parameter name="Role" type="unsignedInteger" value="1"/>
-              </ParameterGroup>
-              <ParameterGroup name="17">
-                <Parameter name="Role" type="unsignedInteger" value="0"/>
-              </ParameterGroup>
-              <ParameterGroup name="18">
-                <Parameter name="Role" type="unsignedInteger" value="0"/>
-              </ParameterGroup>
-              <ParameterGroup name="19">
-                <Parameter name="Role" type="unsignedInteger" value="0"/>
-              </ParameterGroup>
-              <ParameterGroup name="20">
-                <Parameter name="Object CN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[FourEBP1pT37_46],Reference=InitialConcentration"/>
-                <Parameter name="Role" type="unsignedInteger" value="1"/>
-              </ParameterGroup>
-              <ParameterGroup name="21">
-                <Parameter name="Role" type="unsignedInteger" value="0"/>
-              </ParameterGroup>
-              <ParameterGroup name="22">
-                <Parameter name="Object CN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[IRS1pS636_639],Reference=InitialConcentration"/>
-                <Parameter name="Role" type="unsignedInteger" value="1"/>
-              </ParameterGroup>
-              <ParameterGroup name="23">
-                <Parameter name="Role" type="unsignedInteger" value="0"/>
-              </ParameterGroup>
-              <ParameterGroup name="24">
-                <Parameter name="Object CN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[PRAS40pT246],Reference=InitialConcentration"/>
-                <Parameter name="Role" type="unsignedInteger" value="1"/>
-              </ParameterGroup>
-              <ParameterGroup name="25">
-                <Parameter name="Role" type="unsignedInteger" value="0"/>
-              </ParameterGroup>
-              <ParameterGroup name="26">
-                <Parameter name="Object CN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[S6KpT389],Reference=InitialConcentration"/>
-                <Parameter name="Role" type="unsignedInteger" value="1"/>
-              </ParameterGroup>
-              <ParameterGroup name="27">
-                <Parameter name="Object CN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[TSC2pT1462],Reference=InitialConcentration"/>
-                <Parameter name="Role" type="unsignedInteger" value="1"/>
-              </ParameterGroup>
-              <ParameterGroup name="28">
-                <Parameter name="Role" type="unsignedInteger" value="0"/>
-              </ParameterGroup>
-              <ParameterGroup name="29">
-                <Parameter name="Object CN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Values[Insulin],Reference=InitialValue"/>
-                <Parameter name="Role" type="unsignedInteger" value="1"/>
-              </ParameterGroup>
-              <ParameterGroup name="30">
-                <Parameter name="Object CN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Values[AA],Reference=InitialValue"/>
-                <Parameter name="Role" type="unsignedInteger" value="1"/>
-              </ParameterGroup>
-            </ParameterGroup>
-          </ParameterGroup>
-          <ParameterGroup name="not_interpolated_T47D">
-            <Parameter name="Key" type="key" value="Experiment_4"/>
-            <Parameter name="File Name" type="file" value="../data/CopasiFormattedData/T47DSheet/not_interpolated_T47D.csv"/>
-            <Parameter name="Data is Row Oriented" type="bool" value="1"/>
-            <Parameter name="First Row" type="unsignedInteger" value="1"/>
-            <Parameter name="Last Row" type="unsignedInteger" value="7"/>
-            <Parameter name="Experiment Type" type="unsignedInteger" value="1"/>
-            <Parameter name="Normalize Weights per Experiment" type="bool" value="1"/>
-            <Parameter name="Separator" type="string" value=","/>
-            <Parameter name="Weight Method" type="unsignedInteger" value="1"/>
-            <Parameter name="Row containing Names" type="unsignedInteger" value="1"/>
-            <Parameter name="Number of Columns" type="unsignedInteger" value="31"/>
-            <ParameterGroup name="Object Map">
-              <ParameterGroup name="0">
-                <Parameter name="Role" type="unsignedInteger" value="3"/>
-              </ParameterGroup>
-              <ParameterGroup name="1">
-                <Parameter name="Role" type="unsignedInteger" value="0"/>
-              </ParameterGroup>
-              <ParameterGroup name="2">
-                <Parameter name="Object CN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[AktpT308],Reference=Concentration"/>
-                <Parameter name="Role" type="unsignedInteger" value="2"/>
-              </ParameterGroup>
-              <ParameterGroup name="3">
-                <Parameter name="Role" type="unsignedInteger" value="0"/>
-              </ParameterGroup>
-              <ParameterGroup name="4">
-                <Parameter name="Role" type="unsignedInteger" value="0"/>
-              </ParameterGroup>
-              <ParameterGroup name="5">
-                <Parameter name="Role" type="unsignedInteger" value="0"/>
-              </ParameterGroup>
-              <ParameterGroup name="6">
-                <Parameter name="Object CN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[FourEBP1pT37_46],Reference=Concentration"/>
-                <Parameter name="Role" type="unsignedInteger" value="2"/>
-              </ParameterGroup>
-              <ParameterGroup name="7">
-                <Parameter name="Role" type="unsignedInteger" value="0"/>
-              </ParameterGroup>
-              <ParameterGroup name="8">
-                <Parameter name="Object CN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[IRS1pS636_639],Reference=Concentration"/>
-                <Parameter name="Role" type="unsignedInteger" value="2"/>
-              </ParameterGroup>
-              <ParameterGroup name="9">
-                <Parameter name="Role" type="unsignedInteger" value="0"/>
-              </ParameterGroup>
-              <ParameterGroup name="10">
-                <Parameter name="Object CN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[PRAS40pT246],Reference=Concentration"/>
-                <Parameter name="Role" type="unsignedInteger" value="2"/>
-              </ParameterGroup>
-              <ParameterGroup name="11">
-                <Parameter name="Role" type="unsignedInteger" value="0"/>
-              </ParameterGroup>
-              <ParameterGroup name="12">
-                <Parameter name="Object CN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[S6KpT389],Reference=Concentration"/>
-                <Parameter name="Role" type="unsignedInteger" value="2"/>
-              </ParameterGroup>
-              <ParameterGroup name="13">
-                <Parameter name="Object CN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[TSC2pT1462],Reference=Concentration"/>
-                <Parameter name="Role" type="unsignedInteger" value="2"/>
-              </ParameterGroup>
-              <ParameterGroup name="14">
-                <Parameter name="Role" type="unsignedInteger" value="0"/>
-              </ParameterGroup>
-              <ParameterGroup name="15">
-                <Parameter name="Role" type="unsignedInteger" value="0"/>
-              </ParameterGroup>
-              <ParameterGroup name="16">
-                <Parameter name="Object CN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[AktpT308],Reference=InitialConcentration"/>
-                <Parameter name="Role" type="unsignedInteger" value="1"/>
-              </ParameterGroup>
-              <ParameterGroup name="17">
-                <Parameter name="Role" type="unsignedInteger" value="0"/>
-              </ParameterGroup>
-              <ParameterGroup name="18">
-                <Parameter name="Role" type="unsignedInteger" value="0"/>
-              </ParameterGroup>
-              <ParameterGroup name="19">
-                <Parameter name="Role" type="unsignedInteger" value="0"/>
-              </ParameterGroup>
-              <ParameterGroup name="20">
-                <Parameter name="Object CN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[FourEBP1pT37_46],Reference=InitialConcentration"/>
-                <Parameter name="Role" type="unsignedInteger" value="1"/>
-              </ParameterGroup>
-              <ParameterGroup name="21">
-                <Parameter name="Role" type="unsignedInteger" value="0"/>
-              </ParameterGroup>
-              <ParameterGroup name="22">
-                <Parameter name="Object CN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[IRS1pS636_639],Reference=InitialConcentration"/>
-                <Parameter name="Role" type="unsignedInteger" value="1"/>
-              </ParameterGroup>
-              <ParameterGroup name="23">
-                <Parameter name="Role" type="unsignedInteger" value="0"/>
-              </ParameterGroup>
-              <ParameterGroup name="24">
-                <Parameter name="Object CN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[PRAS40pT246],Reference=InitialConcentration"/>
-                <Parameter name="Role" type="unsignedInteger" value="1"/>
-              </ParameterGroup>
-              <ParameterGroup name="25">
-                <Parameter name="Role" type="unsignedInteger" value="0"/>
-              </ParameterGroup>
-              <ParameterGroup name="26">
-                <Parameter name="Object CN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[S6KpT389],Reference=InitialConcentration"/>
-                <Parameter name="Role" type="unsignedInteger" value="1"/>
-              </ParameterGroup>
-              <ParameterGroup name="27">
-                <Parameter name="Object CN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[TSC2pT1462],Reference=InitialConcentration"/>
-                <Parameter name="Role" type="unsignedInteger" value="1"/>
-              </ParameterGroup>
-              <ParameterGroup name="28">
-                <Parameter name="Role" type="unsignedInteger" value="0"/>
-              </ParameterGroup>
-              <ParameterGroup name="29">
-                <Parameter name="Object CN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Values[Insulin],Reference=InitialValue"/>
-                <Parameter name="Role" type="unsignedInteger" value="1"/>
-              </ParameterGroup>
-              <ParameterGroup name="30">
-                <Parameter name="Object CN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Values[AA],Reference=InitialValue"/>
-                <Parameter name="Role" type="unsignedInteger" value="1"/>
-              </ParameterGroup>
-            </ParameterGroup>
-          </ParameterGroup>
-          <ParameterGroup name="MCF7">
-            <Parameter name="Key" type="key" value="Experiment_2"/>
-            <Parameter name="File Name" type="file" value="../data/CopasiFormattedData/steadystate/MCF7.csv"/>
-            <Parameter name="Data is Row Oriented" type="bool" value="1"/>
-            <Parameter name="First Row" type="unsignedInteger" value="1"/>
-            <Parameter name="Last Row" type="unsignedInteger" value="2"/>
-            <Parameter name="Experiment Type" type="unsignedInteger" value="0"/>
-            <Parameter name="Normalize Weights per Experiment" type="bool" value="1"/>
-            <Parameter name="Separator" type="string" value=","/>
-            <Parameter name="Weight Method" type="unsignedInteger" value="1"/>
-            <Parameter name="Row containing Names" type="unsignedInteger" value="1"/>
-            <Parameter name="Number of Columns" type="unsignedInteger" value="50"/>
-            <ParameterGroup name="Object Map">
-              <ParameterGroup name="0">
-                <Parameter name="Object CN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[Akt],Reference=Concentration"/>
-                <Parameter name="Role" type="unsignedInteger" value="2"/>
-              </ParameterGroup>
-              <ParameterGroup name="1">
-                <Parameter name="Role" type="unsignedInteger" value="0"/>
-              </ParameterGroup>
-              <ParameterGroup name="2">
-                <Parameter name="Object CN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[AktpT308],Reference=Concentration"/>
-                <Parameter name="Role" type="unsignedInteger" value="2"/>
-              </ParameterGroup>
-              <ParameterGroup name="3">
-                <Parameter name="Role" type="unsignedInteger" value="0"/>
-              </ParameterGroup>
-              <ParameterGroup name="4">
-                <Parameter name="Role" type="unsignedInteger" value="0"/>
-              </ParameterGroup>
-              <ParameterGroup name="5">
-                <Parameter name="Object CN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[FourEBP1],Reference=Concentration"/>
-                <Parameter name="Role" type="unsignedInteger" value="2"/>
-              </ParameterGroup>
-              <ParameterGroup name="6">
-                <Parameter name="Object CN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[FourEBP1pT37_46],Reference=Concentration"/>
-                <Parameter name="Role" type="unsignedInteger" value="2"/>
-              </ParameterGroup>
-              <ParameterGroup name="7">
-                <Parameter name="Role" type="unsignedInteger" value="0"/>
-              </ParameterGroup>
-              <ParameterGroup name="8">
-                <Parameter name="Object CN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[IRS1],Reference=Concentration"/>
-                <Parameter name="Role" type="unsignedInteger" value="2"/>
-              </ParameterGroup>
-              <ParameterGroup name="9">
-                <Parameter name="Object CN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[IRS1pS636_639],Reference=Concentration"/>
-                <Parameter name="Role" type="unsignedInteger" value="2"/>
-              </ParameterGroup>
-              <ParameterGroup name="10">
-                <Parameter name="Role" type="unsignedInteger" value="0"/>
-              </ParameterGroup>
-              <ParameterGroup name="11">
-                <Parameter name="Role" type="unsignedInteger" value="0"/>
-              </ParameterGroup>
-              <ParameterGroup name="12">
-                <Parameter name="Object CN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[PRAS40],Reference=Concentration"/>
-                <Parameter name="Role" type="unsignedInteger" value="2"/>
-              </ParameterGroup>
-              <ParameterGroup name="13">
-                <Parameter name="Role" type="unsignedInteger" value="0"/>
-              </ParameterGroup>
-              <ParameterGroup name="14">
-                <Parameter name="Object CN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[PRAS40pT246],Reference=Concentration"/>
-                <Parameter name="Role" type="unsignedInteger" value="2"/>
-              </ParameterGroup>
-              <ParameterGroup name="15">
-                <Parameter name="Object CN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[S6K],Reference=Concentration"/>
-                <Parameter name="Role" type="unsignedInteger" value="2"/>
-              </ParameterGroup>
-              <ParameterGroup name="16">
-                <Parameter name="Role" type="unsignedInteger" value="0"/>
-              </ParameterGroup>
-              <ParameterGroup name="17">
-                <Parameter name="Object CN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[S6KpT389],Reference=Concentration"/>
-                <Parameter name="Role" type="unsignedInteger" value="2"/>
-              </ParameterGroup>
-              <ParameterGroup name="18">
-                <Parameter name="Object CN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[TSC2],Reference=Concentration"/>
-                <Parameter name="Role" type="unsignedInteger" value="2"/>
-              </ParameterGroup>
-              <ParameterGroup name="19">
-                <Parameter name="Object CN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[TSC2pT1462],Reference=Concentration"/>
-                <Parameter name="Role" type="unsignedInteger" value="2"/>
-              </ParameterGroup>
-              <ParameterGroup name="20">
-                <Parameter name="Role" type="unsignedInteger" value="0"/>
-              </ParameterGroup>
-              <ParameterGroup name="21">
-                <Parameter name="Role" type="unsignedInteger" value="0"/>
-              </ParameterGroup>
-              <ParameterGroup name="22">
-                <Parameter name="Role" type="unsignedInteger" value="0"/>
-              </ParameterGroup>
-              <ParameterGroup name="23">
-                <Parameter name="Object CN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Values[Insulin],Reference=InitialValue"/>
-                <Parameter name="Role" type="unsignedInteger" value="1"/>
-              </ParameterGroup>
-              <ParameterGroup name="24">
-                <Parameter name="Object CN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Values[AA],Reference=InitialValue"/>
-                <Parameter name="Role" type="unsignedInteger" value="1"/>
-              </ParameterGroup>
-              <ParameterGroup name="25">
-                <Parameter name="Object CN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[Akt],Reference=InitialConcentration"/>
-                <Parameter name="Role" type="unsignedInteger" value="1"/>
-              </ParameterGroup>
-              <ParameterGroup name="26">
-                <Parameter name="Role" type="unsignedInteger" value="0"/>
-              </ParameterGroup>
-              <ParameterGroup name="27">
-                <Parameter name="Object CN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[AktpT308],Reference=InitialConcentration"/>
-                <Parameter name="Role" type="unsignedInteger" value="1"/>
-              </ParameterGroup>
-              <ParameterGroup name="28">
-                <Parameter name="Role" type="unsignedInteger" value="0"/>
-              </ParameterGroup>
-              <ParameterGroup name="29">
-                <Parameter name="Role" type="unsignedInteger" value="0"/>
-              </ParameterGroup>
-              <ParameterGroup name="30">
-                <Parameter name="Object CN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[FourEBP1],Reference=InitialConcentration"/>
-                <Parameter name="Role" type="unsignedInteger" value="1"/>
-              </ParameterGroup>
-              <ParameterGroup name="31">
-                <Parameter name="Object CN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[FourEBP1pT37_46],Reference=InitialConcentration"/>
-                <Parameter name="Role" type="unsignedInteger" value="1"/>
-              </ParameterGroup>
-              <ParameterGroup name="32">
-                <Parameter name="Role" type="unsignedInteger" value="0"/>
-              </ParameterGroup>
-              <ParameterGroup name="33">
-                <Parameter name="Object CN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[IRS1],Reference=InitialConcentration"/>
-                <Parameter name="Role" type="unsignedInteger" value="1"/>
-              </ParameterGroup>
-              <ParameterGroup name="34">
-                <Parameter name="Object CN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[IRS1pS636_639],Reference=InitialConcentration"/>
-                <Parameter name="Role" type="unsignedInteger" value="1"/>
-              </ParameterGroup>
-              <ParameterGroup name="35">
-                <Parameter name="Role" type="unsignedInteger" value="0"/>
-              </ParameterGroup>
-              <ParameterGroup name="36">
-                <Parameter name="Role" type="unsignedInteger" value="0"/>
-              </ParameterGroup>
-              <ParameterGroup name="37">
-                <Parameter name="Object CN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[PRAS40],Reference=InitialConcentration"/>
-                <Parameter name="Role" type="unsignedInteger" value="1"/>
-              </ParameterGroup>
-              <ParameterGroup name="38">
-                <Parameter name="Role" type="unsignedInteger" value="0"/>
-              </ParameterGroup>
-              <ParameterGroup name="39">
-                <Parameter name="Object CN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[PRAS40pT246],Reference=InitialConcentration"/>
-                <Parameter name="Role" type="unsignedInteger" value="1"/>
-              </ParameterGroup>
-              <ParameterGroup name="40">
-                <Parameter name="Object CN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[S6K],Reference=InitialConcentration"/>
-                <Parameter name="Role" type="unsignedInteger" value="1"/>
-              </ParameterGroup>
-              <ParameterGroup name="41">
-                <Parameter name="Role" type="unsignedInteger" value="0"/>
-              </ParameterGroup>
-              <ParameterGroup name="42">
-                <Parameter name="Object CN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[S6KpT389],Reference=InitialConcentration"/>
-                <Parameter name="Role" type="unsignedInteger" value="1"/>
-              </ParameterGroup>
-              <ParameterGroup name="43">
-                <Parameter name="Object CN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[TSC2],Reference=InitialConcentration"/>
-                <Parameter name="Role" type="unsignedInteger" value="1"/>
-              </ParameterGroup>
-              <ParameterGroup name="44">
-                <Parameter name="Object CN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[TSC2pT1462],Reference=InitialConcentration"/>
-                <Parameter name="Role" type="unsignedInteger" value="1"/>
-              </ParameterGroup>
-              <ParameterGroup name="45">
-                <Parameter name="Role" type="unsignedInteger" value="0"/>
-              </ParameterGroup>
-              <ParameterGroup name="46">
-                <Parameter name="Role" type="unsignedInteger" value="0"/>
-              </ParameterGroup>
-              <ParameterGroup name="47">
-                <Parameter name="Role" type="unsignedInteger" value="0"/>
-              </ParameterGroup>
-              <ParameterGroup name="48">
-                <Parameter name="Role" type="unsignedInteger" value="0"/>
-              </ParameterGroup>
-              <ParameterGroup name="49">
-                <Parameter name="Role" type="unsignedInteger" value="0"/>
-              </ParameterGroup>
-            </ParameterGroup>
-          </ParameterGroup>
-          <ParameterGroup name="T47D">
-            <Parameter name="Key" type="key" value="Experiment_0"/>
-            <Parameter name="File Name" type="file" value="../data/CopasiFormattedData/steadystate/T47D.csv"/>
-            <Parameter name="Data is Row Oriented" type="bool" value="1"/>
-            <Parameter name="First Row" type="unsignedInteger" value="1"/>
-            <Parameter name="Last Row" type="unsignedInteger" value="2"/>
-            <Parameter name="Experiment Type" type="unsignedInteger" value="0"/>
-            <Parameter name="Normalize Weights per Experiment" type="bool" value="1"/>
-            <Parameter name="Separator" type="string" value=","/>
-            <Parameter name="Weight Method" type="unsignedInteger" value="1"/>
-            <Parameter name="Row containing Names" type="unsignedInteger" value="1"/>
-            <Parameter name="Number of Columns" type="unsignedInteger" value="50"/>
-            <ParameterGroup name="Object Map">
-              <ParameterGroup name="0">
-                <Parameter name="Object CN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[Akt],Reference=Concentration"/>
-                <Parameter name="Role" type="unsignedInteger" value="2"/>
-              </ParameterGroup>
-              <ParameterGroup name="1">
-                <Parameter name="Role" type="unsignedInteger" value="0"/>
-              </ParameterGroup>
-              <ParameterGroup name="2">
-                <Parameter name="Object CN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[AktpT308],Reference=Concentration"/>
-                <Parameter name="Role" type="unsignedInteger" value="2"/>
-              </ParameterGroup>
-              <ParameterGroup name="3">
-                <Parameter name="Role" type="unsignedInteger" value="0"/>
-              </ParameterGroup>
-              <ParameterGroup name="4">
-                <Parameter name="Role" type="unsignedInteger" value="0"/>
-              </ParameterGroup>
-              <ParameterGroup name="5">
-                <Parameter name="Object CN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[FourEBP1],Reference=Concentration"/>
-                <Parameter name="Role" type="unsignedInteger" value="2"/>
-              </ParameterGroup>
-              <ParameterGroup name="6">
-                <Parameter name="Object CN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[FourEBP1pT37_46],Reference=Concentration"/>
-                <Parameter name="Role" type="unsignedInteger" value="2"/>
-              </ParameterGroup>
-              <ParameterGroup name="7">
-                <Parameter name="Role" type="unsignedInteger" value="0"/>
-              </ParameterGroup>
-              <ParameterGroup name="8">
-                <Parameter name="Object CN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[IRS1],Reference=Concentration"/>
-                <Parameter name="Role" type="unsignedInteger" value="2"/>
-              </ParameterGroup>
-              <ParameterGroup name="9">
-                <Parameter name="Object CN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[IRS1pS636_639],Reference=Concentration"/>
-                <Parameter name="Role" type="unsignedInteger" value="2"/>
-              </ParameterGroup>
-              <ParameterGroup name="10">
-                <Parameter name="Role" type="unsignedInteger" value="0"/>
-              </ParameterGroup>
-              <ParameterGroup name="11">
-                <Parameter name="Role" type="unsignedInteger" value="0"/>
-              </ParameterGroup>
-              <ParameterGroup name="12">
-                <Parameter name="Object CN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[PRAS40],Reference=Concentration"/>
-                <Parameter name="Role" type="unsignedInteger" value="2"/>
-              </ParameterGroup>
-              <ParameterGroup name="13">
-                <Parameter name="Role" type="unsignedInteger" value="0"/>
-              </ParameterGroup>
-              <ParameterGroup name="14">
-                <Parameter name="Object CN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[PRAS40pT246],Reference=Concentration"/>
-                <Parameter name="Role" type="unsignedInteger" value="2"/>
-              </ParameterGroup>
-              <ParameterGroup name="15">
-                <Parameter name="Object CN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[S6K],Reference=Concentration"/>
-                <Parameter name="Role" type="unsignedInteger" value="2"/>
-              </ParameterGroup>
-              <ParameterGroup name="16">
-                <Parameter name="Role" type="unsignedInteger" value="0"/>
-              </ParameterGroup>
-              <ParameterGroup name="17">
-                <Parameter name="Object CN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[S6KpT389],Reference=Concentration"/>
-                <Parameter name="Role" type="unsignedInteger" value="2"/>
-              </ParameterGroup>
-              <ParameterGroup name="18">
-                <Parameter name="Object CN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[TSC2],Reference=Concentration"/>
-                <Parameter name="Role" type="unsignedInteger" value="2"/>
-              </ParameterGroup>
-              <ParameterGroup name="19">
-                <Parameter name="Object CN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[TSC2pT1462],Reference=Concentration"/>
-                <Parameter name="Role" type="unsignedInteger" value="2"/>
-              </ParameterGroup>
-              <ParameterGroup name="20">
-                <Parameter name="Role" type="unsignedInteger" value="0"/>
-              </ParameterGroup>
-              <ParameterGroup name="21">
-                <Parameter name="Role" type="unsignedInteger" value="0"/>
-              </ParameterGroup>
-              <ParameterGroup name="22">
-                <Parameter name="Role" type="unsignedInteger" value="0"/>
-              </ParameterGroup>
-              <ParameterGroup name="23">
-                <Parameter name="Object CN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Values[Insulin],Reference=InitialValue"/>
-                <Parameter name="Role" type="unsignedInteger" value="1"/>
-              </ParameterGroup>
-              <ParameterGroup name="24">
-                <Parameter name="Object CN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Values[AA],Reference=InitialValue"/>
-                <Parameter name="Role" type="unsignedInteger" value="1"/>
-              </ParameterGroup>
-              <ParameterGroup name="25">
-                <Parameter name="Object CN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[Akt],Reference=InitialConcentration"/>
-                <Parameter name="Role" type="unsignedInteger" value="1"/>
-              </ParameterGroup>
-              <ParameterGroup name="26">
-                <Parameter name="Role" type="unsignedInteger" value="0"/>
-              </ParameterGroup>
-              <ParameterGroup name="27">
-                <Parameter name="Object CN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[AktpT308],Reference=InitialConcentration"/>
-                <Parameter name="Role" type="unsignedInteger" value="1"/>
-              </ParameterGroup>
-              <ParameterGroup name="28">
-                <Parameter name="Role" type="unsignedInteger" value="0"/>
-              </ParameterGroup>
-              <ParameterGroup name="29">
-                <Parameter name="Role" type="unsignedInteger" value="0"/>
-              </ParameterGroup>
-              <ParameterGroup name="30">
-                <Parameter name="Object CN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[FourEBP1],Reference=InitialConcentration"/>
-                <Parameter name="Role" type="unsignedInteger" value="1"/>
-              </ParameterGroup>
-              <ParameterGroup name="31">
-                <Parameter name="Object CN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[FourEBP1pT37_46],Reference=InitialConcentration"/>
-                <Parameter name="Role" type="unsignedInteger" value="1"/>
-              </ParameterGroup>
-              <ParameterGroup name="32">
-                <Parameter name="Role" type="unsignedInteger" value="0"/>
-              </ParameterGroup>
-              <ParameterGroup name="33">
-                <Parameter name="Object CN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[IRS1],Reference=InitialConcentration"/>
-                <Parameter name="Role" type="unsignedInteger" value="1"/>
-              </ParameterGroup>
-              <ParameterGroup name="34">
-                <Parameter name="Object CN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[IRS1pS636_639],Reference=InitialConcentration"/>
-                <Parameter name="Role" type="unsignedInteger" value="1"/>
-              </ParameterGroup>
-              <ParameterGroup name="35">
-                <Parameter name="Role" type="unsignedInteger" value="0"/>
-              </ParameterGroup>
-              <ParameterGroup name="36">
-                <Parameter name="Role" type="unsignedInteger" value="0"/>
-              </ParameterGroup>
-              <ParameterGroup name="37">
-                <Parameter name="Object CN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[PRAS40],Reference=InitialConcentration"/>
-                <Parameter name="Role" type="unsignedInteger" value="1"/>
-              </ParameterGroup>
-              <ParameterGroup name="38">
-                <Parameter name="Role" type="unsignedInteger" value="0"/>
-              </ParameterGroup>
-              <ParameterGroup name="39">
-                <Parameter name="Object CN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[PRAS40pT246],Reference=InitialConcentration"/>
-                <Parameter name="Role" type="unsignedInteger" value="1"/>
-              </ParameterGroup>
-              <ParameterGroup name="40">
-                <Parameter name="Object CN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[S6K],Reference=InitialConcentration"/>
-                <Parameter name="Role" type="unsignedInteger" value="1"/>
-              </ParameterGroup>
-              <ParameterGroup name="41">
-                <Parameter name="Role" type="unsignedInteger" value="0"/>
-              </ParameterGroup>
-              <ParameterGroup name="42">
-                <Parameter name="Object CN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[S6KpT389],Reference=InitialConcentration"/>
-                <Parameter name="Role" type="unsignedInteger" value="1"/>
-              </ParameterGroup>
-              <ParameterGroup name="43">
-                <Parameter name="Object CN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[TSC2],Reference=InitialConcentration"/>
-                <Parameter name="Role" type="unsignedInteger" value="1"/>
-              </ParameterGroup>
-              <ParameterGroup name="44">
-                <Parameter name="Object CN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[TSC2pT1462],Reference=InitialConcentration"/>
-                <Parameter name="Role" type="unsignedInteger" value="1"/>
-              </ParameterGroup>
-              <ParameterGroup name="45">
-                <Parameter name="Role" type="unsignedInteger" value="0"/>
-              </ParameterGroup>
-              <ParameterGroup name="46">
-                <Parameter name="Role" type="unsignedInteger" value="0"/>
-              </ParameterGroup>
-              <ParameterGroup name="47">
-                <Parameter name="Role" type="unsignedInteger" value="0"/>
-              </ParameterGroup>
-              <ParameterGroup name="48">
-                <Parameter name="Role" type="unsignedInteger" value="0"/>
-              </ParameterGroup>
-              <ParameterGroup name="49">
-                <Parameter name="Role" type="unsignedInteger" value="0"/>
-              </ParameterGroup>
-            </ParameterGroup>
-          </ParameterGroup>
-          <ParameterGroup name="ZR75">
-            <Parameter name="Key" type="key" value="Experiment_1"/>
-            <Parameter name="File Name" type="file" value="../data/CopasiFormattedData/steadystate/ZR75.csv"/>
-            <Parameter name="Data is Row Oriented" type="bool" value="1"/>
-            <Parameter name="First Row" type="unsignedInteger" value="1"/>
-            <Parameter name="Last Row" type="unsignedInteger" value="2"/>
-            <Parameter name="Experiment Type" type="unsignedInteger" value="0"/>
-            <Parameter name="Normalize Weights per Experiment" type="bool" value="1"/>
-            <Parameter name="Separator" type="string" value=","/>
-            <Parameter name="Weight Method" type="unsignedInteger" value="1"/>
-            <Parameter name="Row containing Names" type="unsignedInteger" value="1"/>
-            <Parameter name="Number of Columns" type="unsignedInteger" value="50"/>
-            <ParameterGroup name="Object Map">
-              <ParameterGroup name="0">
-                <Parameter name="Object CN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[Akt],Reference=Concentration"/>
-                <Parameter name="Role" type="unsignedInteger" value="2"/>
-              </ParameterGroup>
-              <ParameterGroup name="1">
-                <Parameter name="Role" type="unsignedInteger" value="0"/>
-              </ParameterGroup>
-              <ParameterGroup name="2">
-                <Parameter name="Object CN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[AktpT308],Reference=Concentration"/>
-                <Parameter name="Role" type="unsignedInteger" value="2"/>
-              </ParameterGroup>
-              <ParameterGroup name="3">
-                <Parameter name="Role" type="unsignedInteger" value="0"/>
-              </ParameterGroup>
-              <ParameterGroup name="4">
-                <Parameter name="Role" type="unsignedInteger" value="0"/>
-              </ParameterGroup>
-              <ParameterGroup name="5">
-                <Parameter name="Object CN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[FourEBP1],Reference=Concentration"/>
-                <Parameter name="Role" type="unsignedInteger" value="2"/>
-              </ParameterGroup>
-              <ParameterGroup name="6">
-                <Parameter name="Object CN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[FourEBP1pT37_46],Reference=Concentration"/>
-                <Parameter name="Role" type="unsignedInteger" value="2"/>
-              </ParameterGroup>
-              <ParameterGroup name="7">
-                <Parameter name="Role" type="unsignedInteger" value="0"/>
-              </ParameterGroup>
-              <ParameterGroup name="8">
-                <Parameter name="Object CN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[IRS1],Reference=Concentration"/>
-                <Parameter name="Role" type="unsignedInteger" value="2"/>
-              </ParameterGroup>
-              <ParameterGroup name="9">
-                <Parameter name="Object CN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[IRS1pS636_639],Reference=Concentration"/>
-                <Parameter name="Role" type="unsignedInteger" value="2"/>
-              </ParameterGroup>
-              <ParameterGroup name="10">
-                <Parameter name="Role" type="unsignedInteger" value="0"/>
-              </ParameterGroup>
-              <ParameterGroup name="11">
-                <Parameter name="Role" type="unsignedInteger" value="0"/>
-              </ParameterGroup>
-              <ParameterGroup name="12">
-                <Parameter name="Object CN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[PRAS40],Reference=Concentration"/>
-                <Parameter name="Role" type="unsignedInteger" value="2"/>
-              </ParameterGroup>
-              <ParameterGroup name="13">
-                <Parameter name="Role" type="unsignedInteger" value="0"/>
-              </ParameterGroup>
-              <ParameterGroup name="14">
-                <Parameter name="Object CN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[PRAS40pT246],Reference=Concentration"/>
-                <Parameter name="Role" type="unsignedInteger" value="2"/>
-              </ParameterGroup>
-              <ParameterGroup name="15">
-                <Parameter name="Object CN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[S6K],Reference=Concentration"/>
-                <Parameter name="Role" type="unsignedInteger" value="2"/>
-              </ParameterGroup>
-              <ParameterGroup name="16">
-                <Parameter name="Role" type="unsignedInteger" value="0"/>
-              </ParameterGroup>
-              <ParameterGroup name="17">
-                <Parameter name="Object CN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[S6KpT389],Reference=Concentration"/>
-                <Parameter name="Role" type="unsignedInteger" value="2"/>
-              </ParameterGroup>
-              <ParameterGroup name="18">
-                <Parameter name="Object CN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[TSC2],Reference=Concentration"/>
-                <Parameter name="Role" type="unsignedInteger" value="2"/>
-              </ParameterGroup>
-              <ParameterGroup name="19">
-                <Parameter name="Object CN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[TSC2pT1462],Reference=Concentration"/>
-                <Parameter name="Role" type="unsignedInteger" value="2"/>
-              </ParameterGroup>
-              <ParameterGroup name="20">
-                <Parameter name="Role" type="unsignedInteger" value="0"/>
-              </ParameterGroup>
-              <ParameterGroup name="21">
-                <Parameter name="Role" type="unsignedInteger" value="0"/>
-              </ParameterGroup>
-              <ParameterGroup name="22">
-                <Parameter name="Role" type="unsignedInteger" value="0"/>
-              </ParameterGroup>
-              <ParameterGroup name="23">
-                <Parameter name="Object CN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Values[Insulin],Reference=InitialValue"/>
-                <Parameter name="Role" type="unsignedInteger" value="1"/>
-              </ParameterGroup>
-              <ParameterGroup name="24">
-                <Parameter name="Object CN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Values[AA],Reference=InitialValue"/>
-                <Parameter name="Role" type="unsignedInteger" value="1"/>
-              </ParameterGroup>
-              <ParameterGroup name="25">
-                <Parameter name="Object CN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[Akt],Reference=InitialConcentration"/>
-                <Parameter name="Role" type="unsignedInteger" value="1"/>
-              </ParameterGroup>
-              <ParameterGroup name="26">
-                <Parameter name="Role" type="unsignedInteger" value="0"/>
-              </ParameterGroup>
-              <ParameterGroup name="27">
-                <Parameter name="Object CN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[AktpT308],Reference=InitialConcentration"/>
-                <Parameter name="Role" type="unsignedInteger" value="1"/>
-              </ParameterGroup>
-              <ParameterGroup name="28">
-                <Parameter name="Role" type="unsignedInteger" value="0"/>
-              </ParameterGroup>
-              <ParameterGroup name="29">
-                <Parameter name="Role" type="unsignedInteger" value="0"/>
-              </ParameterGroup>
-              <ParameterGroup name="30">
-                <Parameter name="Object CN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[FourEBP1],Reference=InitialConcentration"/>
-                <Parameter name="Role" type="unsignedInteger" value="1"/>
-              </ParameterGroup>
-              <ParameterGroup name="31">
-                <Parameter name="Object CN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[FourEBP1pT37_46],Reference=InitialConcentration"/>
-                <Parameter name="Role" type="unsignedInteger" value="1"/>
-              </ParameterGroup>
-              <ParameterGroup name="32">
-                <Parameter name="Role" type="unsignedInteger" value="0"/>
-              </ParameterGroup>
-              <ParameterGroup name="33">
-                <Parameter name="Object CN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[IRS1],Reference=InitialConcentration"/>
-                <Parameter name="Role" type="unsignedInteger" value="1"/>
-              </ParameterGroup>
-              <ParameterGroup name="34">
-                <Parameter name="Object CN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[IRS1pS636_639],Reference=InitialConcentration"/>
-                <Parameter name="Role" type="unsignedInteger" value="1"/>
-              </ParameterGroup>
-              <ParameterGroup name="35">
-                <Parameter name="Role" type="unsignedInteger" value="0"/>
-              </ParameterGroup>
-              <ParameterGroup name="36">
-                <Parameter name="Role" type="unsignedInteger" value="0"/>
-              </ParameterGroup>
-              <ParameterGroup name="37">
-                <Parameter name="Object CN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[PRAS40],Reference=InitialConcentration"/>
-                <Parameter name="Role" type="unsignedInteger" value="1"/>
-              </ParameterGroup>
-              <ParameterGroup name="38">
-                <Parameter name="Role" type="unsignedInteger" value="0"/>
-              </ParameterGroup>
-              <ParameterGroup name="39">
-                <Parameter name="Object CN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[PRAS40pT246],Reference=InitialConcentration"/>
-                <Parameter name="Role" type="unsignedInteger" value="1"/>
-              </ParameterGroup>
-              <ParameterGroup name="40">
-                <Parameter name="Object CN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[S6K],Reference=InitialConcentration"/>
-                <Parameter name="Role" type="unsignedInteger" value="1"/>
-              </ParameterGroup>
-              <ParameterGroup name="41">
-                <Parameter name="Role" type="unsignedInteger" value="0"/>
-              </ParameterGroup>
-              <ParameterGroup name="42">
-                <Parameter name="Object CN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[S6KpT389],Reference=InitialConcentration"/>
-                <Parameter name="Role" type="unsignedInteger" value="1"/>
-              </ParameterGroup>
-              <ParameterGroup name="43">
-                <Parameter name="Object CN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[TSC2],Reference=InitialConcentration"/>
-                <Parameter name="Role" type="unsignedInteger" value="1"/>
-              </ParameterGroup>
-              <ParameterGroup name="44">
-                <Parameter name="Object CN" type="cn" value="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[TSC2pT1462],Reference=InitialConcentration"/>
-                <Parameter name="Role" type="unsignedInteger" value="1"/>
-              </ParameterGroup>
-              <ParameterGroup name="45">
-                <Parameter name="Role" type="unsignedInteger" value="0"/>
-              </ParameterGroup>
-              <ParameterGroup name="46">
-                <Parameter name="Role" type="unsignedInteger" value="0"/>
-              </ParameterGroup>
-              <ParameterGroup name="47">
-                <Parameter name="Role" type="unsignedInteger" value="0"/>
-              </ParameterGroup>
-              <ParameterGroup name="48">
-                <Parameter name="Role" type="unsignedInteger" value="0"/>
-              </ParameterGroup>
-              <ParameterGroup name="49">
-                <Parameter name="Role" type="unsignedInteger" value="0"/>
-              </ParameterGroup>
-            </ParameterGroup>
-          </ParameterGroup>
-        </ParameterGroup>
+        <ParameterGroup name="interpolated_T47D"><Parameter type="key" name="Key" value="Experiment_interpolated_T47D"/><Parameter type="file" name="File Name" value="/home/ncw135/Documents/MesiSTRAT2/TransferModel/transfer_model/data/CopasiFormattedData/T47DSheet/interpolated_T47D.csv"/><Parameter type="bool" name="Data is Row Oriented" value="1"/><Parameter type="unsignedInteger" name="First Row" value="1"/><Parameter type="unsignedInteger" name="Last Row" value="13"/><Parameter type="unsignedInteger" name="Experiment Type" value="1"/><Parameter type="bool" name="Normalize Weights per Experiment" value="1"/><Parameter type="string" name="Separator" value=","/><Parameter type="unsignedInteger" name="Weight Method" value="1"/><Parameter type="unsignedInteger" name="Row containing Names" value="1"/><Parameter type="unsignedInteger" name="Number of Columns" value="31"/><ParameterGroup name="Object Map"><ParameterGroup name="0"><Parameter type="unsignedInteger" name="Role" value="3"/></ParameterGroup><ParameterGroup name="1"/><ParameterGroup name="2"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[AktpT308],Reference=Concentration"/><Parameter type="unsignedInteger" name="Role" value="2"/></ParameterGroup><ParameterGroup name="3"/><ParameterGroup name="4"/><ParameterGroup name="5"/><ParameterGroup name="6"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[FourEBP1pT37_46],Reference=Concentration"/><Parameter type="unsignedInteger" name="Role" value="2"/></ParameterGroup><ParameterGroup name="7"/><ParameterGroup name="8"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[IRS1pS636_639],Reference=Concentration"/><Parameter type="unsignedInteger" name="Role" value="2"/></ParameterGroup><ParameterGroup name="9"/><ParameterGroup name="10"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[PRAS40pT246],Reference=Concentration"/><Parameter type="unsignedInteger" name="Role" value="2"/></ParameterGroup><ParameterGroup name="11"/><ParameterGroup name="12"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[S6KpT389],Reference=Concentration"/><Parameter type="unsignedInteger" name="Role" value="2"/></ParameterGroup><ParameterGroup name="13"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[TSC2pT1462],Reference=Concentration"/><Parameter type="unsignedInteger" name="Role" value="2"/></ParameterGroup><ParameterGroup name="14"/><ParameterGroup name="15"/><ParameterGroup name="16"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[AktpT308],Reference=InitialConcentration"/><Parameter type="unsignedInteger" name="Role" value="1"/></ParameterGroup><ParameterGroup name="17"/><ParameterGroup name="18"/><ParameterGroup name="19"/><ParameterGroup name="20"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[FourEBP1pT37_46],Reference=InitialConcentration"/><Parameter type="unsignedInteger" name="Role" value="1"/></ParameterGroup><ParameterGroup name="21"/><ParameterGroup name="22"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[IRS1pS636_639],Reference=InitialConcentration"/><Parameter type="unsignedInteger" name="Role" value="1"/></ParameterGroup><ParameterGroup name="23"/><ParameterGroup name="24"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[PRAS40pT246],Reference=InitialConcentration"/><Parameter type="unsignedInteger" name="Role" value="1"/></ParameterGroup><ParameterGroup name="25"/><ParameterGroup name="26"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[S6KpT389],Reference=InitialConcentration"/><Parameter type="unsignedInteger" name="Role" value="1"/></ParameterGroup><ParameterGroup name="27"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[TSC2pT1462],Reference=InitialConcentration"/><Parameter type="unsignedInteger" name="Role" value="1"/></ParameterGroup><ParameterGroup name="28"/><ParameterGroup name="29"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Values[Insulin],Reference=InitialValue"/><Parameter type="unsignedInteger" name="Role" value="1"/></ParameterGroup><ParameterGroup name="30"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Values[AA],Reference=InitialValue"/><Parameter type="unsignedInteger" name="Role" value="1"/></ParameterGroup></ParameterGroup></ParameterGroup><ParameterGroup name="interpolated_MCF7"><Parameter type="key" name="Key" value="Experiment_interpolated_MCF7"/><Parameter type="file" name="File Name" value="/home/ncw135/Documents/MesiSTRAT2/TransferModel/transfer_model/data/CopasiFormattedData/T47DSheet/interpolated_MCF7.csv"/><Parameter type="bool" name="Data is Row Oriented" value="1"/><Parameter type="unsignedInteger" name="First Row" value="1"/><Parameter type="unsignedInteger" name="Last Row" value="13"/><Parameter type="unsignedInteger" name="Experiment Type" value="1"/><Parameter type="bool" name="Normalize Weights per Experiment" value="1"/><Parameter type="string" name="Separator" value=","/><Parameter type="unsignedInteger" name="Weight Method" value="1"/><Parameter type="unsignedInteger" name="Row containing Names" value="1"/><Parameter type="unsignedInteger" name="Number of Columns" value="31"/><ParameterGroup name="Object Map"><ParameterGroup name="0"><Parameter type="unsignedInteger" name="Role" value="3"/></ParameterGroup><ParameterGroup name="1"/><ParameterGroup name="2"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[AktpT308],Reference=Concentration"/><Parameter type="unsignedInteger" name="Role" value="2"/></ParameterGroup><ParameterGroup name="3"/><ParameterGroup name="4"/><ParameterGroup name="5"/><ParameterGroup name="6"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[FourEBP1pT37_46],Reference=Concentration"/><Parameter type="unsignedInteger" name="Role" value="2"/></ParameterGroup><ParameterGroup name="7"/><ParameterGroup name="8"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[IRS1pS636_639],Reference=Concentration"/><Parameter type="unsignedInteger" name="Role" value="2"/></ParameterGroup><ParameterGroup name="9"/><ParameterGroup name="10"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[PRAS40pT246],Reference=Concentration"/><Parameter type="unsignedInteger" name="Role" value="2"/></ParameterGroup><ParameterGroup name="11"/><ParameterGroup name="12"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[S6KpT389],Reference=Concentration"/><Parameter type="unsignedInteger" name="Role" value="2"/></ParameterGroup><ParameterGroup name="13"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[TSC2pT1462],Reference=Concentration"/><Parameter type="unsignedInteger" name="Role" value="2"/></ParameterGroup><ParameterGroup name="14"/><ParameterGroup name="15"/><ParameterGroup name="16"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[AktpT308],Reference=InitialConcentration"/><Parameter type="unsignedInteger" name="Role" value="1"/></ParameterGroup><ParameterGroup name="17"/><ParameterGroup name="18"/><ParameterGroup name="19"/><ParameterGroup name="20"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[FourEBP1pT37_46],Reference=InitialConcentration"/><Parameter type="unsignedInteger" name="Role" value="1"/></ParameterGroup><ParameterGroup name="21"/><ParameterGroup name="22"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[IRS1pS636_639],Reference=InitialConcentration"/><Parameter type="unsignedInteger" name="Role" value="1"/></ParameterGroup><ParameterGroup name="23"/><ParameterGroup name="24"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[PRAS40pT246],Reference=InitialConcentration"/><Parameter type="unsignedInteger" name="Role" value="1"/></ParameterGroup><ParameterGroup name="25"/><ParameterGroup name="26"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[S6KpT389],Reference=InitialConcentration"/><Parameter type="unsignedInteger" name="Role" value="1"/></ParameterGroup><ParameterGroup name="27"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[TSC2pT1462],Reference=InitialConcentration"/><Parameter type="unsignedInteger" name="Role" value="1"/></ParameterGroup><ParameterGroup name="28"/><ParameterGroup name="29"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Values[Insulin],Reference=InitialValue"/><Parameter type="unsignedInteger" name="Role" value="1"/></ParameterGroup><ParameterGroup name="30"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Values[AA],Reference=InitialValue"/><Parameter type="unsignedInteger" name="Role" value="1"/></ParameterGroup></ParameterGroup></ParameterGroup><ParameterGroup name="interpolated_T47D_steady_state"><Parameter type="key" name="Key" value="Experiment_interpolated_T47D_steady_state"/><Parameter type="file" name="File Name" value="/home/ncw135/Documents/MesiSTRAT2/TransferModel/transfer_model/data/CopasiFormattedData/T47DSheet/interpolated_T47D_steady_state.csv"/><Parameter type="bool" name="Data is Row Oriented" value="1"/><Parameter type="unsignedInteger" name="First Row" value="1"/><Parameter type="unsignedInteger" name="Last Row" value="2"/><Parameter type="unsignedInteger" name="Experiment Type" value="0"/><Parameter type="bool" name="Normalize Weights per Experiment" value="1"/><Parameter type="string" name="Separator" value=","/><Parameter type="unsignedInteger" name="Weight Method" value="1"/><Parameter type="unsignedInteger" name="Row containing Names" value="1"/><Parameter type="unsignedInteger" name="Number of Columns" value="32"/><ParameterGroup name="Object Map"><ParameterGroup name="0"/><ParameterGroup name="1"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[AktpT308],Reference=Concentration"/><Parameter type="unsignedInteger" name="Role" value="2"/></ParameterGroup><ParameterGroup name="2"/><ParameterGroup name="3"/><ParameterGroup name="4"/><ParameterGroup name="5"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[FourEBP1pT37_46],Reference=Concentration"/><Parameter type="unsignedInteger" name="Role" value="2"/></ParameterGroup><ParameterGroup name="6"/><ParameterGroup name="7"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[IRS1pS636_639],Reference=Concentration"/><Parameter type="unsignedInteger" name="Role" value="2"/></ParameterGroup><ParameterGroup name="8"/><ParameterGroup name="9"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[PRAS40pT246],Reference=Concentration"/><Parameter type="unsignedInteger" name="Role" value="2"/></ParameterGroup><ParameterGroup name="10"/><ParameterGroup name="11"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[S6KpT389],Reference=Concentration"/><Parameter type="unsignedInteger" name="Role" value="2"/></ParameterGroup><ParameterGroup name="12"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[TSC2pT1462],Reference=Concentration"/><Parameter type="unsignedInteger" name="Role" value="2"/></ParameterGroup><ParameterGroup name="13"/><ParameterGroup name="14"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Values[Insulin],Reference=InitialValue"/><Parameter type="unsignedInteger" name="Role" value="1"/></ParameterGroup><ParameterGroup name="15"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Values[AA],Reference=InitialValue"/><Parameter type="unsignedInteger" name="Role" value="1"/></ParameterGroup><ParameterGroup name="16"/><ParameterGroup name="17"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[AktpT308],Reference=InitialConcentration"/><Parameter type="unsignedInteger" name="Role" value="1"/></ParameterGroup><ParameterGroup name="18"/><ParameterGroup name="19"/><ParameterGroup name="20"/><ParameterGroup name="21"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[FourEBP1pT37_46],Reference=InitialConcentration"/><Parameter type="unsignedInteger" name="Role" value="1"/></ParameterGroup><ParameterGroup name="22"/><ParameterGroup name="23"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[IRS1pS636_639],Reference=InitialConcentration"/><Parameter type="unsignedInteger" name="Role" value="1"/></ParameterGroup><ParameterGroup name="24"/><ParameterGroup name="25"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[PRAS40pT246],Reference=InitialConcentration"/><Parameter type="unsignedInteger" name="Role" value="1"/></ParameterGroup><ParameterGroup name="26"/><ParameterGroup name="27"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[S6KpT389],Reference=InitialConcentration"/><Parameter type="unsignedInteger" name="Role" value="1"/></ParameterGroup><ParameterGroup name="28"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[TSC2pT1462],Reference=InitialConcentration"/><Parameter type="unsignedInteger" name="Role" value="1"/></ParameterGroup><ParameterGroup name="29"/><ParameterGroup name="30"/><ParameterGroup name="31"/></ParameterGroup></ParameterGroup><ParameterGroup name="interpolated_MCF7_steady_state"><Parameter type="key" name="Key" value="Experiment_interpolated_MCF7_steady_state"/><Parameter type="file" name="File Name" value="/home/ncw135/Documents/MesiSTRAT2/TransferModel/transfer_model/data/CopasiFormattedData/T47DSheet/interpolated_MCF7_steady_state.csv"/><Parameter type="bool" name="Data is Row Oriented" value="1"/><Parameter type="unsignedInteger" name="First Row" value="1"/><Parameter type="unsignedInteger" name="Last Row" value="2"/><Parameter type="unsignedInteger" name="Experiment Type" value="0"/><Parameter type="bool" name="Normalize Weights per Experiment" value="1"/><Parameter type="string" name="Separator" value=","/><Parameter type="unsignedInteger" name="Weight Method" value="1"/><Parameter type="unsignedInteger" name="Row containing Names" value="1"/><Parameter type="unsignedInteger" name="Number of Columns" value="32"/><ParameterGroup name="Object Map"><ParameterGroup name="0"/><ParameterGroup name="1"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[AktpT308],Reference=Concentration"/><Parameter type="unsignedInteger" name="Role" value="2"/></ParameterGroup><ParameterGroup name="2"/><ParameterGroup name="3"/><ParameterGroup name="4"/><ParameterGroup name="5"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[FourEBP1pT37_46],Reference=Concentration"/><Parameter type="unsignedInteger" name="Role" value="2"/></ParameterGroup><ParameterGroup name="6"/><ParameterGroup name="7"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[IRS1pS636_639],Reference=Concentration"/><Parameter type="unsignedInteger" name="Role" value="2"/></ParameterGroup><ParameterGroup name="8"/><ParameterGroup name="9"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[PRAS40pT246],Reference=Concentration"/><Parameter type="unsignedInteger" name="Role" value="2"/></ParameterGroup><ParameterGroup name="10"/><ParameterGroup name="11"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[S6KpT389],Reference=Concentration"/><Parameter type="unsignedInteger" name="Role" value="2"/></ParameterGroup><ParameterGroup name="12"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[TSC2pT1462],Reference=Concentration"/><Parameter type="unsignedInteger" name="Role" value="2"/></ParameterGroup><ParameterGroup name="13"/><ParameterGroup name="14"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Values[Insulin],Reference=InitialValue"/><Parameter type="unsignedInteger" name="Role" value="1"/></ParameterGroup><ParameterGroup name="15"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Values[AA],Reference=InitialValue"/><Parameter type="unsignedInteger" name="Role" value="1"/></ParameterGroup><ParameterGroup name="16"/><ParameterGroup name="17"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[AktpT308],Reference=InitialConcentration"/><Parameter type="unsignedInteger" name="Role" value="1"/></ParameterGroup><ParameterGroup name="18"/><ParameterGroup name="19"/><ParameterGroup name="20"/><ParameterGroup name="21"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[FourEBP1pT37_46],Reference=InitialConcentration"/><Parameter type="unsignedInteger" name="Role" value="1"/></ParameterGroup><ParameterGroup name="22"/><ParameterGroup name="23"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[IRS1pS636_639],Reference=InitialConcentration"/><Parameter type="unsignedInteger" name="Role" value="1"/></ParameterGroup><ParameterGroup name="24"/><ParameterGroup name="25"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[PRAS40pT246],Reference=InitialConcentration"/><Parameter type="unsignedInteger" name="Role" value="1"/></ParameterGroup><ParameterGroup name="26"/><ParameterGroup name="27"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[S6KpT389],Reference=InitialConcentration"/><Parameter type="unsignedInteger" name="Role" value="1"/></ParameterGroup><ParameterGroup name="28"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[TSC2pT1462],Reference=InitialConcentration"/><Parameter type="unsignedInteger" name="Role" value="1"/></ParameterGroup><ParameterGroup name="29"/><ParameterGroup name="30"/><ParameterGroup name="31"/></ParameterGroup></ParameterGroup></ParameterGroup>
         <ParameterGroup name="Validation Set">
           <Parameter name="Weight" type="unsignedFloat" value="1"/>
           <Parameter name="Threshold" type="unsignedInteger" value="5"/>
         </ParameterGroup>
       </Problem>
-      <Method name="Current Solution Statistics" type="CurrentSolutionStatistics">
-        <Parameter name="Log Verbosity" type="unsignedInteger" value="0"/>
+      <Method name="Hooke &amp;amp; Jeeves" type="HookeJeeves">
+        <Parameter type="unsignedInteger" name="Iteration Limit" value="50"/>
+        <Parameter type="float" name="Tolerance" value="1e-05"/>
+        <Parameter type="float" name="Rho" value="0.2"/>
       </Method>
     </Task>
     <Task key="Task_20" name="Metabolic Control Analysis" type="metabolicControlAnalysis" scheduled="false" updateModel="false">
@@ -2954,7 +1966,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
     </Task>
   </ListOfTasks>
   <ListOfReports>
-    <Report key="Report_10" name="Steady-State" taskType="steadyState" separator="&#x09;" precision="6">
+    <Report key="Report_10" name="Steady-State" taskType="steadyState" separator="&#9;" precision="6">
       <Comment>
         Automatically generated report.
       </Comment>
@@ -2962,7 +1974,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
         <Object cn="CN=Root,Vector=TaskList[Steady-State]"/>
       </Footer>
     </Report>
-    <Report key="Report_11" name="Elementary Flux Modes" taskType="fluxMode" separator="&#x09;" precision="6">
+    <Report key="Report_11" name="Elementary Flux Modes" taskType="fluxMode" separator="&#9;" precision="6">
       <Comment>
         Automatically generated report.
       </Comment>
@@ -2970,55 +1982,55 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
         <Object cn="CN=Root,Vector=TaskList[Elementary Flux Modes],Object=Result"/>
       </Footer>
     </Report>
-    <Report key="Report_12" name="Optimization" taskType="optimization" separator="&#x09;" precision="6">
+    <Report key="Report_12" name="Optimization" taskType="optimization" separator="&#9;" precision="6">
       <Comment>
         Automatically generated report.
       </Comment>
       <Header>
         <Object cn="CN=Root,Vector=TaskList[Optimization],Object=Description"/>
         <Object cn="String=\[Function Evaluations\]"/>
-        <Object cn="Separator=&#x09;"/>
+        <Object cn="Separator=&#9;"/>
         <Object cn="String=\[Best Value\]"/>
-        <Object cn="Separator=&#x09;"/>
+        <Object cn="Separator=&#9;"/>
         <Object cn="String=\[Best Parameters\]"/>
       </Header>
       <Body>
         <Object cn="CN=Root,Vector=TaskList[Optimization],Problem=Optimization,Reference=Function Evaluations"/>
-        <Object cn="Separator=&#x09;"/>
+        <Object cn="Separator=&#9;"/>
         <Object cn="CN=Root,Vector=TaskList[Optimization],Problem=Optimization,Reference=Best Value"/>
-        <Object cn="Separator=&#x09;"/>
+        <Object cn="Separator=&#9;"/>
         <Object cn="CN=Root,Vector=TaskList[Optimization],Problem=Optimization,Reference=Best Parameters"/>
       </Body>
       <Footer>
-        <Object cn="String=&#x0a;"/>
+        <Object cn="String=&#10;"/>
         <Object cn="CN=Root,Vector=TaskList[Optimization],Object=Result"/>
       </Footer>
     </Report>
-    <Report key="Report_13" name="Parameter Estimation" taskType="parameterFitting" separator="&#x09;" precision="6">
+    <Report key="Report_13" name="Parameter Estimation" taskType="parameterFitting" separator="&#9;" precision="6">
       <Comment>
         Automatically generated report.
       </Comment>
       <Header>
         <Object cn="CN=Root,Vector=TaskList[Parameter Estimation],Object=Description"/>
         <Object cn="String=\[Function Evaluations\]"/>
-        <Object cn="Separator=&#x09;"/>
+        <Object cn="Separator=&#9;"/>
         <Object cn="String=\[Best Value\]"/>
-        <Object cn="Separator=&#x09;"/>
+        <Object cn="Separator=&#9;"/>
         <Object cn="String=\[Best Parameters\]"/>
       </Header>
       <Body>
         <Object cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,Reference=Function Evaluations"/>
-        <Object cn="Separator=&#x09;"/>
+        <Object cn="Separator=&#9;"/>
         <Object cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,Reference=Best Value"/>
-        <Object cn="Separator=&#x09;"/>
+        <Object cn="Separator=&#9;"/>
         <Object cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,Reference=Best Parameters"/>
       </Body>
       <Footer>
-        <Object cn="String=&#x0a;"/>
+        <Object cn="String=&#10;"/>
         <Object cn="CN=Root,Vector=TaskList[Parameter Estimation],Object=Result"/>
       </Footer>
     </Report>
-    <Report key="Report_14" name="Metabolic Control Analysis" taskType="metabolicControlAnalysis" separator="&#x09;" precision="6">
+    <Report key="Report_14" name="Metabolic Control Analysis" taskType="metabolicControlAnalysis" separator="&#9;" precision="6">
       <Comment>
         Automatically generated report.
       </Comment>
@@ -3026,11 +2038,11 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
         <Object cn="CN=Root,Vector=TaskList[Metabolic Control Analysis],Object=Description"/>
       </Header>
       <Footer>
-        <Object cn="String=&#x0a;"/>
+        <Object cn="String=&#10;"/>
         <Object cn="CN=Root,Vector=TaskList[Metabolic Control Analysis],Object=Result"/>
       </Footer>
     </Report>
-    <Report key="Report_15" name="Lyapunov Exponents" taskType="lyapunovExponents" separator="&#x09;" precision="6">
+    <Report key="Report_15" name="Lyapunov Exponents" taskType="lyapunovExponents" separator="&#9;" precision="6">
       <Comment>
         Automatically generated report.
       </Comment>
@@ -3038,11 +2050,11 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
         <Object cn="CN=Root,Vector=TaskList[Lyapunov Exponents],Object=Description"/>
       </Header>
       <Footer>
-        <Object cn="String=&#x0a;"/>
+        <Object cn="String=&#10;"/>
         <Object cn="CN=Root,Vector=TaskList[Lyapunov Exponents],Object=Result"/>
       </Footer>
     </Report>
-    <Report key="Report_16" name="Time Scale Separation Analysis" taskType="timeScaleSeparationAnalysis" separator="&#x09;" precision="6">
+    <Report key="Report_16" name="Time Scale Separation Analysis" taskType="timeScaleSeparationAnalysis" separator="&#9;" precision="6">
       <Comment>
         Automatically generated report.
       </Comment>
@@ -3050,11 +2062,11 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
         <Object cn="CN=Root,Vector=TaskList[Time Scale Separation Analysis],Object=Description"/>
       </Header>
       <Footer>
-        <Object cn="String=&#x0a;"/>
+        <Object cn="String=&#10;"/>
         <Object cn="CN=Root,Vector=TaskList[Time Scale Separation Analysis],Object=Result"/>
       </Footer>
     </Report>
-    <Report key="Report_17" name="Sensitivities" taskType="sensitivities" separator="&#x09;" precision="6">
+    <Report key="Report_17" name="Sensitivities" taskType="sensitivities" separator="&#9;" precision="6">
       <Comment>
         Automatically generated report.
       </Comment>
@@ -3062,11 +2074,11 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
         <Object cn="CN=Root,Vector=TaskList[Sensitivities],Object=Description"/>
       </Header>
       <Footer>
-        <Object cn="String=&#x0a;"/>
+        <Object cn="String=&#10;"/>
         <Object cn="CN=Root,Vector=TaskList[Sensitivities],Object=Result"/>
       </Footer>
     </Report>
-    <Report key="Report_18" name="Moieties" taskType="moieties" separator="&#x09;" precision="6">
+    <Report key="Report_18" name="Moieties" taskType="moieties" separator="&#9;" precision="6">
       <Comment>
         Automatically generated report.
       </Comment>
@@ -3074,11 +2086,11 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
         <Object cn="CN=Root,Vector=TaskList[Moieties],Object=Description"/>
       </Header>
       <Footer>
-        <Object cn="String=&#x0a;"/>
+        <Object cn="String=&#10;"/>
         <Object cn="CN=Root,Vector=TaskList[Moieties],Object=Result"/>
       </Footer>
     </Report>
-    <Report key="Report_19" name="Linear Noise Approximation" taskType="linearNoiseApproximation" separator="&#x09;" precision="6">
+    <Report key="Report_19" name="Linear Noise Approximation" taskType="linearNoiseApproximation" separator="&#9;" precision="6">
       <Comment>
         Automatically generated report.
       </Comment>
@@ -3086,1845 +2098,64 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
         <Object cn="CN=Root,Vector=TaskList[Linear Noise Approximation],Object=Description"/>
       </Header>
       <Footer>
-        <Object cn="String=&#x0a;"/>
+        <Object cn="String=&#10;"/>
         <Object cn="CN=Root,Vector=TaskList[Linear Noise Approximation],Object=Result"/>
       </Footer>
     </Report>
-    <Report key="Report_20" name="Time-Course" taskType="unset" separator="&#x09;" precision="6">
-      <Comment>
-      </Comment>
+    <Report precision="6" separator="&#9;" name="Time-Course" key="Report_30" taskType="Time-Course">
+      <Comment/>
       <Table printTitle="1">
-        <Object cn="CN=Root,Model=SimpleAktModel,Reference=Time"/>
-        <Object cn="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[IRS1],Reference=Concentration"/>
-        <Object cn="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[IRS1a],Reference=Concentration"/>
-        <Object cn="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[IRS1pS636_639],Reference=Concentration"/>
-        <Object cn="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[Akt],Reference=Concentration"/>
-        <Object cn="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[AktpT308],Reference=Concentration"/>
-        <Object cn="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[TSC2],Reference=Concentration"/>
-        <Object cn="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[TSC2pT1462],Reference=Concentration"/>
-        <Object cn="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[PRAS40],Reference=Concentration"/>
-        <Object cn="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[PRAS40pT246],Reference=Concentration"/>
-        <Object cn="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[S6K],Reference=Concentration"/>
-        <Object cn="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[S6KpT389],Reference=Concentration"/>
-        <Object cn="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[FourEBP1],Reference=Concentration"/>
-        <Object cn="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[FourEBP1pT37_46],Reference=Concentration"/>
-        <Object cn="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[PI3K],Reference=Concentration"/>
-        <Object cn="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[pPI3K],Reference=Concentration"/>
-        <Object cn="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[pmTORC1],Reference=Concentration"/>
-        <Object cn="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[mTORC1cyt],Reference=Concentration"/>
-        <Object cn="CN=Root,Model=SimpleAktModel,Vector=Compartments[Cell],Vector=Metabolites[mTORC1lys],Reference=Concentration"/>
-        <Object cn="CN=Root,Model=SimpleAktModel,Vector=Values[Insulin],Reference=Value"/>
-        <Object cn="CN=Root,Model=SimpleAktModel,Vector=Values[AA],Reference=Value"/>
-        <Object cn="CN=Root,Model=SimpleAktModel,Vector=Values[_kIRS1Act],Reference=Value"/>
-        <Object cn="CN=Root,Model=SimpleAktModel,Vector=Values[_kIRS1Inact],Reference=Value"/>
-        <Object cn="CN=Root,Model=SimpleAktModel,Vector=Values[kIRS1Phos],Reference=Value"/>
-        <Object cn="CN=Root,Model=SimpleAktModel,Vector=Values[_kPI3KPhos],Reference=Value"/>
-        <Object cn="CN=Root,Model=SimpleAktModel,Vector=Values[kPI3KDephos],Reference=Value"/>
-        <Object cn="CN=Root,Model=SimpleAktModel,Vector=Values[_kAktPhos],Reference=Value"/>
-        <Object cn="CN=Root,Model=SimpleAktModel,Vector=Values[kAktDephos],Reference=Value"/>
-        <Object cn="CN=Root,Model=SimpleAktModel,Vector=Values[kTSC2Phos],Reference=Value"/>
-        <Object cn="CN=Root,Model=SimpleAktModel,Vector=Values[_kTSC2Dephos],Reference=Value"/>
-        <Object cn="CN=Root,Model=SimpleAktModel,Vector=Values[_kmTORC1cytToLys],Reference=Value"/>
-        <Object cn="CN=Root,Model=SimpleAktModel,Vector=Values[_kmTORC1LysToCyt],Reference=Value"/>
-        <Object cn="CN=Root,Model=SimpleAktModel,Vector=Values[_kmTORC1Phos],Reference=Value"/>
-        <Object cn="CN=Root,Model=SimpleAktModel,Vector=Values[kmTORC1Dephos],Reference=Value"/>
-        <Object cn="CN=Root,Model=SimpleAktModel,Vector=Values[_kPras40Phos],Reference=Value"/>
-        <Object cn="CN=Root,Model=SimpleAktModel,Vector=Values[kPras40Dephos],Reference=Value"/>
-        <Object cn="CN=Root,Model=SimpleAktModel,Vector=Values[_kFourEBP1Phos],Reference=Value"/>
-        <Object cn="CN=Root,Model=SimpleAktModel,Vector=Values[kFourEBP1Dephos],Reference=Value"/>
-        <Object cn="CN=Root,Model=SimpleAktModel,Vector=Values[_kS6KPhos],Reference=Value"/>
-        <Object cn="CN=Root,Model=SimpleAktModel,Vector=Values[kS6KDephos],Reference=Value"/>
+        <Object cn="CN=Root,Model=NoName,Reference=Time"/>
+        <Object cn="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[IRS1],Reference=Concentration"/>
+        <Object cn="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[IRS1a],Reference=Concentration"/>
+        <Object cn="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[IRS1pS636_639],Reference=Concentration"/>
+        <Object cn="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[Akt],Reference=Concentration"/>
+        <Object cn="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[AktpT308],Reference=Concentration"/>
+        <Object cn="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[TSC2],Reference=Concentration"/>
+        <Object cn="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[TSC2pT1462],Reference=Concentration"/>
+        <Object cn="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[PRAS40],Reference=Concentration"/>
+        <Object cn="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[PRAS40pT246],Reference=Concentration"/>
+        <Object cn="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[S6K],Reference=Concentration"/>
+        <Object cn="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[S6KpT389],Reference=Concentration"/>
+        <Object cn="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[FourEBP1],Reference=Concentration"/>
+        <Object cn="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[FourEBP1pT37_46],Reference=Concentration"/>
+        <Object cn="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[PI3K],Reference=Concentration"/>
+        <Object cn="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[pPI3K],Reference=Concentration"/>
+        <Object cn="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[pmTORC1],Reference=Concentration"/>
+        <Object cn="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[mTORC1cyt],Reference=Concentration"/>
+        <Object cn="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[mTORC1lys],Reference=Concentration"/>
+        <Object cn="CN=Root,Model=NoName,Vector=Values[Insulin],Reference=Value"/>
+        <Object cn="CN=Root,Model=NoName,Vector=Values[AA],Reference=Value"/>
+        <Object cn="CN=Root,Model=NoName,Vector=Values[_kIRS1Act],Reference=Value"/>
+        <Object cn="CN=Root,Model=NoName,Vector=Values[_kIRS1Inact],Reference=Value"/>
+        <Object cn="CN=Root,Model=NoName,Vector=Values[_kIRS1Phos],Reference=Value"/>
+        <Object cn="CN=Root,Model=NoName,Vector=Values[_kPI3KPhos],Reference=Value"/>
+        <Object cn="CN=Root,Model=NoName,Vector=Values[_kPI3KDephos],Reference=Value"/>
+        <Object cn="CN=Root,Model=NoName,Vector=Values[_kAktPhos_km],Reference=Value"/>
+        <Object cn="CN=Root,Model=NoName,Vector=Values[_kAktPhos_kcat],Reference=Value"/>
+        <Object cn="CN=Root,Model=NoName,Vector=Values[_kAktDephos],Reference=Value"/>
+        <Object cn="CN=Root,Model=NoName,Vector=Values[_kTSC2Phos],Reference=Value"/>
+        <Object cn="CN=Root,Model=NoName,Vector=Values[_kTSC2Dephos],Reference=Value"/>
+        <Object cn="CN=Root,Model=NoName,Vector=Values[_kmTORC1cytToLys],Reference=Value"/>
+        <Object cn="CN=Root,Model=NoName,Vector=Values[_kmTORC1LysToCyt],Reference=Value"/>
+        <Object cn="CN=Root,Model=NoName,Vector=Values[_kmTORC1Phos],Reference=Value"/>
+        <Object cn="CN=Root,Model=NoName,Vector=Values[_kmTORC1Dephos],Reference=Value"/>
+        <Object cn="CN=Root,Model=NoName,Vector=Values[_kPras40Phos],Reference=Value"/>
+        <Object cn="CN=Root,Model=NoName,Vector=Values[_kPras40Dephos],Reference=Value"/>
+        <Object cn="CN=Root,Model=NoName,Vector=Values[_kFourEBP1Phos],Reference=Value"/>
+        <Object cn="CN=Root,Model=NoName,Vector=Values[_kFourEBP1Dephos],Reference=Value"/>
+        <Object cn="CN=Root,Model=NoName,Vector=Values[_kS6KPhos],Reference=Value"/>
+        <Object cn="CN=Root,Model=NoName,Vector=Values[_kS6KDephos],Reference=Value"/>
       </Table>
     </Report>
-    <Report key="Report_21" name="multi_parameter_estimation" taskType="parameterFitting" separator="&#x09;" precision="6">
-      <Comment>
-      </Comment>
+    <Report precision="6" separator="&#9;" name="multi_parameter_estimation" key="Report_32" taskType="parameterFitting">
+      <Comment/>
       <Table printTitle="1">
         <Object cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,Reference=Best Parameters"/>
         <Object cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,Reference=Best Value"/>
       </Table>
     </Report>
   </ListOfReports>
-  <ListOfPlots>
-    <PlotSpecification name="not_interpolated_MCF7" type="Plot2D" active="1" taskTypes="Parameter Estimation">
-      <Parameter name="log X" type="bool" value="0"/>
-      <Parameter name="log Y" type="bool" value="0"/>
-      <ListOfPlotItems>
-        <PlotItem name="[AktpT308](Measured Value)" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="3"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="1"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="1"/>
-          <Parameter name="Color" type="string" value="#FF0000"/>
-          <Parameter name="Recording Activity" type="string" value="after"/>
-          <ListOfChannels>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=not_interpolated_MCF7,Vector=Fitted Points[0],Reference=Independent Value"/>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=not_interpolated_MCF7,Vector=Fitted Points[0],Reference=Measured Value"/>
-          </ListOfChannels>
-        </PlotItem>
-        <PlotItem name="[AktpT308](Fitted Value)" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="0"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Color" type="string" value="#FF0000"/>
-          <Parameter name="Recording Activity" type="string" value="after"/>
-          <ListOfChannels>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=not_interpolated_MCF7,Vector=Fitted Points[0],Reference=Independent Value"/>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=not_interpolated_MCF7,Vector=Fitted Points[0],Reference=Fitted Value"/>
-          </ListOfChannels>
-        </PlotItem>
-        <PlotItem name="[AktpT308](Weighted Error)" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="2"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="2"/>
-          <Parameter name="Color" type="string" value="#FF0000"/>
-          <Parameter name="Recording Activity" type="string" value="after"/>
-          <ListOfChannels>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=not_interpolated_MCF7,Vector=Fitted Points[0],Reference=Independent Value"/>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=not_interpolated_MCF7,Vector=Fitted Points[0],Reference=Weighted Error"/>
-          </ListOfChannels>
-        </PlotItem>
-        <PlotItem name="[FourEBP1pT37_46](Measured Value)" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="3"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="1"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="1"/>
-          <Parameter name="Color" type="string" value="#0000FF"/>
-          <Parameter name="Recording Activity" type="string" value="after"/>
-          <ListOfChannels>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=not_interpolated_MCF7,Vector=Fitted Points[0],Reference=Independent Value"/>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=not_interpolated_MCF7,Vector=Fitted Points[1],Reference=Measured Value"/>
-          </ListOfChannels>
-        </PlotItem>
-        <PlotItem name="[FourEBP1pT37_46](Fitted Value)" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="0"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Color" type="string" value="#0000FF"/>
-          <Parameter name="Recording Activity" type="string" value="after"/>
-          <ListOfChannels>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=not_interpolated_MCF7,Vector=Fitted Points[0],Reference=Independent Value"/>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=not_interpolated_MCF7,Vector=Fitted Points[1],Reference=Fitted Value"/>
-          </ListOfChannels>
-        </PlotItem>
-        <PlotItem name="[FourEBP1pT37_46](Weighted Error)" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="2"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="2"/>
-          <Parameter name="Color" type="string" value="#0000FF"/>
-          <Parameter name="Recording Activity" type="string" value="after"/>
-          <ListOfChannels>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=not_interpolated_MCF7,Vector=Fitted Points[0],Reference=Independent Value"/>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=not_interpolated_MCF7,Vector=Fitted Points[1],Reference=Weighted Error"/>
-          </ListOfChannels>
-        </PlotItem>
-        <PlotItem name="[IRS1pS636_639](Measured Value)" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="3"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="1"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="1"/>
-          <Parameter name="Color" type="string" value="#00E600"/>
-          <Parameter name="Recording Activity" type="string" value="after"/>
-          <ListOfChannels>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=not_interpolated_MCF7,Vector=Fitted Points[0],Reference=Independent Value"/>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=not_interpolated_MCF7,Vector=Fitted Points[2],Reference=Measured Value"/>
-          </ListOfChannels>
-        </PlotItem>
-        <PlotItem name="[IRS1pS636_639](Fitted Value)" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="0"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Color" type="string" value="#00E600"/>
-          <Parameter name="Recording Activity" type="string" value="after"/>
-          <ListOfChannels>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=not_interpolated_MCF7,Vector=Fitted Points[0],Reference=Independent Value"/>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=not_interpolated_MCF7,Vector=Fitted Points[2],Reference=Fitted Value"/>
-          </ListOfChannels>
-        </PlotItem>
-        <PlotItem name="[IRS1pS636_639](Weighted Error)" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="2"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="2"/>
-          <Parameter name="Color" type="string" value="#00E600"/>
-          <Parameter name="Recording Activity" type="string" value="after"/>
-          <ListOfChannels>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=not_interpolated_MCF7,Vector=Fitted Points[0],Reference=Independent Value"/>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=not_interpolated_MCF7,Vector=Fitted Points[2],Reference=Weighted Error"/>
-          </ListOfChannels>
-        </PlotItem>
-        <PlotItem name="[PRAS40pT246](Measured Value)" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="3"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="1"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="1"/>
-          <Parameter name="Color" type="string" value="#00BEF0"/>
-          <Parameter name="Recording Activity" type="string" value="after"/>
-          <ListOfChannels>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=not_interpolated_MCF7,Vector=Fitted Points[0],Reference=Independent Value"/>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=not_interpolated_MCF7,Vector=Fitted Points[3],Reference=Measured Value"/>
-          </ListOfChannels>
-        </PlotItem>
-        <PlotItem name="[PRAS40pT246](Fitted Value)" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="0"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Color" type="string" value="#00BEF0"/>
-          <Parameter name="Recording Activity" type="string" value="after"/>
-          <ListOfChannels>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=not_interpolated_MCF7,Vector=Fitted Points[0],Reference=Independent Value"/>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=not_interpolated_MCF7,Vector=Fitted Points[3],Reference=Fitted Value"/>
-          </ListOfChannels>
-        </PlotItem>
-        <PlotItem name="[PRAS40pT246](Weighted Error)" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="2"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="2"/>
-          <Parameter name="Color" type="string" value="#00BEF0"/>
-          <Parameter name="Recording Activity" type="string" value="after"/>
-          <ListOfChannels>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=not_interpolated_MCF7,Vector=Fitted Points[0],Reference=Independent Value"/>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=not_interpolated_MCF7,Vector=Fitted Points[3],Reference=Weighted Error"/>
-          </ListOfChannels>
-        </PlotItem>
-        <PlotItem name="[S6KpT389](Measured Value)" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="3"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="1"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="1"/>
-          <Parameter name="Color" type="string" value="#F000FF"/>
-          <Parameter name="Recording Activity" type="string" value="after"/>
-          <ListOfChannels>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=not_interpolated_MCF7,Vector=Fitted Points[0],Reference=Independent Value"/>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=not_interpolated_MCF7,Vector=Fitted Points[4],Reference=Measured Value"/>
-          </ListOfChannels>
-        </PlotItem>
-        <PlotItem name="[S6KpT389](Fitted Value)" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="0"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Color" type="string" value="#F000FF"/>
-          <Parameter name="Recording Activity" type="string" value="after"/>
-          <ListOfChannels>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=not_interpolated_MCF7,Vector=Fitted Points[0],Reference=Independent Value"/>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=not_interpolated_MCF7,Vector=Fitted Points[4],Reference=Fitted Value"/>
-          </ListOfChannels>
-        </PlotItem>
-        <PlotItem name="[S6KpT389](Weighted Error)" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="2"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="2"/>
-          <Parameter name="Color" type="string" value="#F000FF"/>
-          <Parameter name="Recording Activity" type="string" value="after"/>
-          <ListOfChannels>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=not_interpolated_MCF7,Vector=Fitted Points[0],Reference=Independent Value"/>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=not_interpolated_MCF7,Vector=Fitted Points[4],Reference=Weighted Error"/>
-          </ListOfChannels>
-        </PlotItem>
-        <PlotItem name="[TSC2pT1462](Measured Value)" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="3"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="1"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="1"/>
-          <Parameter name="Color" type="string" value="#F0C800"/>
-          <Parameter name="Recording Activity" type="string" value="after"/>
-          <ListOfChannels>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=not_interpolated_MCF7,Vector=Fitted Points[0],Reference=Independent Value"/>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=not_interpolated_MCF7,Vector=Fitted Points[5],Reference=Measured Value"/>
-          </ListOfChannels>
-        </PlotItem>
-        <PlotItem name="[TSC2pT1462](Fitted Value)" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="0"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Color" type="string" value="#F0C800"/>
-          <Parameter name="Recording Activity" type="string" value="after"/>
-          <ListOfChannels>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=not_interpolated_MCF7,Vector=Fitted Points[0],Reference=Independent Value"/>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=not_interpolated_MCF7,Vector=Fitted Points[5],Reference=Fitted Value"/>
-          </ListOfChannels>
-        </PlotItem>
-        <PlotItem name="[TSC2pT1462](Weighted Error)" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="2"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="2"/>
-          <Parameter name="Color" type="string" value="#F0C800"/>
-          <Parameter name="Recording Activity" type="string" value="after"/>
-          <ListOfChannels>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=not_interpolated_MCF7,Vector=Fitted Points[0],Reference=Independent Value"/>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=not_interpolated_MCF7,Vector=Fitted Points[5],Reference=Weighted Error"/>
-          </ListOfChannels>
-        </PlotItem>
-      </ListOfPlotItems>
-    </PlotSpecification>
-    <PlotSpecification name="not_interpolated_T47D" type="Plot2D" active="1" taskTypes="Parameter Estimation">
-      <Parameter name="log X" type="bool" value="0"/>
-      <Parameter name="log Y" type="bool" value="0"/>
-      <ListOfPlotItems>
-        <PlotItem name="[AktpT308](Measured Value)" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="3"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="1"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="1"/>
-          <Parameter name="Color" type="string" value="#FF0000"/>
-          <Parameter name="Recording Activity" type="string" value="after"/>
-          <ListOfChannels>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=not_interpolated_T47D,Vector=Fitted Points[0],Reference=Independent Value"/>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=not_interpolated_T47D,Vector=Fitted Points[0],Reference=Measured Value"/>
-          </ListOfChannels>
-        </PlotItem>
-        <PlotItem name="[AktpT308](Fitted Value)" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="0"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Color" type="string" value="#FF0000"/>
-          <Parameter name="Recording Activity" type="string" value="after"/>
-          <ListOfChannels>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=not_interpolated_T47D,Vector=Fitted Points[0],Reference=Independent Value"/>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=not_interpolated_T47D,Vector=Fitted Points[0],Reference=Fitted Value"/>
-          </ListOfChannels>
-        </PlotItem>
-        <PlotItem name="[AktpT308](Weighted Error)" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="2"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="2"/>
-          <Parameter name="Color" type="string" value="#FF0000"/>
-          <Parameter name="Recording Activity" type="string" value="after"/>
-          <ListOfChannels>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=not_interpolated_T47D,Vector=Fitted Points[0],Reference=Independent Value"/>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=not_interpolated_T47D,Vector=Fitted Points[0],Reference=Weighted Error"/>
-          </ListOfChannels>
-        </PlotItem>
-        <PlotItem name="[FourEBP1pT37_46](Measured Value)" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="3"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="1"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="1"/>
-          <Parameter name="Color" type="string" value="#0000FF"/>
-          <Parameter name="Recording Activity" type="string" value="after"/>
-          <ListOfChannels>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=not_interpolated_T47D,Vector=Fitted Points[0],Reference=Independent Value"/>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=not_interpolated_T47D,Vector=Fitted Points[1],Reference=Measured Value"/>
-          </ListOfChannels>
-        </PlotItem>
-        <PlotItem name="[FourEBP1pT37_46](Fitted Value)" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="0"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Color" type="string" value="#0000FF"/>
-          <Parameter name="Recording Activity" type="string" value="after"/>
-          <ListOfChannels>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=not_interpolated_T47D,Vector=Fitted Points[0],Reference=Independent Value"/>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=not_interpolated_T47D,Vector=Fitted Points[1],Reference=Fitted Value"/>
-          </ListOfChannels>
-        </PlotItem>
-        <PlotItem name="[FourEBP1pT37_46](Weighted Error)" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="2"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="2"/>
-          <Parameter name="Color" type="string" value="#0000FF"/>
-          <Parameter name="Recording Activity" type="string" value="after"/>
-          <ListOfChannels>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=not_interpolated_T47D,Vector=Fitted Points[0],Reference=Independent Value"/>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=not_interpolated_T47D,Vector=Fitted Points[1],Reference=Weighted Error"/>
-          </ListOfChannels>
-        </PlotItem>
-        <PlotItem name="[IRS1pS636_639](Measured Value)" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="3"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="1"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="1"/>
-          <Parameter name="Color" type="string" value="#00E600"/>
-          <Parameter name="Recording Activity" type="string" value="after"/>
-          <ListOfChannels>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=not_interpolated_T47D,Vector=Fitted Points[0],Reference=Independent Value"/>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=not_interpolated_T47D,Vector=Fitted Points[2],Reference=Measured Value"/>
-          </ListOfChannels>
-        </PlotItem>
-        <PlotItem name="[IRS1pS636_639](Fitted Value)" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="0"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Color" type="string" value="#00E600"/>
-          <Parameter name="Recording Activity" type="string" value="after"/>
-          <ListOfChannels>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=not_interpolated_T47D,Vector=Fitted Points[0],Reference=Independent Value"/>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=not_interpolated_T47D,Vector=Fitted Points[2],Reference=Fitted Value"/>
-          </ListOfChannels>
-        </PlotItem>
-        <PlotItem name="[IRS1pS636_639](Weighted Error)" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="2"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="2"/>
-          <Parameter name="Color" type="string" value="#00E600"/>
-          <Parameter name="Recording Activity" type="string" value="after"/>
-          <ListOfChannels>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=not_interpolated_T47D,Vector=Fitted Points[0],Reference=Independent Value"/>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=not_interpolated_T47D,Vector=Fitted Points[2],Reference=Weighted Error"/>
-          </ListOfChannels>
-        </PlotItem>
-        <PlotItem name="[PRAS40pT246](Measured Value)" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="3"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="1"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="1"/>
-          <Parameter name="Color" type="string" value="#00BEF0"/>
-          <Parameter name="Recording Activity" type="string" value="after"/>
-          <ListOfChannels>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=not_interpolated_T47D,Vector=Fitted Points[0],Reference=Independent Value"/>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=not_interpolated_T47D,Vector=Fitted Points[3],Reference=Measured Value"/>
-          </ListOfChannels>
-        </PlotItem>
-        <PlotItem name="[PRAS40pT246](Fitted Value)" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="0"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Color" type="string" value="#00BEF0"/>
-          <Parameter name="Recording Activity" type="string" value="after"/>
-          <ListOfChannels>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=not_interpolated_T47D,Vector=Fitted Points[0],Reference=Independent Value"/>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=not_interpolated_T47D,Vector=Fitted Points[3],Reference=Fitted Value"/>
-          </ListOfChannels>
-        </PlotItem>
-        <PlotItem name="[PRAS40pT246](Weighted Error)" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="2"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="2"/>
-          <Parameter name="Color" type="string" value="#00BEF0"/>
-          <Parameter name="Recording Activity" type="string" value="after"/>
-          <ListOfChannels>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=not_interpolated_T47D,Vector=Fitted Points[0],Reference=Independent Value"/>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=not_interpolated_T47D,Vector=Fitted Points[3],Reference=Weighted Error"/>
-          </ListOfChannels>
-        </PlotItem>
-        <PlotItem name="[S6KpT389](Measured Value)" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="3"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="1"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="1"/>
-          <Parameter name="Color" type="string" value="#F000FF"/>
-          <Parameter name="Recording Activity" type="string" value="after"/>
-          <ListOfChannels>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=not_interpolated_T47D,Vector=Fitted Points[0],Reference=Independent Value"/>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=not_interpolated_T47D,Vector=Fitted Points[4],Reference=Measured Value"/>
-          </ListOfChannels>
-        </PlotItem>
-        <PlotItem name="[S6KpT389](Fitted Value)" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="0"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Color" type="string" value="#F000FF"/>
-          <Parameter name="Recording Activity" type="string" value="after"/>
-          <ListOfChannels>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=not_interpolated_T47D,Vector=Fitted Points[0],Reference=Independent Value"/>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=not_interpolated_T47D,Vector=Fitted Points[4],Reference=Fitted Value"/>
-          </ListOfChannels>
-        </PlotItem>
-        <PlotItem name="[S6KpT389](Weighted Error)" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="2"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="2"/>
-          <Parameter name="Color" type="string" value="#F000FF"/>
-          <Parameter name="Recording Activity" type="string" value="after"/>
-          <ListOfChannels>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=not_interpolated_T47D,Vector=Fitted Points[0],Reference=Independent Value"/>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=not_interpolated_T47D,Vector=Fitted Points[4],Reference=Weighted Error"/>
-          </ListOfChannels>
-        </PlotItem>
-        <PlotItem name="[TSC2pT1462](Measured Value)" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="3"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="1"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="1"/>
-          <Parameter name="Color" type="string" value="#F0C800"/>
-          <Parameter name="Recording Activity" type="string" value="after"/>
-          <ListOfChannels>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=not_interpolated_T47D,Vector=Fitted Points[0],Reference=Independent Value"/>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=not_interpolated_T47D,Vector=Fitted Points[5],Reference=Measured Value"/>
-          </ListOfChannels>
-        </PlotItem>
-        <PlotItem name="[TSC2pT1462](Fitted Value)" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="0"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Color" type="string" value="#F0C800"/>
-          <Parameter name="Recording Activity" type="string" value="after"/>
-          <ListOfChannels>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=not_interpolated_T47D,Vector=Fitted Points[0],Reference=Independent Value"/>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=not_interpolated_T47D,Vector=Fitted Points[5],Reference=Fitted Value"/>
-          </ListOfChannels>
-        </PlotItem>
-        <PlotItem name="[TSC2pT1462](Weighted Error)" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="2"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="2"/>
-          <Parameter name="Color" type="string" value="#F0C800"/>
-          <Parameter name="Recording Activity" type="string" value="after"/>
-          <ListOfChannels>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=not_interpolated_T47D,Vector=Fitted Points[0],Reference=Independent Value"/>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=not_interpolated_T47D,Vector=Fitted Points[5],Reference=Weighted Error"/>
-          </ListOfChannels>
-        </PlotItem>
-      </ListOfPlotItems>
-    </PlotSpecification>
-    <PlotSpecification name="MCF7" type="Plot2D" active="1" taskTypes="Parameter Estimation">
-      <Parameter name="log X" type="bool" value="0"/>
-      <Parameter name="log Y" type="bool" value="0"/>
-      <ListOfPlotItems>
-        <PlotItem name="[Akt](Measured Value)" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="3"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="1"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="1"/>
-          <Parameter name="Color" type="string" value="#FF0000"/>
-          <Parameter name="Recording Activity" type="string" value="after"/>
-          <ListOfChannels>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=MCF7,Vector=Fitted Points[0],Reference=Independent Value"/>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=MCF7,Vector=Fitted Points[0],Reference=Measured Value"/>
-          </ListOfChannels>
-        </PlotItem>
-        <PlotItem name="[Akt](Fitted Value)" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="2"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Color" type="string" value="#FF0000"/>
-          <Parameter name="Recording Activity" type="string" value="after"/>
-          <ListOfChannels>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=MCF7,Vector=Fitted Points[0],Reference=Independent Value"/>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=MCF7,Vector=Fitted Points[0],Reference=Fitted Value"/>
-          </ListOfChannels>
-        </PlotItem>
-        <PlotItem name="[Akt](Weighted Error)" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="2"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="2"/>
-          <Parameter name="Color" type="string" value="#FF0000"/>
-          <Parameter name="Recording Activity" type="string" value="after"/>
-          <ListOfChannels>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=MCF7,Vector=Fitted Points[0],Reference=Independent Value"/>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=MCF7,Vector=Fitted Points[0],Reference=Weighted Error"/>
-          </ListOfChannels>
-        </PlotItem>
-        <PlotItem name="[AktpT308](Measured Value)" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="3"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="1"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="1"/>
-          <Parameter name="Color" type="string" value="#0000FF"/>
-          <Parameter name="Recording Activity" type="string" value="after"/>
-          <ListOfChannels>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=MCF7,Vector=Fitted Points[0],Reference=Independent Value"/>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=MCF7,Vector=Fitted Points[1],Reference=Measured Value"/>
-          </ListOfChannels>
-        </PlotItem>
-        <PlotItem name="[AktpT308](Fitted Value)" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="2"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Color" type="string" value="#0000FF"/>
-          <Parameter name="Recording Activity" type="string" value="after"/>
-          <ListOfChannels>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=MCF7,Vector=Fitted Points[0],Reference=Independent Value"/>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=MCF7,Vector=Fitted Points[1],Reference=Fitted Value"/>
-          </ListOfChannels>
-        </PlotItem>
-        <PlotItem name="[AktpT308](Weighted Error)" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="2"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="2"/>
-          <Parameter name="Color" type="string" value="#0000FF"/>
-          <Parameter name="Recording Activity" type="string" value="after"/>
-          <ListOfChannels>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=MCF7,Vector=Fitted Points[0],Reference=Independent Value"/>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=MCF7,Vector=Fitted Points[1],Reference=Weighted Error"/>
-          </ListOfChannels>
-        </PlotItem>
-        <PlotItem name="[FourEBP1](Measured Value)" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="3"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="1"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="1"/>
-          <Parameter name="Color" type="string" value="#00E600"/>
-          <Parameter name="Recording Activity" type="string" value="after"/>
-          <ListOfChannels>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=MCF7,Vector=Fitted Points[0],Reference=Independent Value"/>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=MCF7,Vector=Fitted Points[2],Reference=Measured Value"/>
-          </ListOfChannels>
-        </PlotItem>
-        <PlotItem name="[FourEBP1](Fitted Value)" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="2"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Color" type="string" value="#00E600"/>
-          <Parameter name="Recording Activity" type="string" value="after"/>
-          <ListOfChannels>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=MCF7,Vector=Fitted Points[0],Reference=Independent Value"/>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=MCF7,Vector=Fitted Points[2],Reference=Fitted Value"/>
-          </ListOfChannels>
-        </PlotItem>
-        <PlotItem name="[FourEBP1](Weighted Error)" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="2"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="2"/>
-          <Parameter name="Color" type="string" value="#00E600"/>
-          <Parameter name="Recording Activity" type="string" value="after"/>
-          <ListOfChannels>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=MCF7,Vector=Fitted Points[0],Reference=Independent Value"/>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=MCF7,Vector=Fitted Points[2],Reference=Weighted Error"/>
-          </ListOfChannels>
-        </PlotItem>
-        <PlotItem name="[FourEBP1pT37_46](Measured Value)" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="3"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="1"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="1"/>
-          <Parameter name="Color" type="string" value="#00BEF0"/>
-          <Parameter name="Recording Activity" type="string" value="after"/>
-          <ListOfChannels>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=MCF7,Vector=Fitted Points[0],Reference=Independent Value"/>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=MCF7,Vector=Fitted Points[3],Reference=Measured Value"/>
-          </ListOfChannels>
-        </PlotItem>
-        <PlotItem name="[FourEBP1pT37_46](Fitted Value)" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="2"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Color" type="string" value="#00BEF0"/>
-          <Parameter name="Recording Activity" type="string" value="after"/>
-          <ListOfChannels>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=MCF7,Vector=Fitted Points[0],Reference=Independent Value"/>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=MCF7,Vector=Fitted Points[3],Reference=Fitted Value"/>
-          </ListOfChannels>
-        </PlotItem>
-        <PlotItem name="[FourEBP1pT37_46](Weighted Error)" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="2"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="2"/>
-          <Parameter name="Color" type="string" value="#00BEF0"/>
-          <Parameter name="Recording Activity" type="string" value="after"/>
-          <ListOfChannels>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=MCF7,Vector=Fitted Points[0],Reference=Independent Value"/>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=MCF7,Vector=Fitted Points[3],Reference=Weighted Error"/>
-          </ListOfChannels>
-        </PlotItem>
-        <PlotItem name="[IRS1](Measured Value)" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="3"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="1"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="1"/>
-          <Parameter name="Color" type="string" value="#F000FF"/>
-          <Parameter name="Recording Activity" type="string" value="after"/>
-          <ListOfChannels>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=MCF7,Vector=Fitted Points[0],Reference=Independent Value"/>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=MCF7,Vector=Fitted Points[4],Reference=Measured Value"/>
-          </ListOfChannels>
-        </PlotItem>
-        <PlotItem name="[IRS1](Fitted Value)" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="2"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Color" type="string" value="#F000FF"/>
-          <Parameter name="Recording Activity" type="string" value="after"/>
-          <ListOfChannels>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=MCF7,Vector=Fitted Points[0],Reference=Independent Value"/>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=MCF7,Vector=Fitted Points[4],Reference=Fitted Value"/>
-          </ListOfChannels>
-        </PlotItem>
-        <PlotItem name="[IRS1](Weighted Error)" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="2"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="2"/>
-          <Parameter name="Color" type="string" value="#F000FF"/>
-          <Parameter name="Recording Activity" type="string" value="after"/>
-          <ListOfChannels>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=MCF7,Vector=Fitted Points[0],Reference=Independent Value"/>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=MCF7,Vector=Fitted Points[4],Reference=Weighted Error"/>
-          </ListOfChannels>
-        </PlotItem>
-        <PlotItem name="[IRS1pS636_639](Measured Value)" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="3"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="1"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="1"/>
-          <Parameter name="Color" type="string" value="#F0C800"/>
-          <Parameter name="Recording Activity" type="string" value="after"/>
-          <ListOfChannels>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=MCF7,Vector=Fitted Points[0],Reference=Independent Value"/>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=MCF7,Vector=Fitted Points[5],Reference=Measured Value"/>
-          </ListOfChannels>
-        </PlotItem>
-        <PlotItem name="[IRS1pS636_639](Fitted Value)" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="2"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Color" type="string" value="#F0C800"/>
-          <Parameter name="Recording Activity" type="string" value="after"/>
-          <ListOfChannels>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=MCF7,Vector=Fitted Points[0],Reference=Independent Value"/>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=MCF7,Vector=Fitted Points[5],Reference=Fitted Value"/>
-          </ListOfChannels>
-        </PlotItem>
-        <PlotItem name="[IRS1pS636_639](Weighted Error)" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="2"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="2"/>
-          <Parameter name="Color" type="string" value="#F0C800"/>
-          <Parameter name="Recording Activity" type="string" value="after"/>
-          <ListOfChannels>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=MCF7,Vector=Fitted Points[0],Reference=Independent Value"/>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=MCF7,Vector=Fitted Points[5],Reference=Weighted Error"/>
-          </ListOfChannels>
-        </PlotItem>
-        <PlotItem name="[PRAS40](Measured Value)" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="3"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="1"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="1"/>
-          <Parameter name="Color" type="string" value="#FF0000"/>
-          <Parameter name="Recording Activity" type="string" value="after"/>
-          <ListOfChannels>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=MCF7,Vector=Fitted Points[0],Reference=Independent Value"/>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=MCF7,Vector=Fitted Points[6],Reference=Measured Value"/>
-          </ListOfChannels>
-        </PlotItem>
-        <PlotItem name="[PRAS40](Fitted Value)" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="2"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Color" type="string" value="#FF0000"/>
-          <Parameter name="Recording Activity" type="string" value="after"/>
-          <ListOfChannels>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=MCF7,Vector=Fitted Points[0],Reference=Independent Value"/>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=MCF7,Vector=Fitted Points[6],Reference=Fitted Value"/>
-          </ListOfChannels>
-        </PlotItem>
-        <PlotItem name="[PRAS40](Weighted Error)" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="2"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="2"/>
-          <Parameter name="Color" type="string" value="#FF0000"/>
-          <Parameter name="Recording Activity" type="string" value="after"/>
-          <ListOfChannels>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=MCF7,Vector=Fitted Points[0],Reference=Independent Value"/>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=MCF7,Vector=Fitted Points[6],Reference=Weighted Error"/>
-          </ListOfChannels>
-        </PlotItem>
-        <PlotItem name="[PRAS40pT246](Measured Value)" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="3"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="1"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="1"/>
-          <Parameter name="Color" type="string" value="#0000FF"/>
-          <Parameter name="Recording Activity" type="string" value="after"/>
-          <ListOfChannels>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=MCF7,Vector=Fitted Points[0],Reference=Independent Value"/>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=MCF7,Vector=Fitted Points[7],Reference=Measured Value"/>
-          </ListOfChannels>
-        </PlotItem>
-        <PlotItem name="[PRAS40pT246](Fitted Value)" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="2"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Color" type="string" value="#0000FF"/>
-          <Parameter name="Recording Activity" type="string" value="after"/>
-          <ListOfChannels>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=MCF7,Vector=Fitted Points[0],Reference=Independent Value"/>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=MCF7,Vector=Fitted Points[7],Reference=Fitted Value"/>
-          </ListOfChannels>
-        </PlotItem>
-        <PlotItem name="[PRAS40pT246](Weighted Error)" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="2"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="2"/>
-          <Parameter name="Color" type="string" value="#0000FF"/>
-          <Parameter name="Recording Activity" type="string" value="after"/>
-          <ListOfChannels>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=MCF7,Vector=Fitted Points[0],Reference=Independent Value"/>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=MCF7,Vector=Fitted Points[7],Reference=Weighted Error"/>
-          </ListOfChannels>
-        </PlotItem>
-        <PlotItem name="[S6K](Measured Value)" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="3"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="1"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="1"/>
-          <Parameter name="Color" type="string" value="#00E600"/>
-          <Parameter name="Recording Activity" type="string" value="after"/>
-          <ListOfChannels>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=MCF7,Vector=Fitted Points[0],Reference=Independent Value"/>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=MCF7,Vector=Fitted Points[8],Reference=Measured Value"/>
-          </ListOfChannels>
-        </PlotItem>
-        <PlotItem name="[S6K](Fitted Value)" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="2"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Color" type="string" value="#00E600"/>
-          <Parameter name="Recording Activity" type="string" value="after"/>
-          <ListOfChannels>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=MCF7,Vector=Fitted Points[0],Reference=Independent Value"/>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=MCF7,Vector=Fitted Points[8],Reference=Fitted Value"/>
-          </ListOfChannels>
-        </PlotItem>
-        <PlotItem name="[S6K](Weighted Error)" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="2"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="2"/>
-          <Parameter name="Color" type="string" value="#00E600"/>
-          <Parameter name="Recording Activity" type="string" value="after"/>
-          <ListOfChannels>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=MCF7,Vector=Fitted Points[0],Reference=Independent Value"/>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=MCF7,Vector=Fitted Points[8],Reference=Weighted Error"/>
-          </ListOfChannels>
-        </PlotItem>
-        <PlotItem name="[S6KpT389](Measured Value)" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="3"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="1"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="1"/>
-          <Parameter name="Color" type="string" value="#00BEF0"/>
-          <Parameter name="Recording Activity" type="string" value="after"/>
-          <ListOfChannels>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=MCF7,Vector=Fitted Points[0],Reference=Independent Value"/>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=MCF7,Vector=Fitted Points[9],Reference=Measured Value"/>
-          </ListOfChannels>
-        </PlotItem>
-        <PlotItem name="[S6KpT389](Fitted Value)" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="2"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Color" type="string" value="#00BEF0"/>
-          <Parameter name="Recording Activity" type="string" value="after"/>
-          <ListOfChannels>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=MCF7,Vector=Fitted Points[0],Reference=Independent Value"/>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=MCF7,Vector=Fitted Points[9],Reference=Fitted Value"/>
-          </ListOfChannels>
-        </PlotItem>
-        <PlotItem name="[S6KpT389](Weighted Error)" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="2"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="2"/>
-          <Parameter name="Color" type="string" value="#00BEF0"/>
-          <Parameter name="Recording Activity" type="string" value="after"/>
-          <ListOfChannels>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=MCF7,Vector=Fitted Points[0],Reference=Independent Value"/>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=MCF7,Vector=Fitted Points[9],Reference=Weighted Error"/>
-          </ListOfChannels>
-        </PlotItem>
-        <PlotItem name="[TSC2](Measured Value)" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="3"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="1"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="1"/>
-          <Parameter name="Color" type="string" value="#F000FF"/>
-          <Parameter name="Recording Activity" type="string" value="after"/>
-          <ListOfChannels>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=MCF7,Vector=Fitted Points[0],Reference=Independent Value"/>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=MCF7,Vector=Fitted Points[10],Reference=Measured Value"/>
-          </ListOfChannels>
-        </PlotItem>
-        <PlotItem name="[TSC2](Fitted Value)" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="2"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Color" type="string" value="#F000FF"/>
-          <Parameter name="Recording Activity" type="string" value="after"/>
-          <ListOfChannels>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=MCF7,Vector=Fitted Points[0],Reference=Independent Value"/>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=MCF7,Vector=Fitted Points[10],Reference=Fitted Value"/>
-          </ListOfChannels>
-        </PlotItem>
-        <PlotItem name="[TSC2](Weighted Error)" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="2"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="2"/>
-          <Parameter name="Color" type="string" value="#F000FF"/>
-          <Parameter name="Recording Activity" type="string" value="after"/>
-          <ListOfChannels>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=MCF7,Vector=Fitted Points[0],Reference=Independent Value"/>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=MCF7,Vector=Fitted Points[10],Reference=Weighted Error"/>
-          </ListOfChannels>
-        </PlotItem>
-        <PlotItem name="[TSC2pT1462](Measured Value)" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="3"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="1"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="1"/>
-          <Parameter name="Color" type="string" value="#F0C800"/>
-          <Parameter name="Recording Activity" type="string" value="after"/>
-          <ListOfChannels>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=MCF7,Vector=Fitted Points[0],Reference=Independent Value"/>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=MCF7,Vector=Fitted Points[11],Reference=Measured Value"/>
-          </ListOfChannels>
-        </PlotItem>
-        <PlotItem name="[TSC2pT1462](Fitted Value)" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="2"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Color" type="string" value="#F0C800"/>
-          <Parameter name="Recording Activity" type="string" value="after"/>
-          <ListOfChannels>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=MCF7,Vector=Fitted Points[0],Reference=Independent Value"/>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=MCF7,Vector=Fitted Points[11],Reference=Fitted Value"/>
-          </ListOfChannels>
-        </PlotItem>
-        <PlotItem name="[TSC2pT1462](Weighted Error)" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="2"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="2"/>
-          <Parameter name="Color" type="string" value="#F0C800"/>
-          <Parameter name="Recording Activity" type="string" value="after"/>
-          <ListOfChannels>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=MCF7,Vector=Fitted Points[0],Reference=Independent Value"/>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=MCF7,Vector=Fitted Points[11],Reference=Weighted Error"/>
-          </ListOfChannels>
-        </PlotItem>
-      </ListOfPlotItems>
-    </PlotSpecification>
-    <PlotSpecification name="T47D" type="Plot2D" active="1" taskTypes="Parameter Estimation">
-      <Parameter name="log X" type="bool" value="0"/>
-      <Parameter name="log Y" type="bool" value="0"/>
-      <ListOfPlotItems>
-        <PlotItem name="[Akt](Measured Value)" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="3"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="1"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="1"/>
-          <Parameter name="Color" type="string" value="#FF0000"/>
-          <Parameter name="Recording Activity" type="string" value="after"/>
-          <ListOfChannels>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=T47D,Vector=Fitted Points[0],Reference=Independent Value"/>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=T47D,Vector=Fitted Points[0],Reference=Measured Value"/>
-          </ListOfChannels>
-        </PlotItem>
-        <PlotItem name="[Akt](Fitted Value)" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="2"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Color" type="string" value="#FF0000"/>
-          <Parameter name="Recording Activity" type="string" value="after"/>
-          <ListOfChannels>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=T47D,Vector=Fitted Points[0],Reference=Independent Value"/>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=T47D,Vector=Fitted Points[0],Reference=Fitted Value"/>
-          </ListOfChannels>
-        </PlotItem>
-        <PlotItem name="[Akt](Weighted Error)" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="2"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="2"/>
-          <Parameter name="Color" type="string" value="#FF0000"/>
-          <Parameter name="Recording Activity" type="string" value="after"/>
-          <ListOfChannels>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=T47D,Vector=Fitted Points[0],Reference=Independent Value"/>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=T47D,Vector=Fitted Points[0],Reference=Weighted Error"/>
-          </ListOfChannels>
-        </PlotItem>
-        <PlotItem name="[AktpT308](Measured Value)" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="3"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="1"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="1"/>
-          <Parameter name="Color" type="string" value="#0000FF"/>
-          <Parameter name="Recording Activity" type="string" value="after"/>
-          <ListOfChannels>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=T47D,Vector=Fitted Points[0],Reference=Independent Value"/>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=T47D,Vector=Fitted Points[1],Reference=Measured Value"/>
-          </ListOfChannels>
-        </PlotItem>
-        <PlotItem name="[AktpT308](Fitted Value)" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="2"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Color" type="string" value="#0000FF"/>
-          <Parameter name="Recording Activity" type="string" value="after"/>
-          <ListOfChannels>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=T47D,Vector=Fitted Points[0],Reference=Independent Value"/>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=T47D,Vector=Fitted Points[1],Reference=Fitted Value"/>
-          </ListOfChannels>
-        </PlotItem>
-        <PlotItem name="[AktpT308](Weighted Error)" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="2"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="2"/>
-          <Parameter name="Color" type="string" value="#0000FF"/>
-          <Parameter name="Recording Activity" type="string" value="after"/>
-          <ListOfChannels>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=T47D,Vector=Fitted Points[0],Reference=Independent Value"/>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=T47D,Vector=Fitted Points[1],Reference=Weighted Error"/>
-          </ListOfChannels>
-        </PlotItem>
-        <PlotItem name="[FourEBP1](Measured Value)" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="3"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="1"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="1"/>
-          <Parameter name="Color" type="string" value="#00E600"/>
-          <Parameter name="Recording Activity" type="string" value="after"/>
-          <ListOfChannels>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=T47D,Vector=Fitted Points[0],Reference=Independent Value"/>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=T47D,Vector=Fitted Points[2],Reference=Measured Value"/>
-          </ListOfChannels>
-        </PlotItem>
-        <PlotItem name="[FourEBP1](Fitted Value)" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="2"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Color" type="string" value="#00E600"/>
-          <Parameter name="Recording Activity" type="string" value="after"/>
-          <ListOfChannels>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=T47D,Vector=Fitted Points[0],Reference=Independent Value"/>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=T47D,Vector=Fitted Points[2],Reference=Fitted Value"/>
-          </ListOfChannels>
-        </PlotItem>
-        <PlotItem name="[FourEBP1](Weighted Error)" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="2"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="2"/>
-          <Parameter name="Color" type="string" value="#00E600"/>
-          <Parameter name="Recording Activity" type="string" value="after"/>
-          <ListOfChannels>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=T47D,Vector=Fitted Points[0],Reference=Independent Value"/>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=T47D,Vector=Fitted Points[2],Reference=Weighted Error"/>
-          </ListOfChannels>
-        </PlotItem>
-        <PlotItem name="[FourEBP1pT37_46](Measured Value)" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="3"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="1"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="1"/>
-          <Parameter name="Color" type="string" value="#00BEF0"/>
-          <Parameter name="Recording Activity" type="string" value="after"/>
-          <ListOfChannels>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=T47D,Vector=Fitted Points[0],Reference=Independent Value"/>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=T47D,Vector=Fitted Points[3],Reference=Measured Value"/>
-          </ListOfChannels>
-        </PlotItem>
-        <PlotItem name="[FourEBP1pT37_46](Fitted Value)" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="2"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Color" type="string" value="#00BEF0"/>
-          <Parameter name="Recording Activity" type="string" value="after"/>
-          <ListOfChannels>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=T47D,Vector=Fitted Points[0],Reference=Independent Value"/>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=T47D,Vector=Fitted Points[3],Reference=Fitted Value"/>
-          </ListOfChannels>
-        </PlotItem>
-        <PlotItem name="[FourEBP1pT37_46](Weighted Error)" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="2"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="2"/>
-          <Parameter name="Color" type="string" value="#00BEF0"/>
-          <Parameter name="Recording Activity" type="string" value="after"/>
-          <ListOfChannels>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=T47D,Vector=Fitted Points[0],Reference=Independent Value"/>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=T47D,Vector=Fitted Points[3],Reference=Weighted Error"/>
-          </ListOfChannels>
-        </PlotItem>
-        <PlotItem name="[IRS1](Measured Value)" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="3"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="1"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="1"/>
-          <Parameter name="Color" type="string" value="#F000FF"/>
-          <Parameter name="Recording Activity" type="string" value="after"/>
-          <ListOfChannels>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=T47D,Vector=Fitted Points[0],Reference=Independent Value"/>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=T47D,Vector=Fitted Points[4],Reference=Measured Value"/>
-          </ListOfChannels>
-        </PlotItem>
-        <PlotItem name="[IRS1](Fitted Value)" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="2"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Color" type="string" value="#F000FF"/>
-          <Parameter name="Recording Activity" type="string" value="after"/>
-          <ListOfChannels>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=T47D,Vector=Fitted Points[0],Reference=Independent Value"/>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=T47D,Vector=Fitted Points[4],Reference=Fitted Value"/>
-          </ListOfChannels>
-        </PlotItem>
-        <PlotItem name="[IRS1](Weighted Error)" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="2"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="2"/>
-          <Parameter name="Color" type="string" value="#F000FF"/>
-          <Parameter name="Recording Activity" type="string" value="after"/>
-          <ListOfChannels>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=T47D,Vector=Fitted Points[0],Reference=Independent Value"/>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=T47D,Vector=Fitted Points[4],Reference=Weighted Error"/>
-          </ListOfChannels>
-        </PlotItem>
-        <PlotItem name="[IRS1pS636_639](Measured Value)" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="3"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="1"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="1"/>
-          <Parameter name="Color" type="string" value="#F0C800"/>
-          <Parameter name="Recording Activity" type="string" value="after"/>
-          <ListOfChannels>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=T47D,Vector=Fitted Points[0],Reference=Independent Value"/>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=T47D,Vector=Fitted Points[5],Reference=Measured Value"/>
-          </ListOfChannels>
-        </PlotItem>
-        <PlotItem name="[IRS1pS636_639](Fitted Value)" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="2"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Color" type="string" value="#F0C800"/>
-          <Parameter name="Recording Activity" type="string" value="after"/>
-          <ListOfChannels>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=T47D,Vector=Fitted Points[0],Reference=Independent Value"/>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=T47D,Vector=Fitted Points[5],Reference=Fitted Value"/>
-          </ListOfChannels>
-        </PlotItem>
-        <PlotItem name="[IRS1pS636_639](Weighted Error)" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="2"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="2"/>
-          <Parameter name="Color" type="string" value="#F0C800"/>
-          <Parameter name="Recording Activity" type="string" value="after"/>
-          <ListOfChannels>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=T47D,Vector=Fitted Points[0],Reference=Independent Value"/>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=T47D,Vector=Fitted Points[5],Reference=Weighted Error"/>
-          </ListOfChannels>
-        </PlotItem>
-        <PlotItem name="[PRAS40](Measured Value)" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="3"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="1"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="1"/>
-          <Parameter name="Color" type="string" value="#FF0000"/>
-          <Parameter name="Recording Activity" type="string" value="after"/>
-          <ListOfChannels>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=T47D,Vector=Fitted Points[0],Reference=Independent Value"/>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=T47D,Vector=Fitted Points[6],Reference=Measured Value"/>
-          </ListOfChannels>
-        </PlotItem>
-        <PlotItem name="[PRAS40](Fitted Value)" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="2"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Color" type="string" value="#FF0000"/>
-          <Parameter name="Recording Activity" type="string" value="after"/>
-          <ListOfChannels>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=T47D,Vector=Fitted Points[0],Reference=Independent Value"/>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=T47D,Vector=Fitted Points[6],Reference=Fitted Value"/>
-          </ListOfChannels>
-        </PlotItem>
-        <PlotItem name="[PRAS40](Weighted Error)" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="2"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="2"/>
-          <Parameter name="Color" type="string" value="#FF0000"/>
-          <Parameter name="Recording Activity" type="string" value="after"/>
-          <ListOfChannels>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=T47D,Vector=Fitted Points[0],Reference=Independent Value"/>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=T47D,Vector=Fitted Points[6],Reference=Weighted Error"/>
-          </ListOfChannels>
-        </PlotItem>
-        <PlotItem name="[PRAS40pT246](Measured Value)" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="3"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="1"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="1"/>
-          <Parameter name="Color" type="string" value="#0000FF"/>
-          <Parameter name="Recording Activity" type="string" value="after"/>
-          <ListOfChannels>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=T47D,Vector=Fitted Points[0],Reference=Independent Value"/>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=T47D,Vector=Fitted Points[7],Reference=Measured Value"/>
-          </ListOfChannels>
-        </PlotItem>
-        <PlotItem name="[PRAS40pT246](Fitted Value)" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="2"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Color" type="string" value="#0000FF"/>
-          <Parameter name="Recording Activity" type="string" value="after"/>
-          <ListOfChannels>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=T47D,Vector=Fitted Points[0],Reference=Independent Value"/>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=T47D,Vector=Fitted Points[7],Reference=Fitted Value"/>
-          </ListOfChannels>
-        </PlotItem>
-        <PlotItem name="[PRAS40pT246](Weighted Error)" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="2"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="2"/>
-          <Parameter name="Color" type="string" value="#0000FF"/>
-          <Parameter name="Recording Activity" type="string" value="after"/>
-          <ListOfChannels>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=T47D,Vector=Fitted Points[0],Reference=Independent Value"/>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=T47D,Vector=Fitted Points[7],Reference=Weighted Error"/>
-          </ListOfChannels>
-        </PlotItem>
-        <PlotItem name="[S6K](Measured Value)" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="3"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="1"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="1"/>
-          <Parameter name="Color" type="string" value="#00E600"/>
-          <Parameter name="Recording Activity" type="string" value="after"/>
-          <ListOfChannels>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=T47D,Vector=Fitted Points[0],Reference=Independent Value"/>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=T47D,Vector=Fitted Points[8],Reference=Measured Value"/>
-          </ListOfChannels>
-        </PlotItem>
-        <PlotItem name="[S6K](Fitted Value)" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="2"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Color" type="string" value="#00E600"/>
-          <Parameter name="Recording Activity" type="string" value="after"/>
-          <ListOfChannels>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=T47D,Vector=Fitted Points[0],Reference=Independent Value"/>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=T47D,Vector=Fitted Points[8],Reference=Fitted Value"/>
-          </ListOfChannels>
-        </PlotItem>
-        <PlotItem name="[S6K](Weighted Error)" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="2"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="2"/>
-          <Parameter name="Color" type="string" value="#00E600"/>
-          <Parameter name="Recording Activity" type="string" value="after"/>
-          <ListOfChannels>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=T47D,Vector=Fitted Points[0],Reference=Independent Value"/>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=T47D,Vector=Fitted Points[8],Reference=Weighted Error"/>
-          </ListOfChannels>
-        </PlotItem>
-        <PlotItem name="[S6KpT389](Measured Value)" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="3"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="1"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="1"/>
-          <Parameter name="Color" type="string" value="#00BEF0"/>
-          <Parameter name="Recording Activity" type="string" value="after"/>
-          <ListOfChannels>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=T47D,Vector=Fitted Points[0],Reference=Independent Value"/>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=T47D,Vector=Fitted Points[9],Reference=Measured Value"/>
-          </ListOfChannels>
-        </PlotItem>
-        <PlotItem name="[S6KpT389](Fitted Value)" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="2"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Color" type="string" value="#00BEF0"/>
-          <Parameter name="Recording Activity" type="string" value="after"/>
-          <ListOfChannels>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=T47D,Vector=Fitted Points[0],Reference=Independent Value"/>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=T47D,Vector=Fitted Points[9],Reference=Fitted Value"/>
-          </ListOfChannels>
-        </PlotItem>
-        <PlotItem name="[S6KpT389](Weighted Error)" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="2"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="2"/>
-          <Parameter name="Color" type="string" value="#00BEF0"/>
-          <Parameter name="Recording Activity" type="string" value="after"/>
-          <ListOfChannels>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=T47D,Vector=Fitted Points[0],Reference=Independent Value"/>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=T47D,Vector=Fitted Points[9],Reference=Weighted Error"/>
-          </ListOfChannels>
-        </PlotItem>
-        <PlotItem name="[TSC2](Measured Value)" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="3"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="1"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="1"/>
-          <Parameter name="Color" type="string" value="#F000FF"/>
-          <Parameter name="Recording Activity" type="string" value="after"/>
-          <ListOfChannels>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=T47D,Vector=Fitted Points[0],Reference=Independent Value"/>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=T47D,Vector=Fitted Points[10],Reference=Measured Value"/>
-          </ListOfChannels>
-        </PlotItem>
-        <PlotItem name="[TSC2](Fitted Value)" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="2"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Color" type="string" value="#F000FF"/>
-          <Parameter name="Recording Activity" type="string" value="after"/>
-          <ListOfChannels>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=T47D,Vector=Fitted Points[0],Reference=Independent Value"/>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=T47D,Vector=Fitted Points[10],Reference=Fitted Value"/>
-          </ListOfChannels>
-        </PlotItem>
-        <PlotItem name="[TSC2](Weighted Error)" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="2"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="2"/>
-          <Parameter name="Color" type="string" value="#F000FF"/>
-          <Parameter name="Recording Activity" type="string" value="after"/>
-          <ListOfChannels>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=T47D,Vector=Fitted Points[0],Reference=Independent Value"/>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=T47D,Vector=Fitted Points[10],Reference=Weighted Error"/>
-          </ListOfChannels>
-        </PlotItem>
-        <PlotItem name="[TSC2pT1462](Measured Value)" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="3"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="1"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="1"/>
-          <Parameter name="Color" type="string" value="#F0C800"/>
-          <Parameter name="Recording Activity" type="string" value="after"/>
-          <ListOfChannels>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=T47D,Vector=Fitted Points[0],Reference=Independent Value"/>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=T47D,Vector=Fitted Points[11],Reference=Measured Value"/>
-          </ListOfChannels>
-        </PlotItem>
-        <PlotItem name="[TSC2pT1462](Fitted Value)" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="2"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Color" type="string" value="#F0C800"/>
-          <Parameter name="Recording Activity" type="string" value="after"/>
-          <ListOfChannels>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=T47D,Vector=Fitted Points[0],Reference=Independent Value"/>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=T47D,Vector=Fitted Points[11],Reference=Fitted Value"/>
-          </ListOfChannels>
-        </PlotItem>
-        <PlotItem name="[TSC2pT1462](Weighted Error)" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="2"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="2"/>
-          <Parameter name="Color" type="string" value="#F0C800"/>
-          <Parameter name="Recording Activity" type="string" value="after"/>
-          <ListOfChannels>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=T47D,Vector=Fitted Points[0],Reference=Independent Value"/>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=T47D,Vector=Fitted Points[11],Reference=Weighted Error"/>
-          </ListOfChannels>
-        </PlotItem>
-      </ListOfPlotItems>
-    </PlotSpecification>
-    <PlotSpecification name="ZR75" type="Plot2D" active="1" taskTypes="Parameter Estimation">
-      <Parameter name="log X" type="bool" value="0"/>
-      <Parameter name="log Y" type="bool" value="0"/>
-      <ListOfPlotItems>
-        <PlotItem name="[Akt](Measured Value)" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="3"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="1"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="1"/>
-          <Parameter name="Color" type="string" value="#FF0000"/>
-          <Parameter name="Recording Activity" type="string" value="after"/>
-          <ListOfChannels>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=ZR75,Vector=Fitted Points[0],Reference=Independent Value"/>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=ZR75,Vector=Fitted Points[0],Reference=Measured Value"/>
-          </ListOfChannels>
-        </PlotItem>
-        <PlotItem name="[Akt](Fitted Value)" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="2"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Color" type="string" value="#FF0000"/>
-          <Parameter name="Recording Activity" type="string" value="after"/>
-          <ListOfChannels>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=ZR75,Vector=Fitted Points[0],Reference=Independent Value"/>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=ZR75,Vector=Fitted Points[0],Reference=Fitted Value"/>
-          </ListOfChannels>
-        </PlotItem>
-        <PlotItem name="[Akt](Weighted Error)" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="2"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="2"/>
-          <Parameter name="Color" type="string" value="#FF0000"/>
-          <Parameter name="Recording Activity" type="string" value="after"/>
-          <ListOfChannels>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=ZR75,Vector=Fitted Points[0],Reference=Independent Value"/>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=ZR75,Vector=Fitted Points[0],Reference=Weighted Error"/>
-          </ListOfChannels>
-        </PlotItem>
-        <PlotItem name="[AktpT308](Measured Value)" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="3"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="1"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="1"/>
-          <Parameter name="Color" type="string" value="#0000FF"/>
-          <Parameter name="Recording Activity" type="string" value="after"/>
-          <ListOfChannels>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=ZR75,Vector=Fitted Points[0],Reference=Independent Value"/>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=ZR75,Vector=Fitted Points[1],Reference=Measured Value"/>
-          </ListOfChannels>
-        </PlotItem>
-        <PlotItem name="[AktpT308](Fitted Value)" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="2"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Color" type="string" value="#0000FF"/>
-          <Parameter name="Recording Activity" type="string" value="after"/>
-          <ListOfChannels>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=ZR75,Vector=Fitted Points[0],Reference=Independent Value"/>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=ZR75,Vector=Fitted Points[1],Reference=Fitted Value"/>
-          </ListOfChannels>
-        </PlotItem>
-        <PlotItem name="[AktpT308](Weighted Error)" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="2"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="2"/>
-          <Parameter name="Color" type="string" value="#0000FF"/>
-          <Parameter name="Recording Activity" type="string" value="after"/>
-          <ListOfChannels>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=ZR75,Vector=Fitted Points[0],Reference=Independent Value"/>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=ZR75,Vector=Fitted Points[1],Reference=Weighted Error"/>
-          </ListOfChannels>
-        </PlotItem>
-        <PlotItem name="[FourEBP1](Measured Value)" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="3"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="1"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="1"/>
-          <Parameter name="Color" type="string" value="#00E600"/>
-          <Parameter name="Recording Activity" type="string" value="after"/>
-          <ListOfChannels>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=ZR75,Vector=Fitted Points[0],Reference=Independent Value"/>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=ZR75,Vector=Fitted Points[2],Reference=Measured Value"/>
-          </ListOfChannels>
-        </PlotItem>
-        <PlotItem name="[FourEBP1](Fitted Value)" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="2"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Color" type="string" value="#00E600"/>
-          <Parameter name="Recording Activity" type="string" value="after"/>
-          <ListOfChannels>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=ZR75,Vector=Fitted Points[0],Reference=Independent Value"/>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=ZR75,Vector=Fitted Points[2],Reference=Fitted Value"/>
-          </ListOfChannels>
-        </PlotItem>
-        <PlotItem name="[FourEBP1](Weighted Error)" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="2"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="2"/>
-          <Parameter name="Color" type="string" value="#00E600"/>
-          <Parameter name="Recording Activity" type="string" value="after"/>
-          <ListOfChannels>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=ZR75,Vector=Fitted Points[0],Reference=Independent Value"/>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=ZR75,Vector=Fitted Points[2],Reference=Weighted Error"/>
-          </ListOfChannels>
-        </PlotItem>
-        <PlotItem name="[FourEBP1pT37_46](Measured Value)" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="3"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="1"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="1"/>
-          <Parameter name="Color" type="string" value="#00BEF0"/>
-          <Parameter name="Recording Activity" type="string" value="after"/>
-          <ListOfChannels>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=ZR75,Vector=Fitted Points[0],Reference=Independent Value"/>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=ZR75,Vector=Fitted Points[3],Reference=Measured Value"/>
-          </ListOfChannels>
-        </PlotItem>
-        <PlotItem name="[FourEBP1pT37_46](Fitted Value)" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="2"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Color" type="string" value="#00BEF0"/>
-          <Parameter name="Recording Activity" type="string" value="after"/>
-          <ListOfChannels>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=ZR75,Vector=Fitted Points[0],Reference=Independent Value"/>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=ZR75,Vector=Fitted Points[3],Reference=Fitted Value"/>
-          </ListOfChannels>
-        </PlotItem>
-        <PlotItem name="[FourEBP1pT37_46](Weighted Error)" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="2"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="2"/>
-          <Parameter name="Color" type="string" value="#00BEF0"/>
-          <Parameter name="Recording Activity" type="string" value="after"/>
-          <ListOfChannels>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=ZR75,Vector=Fitted Points[0],Reference=Independent Value"/>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=ZR75,Vector=Fitted Points[3],Reference=Weighted Error"/>
-          </ListOfChannels>
-        </PlotItem>
-        <PlotItem name="[IRS1](Measured Value)" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="3"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="1"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="1"/>
-          <Parameter name="Color" type="string" value="#F000FF"/>
-          <Parameter name="Recording Activity" type="string" value="after"/>
-          <ListOfChannels>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=ZR75,Vector=Fitted Points[0],Reference=Independent Value"/>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=ZR75,Vector=Fitted Points[4],Reference=Measured Value"/>
-          </ListOfChannels>
-        </PlotItem>
-        <PlotItem name="[IRS1](Fitted Value)" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="2"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Color" type="string" value="#F000FF"/>
-          <Parameter name="Recording Activity" type="string" value="after"/>
-          <ListOfChannels>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=ZR75,Vector=Fitted Points[0],Reference=Independent Value"/>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=ZR75,Vector=Fitted Points[4],Reference=Fitted Value"/>
-          </ListOfChannels>
-        </PlotItem>
-        <PlotItem name="[IRS1](Weighted Error)" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="2"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="2"/>
-          <Parameter name="Color" type="string" value="#F000FF"/>
-          <Parameter name="Recording Activity" type="string" value="after"/>
-          <ListOfChannels>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=ZR75,Vector=Fitted Points[0],Reference=Independent Value"/>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=ZR75,Vector=Fitted Points[4],Reference=Weighted Error"/>
-          </ListOfChannels>
-        </PlotItem>
-        <PlotItem name="[IRS1pS636_639](Measured Value)" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="3"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="1"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="1"/>
-          <Parameter name="Color" type="string" value="#F0C800"/>
-          <Parameter name="Recording Activity" type="string" value="after"/>
-          <ListOfChannels>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=ZR75,Vector=Fitted Points[0],Reference=Independent Value"/>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=ZR75,Vector=Fitted Points[5],Reference=Measured Value"/>
-          </ListOfChannels>
-        </PlotItem>
-        <PlotItem name="[IRS1pS636_639](Fitted Value)" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="2"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Color" type="string" value="#F0C800"/>
-          <Parameter name="Recording Activity" type="string" value="after"/>
-          <ListOfChannels>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=ZR75,Vector=Fitted Points[0],Reference=Independent Value"/>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=ZR75,Vector=Fitted Points[5],Reference=Fitted Value"/>
-          </ListOfChannels>
-        </PlotItem>
-        <PlotItem name="[IRS1pS636_639](Weighted Error)" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="2"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="2"/>
-          <Parameter name="Color" type="string" value="#F0C800"/>
-          <Parameter name="Recording Activity" type="string" value="after"/>
-          <ListOfChannels>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=ZR75,Vector=Fitted Points[0],Reference=Independent Value"/>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=ZR75,Vector=Fitted Points[5],Reference=Weighted Error"/>
-          </ListOfChannels>
-        </PlotItem>
-        <PlotItem name="[PRAS40](Measured Value)" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="3"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="1"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="1"/>
-          <Parameter name="Color" type="string" value="#FF0000"/>
-          <Parameter name="Recording Activity" type="string" value="after"/>
-          <ListOfChannels>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=ZR75,Vector=Fitted Points[0],Reference=Independent Value"/>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=ZR75,Vector=Fitted Points[6],Reference=Measured Value"/>
-          </ListOfChannels>
-        </PlotItem>
-        <PlotItem name="[PRAS40](Fitted Value)" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="2"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Color" type="string" value="#FF0000"/>
-          <Parameter name="Recording Activity" type="string" value="after"/>
-          <ListOfChannels>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=ZR75,Vector=Fitted Points[0],Reference=Independent Value"/>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=ZR75,Vector=Fitted Points[6],Reference=Fitted Value"/>
-          </ListOfChannels>
-        </PlotItem>
-        <PlotItem name="[PRAS40](Weighted Error)" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="2"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="2"/>
-          <Parameter name="Color" type="string" value="#FF0000"/>
-          <Parameter name="Recording Activity" type="string" value="after"/>
-          <ListOfChannels>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=ZR75,Vector=Fitted Points[0],Reference=Independent Value"/>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=ZR75,Vector=Fitted Points[6],Reference=Weighted Error"/>
-          </ListOfChannels>
-        </PlotItem>
-        <PlotItem name="[PRAS40pT246](Measured Value)" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="3"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="1"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="1"/>
-          <Parameter name="Color" type="string" value="#0000FF"/>
-          <Parameter name="Recording Activity" type="string" value="after"/>
-          <ListOfChannels>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=ZR75,Vector=Fitted Points[0],Reference=Independent Value"/>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=ZR75,Vector=Fitted Points[7],Reference=Measured Value"/>
-          </ListOfChannels>
-        </PlotItem>
-        <PlotItem name="[PRAS40pT246](Fitted Value)" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="2"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Color" type="string" value="#0000FF"/>
-          <Parameter name="Recording Activity" type="string" value="after"/>
-          <ListOfChannels>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=ZR75,Vector=Fitted Points[0],Reference=Independent Value"/>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=ZR75,Vector=Fitted Points[7],Reference=Fitted Value"/>
-          </ListOfChannels>
-        </PlotItem>
-        <PlotItem name="[PRAS40pT246](Weighted Error)" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="2"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="2"/>
-          <Parameter name="Color" type="string" value="#0000FF"/>
-          <Parameter name="Recording Activity" type="string" value="after"/>
-          <ListOfChannels>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=ZR75,Vector=Fitted Points[0],Reference=Independent Value"/>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=ZR75,Vector=Fitted Points[7],Reference=Weighted Error"/>
-          </ListOfChannels>
-        </PlotItem>
-        <PlotItem name="[S6K](Measured Value)" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="3"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="1"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="1"/>
-          <Parameter name="Color" type="string" value="#00E600"/>
-          <Parameter name="Recording Activity" type="string" value="after"/>
-          <ListOfChannels>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=ZR75,Vector=Fitted Points[0],Reference=Independent Value"/>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=ZR75,Vector=Fitted Points[8],Reference=Measured Value"/>
-          </ListOfChannels>
-        </PlotItem>
-        <PlotItem name="[S6K](Fitted Value)" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="2"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Color" type="string" value="#00E600"/>
-          <Parameter name="Recording Activity" type="string" value="after"/>
-          <ListOfChannels>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=ZR75,Vector=Fitted Points[0],Reference=Independent Value"/>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=ZR75,Vector=Fitted Points[8],Reference=Fitted Value"/>
-          </ListOfChannels>
-        </PlotItem>
-        <PlotItem name="[S6K](Weighted Error)" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="2"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="2"/>
-          <Parameter name="Color" type="string" value="#00E600"/>
-          <Parameter name="Recording Activity" type="string" value="after"/>
-          <ListOfChannels>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=ZR75,Vector=Fitted Points[0],Reference=Independent Value"/>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=ZR75,Vector=Fitted Points[8],Reference=Weighted Error"/>
-          </ListOfChannels>
-        </PlotItem>
-        <PlotItem name="[S6KpT389](Measured Value)" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="3"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="1"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="1"/>
-          <Parameter name="Color" type="string" value="#00BEF0"/>
-          <Parameter name="Recording Activity" type="string" value="after"/>
-          <ListOfChannels>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=ZR75,Vector=Fitted Points[0],Reference=Independent Value"/>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=ZR75,Vector=Fitted Points[9],Reference=Measured Value"/>
-          </ListOfChannels>
-        </PlotItem>
-        <PlotItem name="[S6KpT389](Fitted Value)" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="2"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Color" type="string" value="#00BEF0"/>
-          <Parameter name="Recording Activity" type="string" value="after"/>
-          <ListOfChannels>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=ZR75,Vector=Fitted Points[0],Reference=Independent Value"/>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=ZR75,Vector=Fitted Points[9],Reference=Fitted Value"/>
-          </ListOfChannels>
-        </PlotItem>
-        <PlotItem name="[S6KpT389](Weighted Error)" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="2"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="2"/>
-          <Parameter name="Color" type="string" value="#00BEF0"/>
-          <Parameter name="Recording Activity" type="string" value="after"/>
-          <ListOfChannels>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=ZR75,Vector=Fitted Points[0],Reference=Independent Value"/>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=ZR75,Vector=Fitted Points[9],Reference=Weighted Error"/>
-          </ListOfChannels>
-        </PlotItem>
-        <PlotItem name="[TSC2](Measured Value)" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="3"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="1"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="1"/>
-          <Parameter name="Color" type="string" value="#F000FF"/>
-          <Parameter name="Recording Activity" type="string" value="after"/>
-          <ListOfChannels>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=ZR75,Vector=Fitted Points[0],Reference=Independent Value"/>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=ZR75,Vector=Fitted Points[10],Reference=Measured Value"/>
-          </ListOfChannels>
-        </PlotItem>
-        <PlotItem name="[TSC2](Fitted Value)" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="2"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Color" type="string" value="#F000FF"/>
-          <Parameter name="Recording Activity" type="string" value="after"/>
-          <ListOfChannels>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=ZR75,Vector=Fitted Points[0],Reference=Independent Value"/>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=ZR75,Vector=Fitted Points[10],Reference=Fitted Value"/>
-          </ListOfChannels>
-        </PlotItem>
-        <PlotItem name="[TSC2](Weighted Error)" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="2"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="2"/>
-          <Parameter name="Color" type="string" value="#F000FF"/>
-          <Parameter name="Recording Activity" type="string" value="after"/>
-          <ListOfChannels>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=ZR75,Vector=Fitted Points[0],Reference=Independent Value"/>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=ZR75,Vector=Fitted Points[10],Reference=Weighted Error"/>
-          </ListOfChannels>
-        </PlotItem>
-        <PlotItem name="[TSC2pT1462](Measured Value)" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="3"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="1"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="1"/>
-          <Parameter name="Color" type="string" value="#F0C800"/>
-          <Parameter name="Recording Activity" type="string" value="after"/>
-          <ListOfChannels>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=ZR75,Vector=Fitted Points[0],Reference=Independent Value"/>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=ZR75,Vector=Fitted Points[11],Reference=Measured Value"/>
-          </ListOfChannels>
-        </PlotItem>
-        <PlotItem name="[TSC2pT1462](Fitted Value)" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="2"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Color" type="string" value="#F0C800"/>
-          <Parameter name="Recording Activity" type="string" value="after"/>
-          <ListOfChannels>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=ZR75,Vector=Fitted Points[0],Reference=Independent Value"/>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=ZR75,Vector=Fitted Points[11],Reference=Fitted Value"/>
-          </ListOfChannels>
-        </PlotItem>
-        <PlotItem name="[TSC2pT1462](Weighted Error)" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="2"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="2"/>
-          <Parameter name="Color" type="string" value="#F0C800"/>
-          <Parameter name="Recording Activity" type="string" value="after"/>
-          <ListOfChannels>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=ZR75,Vector=Fitted Points[0],Reference=Independent Value"/>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=ZR75,Vector=Fitted Points[11],Reference=Weighted Error"/>
-          </ListOfChannels>
-        </PlotItem>
-      </ListOfPlotItems>
-    </PlotSpecification>
-    <PlotSpecification name="Progress of Fit" type="Plot2D" active="1" taskTypes="Parameter Estimation">
-      <Parameter name="log X" type="bool" value="0"/>
-      <Parameter name="log Y" type="bool" value="1"/>
-      <ListOfPlotItems>
-        <PlotItem name="sum of squares" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="0"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Color" type="string" value="auto"/>
-          <Parameter name="Recording Activity" type="string" value="during"/>
-          <ListOfChannels>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,Reference=Function Evaluations"/>
-            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,Reference=Best Value"/>
-          </ListOfChannels>
-        </PlotItem>
-      </ListOfPlotItems>
-    </PlotSpecification>
-  </ListOfPlots>
-  <GUI>
-  </GUI>
   <SBMLReference file="simple_akt_model.sbml">
     <SBMLMap SBMLid="AA" COPASIkey="ModelValue_1"/>
     <SBMLMap SBMLid="Akt" COPASIkey="Metabolite_3"/>
@@ -4962,25 +2193,26 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
     <SBMLMap SBMLid="S6KpT389" COPASIkey="Metabolite_10"/>
     <SBMLMap SBMLid="TSC2" COPASIkey="Metabolite_5"/>
     <SBMLMap SBMLid="TSC2pT1462" COPASIkey="Metabolite_6"/>
-    <SBMLMap SBMLid="_kAktPhos" COPASIkey="ModelValue_7"/>
-    <SBMLMap SBMLid="_kFourEBP1Phos" COPASIkey="ModelValue_17"/>
+    <SBMLMap SBMLid="_kAktDephos" COPASIkey="ModelValue_9"/>
+    <SBMLMap SBMLid="_kAktPhos_kcat" COPASIkey="ModelValue_8"/>
+    <SBMLMap SBMLid="_kAktPhos_km" COPASIkey="ModelValue_7"/>
+    <SBMLMap SBMLid="_kFourEBP1Dephos" COPASIkey="ModelValue_19"/>
+    <SBMLMap SBMLid="_kFourEBP1Phos" COPASIkey="ModelValue_18"/>
     <SBMLMap SBMLid="_kIRS1Act" COPASIkey="ModelValue_2"/>
     <SBMLMap SBMLid="_kIRS1Inact" COPASIkey="ModelValue_3"/>
+    <SBMLMap SBMLid="_kIRS1Phos" COPASIkey="ModelValue_4"/>
+    <SBMLMap SBMLid="_kPI3KDephos" COPASIkey="ModelValue_6"/>
     <SBMLMap SBMLid="_kPI3KPhos" COPASIkey="ModelValue_5"/>
-    <SBMLMap SBMLid="_kPras40Phos" COPASIkey="ModelValue_15"/>
-    <SBMLMap SBMLid="_kS6KPhos" COPASIkey="ModelValue_19"/>
-    <SBMLMap SBMLid="_kTSC2Dephos" COPASIkey="ModelValue_10"/>
-    <SBMLMap SBMLid="_kmTORC1LysToCyt" COPASIkey="ModelValue_12"/>
-    <SBMLMap SBMLid="_kmTORC1Phos" COPASIkey="ModelValue_13"/>
-    <SBMLMap SBMLid="_kmTORC1cytToLys" COPASIkey="ModelValue_11"/>
-    <SBMLMap SBMLid="kAktDephos" COPASIkey="ModelValue_8"/>
-    <SBMLMap SBMLid="kFourEBP1Dephos" COPASIkey="ModelValue_18"/>
-    <SBMLMap SBMLid="kIRS1Phos" COPASIkey="ModelValue_4"/>
-    <SBMLMap SBMLid="kPI3KDephos" COPASIkey="ModelValue_6"/>
-    <SBMLMap SBMLid="kPras40Dephos" COPASIkey="ModelValue_16"/>
-    <SBMLMap SBMLid="kS6KDephos" COPASIkey="ModelValue_20"/>
-    <SBMLMap SBMLid="kTSC2Phos" COPASIkey="ModelValue_9"/>
-    <SBMLMap SBMLid="kmTORC1Dephos" COPASIkey="ModelValue_14"/>
+    <SBMLMap SBMLid="_kPras40Dephos" COPASIkey="ModelValue_17"/>
+    <SBMLMap SBMLid="_kPras40Phos" COPASIkey="ModelValue_16"/>
+    <SBMLMap SBMLid="_kS6KDephos" COPASIkey="ModelValue_21"/>
+    <SBMLMap SBMLid="_kS6KPhos" COPASIkey="ModelValue_20"/>
+    <SBMLMap SBMLid="_kTSC2Dephos" COPASIkey="ModelValue_11"/>
+    <SBMLMap SBMLid="_kTSC2Phos" COPASIkey="ModelValue_10"/>
+    <SBMLMap SBMLid="_kmTORC1Dephos" COPASIkey="ModelValue_15"/>
+    <SBMLMap SBMLid="_kmTORC1LysToCyt" COPASIkey="ModelValue_13"/>
+    <SBMLMap SBMLid="_kmTORC1Phos" COPASIkey="ModelValue_14"/>
+    <SBMLMap SBMLid="_kmTORC1cytToLys" COPASIkey="ModelValue_12"/>
     <SBMLMap SBMLid="mTORC1cyt" COPASIkey="Metabolite_16"/>
     <SBMLMap SBMLid="mTORC1lys" COPASIkey="Metabolite_17"/>
     <SBMLMap SBMLid="pPI3K" COPASIkey="Metabolite_14"/>
@@ -4989,17 +2221,15 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <ListOfUnitDefinitions>
     <UnitDefinition key="Unit_1" name="meter" symbol="m">
       <MiriamAnnotation>
-<rdf:RDF
-xmlns:dcterms="http://purl.org/dc/terms/"
-xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-<rdf:Description rdf:about="#Unit_0">
-<dcterms:created>
-<rdf:Description>
-<dcterms:W3CDTF>2019-10-21T15:14:12Z</dcterms:W3CDTF>
-</rdf:Description>
-</dcterms:created>
-</rdf:Description>
-</rdf:RDF>
+        <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+          <rdf:Description rdf:about="#Unit_0">
+            <dcterms:created>
+              <rdf:Description>
+                <dcterms:W3CDTF>2019-10-28T15:06:38Z</dcterms:W3CDTF>
+              </rdf:Description>
+            </dcterms:created>
+          </rdf:Description>
+        </rdf:RDF>
       </MiriamAnnotation>
       <Expression>
         m
@@ -5007,17 +2237,15 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
     </UnitDefinition>
     <UnitDefinition key="Unit_5" name="second" symbol="s">
       <MiriamAnnotation>
-<rdf:RDF
-xmlns:dcterms="http://purl.org/dc/terms/"
-xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-<rdf:Description rdf:about="#Unit_4">
-<dcterms:created>
-<rdf:Description>
-<dcterms:W3CDTF>2019-10-21T15:14:12Z</dcterms:W3CDTF>
-</rdf:Description>
-</dcterms:created>
-</rdf:Description>
-</rdf:RDF>
+        <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+          <rdf:Description rdf:about="#Unit_4">
+            <dcterms:created>
+              <rdf:Description>
+                <dcterms:W3CDTF>2019-10-28T15:06:38Z</dcterms:W3CDTF>
+              </rdf:Description>
+            </dcterms:created>
+          </rdf:Description>
+        </rdf:RDF>
       </MiriamAnnotation>
       <Expression>
         s
@@ -5025,17 +2253,15 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
     </UnitDefinition>
     <UnitDefinition key="Unit_13" name="Avogadro" symbol="Avogadro">
       <MiriamAnnotation>
-<rdf:RDF
-xmlns:dcterms="http://purl.org/dc/terms/"
-xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-<rdf:Description rdf:about="#Unit_12">
-<dcterms:created>
-<rdf:Description>
-<dcterms:W3CDTF>2019-10-21T15:14:12Z</dcterms:W3CDTF>
-</rdf:Description>
-</dcterms:created>
-</rdf:Description>
-</rdf:RDF>
+        <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+          <rdf:Description rdf:about="#Unit_12">
+            <dcterms:created>
+              <rdf:Description>
+                <dcterms:W3CDTF>2019-10-28T15:06:38Z</dcterms:W3CDTF>
+              </rdf:Description>
+            </dcterms:created>
+          </rdf:Description>
+        </rdf:RDF>
       </MiriamAnnotation>
       <Expression>
         Avogadro
@@ -5043,17 +2269,15 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
     </UnitDefinition>
     <UnitDefinition key="Unit_17" name="item" symbol="#">
       <MiriamAnnotation>
-<rdf:RDF
-xmlns:dcterms="http://purl.org/dc/terms/"
-xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-<rdf:Description rdf:about="#Unit_16">
-<dcterms:created>
-<rdf:Description>
-<dcterms:W3CDTF>2019-10-21T15:14:12Z</dcterms:W3CDTF>
-</rdf:Description>
-</dcterms:created>
-</rdf:Description>
-</rdf:RDF>
+        <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+          <rdf:Description rdf:about="#Unit_16">
+            <dcterms:created>
+              <rdf:Description>
+                <dcterms:W3CDTF>2019-10-28T15:06:38Z</dcterms:W3CDTF>
+              </rdf:Description>
+            </dcterms:created>
+          </rdf:Description>
+        </rdf:RDF>
       </MiriamAnnotation>
       <Expression>
         #
@@ -5061,17 +2285,15 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
     </UnitDefinition>
     <UnitDefinition key="Unit_35" name="liter" symbol="l">
       <MiriamAnnotation>
-<rdf:RDF
-xmlns:dcterms="http://purl.org/dc/terms/"
-xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-<rdf:Description rdf:about="#Unit_34">
-<dcterms:created>
-<rdf:Description>
-<dcterms:W3CDTF>2019-10-21T15:14:12Z</dcterms:W3CDTF>
-</rdf:Description>
-</dcterms:created>
-</rdf:Description>
-</rdf:RDF>
+        <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+          <rdf:Description rdf:about="#Unit_34">
+            <dcterms:created>
+              <rdf:Description>
+                <dcterms:W3CDTF>2019-10-28T15:06:38Z</dcterms:W3CDTF>
+              </rdf:Description>
+            </dcterms:created>
+          </rdf:Description>
+        </rdf:RDF>
       </MiriamAnnotation>
       <Expression>
         0.001*m^3
@@ -5079,17 +2301,15 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
     </UnitDefinition>
     <UnitDefinition key="Unit_41" name="mole" symbol="mol">
       <MiriamAnnotation>
-<rdf:RDF
-xmlns:dcterms="http://purl.org/dc/terms/"
-xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-<rdf:Description rdf:about="#Unit_40">
-<dcterms:created>
-<rdf:Description>
-<dcterms:W3CDTF>2019-10-21T15:14:12Z</dcterms:W3CDTF>
-</rdf:Description>
-</dcterms:created>
-</rdf:Description>
-</rdf:RDF>
+        <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+          <rdf:Description rdf:about="#Unit_40">
+            <dcterms:created>
+              <rdf:Description>
+                <dcterms:W3CDTF>2019-10-28T15:06:38Z</dcterms:W3CDTF>
+              </rdf:Description>
+            </dcterms:created>
+          </rdf:Description>
+        </rdf:RDF>
       </MiriamAnnotation>
       <Expression>
         Avogadro*#

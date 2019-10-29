@@ -13,11 +13,17 @@ ZR75_COPASI_FORMATED_DATA = os.path.join(COPASI_FORMATTED_DATA_DIRECTORY, 'ZR75S
 STEADTSTATE_COPASI_FORMATED_DATA = os.path.join(COPASI_FORMATTED_DATA_DIRECTORY, 'steadystate')
 MODELS_DIRECTORY = os.path.join(WORKING_DIRECTORY, 'models')
 SIMULATION_DIRECTORY = os.path.join(MODELS_DIRECTORY, 'simulation_data')
+RANDOM_ICS_DIR = os.path.join(SIMULATION_DIRECTORY, 'random_ics_stuff')
 PARAMETER_ESTIMATION_CONFIG_YAML = os.path.join(MODELS_DIRECTORY, 'param_est_config.yaml')
 
 # some important filenames that are used in subdirectories
 EXPERIMENTAL_DATA_FILE = os.path.join(DATA_DIRECTORY, 'experimental_data_with_norm_to_max.xlsx')
 COPASI_FILE = os.path.join(MODELS_DIRECTORY, 'simple_akt_model.cps')
+
+# pickle files
+RANDOM_ICS_DTW_PICKLE = os.path.join(SIMULATION_DIRECTORY, 'random_ics.pickle')
+TIMESERIES_KMEANS_DATA_PICKLE = os.path.join(DATA_DIRECTORY, 'time_series_kmeans.pickle')
+
 
 # an offset parameter to ensure total proteins are not present in greater
 #  amounts than their phospho counterparts
@@ -53,9 +59,30 @@ REPLACEMENT_NAMES = {
 # todo consider dividing z75 by mcf7 and t47d by mcf7 and only using these two
 #  i.e. express these two cell lines as amounts relative to MCF7
 
+# flags that change program behaviour
+WRITE_COPASI_FORMATTED_DATA = True
 
+OPEN_WITH_COPASI = False
 
+CONFIGURE_PARAMETER_ESTIMATION = True
+if CONFIGURE_PARAMETER_ESTIMATION:
+    WHICH_CELL_LINE = 'T47D'
+    assert WHICH_CELL_LINE in ['T47D', 'ZR75']
 
+# configure the steady state data only
+CONFIGURE_PARAMETER_ESTIMATION_SS = False
+
+PLOT_SIMULATION = False
+
+PLOT_BEST_FIT_MCF7_AND_T47D = False
+
+PLOT_BEST_FIT_MCF7_AND_ZR75 = False
+
+TRANSFER_BETWEEN_MCF7_FROM_ZR75_AND_T47D = False
+
+RANDOM_ICS_SIMULATIONS = False
+
+CLUSTER = False
 
 
 

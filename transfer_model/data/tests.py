@@ -1,7 +1,8 @@
+import os
 import unittest
 
 from .data_analysis import GetData, SteadyStateData
-from transfer_model import REPLACEMENT_NAMES
+from transfer_model import *
 
 
 class ExperimentalDataProcessingTests(unittest.TestCase):
@@ -119,12 +120,27 @@ class ExperimentalDataProcessingTests(unittest.TestCase):
         self.assertEqual(actual, expected)
 
     def test_plot1(self):
-        gd = GetData('ZR75')
+        gd = GetData('ZR75', )
         gd.plot()
 
     def test_plot2(self):
         gd = GetData('T47D')
         gd.plot()
+
+    def test_plot_mcf7(self):
+        import pandas as pd
+        gd1 = GetData('T47D')
+        gd2 = GetData('ZR75')
+        data1 = gd1.normalised_to_coomassie_blue()
+        data2 = gd2.normalised_to_coomassie_blue()
+        df = pd.concat({
+            'MCF7_T47D': data1.loc['MCF7'],
+            'MCF7_ZR75': data2.loc['MCF7']
+        })
+        fname = os.path.join(DATA_DIRECTORY, 'MCF7_overlayed.png')
+        gd1.plot(data=df, fname=fname)
+        self.assertTrue(os.path.isfile(fname))
+
 
     def test_to_copasi_format(self):
         gd = GetData('T47D')
@@ -137,6 +153,20 @@ class ExperimentalDataProcessingTests(unittest.TestCase):
         expected = 0.3871902936254561
         actual = ic
         self.assertEqual(expected, actual)
+
+    def test_Get_ic2(self):
+        gd = GetData('ZR75')
+        data = gd.normalised_to_coomassie_blue()
+        data = data.stack().groupby(level=['cell_line', 'time']).mean()
+        print(data.loc['ZR75', 0])
+        # ics = gd.get_initial_conc_params()
+        # for k, v in ics['ZR75'].items():
+        #     print(k, v)
+
+        # ic = ics['MCF7']['PRAS40pT246']
+        # expected = 0.3871902936254561
+        # actual = ic
+        # self.assertEqual(expected, actual)
 
     def test_median_norm(self):
         gd = GetData('T47D')

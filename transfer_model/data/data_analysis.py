@@ -23,7 +23,7 @@ class GetData:
     t47d_data = T47D_DATA
     steadystate_data = STEADY_STATE_DATA
 
-    def __init__(self, cell_line='ZR75', mean_or_median='mean'):
+    def __init__(self, cell_line='ZR75', mean_or_median='mean', **kwargs):
         if cell_line == 'ZR75':
             self.workbook = xlrd.open_workbook(self.zr75_data)
         elif cell_line == 'T47D':
@@ -32,6 +32,7 @@ class GetData:
             self.workbook = xlrd.open_workbook(self.steadystate_data)
         else:
             raise ValueError
+        self.kwargs = kwargs
         self.cell_line = cell_line
         self.mean_or_median = mean_or_median
 
@@ -175,7 +176,7 @@ class GetData:
         #     data[tprotein] = data[total_proteins] + OFFSET_PARAMETER
         # return data
 
-    def interpolate(self, data=None, num=12, kind='linear', **kwargs):
+    def interpolate(self, data=None, num=12):
         """
         Interpolate the dataset usingg scipy.interpolate.interp1d. **kwargs get passed on to interp1d
         Args:
@@ -186,14 +187,24 @@ class GetData:
         Returns:
 
         """
+        if self.kwargs.get('interpolate_kind') is None:
+            return self.normalised_to_coomassie_blue()
+        else:
+            kind = self.kwargs.get('interpolation_kind')
+
+        if self.kwargs.get('interpolation_num') is None:
+            num = 12
+        else:
+            num = self.kwargs.get('interpolation_num')
+
         if data is None:
             data = self.normalised_to_coomassie_blue()
 
         def interpolate1(x, y):
-            f = interp1d(x, y, kind=kind, **kwargs)
+            f = interp1d(x, y, kind=kind)
             new_x = np.linspace(x[0], x[-1], num)
             new_y = f(new_x)
-            return (new_x, new_y)
+            return new_x, new_y
 
         outer_dct = {}
         for cell_line in list(set(data.index.get_level_values(0))):
@@ -219,10 +230,10 @@ class GetData:
             outer_dct[cell_line] = pandas.concat(middle_dct, axis=1)
         df = pandas.concat(outer_dct)
         df.index.names = ['cell_line', 'time']
-        return df
+        return df[sorted(df.columns)]
 
     def plot(self, data=None, plot_selection={}, subplot_titles={},
-             ncols=5, wspace=0.05, hspace=0.2, **kwargs):
+             ncols=5, wspace=0.05, hspace=0.2, fname=None, **kwargs):
 
         if plot_selection == {}:
             plot_selection = {
@@ -266,6 +277,7 @@ class GetData:
             nrows += 1
 
         if data is None:
+            print('getting data from normalised to coomassie blue')
             data = self.normalised_to_coomassie_blue()
         data = data.stack()
         data.index.names = ['cell_line', 'time', 'repeat']
@@ -273,7 +285,8 @@ class GetData:
         avg = data.groupby(['cell_line', 'time']).mean()
         sem = data.groupby(['cell_line', 'time']).sem()
 
-        line_styles = {'MCF7': '-', 'ZR75': '--', 'T47D': '-.'}
+        line_styles = {'MCF7': '-', 'ZR75': '--', 'T47D': '-.',
+                       'MCF7_T47D': '-', 'MCF7_ZR75': '--'}
 
         import matplotlib.lines as mlines
         import matplotlib.patches as mpatch
@@ -314,40 +327,10 @@ class GetData:
         plt.show()
         # plt.gca().annotate('Time (min)', xy=(0.1, 0.5), xytext=(0.1, 0.5), xycoords='figure fraction')
         # plt.suptitle('Insulin Stimulation: {}'.format(cell_line))
-        fname = os.path.join(DATA_DIRECTORY,
-                             'experimental_data_ZR75.png' if 'ZR75' in cell_lines else 'experimental_data_T47D.png')
-        fig.savefig(fname, dpi=300, bbox_inches='tight')
-
-    def to_copasi_format(self, prefix='not_interpolated', interpolation_num=None):
-        total_proteins = ['IRS1', 'Akt', 'TSC2', 'S6K', 'FourEBP1',
-                          'PRAS40', 'p38', 'ERK']
-        data = self.normalised_to_coomassie_blue()
-        if interpolation_num is not None:
-            data = self.interpolate(data, num=interpolation_num)
-        data = data.stack()
-        avg = data.groupby(['cell_line', 'time']).mean()
-        df_dct = {}
-        for label, df in avg.groupby(level=['cell_line']):
-            ics = df.iloc[[0]]
-            ics = pandas.concat([ics] * df.shape[0], axis=0)
-            ics.index = df.index
-            ics = ics.drop(total_proteins, axis=1)
-            ics.columns = [f'{i}_indep' for i in ics.columns]
-            ics['Insulin_indep'] = 1
-            ics['AA_indep'] = 1
-
-            df2 = pandas.concat([df, ics], axis=1)
-            df2 = df2.loc[label]
-
-            df2 = df2.dropna(how='all', axis=1)
+        if fname is None:
             fname = os.path.join(
-                T47D_COPASI_FORMATED_DATA if self.cell_line == 'T47D' else ZR75_COPASI_FORMATED_DATA,
-                f'{prefix}_{label}.csv'
-            )
-            df2 = df2.drop(total_proteins, axis=1)
-            df2.to_csv(fname)
-            df_dct[label] = df2
-        return df_dct
+                DATA_DIRECTORY, 'experimental_data_ZR75.png' if 'ZR75' in cell_lines else 'experimental_data_T47D.png')
+        fig.savefig(fname, dpi=300, bbox_inches='tight')
 
     def get_initial_conc_params(self):
         """
@@ -388,6 +371,56 @@ class GetData:
             self.plot(df)
 
         return df
+
+    def to_copasi_format(self, prefix='not_interpolated', **interp_kwargs):
+        total_proteins = ['IRS1', 'Akt', 'TSC2', 'S6K', 'FourEBP1',
+                          'PRAS40', 'p38', 'ERK']
+        # total_proteins = [f'{i}_obs' for i in total_proteins]
+        data = self.normalised_to_coomassie_blue()
+        num = interp_kwargs.get('num')
+        if num is not None:
+            data = self.interpolate(data, **interp_kwargs)
+        data = data.stack()
+        # data.columns = [f'{i}_obs' for i in data.columns]
+        avg = data.groupby(['cell_line', 'time']).mean()
+        df_dct = {}
+        ics_as_ss = {}
+        for label, df in avg.groupby(level=['cell_line']):
+            ics = df.iloc[[0]]
+            # initial concentration parameter will be fit as a steady state without stimulation
+            ics_as_ss = ics.copy()
+            ics_as_ss = ics_as_ss.drop(total_proteins, axis=1)
+            ics_as_ss['Insulin_indep'] = 0
+            ics_as_ss['AA_indep'] = 0
+            for i in ics_as_ss.columns:
+                ics_as_ss[f'{i}_indep'] = float(ics_as_ss[i])
+            fname = os.path.join(
+                T47D_COPASI_FORMATED_DATA if self.cell_line == 'T47D' else ZR75_COPASI_FORMATED_DATA,
+                f'{prefix}_{label}_steady_state.csv'
+            )
+            ics_as_ss.to_csv(fname, index=False)
+
+
+            # time series data
+            ics = pandas.concat([ics] * df.shape[0], axis=0)
+            ics.index = df.index
+            ics = ics.drop(total_proteins, axis=1)
+            ics.columns = [f'{i}_indep' for i in ics.columns]
+            ics['Insulin_indep'] = 1
+            ics['AA_indep'] = 1
+
+            df2 = pandas.concat([df, ics], axis=1)
+            df2 = df2.loc[label]
+
+            df2 = df2.dropna(how='all', axis=1)
+            fname = os.path.join(
+                T47D_COPASI_FORMATED_DATA if self.cell_line == 'T47D' else ZR75_COPASI_FORMATED_DATA,
+                f'{prefix}_{label}.csv'
+            )
+            df2 = df2.drop(total_proteins, axis=1)
+            df2.to_csv(fname)
+            df_dct[label] = df2
+        return df_dct
 
 
 class SteadyStateData(GetData):
@@ -474,6 +507,7 @@ class SteadyStateData(GetData):
         mean = mean.transpose()
         for i in list(set(mean.index.get_level_values(0))):
             d = pandas.DataFrame(mean.loc[i]).transpose()
+            # d.columns = [f'{i}_obs' for i in d.columns]
             d['Insulin_indep'] = 1
             d['AA_indep'] = 1
             indeps = {}

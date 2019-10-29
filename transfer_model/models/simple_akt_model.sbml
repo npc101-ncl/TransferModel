@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Created by libAntimony version v2.9.4 with libSBML version 5.15.0. -->
+<!-- Created by libAntimony version v2.11.0 with libSBML version 5.18.0. -->
 <sbml xmlns="http://www.sbml.org/sbml/level3/version1/core" level="3" version="1">
-  <model id="SimpleAktModel" name="SimpleAktModel">
+  <model metaid="AktModelWithMMRateLaws" id="AktModelWithMMRateLaws">
     <listOfFunctionDefinitions>
       <functionDefinition id="MM">
         <math xmlns="http://www.w3.org/1998/Math/MathML">
@@ -488,23 +488,24 @@
       <parameter id="AA" value="1" constant="true"/>
       <parameter id="_kIRS1Act" value="0.1" constant="true"/>
       <parameter id="_kIRS1Inact" value="0.1" constant="true"/>
-      <parameter id="kIRS1Phos" value="0.1" constant="true"/>
+      <parameter id="_kIRS1Phos" value="0.1" constant="true"/>
       <parameter id="_kPI3KPhos" value="0.1" constant="true"/>
-      <parameter id="kPI3KDephos" value="0.1" constant="true"/>
-      <parameter id="_kAktPhos" value="0.1" constant="true"/>
-      <parameter id="kAktDephos" value="0.1" constant="true"/>
-      <parameter id="kTSC2Phos" value="0.1" constant="true"/>
+      <parameter id="_kPI3KDephos" value="0.1" constant="true"/>
+      <parameter id="_kAktPhos_km" value="0.1" constant="true"/>
+      <parameter id="_kAktPhos_kcat" value="0.1" constant="true"/>
+      <parameter id="_kAktDephos" value="0.1" constant="true"/>
+      <parameter id="_kTSC2Phos" value="0.1" constant="true"/>
       <parameter id="_kTSC2Dephos" value="0.1" constant="true"/>
       <parameter id="_kmTORC1cytToLys" value="0.1" constant="true"/>
       <parameter id="_kmTORC1LysToCyt" value="0.1" constant="true"/>
       <parameter id="_kmTORC1Phos" value="0.1" constant="true"/>
-      <parameter id="kmTORC1Dephos" value="0.1" constant="true"/>
+      <parameter id="_kmTORC1Dephos" value="0.1" constant="true"/>
       <parameter id="_kPras40Phos" value="0.1" constant="true"/>
-      <parameter id="kPras40Dephos" value="0.1" constant="true"/>
+      <parameter id="_kPras40Dephos" value="0.1" constant="true"/>
       <parameter id="_kFourEBP1Phos" value="0.1" constant="true"/>
-      <parameter id="kFourEBP1Dephos" value="0.1" constant="true"/>
+      <parameter id="_kFourEBP1Dephos" value="0.1" constant="true"/>
       <parameter id="_kS6KPhos" value="0.1" constant="true"/>
-      <parameter id="kS6KDephos" value="0.1" constant="true"/>
+      <parameter id="_kS6KDephos" value="0.1" constant="true"/>
     </listOfParameters>
     <listOfReactions>
       <reaction id="R1f" reversible="false" fast="false">
@@ -541,7 +542,7 @@
             <apply>
               <times/>
               <ci> Cell </ci>
-              <ci> kIRS1Phos </ci>
+              <ci> _kIRS1Phos </ci>
               <ci> IRS1a </ci>
               <ci> S6KpT389 </ci>
             </apply>
@@ -600,7 +601,7 @@
             <apply>
               <times/>
               <ci> Cell </ci>
-              <ci> kPI3KDephos </ci>
+              <ci> _kPI3KDephos </ci>
               <ci> pPI3K </ci>
             </apply>
           </math>
@@ -621,9 +622,13 @@
             <apply>
               <times/>
               <ci> Cell </ci>
-              <ci> _kAktPhos </ci>
-              <ci> Akt </ci>
-              <ci> pPI3K </ci>
+              <apply>
+                <ci> MMWithKcat </ci>
+                <ci> _kAktPhos_km </ci>
+                <ci> _kAktPhos_kcat </ci>
+                <ci> Akt </ci>
+                <ci> pPI3K </ci>
+              </apply>
             </apply>
           </math>
         </kineticLaw>
@@ -643,7 +648,7 @@
             <apply>
               <times/>
               <ci> Cell </ci>
-              <ci> kAktDephos </ci>
+              <ci> _kAktDephos </ci>
               <ci> pPI3K </ci>
               <ci> AktpT308 </ci>
             </apply>
@@ -665,7 +670,7 @@
             <apply>
               <times/>
               <ci> Cell </ci>
-              <ci> kTSC2Phos </ci>
+              <ci> _kTSC2Phos </ci>
               <ci> TSC2 </ci>
               <ci> AktpT308 </ci>
             </apply>
@@ -761,7 +766,7 @@
             <apply>
               <times/>
               <ci> Cell </ci>
-              <ci> kmTORC1Dephos </ci>
+              <ci> _kmTORC1Dephos </ci>
               <ci> pmTORC1 </ci>
             </apply>
           </math>
@@ -801,7 +806,7 @@
             <apply>
               <times/>
               <ci> Cell </ci>
-              <ci> kPras40Dephos </ci>
+              <ci> _kPras40Dephos </ci>
               <ci> PRAS40pT246 </ci>
             </apply>
           </math>
@@ -841,7 +846,7 @@
             <apply>
               <times/>
               <ci> Cell </ci>
-              <ci> kFourEBP1Dephos </ci>
+              <ci> _kFourEBP1Dephos </ci>
               <ci> FourEBP1pT37_46 </ci>
             </apply>
           </math>
@@ -881,7 +886,7 @@
             <apply>
               <times/>
               <ci> Cell </ci>
-              <ci> kS6KDephos </ci>
+              <ci> _kS6KDephos </ci>
               <ci> S6KpT389 </ci>
             </apply>
           </math>
