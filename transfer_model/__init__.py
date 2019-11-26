@@ -23,7 +23,7 @@ COPASI_FILE = os.path.join(MODELS_DIRECTORY, 'simple_akt_model.cps')
 # pickle files
 RANDOM_ICS_DTW_PICKLE = os.path.join(SIMULATION_DIRECTORY, 'random_ics.pickle')
 TIMESERIES_KMEANS_DATA_PICKLE = os.path.join(DATA_DIRECTORY, 'time_series_kmeans.pickle')
-
+EXTRACTED_FEATURES_PICKLE = os.path.join(DATA_DIRECTORY, 'extracted_features.pickle')
 
 # an offset parameter to ensure total proteins are not present in greater
 #  amounts than their phospho counterparts
@@ -60,7 +60,7 @@ REPLACEMENT_NAMES = {
 #  i.e. express these two cell lines as amounts relative to MCF7
 
 # flags that change program behaviour
-WRITE_COPASI_FORMATTED_DATA = True
+WRITE_COPASI_FORMATTED_DATA = False
 
 OPEN_WITH_COPASI = False
 
