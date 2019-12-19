@@ -370,6 +370,67 @@ class TheModel:
 
         return clusters
 
+    @staticmethod
+    def features_extractions(data, from_pickle=False, pickle_file=EXTRACTED_FEATURES_PICKLE):
+        from tsfresh import extract_features, select_features
+        from tsfresh.utilities.dataframe_functions import impute
+        # remember that data is already scaled by the - time point
+
+        if from_pickle and os.path.isfile(pickle_file):
+            features = pd.read_pickle(pickle_file)
+        else:
+            features = extract_features(data, column_id='level_0', column_sort='time')
+
+        from sklearn.model_selection import train_test_split
+        from sklearn.cluster import KMeans
+        from sklearn.metrics import silhouette_score, calinski_harabasz_score, davies_bouldin_score
+        from scipy.stats import entropy
+        features = impute(features)
+
+        def calculate_entropy(data):
+            e = {}
+            for i in data.columns:
+                e[i] = entropy(data[i])
+            return pd.DataFrame(e, index=[0])
+
+        # features = features.replace.dropna(how='any', axis=0)
+        features = features.replace(0, np.nan).dropna(how='all', axis=1)
+
+
+
+        fname = os.path.join(DATA_DIRECTORY, 'featuresdf.csv')
+        print(fname)
+        features.to_csv(fname)
+        # total_entropy = calculate_entropy(features)
+        # print(features)
+        # print(total_entropy.sum(axis=1))
+
+        features = features.loc[:, features.ne(1).all()]
+        print(features)
+
+
+        # sscore = {}
+        # sh_score = {}
+        # db_score = {}
+        # for i in range(2, 20):
+        #     print('i is: ', i)
+        #     kmeans = KMeans(n_clusters=i, n_init=20)
+        #     kmeans.fit_transform(features)
+        #     labels = kmeans.labels_
+        #     sscore[i] = silhouette_score(features, labels, metric='euclidean')
+        #     sh_score[i] = calinski_harabasz_score(features, labels)
+        #     db_score[i] = davies_bouldin_score(features, labels)
+        #
+        # plt.figure()
+        # plt.plot(list(sscore.keys()), [i/max(list(sscore.values())) for i in  list(sscore.values())], marker='.')
+        # plt.plot(list(sh_score.keys()),[i/max(list(sh_score.values())) for i in list(sh_score.values())], marker='.')
+        # plt.plot(list(db_score.keys()), [i/max(list(db_score.values())) for i in list(db_score.values())], marker='.')
+        # plt.show()
+
+
+
+        # features.to_pickle(pickle_file)
+
 
 
 
@@ -381,6 +442,9 @@ if __name__ == '__main__':
     if CLUSTER:
         # on krutik's cluster
         WORKING_DIRECTORY = '/mnt/nfs/home/b7053098/ciaran/TransferModel'
+
+        # on my new cluster
+        WORKING_DIRECTORY = '/mnt/nfs/home/ncw135/TransferModel'
 
     py_mod = model.loada(TheModel.model_string, copasi_file=COPASI_FILE)
     py_mod = tasks.TimeCourse(py_mod, start=0, end=150).model
@@ -417,17 +481,20 @@ if __name__ == '__main__':
             context.set('upper_bound', 10)
             context.set('randomize_start_values', True)
             # context.set('method', 'genetic_algorithm')
-            context.set('method', 'hooke_jeeves')
+            context.set('method', 'particle_swarm')
             context.set('number_of_generations', 400)
             context.set('population_size', 80)
-            context.set('problem', 'Problem3')
+            context.set('swarm_size', 100)
+            context.set('iteration_limit', 2000)
+            context.set('problem', 'Problem4')
+            context.set('fit', 1)
             config = context.get_config()
 
         # print(config)
         # config = tasks.ParameterEstimation.Config.from_yaml(yml=PARAMETER_ESTIMATION_CONFIG_YAML)
         pe = tasks.ParameterEstimation(config)
         py_mod = pe.models['simple_akt_model'].model
-        py_mod.open()
+        # py_mod.open()
 
         PLOT_PE = False
         if PLOT_PE:
@@ -629,60 +696,17 @@ if __name__ == '__main__':
         the_model = TheModel()
         mod = the_model.rr
 
-        # for i in sorted(dir(mod)):
-        #     print(i)
         fname = os.path.join(RANDOM_ICS_DIR, 'random_initial_concentration_results.png')
         simulation = the_model.randomize_initial_conc_simulations(
             mod, plot=False, filename=fname, n=50, estimator=None,
         )
 
-        clusters = the_model.time_series_kmeans(
-            simulation, from_pickle=False,
-            n_clusters=4, metric='dtw', n_init=10,
-            n_jobs=7
+
+        simulation = simulation.reset_index()
+        TheModel.features_extractions(
+            simulation, from_pickle=True
         )
-        df = pd.DataFrame(clusters)
-        print(df)
-
-        # fname = os.path.join(RANDOM_ICS_DIR, 'dtw_cluster.png')
-
-        # import time
-        # st = time.time()
-        # time of computation for n=50 = 68.5916998386383
-        # the_model.calculate_dtw(
-        #     simulation, filename=fname, plot=True,
-        #     from_pickle=False
-        # )
-
-        # time of computation for n=50 = 24.356016159057617
-        # dist = the_model.calculate_dtw_parallel(
-        #     simulation, filename=fname, plot=False,
-        #     from_pickle=True,
-        #     # pickle_file=RANDOM_ICS_DTW_PICKLE[:-7]+ f'2.pickle',
-        #     pickle_file=RANDOM_ICS_DTW_PICKLE
-        # )
-        # end = time.time() - st
-        # print('program took', end, 'seconds')
-        #
-        # dist = dist / dist.max().max()
-        # dist = pd.DataFrame(dist.stack()).reset_index()
-        # dist.columns = ['i', 'j', 'dtw']
-        # dist = dist[(dist['dtw'] < 0.01) & (dist['dtw'] != 0.0) ].reset_index(drop=True)
-        #
-        # #get unique rows
-        # import plotly.graph_objects as go
-        # import networkx as nx
-        #
-        #
-        # print(dist)
-        #
-        # G = nx.Graph()
-        # for idx in dist.index:
-        #     G.add_edge(dist.loc[idx, 'i'], dist.loc[idx, 'j'], dtw=dist.loc[idx, 'dtw'])
-        #
-        # nx.draw(G)
-        #
-        # plt.show()
+        # print(simulation)
 
 
 
@@ -690,9 +714,7 @@ if __name__ == '__main__':
 
 
 
-
-
-
+# q learning for feature selection
 
 
 

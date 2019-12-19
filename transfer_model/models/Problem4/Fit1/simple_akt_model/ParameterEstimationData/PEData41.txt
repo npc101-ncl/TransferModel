@@ -1,0 +1,2 @@
+TaskList[Parameter Estimation].(Problem)Parameter Estimation.Best Parameters	TaskList[Parameter Estimation].(Problem)Parameter Estimation.Best Value
+(	0.00201608	5.03441	0.709364	1.16867	3.85804	0.0010001	0.00664953	9.85397	2.23097	0.112235	1.82527	0.228791	0.97105	2.42189	0.00100035	7.72392	0.0671376	8.60912	3.44443	9.98222	)	7.47246
