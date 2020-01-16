@@ -1,4 +1,4 @@
-<COPASI xmlns="http://www.copasi.org/static/schema" versionMajor="4" versionMinor="25" versionDevel="207" copasiSourcesModified="0">
+<COPASI xmlns="http://www.copasi.org/static/schema" versionMajor="4" versionMinor="27" versionDevel="217" copasiSourcesModified="0">
   <ListOfFunctions>
     <Function key="Function_13" name="Mass action (irreversible)" type="MassAction" reversible="false">
       <MiriamAnnotation>
@@ -30,7 +30,7 @@ Reaction scheme where the products are created from the reactants and the change
           <rdf:Description rdf:about="#Function_51">
             <dcterms:created>
               <rdf:Description>
-                <dcterms:W3CDTF>2019-11-26T13:07:34Z</dcterms:W3CDTF>
+                <dcterms:W3CDTF>2019-12-19T21:18:42Z</dcterms:W3CDTF>
               </rdf:Description>
             </dcterms:created>
           </rdf:Description>
@@ -51,7 +51,7 @@ Reaction scheme where the products are created from the reactants and the change
           <rdf:Description rdf:about="#Function_52">
             <dcterms:created>
               <rdf:Description>
-                <dcterms:W3CDTF>2019-11-26T13:07:34Z</dcterms:W3CDTF>
+                <dcterms:W3CDTF>2019-12-19T21:18:42Z</dcterms:W3CDTF>
               </rdf:Description>
             </dcterms:created>
           </rdf:Description>
@@ -72,7 +72,7 @@ Reaction scheme where the products are created from the reactants and the change
           <rdf:Description rdf:about="#Function_53">
             <dcterms:created>
               <rdf:Description>
-                <dcterms:W3CDTF>2019-11-26T13:07:34Z</dcterms:W3CDTF>
+                <dcterms:W3CDTF>2019-12-19T21:18:42Z</dcterms:W3CDTF>
               </rdf:Description>
             </dcterms:created>
           </rdf:Description>
@@ -93,7 +93,7 @@ Reaction scheme where the products are created from the reactants and the change
           <rdf:Description rdf:about="#Function_54">
             <dcterms:created>
               <rdf:Description>
-                <dcterms:W3CDTF>2019-11-26T13:07:34Z</dcterms:W3CDTF>
+                <dcterms:W3CDTF>2019-12-19T21:18:42Z</dcterms:W3CDTF>
               </rdf:Description>
             </dcterms:created>
           </rdf:Description>
@@ -115,7 +115,7 @@ Reaction scheme where the products are created from the reactants and the change
           <rdf:Description rdf:about="#Function_55">
             <dcterms:created>
               <rdf:Description>
-                <dcterms:W3CDTF>2019-11-26T13:07:34Z</dcterms:W3CDTF>
+                <dcterms:W3CDTF>2019-12-19T21:18:42Z</dcterms:W3CDTF>
               </rdf:Description>
             </dcterms:created>
           </rdf:Description>
@@ -136,7 +136,7 @@ Reaction scheme where the products are created from the reactants and the change
           <rdf:Description rdf:about="#Function_56">
             <dcterms:created>
               <rdf:Description>
-                <dcterms:W3CDTF>2019-11-26T13:07:34Z</dcterms:W3CDTF>
+                <dcterms:W3CDTF>2019-12-19T21:18:42Z</dcterms:W3CDTF>
               </rdf:Description>
             </dcterms:created>
           </rdf:Description>
@@ -157,7 +157,7 @@ Reaction scheme where the products are created from the reactants and the change
           <rdf:Description rdf:about="#Function_57">
             <dcterms:created>
               <rdf:Description>
-                <dcterms:W3CDTF>2019-11-26T13:07:34Z</dcterms:W3CDTF>
+                <dcterms:W3CDTF>2019-12-19T21:18:42Z</dcterms:W3CDTF>
               </rdf:Description>
             </dcterms:created>
           </rdf:Description>
@@ -178,7 +178,7 @@ Reaction scheme where the products are created from the reactants and the change
           <rdf:Description rdf:about="#Function_58">
             <dcterms:created>
               <rdf:Description>
-                <dcterms:W3CDTF>2019-11-26T13:07:34Z</dcterms:W3CDTF>
+                <dcterms:W3CDTF>2019-12-19T21:18:42Z</dcterms:W3CDTF>
               </rdf:Description>
             </dcterms:created>
           </rdf:Description>
@@ -199,7 +199,7 @@ Reaction scheme where the products are created from the reactants and the change
           <rdf:Description rdf:about="#Function_59">
             <dcterms:created>
               <rdf:Description>
-                <dcterms:W3CDTF>2019-11-26T13:07:34Z</dcterms:W3CDTF>
+                <dcterms:W3CDTF>2019-12-19T21:18:42Z</dcterms:W3CDTF>
               </rdf:Description>
             </dcterms:created>
           </rdf:Description>
@@ -220,7 +220,7 @@ Reaction scheme where the products are created from the reactants and the change
           <rdf:Description rdf:about="#Function_60">
             <dcterms:created>
               <rdf:Description>
-                <dcterms:W3CDTF>2019-11-26T13:07:34Z</dcterms:W3CDTF>
+                <dcterms:W3CDTF>2019-12-19T21:18:42Z</dcterms:W3CDTF>
               </rdf:Description>
             </dcterms:created>
           </rdf:Description>
@@ -241,7 +241,7 @@ Reaction scheme where the products are created from the reactants and the change
           <rdf:Description rdf:about="#Function_61">
             <dcterms:created>
               <rdf:Description>
-                <dcterms:W3CDTF>2019-11-26T13:07:34Z</dcterms:W3CDTF>
+                <dcterms:W3CDTF>2019-12-19T21:18:42Z</dcterms:W3CDTF>
               </rdf:Description>
             </dcterms:created>
           </rdf:Description>
@@ -263,7 +263,7 @@ Reaction scheme where the products are created from the reactants and the change
         <rdf:Description rdf:about="#Model_1">
           <dcterms:created>
             <rdf:Description>
-              <dcterms:W3CDTF>2019-11-26T13:07:34Z</dcterms:W3CDTF>
+              <dcterms:W3CDTF>2019-12-19T21:18:42Z</dcterms:W3CDTF>
             </rdf:Description>
           </dcterms:created>
         </rdf:Description>
@@ -276,7 +276,7 @@ Reaction scheme where the products are created from the reactants and the change
             <rdf:Description rdf:about="#Compartment_0">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-11-26T13:07:34Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-12-19T21:18:42Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
@@ -291,7 +291,7 @@ Reaction scheme where the products are created from the reactants and the change
             <rdf:Description rdf:about="#Metabolite_0">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-11-26T13:07:34Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-12-19T21:18:42Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
@@ -304,7 +304,7 @@ Reaction scheme where the products are created from the reactants and the change
             <rdf:Description rdf:about="#Metabolite_1">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-11-26T13:07:34Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-12-19T21:18:42Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
@@ -317,7 +317,7 @@ Reaction scheme where the products are created from the reactants and the change
             <rdf:Description rdf:about="#Metabolite_2">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-11-26T13:07:34Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-12-19T21:18:42Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
@@ -330,7 +330,7 @@ Reaction scheme where the products are created from the reactants and the change
             <rdf:Description rdf:about="#Metabolite_3">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-11-26T13:07:34Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-12-19T21:18:42Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
@@ -343,7 +343,7 @@ Reaction scheme where the products are created from the reactants and the change
             <rdf:Description rdf:about="#Metabolite_4">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-11-26T13:07:34Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-12-19T21:18:42Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
@@ -356,7 +356,7 @@ Reaction scheme where the products are created from the reactants and the change
             <rdf:Description rdf:about="#Metabolite_5">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-11-26T13:07:34Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-12-19T21:18:42Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
@@ -369,7 +369,7 @@ Reaction scheme where the products are created from the reactants and the change
             <rdf:Description rdf:about="#Metabolite_6">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-11-26T13:07:34Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-12-19T21:18:42Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
@@ -382,7 +382,7 @@ Reaction scheme where the products are created from the reactants and the change
             <rdf:Description rdf:about="#Metabolite_7">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-11-26T13:07:34Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-12-19T21:18:42Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
@@ -395,7 +395,7 @@ Reaction scheme where the products are created from the reactants and the change
             <rdf:Description rdf:about="#Metabolite_8">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-11-26T13:07:34Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-12-19T21:18:42Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
@@ -408,7 +408,7 @@ Reaction scheme where the products are created from the reactants and the change
             <rdf:Description rdf:about="#Metabolite_9">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-11-26T13:07:34Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-12-19T21:18:42Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
@@ -421,7 +421,7 @@ Reaction scheme where the products are created from the reactants and the change
             <rdf:Description rdf:about="#Metabolite_10">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-11-26T13:07:34Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-12-19T21:18:42Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
@@ -434,7 +434,7 @@ Reaction scheme where the products are created from the reactants and the change
             <rdf:Description rdf:about="#Metabolite_11">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-11-26T13:07:34Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-12-19T21:18:42Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
@@ -447,7 +447,7 @@ Reaction scheme where the products are created from the reactants and the change
             <rdf:Description rdf:about="#Metabolite_12">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-11-26T13:07:34Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-12-19T21:18:42Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
@@ -460,7 +460,7 @@ Reaction scheme where the products are created from the reactants and the change
             <rdf:Description rdf:about="#Metabolite_13">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-11-26T13:07:34Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-12-19T21:18:42Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
@@ -473,7 +473,7 @@ Reaction scheme where the products are created from the reactants and the change
             <rdf:Description rdf:about="#Metabolite_14">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-11-26T13:07:34Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-12-19T21:18:42Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
@@ -486,7 +486,7 @@ Reaction scheme where the products are created from the reactants and the change
             <rdf:Description rdf:about="#Metabolite_15">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-11-26T13:07:34Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-12-19T21:18:42Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
@@ -499,7 +499,7 @@ Reaction scheme where the products are created from the reactants and the change
             <rdf:Description rdf:about="#Metabolite_16">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-11-26T13:07:34Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-12-19T21:18:42Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
@@ -512,7 +512,7 @@ Reaction scheme where the products are created from the reactants and the change
             <rdf:Description rdf:about="#Metabolite_17">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-11-26T13:07:34Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-12-19T21:18:42Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
@@ -527,7 +527,7 @@ Reaction scheme where the products are created from the reactants and the change
             <rdf:Description rdf:about="#ModelValue_0">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-11-26T13:07:34Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-12-19T21:18:42Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
@@ -540,7 +540,7 @@ Reaction scheme where the products are created from the reactants and the change
             <rdf:Description rdf:about="#ModelValue_1">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-11-26T13:07:34Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-12-19T21:18:42Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
@@ -553,7 +553,7 @@ Reaction scheme where the products are created from the reactants and the change
             <rdf:Description rdf:about="#ModelValue_2">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-11-26T13:07:34Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-12-19T21:18:42Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
@@ -566,7 +566,7 @@ Reaction scheme where the products are created from the reactants and the change
             <rdf:Description rdf:about="#ModelValue_3">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-11-26T13:07:34Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-12-19T21:18:42Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
@@ -579,7 +579,7 @@ Reaction scheme where the products are created from the reactants and the change
             <rdf:Description rdf:about="#ModelValue_4">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-11-26T13:07:34Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-12-19T21:18:42Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
@@ -592,7 +592,7 @@ Reaction scheme where the products are created from the reactants and the change
             <rdf:Description rdf:about="#ModelValue_5">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-11-26T13:07:34Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-12-19T21:18:42Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
@@ -605,7 +605,7 @@ Reaction scheme where the products are created from the reactants and the change
             <rdf:Description rdf:about="#ModelValue_6">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-11-26T13:07:34Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-12-19T21:18:42Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
@@ -618,7 +618,7 @@ Reaction scheme where the products are created from the reactants and the change
             <rdf:Description rdf:about="#ModelValue_7">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-11-26T13:07:34Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-12-19T21:18:42Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
@@ -631,7 +631,7 @@ Reaction scheme where the products are created from the reactants and the change
             <rdf:Description rdf:about="#ModelValue_8">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-11-26T13:07:34Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-12-19T21:18:42Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
@@ -644,7 +644,7 @@ Reaction scheme where the products are created from the reactants and the change
             <rdf:Description rdf:about="#ModelValue_9">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-11-26T13:07:34Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-12-19T21:18:42Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
@@ -657,7 +657,7 @@ Reaction scheme where the products are created from the reactants and the change
             <rdf:Description rdf:about="#ModelValue_10">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-11-26T13:07:34Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-12-19T21:18:42Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
@@ -670,7 +670,7 @@ Reaction scheme where the products are created from the reactants and the change
             <rdf:Description rdf:about="#ModelValue_11">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-11-26T13:07:34Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-12-19T21:18:42Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
@@ -683,7 +683,7 @@ Reaction scheme where the products are created from the reactants and the change
             <rdf:Description rdf:about="#ModelValue_12">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-11-26T13:07:34Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-12-19T21:18:42Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
@@ -696,7 +696,7 @@ Reaction scheme where the products are created from the reactants and the change
             <rdf:Description rdf:about="#ModelValue_13">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-11-26T13:07:34Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-12-19T21:18:42Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
@@ -709,7 +709,7 @@ Reaction scheme where the products are created from the reactants and the change
             <rdf:Description rdf:about="#ModelValue_14">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-11-26T13:07:34Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-12-19T21:18:42Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
@@ -722,7 +722,7 @@ Reaction scheme where the products are created from the reactants and the change
             <rdf:Description rdf:about="#ModelValue_15">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-11-26T13:07:34Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-12-19T21:18:42Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
@@ -735,7 +735,7 @@ Reaction scheme where the products are created from the reactants and the change
             <rdf:Description rdf:about="#ModelValue_16">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-11-26T13:07:34Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-12-19T21:18:42Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
@@ -748,7 +748,7 @@ Reaction scheme where the products are created from the reactants and the change
             <rdf:Description rdf:about="#ModelValue_17">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-11-26T13:07:34Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-12-19T21:18:42Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
@@ -761,7 +761,7 @@ Reaction scheme where the products are created from the reactants and the change
             <rdf:Description rdf:about="#ModelValue_18">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-11-26T13:07:34Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-12-19T21:18:42Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
@@ -774,7 +774,7 @@ Reaction scheme where the products are created from the reactants and the change
             <rdf:Description rdf:about="#ModelValue_19">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-11-26T13:07:34Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-12-19T21:18:42Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
@@ -787,7 +787,7 @@ Reaction scheme where the products are created from the reactants and the change
             <rdf:Description rdf:about="#ModelValue_20">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-11-26T13:07:34Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-12-19T21:18:42Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
@@ -800,7 +800,7 @@ Reaction scheme where the products are created from the reactants and the change
             <rdf:Description rdf:about="#ModelValue_21">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-11-26T13:07:34Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-12-19T21:18:42Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
@@ -815,7 +815,7 @@ Reaction scheme where the products are created from the reactants and the change
             <rdf:Description rdf:about="#Reaction_0">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-11-26T13:07:34Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-12-19T21:18:42Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
@@ -828,8 +828,8 @@ Reaction scheme where the products are created from the reactants and the change
           <Product metabolite="Metabolite_1" stoichiometry="1"/>
         </ListOfProducts>
         <ListOfConstants>
-          <Constant key="Parameter_5013" name="Insulin" value="1"/>
-          <Constant key="Parameter_5012" name="_kIRS1Act" value="0.1"/>
+          <Constant key="Parameter_5385" name="Insulin" value="1"/>
+          <Constant key="Parameter_5384" name="_kIRS1Act" value="0.1"/>
         </ListOfConstants>
         <KineticLaw function="Function_51" unitType="Default" scalingCompartment="CN=Root,Model=NoName,Vector=Compartments[Cell]">
           <ListOfCallParameters>
@@ -851,7 +851,7 @@ Reaction scheme where the products are created from the reactants and the change
             <rdf:Description rdf:about="#Reaction_1">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-11-26T13:07:34Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-12-19T21:18:42Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
@@ -867,7 +867,7 @@ Reaction scheme where the products are created from the reactants and the change
           <Modifier metabolite="Metabolite_10" stoichiometry="1"/>
         </ListOfModifiers>
         <ListOfConstants>
-          <Constant key="Parameter_5011" name="_kIRS1Phos" value="0.1"/>
+          <Constant key="Parameter_5383" name="_kIRS1Phos" value="0.1"/>
         </ListOfConstants>
         <KineticLaw function="Function_52" unitType="Default" scalingCompartment="CN=Root,Model=NoName,Vector=Compartments[Cell]">
           <ListOfCallParameters>
@@ -889,7 +889,7 @@ Reaction scheme where the products are created from the reactants and the change
             <rdf:Description rdf:about="#Reaction_2">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-11-26T13:07:34Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-12-19T21:18:42Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
@@ -902,7 +902,7 @@ Reaction scheme where the products are created from the reactants and the change
           <Product metabolite="Metabolite_0" stoichiometry="1"/>
         </ListOfProducts>
         <ListOfConstants>
-          <Constant key="Parameter_5010" name="k1" value="0.1"/>
+          <Constant key="Parameter_5382" name="k1" value="0.1"/>
         </ListOfConstants>
         <KineticLaw function="Function_13" unitType="Default" scalingCompartment="CN=Root,Model=NoName,Vector=Compartments[Cell]">
           <ListOfCallParameters>
@@ -921,7 +921,7 @@ Reaction scheme where the products are created from the reactants and the change
             <rdf:Description rdf:about="#Reaction_3">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-11-26T13:07:34Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-12-19T21:18:42Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
@@ -937,7 +937,7 @@ Reaction scheme where the products are created from the reactants and the change
           <Modifier metabolite="Metabolite_1" stoichiometry="1"/>
         </ListOfModifiers>
         <ListOfConstants>
-          <Constant key="Parameter_5009" name="_kPI3KPhos" value="0.1"/>
+          <Constant key="Parameter_5381" name="_kPI3KPhos" value="0.1"/>
         </ListOfConstants>
         <KineticLaw function="Function_53" unitType="Default" scalingCompartment="CN=Root,Model=NoName,Vector=Compartments[Cell]">
           <ListOfCallParameters>
@@ -959,7 +959,7 @@ Reaction scheme where the products are created from the reactants and the change
             <rdf:Description rdf:about="#Reaction_4">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-11-26T13:07:34Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-12-19T21:18:42Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
@@ -972,7 +972,7 @@ Reaction scheme where the products are created from the reactants and the change
           <Product metabolite="Metabolite_13" stoichiometry="1"/>
         </ListOfProducts>
         <ListOfConstants>
-          <Constant key="Parameter_5008" name="k1" value="0.1"/>
+          <Constant key="Parameter_5380" name="k1" value="0.1"/>
         </ListOfConstants>
         <KineticLaw function="Function_13" unitType="Default" scalingCompartment="CN=Root,Model=NoName,Vector=Compartments[Cell]">
           <ListOfCallParameters>
@@ -991,7 +991,7 @@ Reaction scheme where the products are created from the reactants and the change
             <rdf:Description rdf:about="#Reaction_5">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-11-26T13:07:34Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-12-19T21:18:42Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
@@ -1007,8 +1007,8 @@ Reaction scheme where the products are created from the reactants and the change
           <Modifier metabolite="Metabolite_14" stoichiometry="1"/>
         </ListOfModifiers>
         <ListOfConstants>
-          <Constant key="Parameter_5007" name="_kAktPhos_kcat" value="0.1"/>
-          <Constant key="Parameter_5006" name="_kAktPhos_km" value="0.1"/>
+          <Constant key="Parameter_5379" name="_kAktPhos_kcat" value="0.1"/>
+          <Constant key="Parameter_5378" name="_kAktPhos_km" value="0.1"/>
         </ListOfConstants>
         <KineticLaw function="Function_54" unitType="Default" scalingCompartment="CN=Root,Model=NoName,Vector=Compartments[Cell]">
           <ListOfCallParameters>
@@ -1033,7 +1033,7 @@ Reaction scheme where the products are created from the reactants and the change
             <rdf:Description rdf:about="#Reaction_6">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-11-26T13:07:34Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-12-19T21:18:42Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
@@ -1049,7 +1049,7 @@ Reaction scheme where the products are created from the reactants and the change
           <Modifier metabolite="Metabolite_14" stoichiometry="1"/>
         </ListOfModifiers>
         <ListOfConstants>
-          <Constant key="Parameter_5005" name="_kAktDephos" value="0.1"/>
+          <Constant key="Parameter_5377" name="_kAktDephos" value="0.1"/>
         </ListOfConstants>
         <KineticLaw function="Function_55" unitType="Default" scalingCompartment="CN=Root,Model=NoName,Vector=Compartments[Cell]">
           <ListOfCallParameters>
@@ -1071,7 +1071,7 @@ Reaction scheme where the products are created from the reactants and the change
             <rdf:Description rdf:about="#Reaction_7">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-11-26T13:07:34Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-12-19T21:18:42Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
@@ -1087,7 +1087,7 @@ Reaction scheme where the products are created from the reactants and the change
           <Modifier metabolite="Metabolite_4" stoichiometry="1"/>
         </ListOfModifiers>
         <ListOfConstants>
-          <Constant key="Parameter_5004" name="_kTSC2Phos" value="0.1"/>
+          <Constant key="Parameter_5376" name="_kTSC2Phos" value="0.1"/>
         </ListOfConstants>
         <KineticLaw function="Function_56" unitType="Default" scalingCompartment="CN=Root,Model=NoName,Vector=Compartments[Cell]">
           <ListOfCallParameters>
@@ -1109,7 +1109,7 @@ Reaction scheme where the products are created from the reactants and the change
             <rdf:Description rdf:about="#Reaction_8">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-11-26T13:07:34Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-12-19T21:18:42Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
@@ -1122,7 +1122,7 @@ Reaction scheme where the products are created from the reactants and the change
           <Product metabolite="Metabolite_5" stoichiometry="1"/>
         </ListOfProducts>
         <ListOfConstants>
-          <Constant key="Parameter_5003" name="k1" value="0.1"/>
+          <Constant key="Parameter_5375" name="k1" value="0.1"/>
         </ListOfConstants>
         <KineticLaw function="Function_13" unitType="Default" scalingCompartment="CN=Root,Model=NoName,Vector=Compartments[Cell]">
           <ListOfCallParameters>
@@ -1141,7 +1141,7 @@ Reaction scheme where the products are created from the reactants and the change
             <rdf:Description rdf:about="#Reaction_9">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-11-26T13:07:34Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-12-19T21:18:42Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
@@ -1154,8 +1154,8 @@ Reaction scheme where the products are created from the reactants and the change
           <Product metabolite="Metabolite_17" stoichiometry="1"/>
         </ListOfProducts>
         <ListOfConstants>
-          <Constant key="Parameter_5002" name="AA" value="1"/>
-          <Constant key="Parameter_5001" name="_kmTORC1cytToLys" value="0.1"/>
+          <Constant key="Parameter_5374" name="AA" value="1"/>
+          <Constant key="Parameter_5373" name="_kmTORC1cytToLys" value="0.1"/>
         </ListOfConstants>
         <KineticLaw function="Function_57" unitType="Default" scalingCompartment="CN=Root,Model=NoName,Vector=Compartments[Cell]">
           <ListOfCallParameters>
@@ -1177,7 +1177,7 @@ Reaction scheme where the products are created from the reactants and the change
             <rdf:Description rdf:about="#Reaction_10">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-11-26T13:07:34Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-12-19T21:18:42Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
@@ -1190,7 +1190,7 @@ Reaction scheme where the products are created from the reactants and the change
           <Product metabolite="Metabolite_16" stoichiometry="1"/>
         </ListOfProducts>
         <ListOfConstants>
-          <Constant key="Parameter_5000" name="k1" value="0.1"/>
+          <Constant key="Parameter_5372" name="k1" value="0.1"/>
         </ListOfConstants>
         <KineticLaw function="Function_13" unitType="Default" scalingCompartment="CN=Root,Model=NoName,Vector=Compartments[Cell]">
           <ListOfCallParameters>
@@ -1209,7 +1209,7 @@ Reaction scheme where the products are created from the reactants and the change
             <rdf:Description rdf:about="#Reaction_11">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-11-26T13:07:34Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-12-19T21:18:42Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
@@ -1225,7 +1225,7 @@ Reaction scheme where the products are created from the reactants and the change
           <Modifier metabolite="Metabolite_5" stoichiometry="1"/>
         </ListOfModifiers>
         <ListOfConstants>
-          <Constant key="Parameter_4999" name="_kmTORC1Phos" value="0.1"/>
+          <Constant key="Parameter_5371" name="_kmTORC1Phos" value="0.1"/>
         </ListOfConstants>
         <KineticLaw function="Function_58" unitType="Default" scalingCompartment="CN=Root,Model=NoName,Vector=Compartments[Cell]">
           <ListOfCallParameters>
@@ -1247,7 +1247,7 @@ Reaction scheme where the products are created from the reactants and the change
             <rdf:Description rdf:about="#Reaction_12">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-11-26T13:07:34Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-12-19T21:18:42Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
@@ -1260,7 +1260,7 @@ Reaction scheme where the products are created from the reactants and the change
           <Product metabolite="Metabolite_17" stoichiometry="1"/>
         </ListOfProducts>
         <ListOfConstants>
-          <Constant key="Parameter_4998" name="k1" value="0.1"/>
+          <Constant key="Parameter_5370" name="k1" value="0.1"/>
         </ListOfConstants>
         <KineticLaw function="Function_13" unitType="Default" scalingCompartment="CN=Root,Model=NoName,Vector=Compartments[Cell]">
           <ListOfCallParameters>
@@ -1279,7 +1279,7 @@ Reaction scheme where the products are created from the reactants and the change
             <rdf:Description rdf:about="#Reaction_13">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-11-26T13:07:34Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-12-19T21:18:42Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
@@ -1295,7 +1295,7 @@ Reaction scheme where the products are created from the reactants and the change
           <Modifier metabolite="Metabolite_4" stoichiometry="1"/>
         </ListOfModifiers>
         <ListOfConstants>
-          <Constant key="Parameter_4997" name="_kPras40Phos" value="0.1"/>
+          <Constant key="Parameter_5369" name="_kPras40Phos" value="0.1"/>
         </ListOfConstants>
         <KineticLaw function="Function_59" unitType="Default" scalingCompartment="CN=Root,Model=NoName,Vector=Compartments[Cell]">
           <ListOfCallParameters>
@@ -1317,7 +1317,7 @@ Reaction scheme where the products are created from the reactants and the change
             <rdf:Description rdf:about="#Reaction_14">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-11-26T13:07:34Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-12-19T21:18:42Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
@@ -1330,7 +1330,7 @@ Reaction scheme where the products are created from the reactants and the change
           <Product metabolite="Metabolite_7" stoichiometry="1"/>
         </ListOfProducts>
         <ListOfConstants>
-          <Constant key="Parameter_4996" name="k1" value="0.1"/>
+          <Constant key="Parameter_5368" name="k1" value="0.1"/>
         </ListOfConstants>
         <KineticLaw function="Function_13" unitType="Default" scalingCompartment="CN=Root,Model=NoName,Vector=Compartments[Cell]">
           <ListOfCallParameters>
@@ -1349,7 +1349,7 @@ Reaction scheme where the products are created from the reactants and the change
             <rdf:Description rdf:about="#Reaction_15">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-11-26T13:07:34Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-12-19T21:18:42Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
@@ -1365,7 +1365,7 @@ Reaction scheme where the products are created from the reactants and the change
           <Modifier metabolite="Metabolite_15" stoichiometry="1"/>
         </ListOfModifiers>
         <ListOfConstants>
-          <Constant key="Parameter_4995" name="_kFourEBP1Phos" value="0.1"/>
+          <Constant key="Parameter_5367" name="_kFourEBP1Phos" value="0.1"/>
         </ListOfConstants>
         <KineticLaw function="Function_60" unitType="Default" scalingCompartment="CN=Root,Model=NoName,Vector=Compartments[Cell]">
           <ListOfCallParameters>
@@ -1387,7 +1387,7 @@ Reaction scheme where the products are created from the reactants and the change
             <rdf:Description rdf:about="#Reaction_16">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-11-26T13:07:34Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-12-19T21:18:42Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
@@ -1400,7 +1400,7 @@ Reaction scheme where the products are created from the reactants and the change
           <Product metabolite="Metabolite_11" stoichiometry="1"/>
         </ListOfProducts>
         <ListOfConstants>
-          <Constant key="Parameter_4994" name="k1" value="0.1"/>
+          <Constant key="Parameter_5366" name="k1" value="0.1"/>
         </ListOfConstants>
         <KineticLaw function="Function_13" unitType="Default" scalingCompartment="CN=Root,Model=NoName,Vector=Compartments[Cell]">
           <ListOfCallParameters>
@@ -1419,7 +1419,7 @@ Reaction scheme where the products are created from the reactants and the change
             <rdf:Description rdf:about="#Reaction_17">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-11-26T13:07:34Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-12-19T21:18:42Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
@@ -1435,7 +1435,7 @@ Reaction scheme where the products are created from the reactants and the change
           <Modifier metabolite="Metabolite_15" stoichiometry="1"/>
         </ListOfModifiers>
         <ListOfConstants>
-          <Constant key="Parameter_4993" name="_kS6KPhos" value="0.1"/>
+          <Constant key="Parameter_5365" name="_kS6KPhos" value="0.1"/>
         </ListOfConstants>
         <KineticLaw function="Function_61" unitType="Default" scalingCompartment="CN=Root,Model=NoName,Vector=Compartments[Cell]">
           <ListOfCallParameters>
@@ -1457,7 +1457,7 @@ Reaction scheme where the products are created from the reactants and the change
             <rdf:Description rdf:about="#Reaction_18">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-11-26T13:07:34Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-12-19T21:18:42Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
@@ -1470,7 +1470,7 @@ Reaction scheme where the products are created from the reactants and the change
           <Product metabolite="Metabolite_9" stoichiometry="1"/>
         </ListOfProducts>
         <ListOfConstants>
-          <Constant key="Parameter_4992" name="k1" value="0.1"/>
+          <Constant key="Parameter_5364" name="k1" value="0.1"/>
         </ListOfConstants>
         <KineticLaw function="Function_13" unitType="Default" scalingCompartment="CN=Root,Model=NoName,Vector=Compartments[Cell]">
           <ListOfCallParameters>
@@ -1491,7 +1491,7 @@ Reaction scheme where the products are created from the reactants and the change
             <rdf:Description rdf:about="#ModelParameterSet_1">
               <dcterms:created>
                 <rdf:Description>
-                  <dcterms:W3CDTF>2019-11-26T13:07:34Z</dcterms:W3CDTF>
+                  <dcterms:W3CDTF>2019-12-19T21:18:42Z</dcterms:W3CDTF>
                 </rdf:Description>
               </dcterms:created>
             </rdf:Description>
@@ -1711,13 +1711,13 @@ Reaction scheme where the products are created from the reactants and the change
       <StateTemplateVariable objectReference="Metabolite_13"/>
       <StateTemplateVariable objectReference="Metabolite_2"/>
       <StateTemplateVariable objectReference="Metabolite_15"/>
-      <StateTemplateVariable objectReference="Metabolite_0"/>
-      <StateTemplateVariable objectReference="Metabolite_12"/>
       <StateTemplateVariable objectReference="Metabolite_10"/>
       <StateTemplateVariable objectReference="Metabolite_6"/>
-      <StateTemplateVariable objectReference="Metabolite_16"/>
-      <StateTemplateVariable objectReference="Metabolite_4"/>
+      <StateTemplateVariable objectReference="Metabolite_12"/>
+      <StateTemplateVariable objectReference="Metabolite_0"/>
       <StateTemplateVariable objectReference="Metabolite_8"/>
+      <StateTemplateVariable objectReference="Metabolite_4"/>
+      <StateTemplateVariable objectReference="Metabolite_16"/>
       <StateTemplateVariable objectReference="Metabolite_14"/>
       <StateTemplateVariable objectReference="Compartment_0"/>
       <StateTemplateVariable objectReference="ModelValue_0"/>
@@ -1744,7 +1744,7 @@ Reaction scheme where the products are created from the reactants and the change
       <StateTemplateVariable objectReference="ModelValue_21"/>
     </StateTemplate>
     <InitialState type="initialState">
-      0 0 0 6.0221417899999996e+24 0 6.0221417899999996e+24 6.0221417899999996e+24 6.0221417899999996e+24 6.0221417899999996e+24 0 0 6.0221417899999996e+24 0 0 6.0221417899999996e+24 6.0221417899999996e+24 0 0 0 1 1 1 0.10000000000000001 0.10000000000000001 0.10000000000000001 0.10000000000000001 0.10000000000000001 0.10000000000000001 0.10000000000000001 0.10000000000000001 0.10000000000000001 0.10000000000000001 0.10000000000000001 0.10000000000000001 0.10000000000000001 0.10000000000000001 0.10000000000000001 0.10000000000000001 0.10000000000000001 0.10000000000000001 0.10000000000000001 0.10000000000000001 
+      0 0 0 6.0221417899999996e+24 0 6.0221417899999996e+24 6.0221417899999996e+24 6.0221417899999996e+24 6.0221417899999996e+24 0 0 0 6.0221417899999996e+24 0 6.0221417899999996e+24 0 0 6.0221417899999996e+24 0 1 1 1 0.10000000000000001 0.10000000000000001 0.10000000000000001 0.10000000000000001 0.10000000000000001 0.10000000000000001 0.10000000000000001 0.10000000000000001 0.10000000000000001 0.10000000000000001 0.10000000000000001 0.10000000000000001 0.10000000000000001 0.10000000000000001 0.10000000000000001 0.10000000000000001 0.10000000000000001 0.10000000000000001 0.10000000000000001 0.10000000000000001 
     </InitialState>
   </Model>
   <ListOfTasks>
@@ -1767,7 +1767,7 @@ Reaction scheme where the products are created from the reactants and the change
       </Method>
     </Task>
     <Task key="Task_100" name="Time-Course" type="timeCourse" scheduled="true" update_model="false">
-      <Report append="0" target="/home/ncw135/Documents/MesiSTRAT2/TransferModel/transfer_model/models/TimeCourseData.txt" reference="Report_30" confirmOverwrite="0"/>
+      <Report append="0" target="/Users/peter/Documents/GitHub/TransferModel/transfer_model/models/TimeCourseData.txt" reference="Report_30" confirmOverwrite="0"/>
       <Problem>
         <Parameter name="AutomaticStepSize" type="bool" value="0"/>
         <Parameter name="StepNumber" type="unsignedInteger" value="100"/>
@@ -1793,6 +1793,7 @@ Reaction scheme where the products are created from the reactants and the change
         </ParameterGroup>
         <Parameter name="Output in subtask" type="bool" value="1"/>
         <Parameter name="Adjust initial conditions" type="bool" value="0"/>
+        <Parameter name="Continue on Error" type="bool" value="0"/>
       </Problem>
       <Method name="Scan Framework" type="ScanFramework">
       </Method>
@@ -1840,7 +1841,7 @@ Reaction scheme where the products are created from the reactants and the change
         <Parameter name="Time-Course" type="cn" value="CN=Root,Vector=TaskList[Time-Course]"/>
         <Parameter name="Create Parameter Sets" type="bool" value="0"/>
         <ParameterGroup name="Experiment Set">
-        <ParameterGroup name="not_interpolated_MCF7_steady_state"><Parameter type="key" name="Key" value="Experiment_not_interpolated_MCF7_steady_state"/><Parameter type="file" name="File Name" value="/home/ncw135/Documents/MesiSTRAT2/TransferModel/transfer_model/data/CopasiFormattedData/T47DSheet/not_interpolated_MCF7_steady_state.csv"/><Parameter type="bool" name="Data is Row Oriented" value="1"/><Parameter type="unsignedInteger" name="First Row" value="1"/><Parameter type="unsignedInteger" name="Last Row" value="2"/><Parameter type="unsignedInteger" name="Experiment Type" value="0"/><Parameter type="bool" name="Normalize Weights per Experiment" value="1"/><Parameter type="string" name="Separator" value=","/><Parameter type="unsignedInteger" name="Weight Method" value="1"/><Parameter type="unsignedInteger" name="Row containing Names" value="1"/><Parameter type="unsignedInteger" name="Number of Columns" value="32"/><ParameterGroup name="Object Map"><ParameterGroup name="0"/><ParameterGroup name="1"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[AktpT308],Reference=Concentration"/><Parameter type="unsignedInteger" name="Role" value="2"/></ParameterGroup><ParameterGroup name="2"/><ParameterGroup name="3"/><ParameterGroup name="4"/><ParameterGroup name="5"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[FourEBP1pT37_46],Reference=Concentration"/><Parameter type="unsignedInteger" name="Role" value="2"/></ParameterGroup><ParameterGroup name="6"/><ParameterGroup name="7"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[IRS1pS636_639],Reference=Concentration"/><Parameter type="unsignedInteger" name="Role" value="2"/></ParameterGroup><ParameterGroup name="8"/><ParameterGroup name="9"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[PRAS40pT246],Reference=Concentration"/><Parameter type="unsignedInteger" name="Role" value="2"/></ParameterGroup><ParameterGroup name="10"/><ParameterGroup name="11"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[S6KpT389],Reference=Concentration"/><Parameter type="unsignedInteger" name="Role" value="2"/></ParameterGroup><ParameterGroup name="12"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[TSC2pT1462],Reference=Concentration"/><Parameter type="unsignedInteger" name="Role" value="2"/></ParameterGroup><ParameterGroup name="13"/><ParameterGroup name="14"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Values[Insulin],Reference=InitialValue"/><Parameter type="unsignedInteger" name="Role" value="1"/></ParameterGroup><ParameterGroup name="15"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Values[AA],Reference=InitialValue"/><Parameter type="unsignedInteger" name="Role" value="1"/></ParameterGroup><ParameterGroup name="16"/><ParameterGroup name="17"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[AktpT308],Reference=InitialConcentration"/><Parameter type="unsignedInteger" name="Role" value="1"/></ParameterGroup><ParameterGroup name="18"/><ParameterGroup name="19"/><ParameterGroup name="20"/><ParameterGroup name="21"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[FourEBP1pT37_46],Reference=InitialConcentration"/><Parameter type="unsignedInteger" name="Role" value="1"/></ParameterGroup><ParameterGroup name="22"/><ParameterGroup name="23"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[IRS1pS636_639],Reference=InitialConcentration"/><Parameter type="unsignedInteger" name="Role" value="1"/></ParameterGroup><ParameterGroup name="24"/><ParameterGroup name="25"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[PRAS40pT246],Reference=InitialConcentration"/><Parameter type="unsignedInteger" name="Role" value="1"/></ParameterGroup><ParameterGroup name="26"/><ParameterGroup name="27"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[S6KpT389],Reference=InitialConcentration"/><Parameter type="unsignedInteger" name="Role" value="1"/></ParameterGroup><ParameterGroup name="28"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[TSC2pT1462],Reference=InitialConcentration"/><Parameter type="unsignedInteger" name="Role" value="1"/></ParameterGroup><ParameterGroup name="29"/><ParameterGroup name="30"/><ParameterGroup name="31"/></ParameterGroup></ParameterGroup><ParameterGroup name="not_interpolated_MCF7"><Parameter type="key" name="Key" value="Experiment_not_interpolated_MCF7"/><Parameter type="file" name="File Name" value="/home/ncw135/Documents/MesiSTRAT2/TransferModel/transfer_model/data/CopasiFormattedData/T47DSheet/not_interpolated_MCF7.csv"/><Parameter type="bool" name="Data is Row Oriented" value="1"/><Parameter type="unsignedInteger" name="First Row" value="1"/><Parameter type="unsignedInteger" name="Last Row" value="7"/><Parameter type="unsignedInteger" name="Experiment Type" value="1"/><Parameter type="bool" name="Normalize Weights per Experiment" value="1"/><Parameter type="string" name="Separator" value=","/><Parameter type="unsignedInteger" name="Weight Method" value="1"/><Parameter type="unsignedInteger" name="Row containing Names" value="1"/><Parameter type="unsignedInteger" name="Number of Columns" value="31"/><ParameterGroup name="Object Map"><ParameterGroup name="0"><Parameter type="unsignedInteger" name="Role" value="3"/></ParameterGroup><ParameterGroup name="1"/><ParameterGroup name="2"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[AktpT308],Reference=Concentration"/><Parameter type="unsignedInteger" name="Role" value="2"/></ParameterGroup><ParameterGroup name="3"/><ParameterGroup name="4"/><ParameterGroup name="5"/><ParameterGroup name="6"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[FourEBP1pT37_46],Reference=Concentration"/><Parameter type="unsignedInteger" name="Role" value="2"/></ParameterGroup><ParameterGroup name="7"/><ParameterGroup name="8"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[IRS1pS636_639],Reference=Concentration"/><Parameter type="unsignedInteger" name="Role" value="2"/></ParameterGroup><ParameterGroup name="9"/><ParameterGroup name="10"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[PRAS40pT246],Reference=Concentration"/><Parameter type="unsignedInteger" name="Role" value="2"/></ParameterGroup><ParameterGroup name="11"/><ParameterGroup name="12"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[S6KpT389],Reference=Concentration"/><Parameter type="unsignedInteger" name="Role" value="2"/></ParameterGroup><ParameterGroup name="13"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[TSC2pT1462],Reference=Concentration"/><Parameter type="unsignedInteger" name="Role" value="2"/></ParameterGroup><ParameterGroup name="14"/><ParameterGroup name="15"/><ParameterGroup name="16"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[AktpT308],Reference=InitialConcentration"/><Parameter type="unsignedInteger" name="Role" value="1"/></ParameterGroup><ParameterGroup name="17"/><ParameterGroup name="18"/><ParameterGroup name="19"/><ParameterGroup name="20"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[FourEBP1pT37_46],Reference=InitialConcentration"/><Parameter type="unsignedInteger" name="Role" value="1"/></ParameterGroup><ParameterGroup name="21"/><ParameterGroup name="22"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[IRS1pS636_639],Reference=InitialConcentration"/><Parameter type="unsignedInteger" name="Role" value="1"/></ParameterGroup><ParameterGroup name="23"/><ParameterGroup name="24"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[PRAS40pT246],Reference=InitialConcentration"/><Parameter type="unsignedInteger" name="Role" value="1"/></ParameterGroup><ParameterGroup name="25"/><ParameterGroup name="26"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[S6KpT389],Reference=InitialConcentration"/><Parameter type="unsignedInteger" name="Role" value="1"/></ParameterGroup><ParameterGroup name="27"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[TSC2pT1462],Reference=InitialConcentration"/><Parameter type="unsignedInteger" name="Role" value="1"/></ParameterGroup><ParameterGroup name="28"/><ParameterGroup name="29"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Values[Insulin],Reference=InitialValue"/><Parameter type="unsignedInteger" name="Role" value="1"/></ParameterGroup><ParameterGroup name="30"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Values[AA],Reference=InitialValue"/><Parameter type="unsignedInteger" name="Role" value="1"/></ParameterGroup></ParameterGroup></ParameterGroup><ParameterGroup name="interpolated_T47D"><Parameter type="key" name="Key" value="Experiment_interpolated_T47D"/><Parameter type="file" name="File Name" value="/home/ncw135/Documents/MesiSTRAT2/TransferModel/transfer_model/data/CopasiFormattedData/T47DSheet/interpolated_T47D.csv"/><Parameter type="bool" name="Data is Row Oriented" value="1"/><Parameter type="unsignedInteger" name="First Row" value="1"/><Parameter type="unsignedInteger" name="Last Row" value="13"/><Parameter type="unsignedInteger" name="Experiment Type" value="1"/><Parameter type="bool" name="Normalize Weights per Experiment" value="1"/><Parameter type="string" name="Separator" value=","/><Parameter type="unsignedInteger" name="Weight Method" value="1"/><Parameter type="unsignedInteger" name="Row containing Names" value="1"/><Parameter type="unsignedInteger" name="Number of Columns" value="31"/><ParameterGroup name="Object Map"><ParameterGroup name="0"><Parameter type="unsignedInteger" name="Role" value="3"/></ParameterGroup><ParameterGroup name="1"/><ParameterGroup name="2"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[AktpT308],Reference=Concentration"/><Parameter type="unsignedInteger" name="Role" value="2"/></ParameterGroup><ParameterGroup name="3"/><ParameterGroup name="4"/><ParameterGroup name="5"/><ParameterGroup name="6"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[FourEBP1pT37_46],Reference=Concentration"/><Parameter type="unsignedInteger" name="Role" value="2"/></ParameterGroup><ParameterGroup name="7"/><ParameterGroup name="8"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[IRS1pS636_639],Reference=Concentration"/><Parameter type="unsignedInteger" name="Role" value="2"/></ParameterGroup><ParameterGroup name="9"/><ParameterGroup name="10"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[PRAS40pT246],Reference=Concentration"/><Parameter type="unsignedInteger" name="Role" value="2"/></ParameterGroup><ParameterGroup name="11"/><ParameterGroup name="12"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[S6KpT389],Reference=Concentration"/><Parameter type="unsignedInteger" name="Role" value="2"/></ParameterGroup><ParameterGroup name="13"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[TSC2pT1462],Reference=Concentration"/><Parameter type="unsignedInteger" name="Role" value="2"/></ParameterGroup><ParameterGroup name="14"/><ParameterGroup name="15"/><ParameterGroup name="16"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[AktpT308],Reference=InitialConcentration"/><Parameter type="unsignedInteger" name="Role" value="1"/></ParameterGroup><ParameterGroup name="17"/><ParameterGroup name="18"/><ParameterGroup name="19"/><ParameterGroup name="20"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[FourEBP1pT37_46],Reference=InitialConcentration"/><Parameter type="unsignedInteger" name="Role" value="1"/></ParameterGroup><ParameterGroup name="21"/><ParameterGroup name="22"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[IRS1pS636_639],Reference=InitialConcentration"/><Parameter type="unsignedInteger" name="Role" value="1"/></ParameterGroup><ParameterGroup name="23"/><ParameterGroup name="24"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[PRAS40pT246],Reference=InitialConcentration"/><Parameter type="unsignedInteger" name="Role" value="1"/></ParameterGroup><ParameterGroup name="25"/><ParameterGroup name="26"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[S6KpT389],Reference=InitialConcentration"/><Parameter type="unsignedInteger" name="Role" value="1"/></ParameterGroup><ParameterGroup name="27"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[TSC2pT1462],Reference=InitialConcentration"/><Parameter type="unsignedInteger" name="Role" value="1"/></ParameterGroup><ParameterGroup name="28"/><ParameterGroup name="29"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Values[Insulin],Reference=InitialValue"/><Parameter type="unsignedInteger" name="Role" value="1"/></ParameterGroup><ParameterGroup name="30"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Values[AA],Reference=InitialValue"/><Parameter type="unsignedInteger" name="Role" value="1"/></ParameterGroup></ParameterGroup></ParameterGroup><ParameterGroup name="interpolated_T47D_steady_state"><Parameter type="key" name="Key" value="Experiment_interpolated_T47D_steady_state"/><Parameter type="file" name="File Name" value="/home/ncw135/Documents/MesiSTRAT2/TransferModel/transfer_model/data/CopasiFormattedData/T47DSheet/interpolated_T47D_steady_state.csv"/><Parameter type="bool" name="Data is Row Oriented" value="1"/><Parameter type="unsignedInteger" name="First Row" value="1"/><Parameter type="unsignedInteger" name="Last Row" value="2"/><Parameter type="unsignedInteger" name="Experiment Type" value="0"/><Parameter type="bool" name="Normalize Weights per Experiment" value="1"/><Parameter type="string" name="Separator" value=","/><Parameter type="unsignedInteger" name="Weight Method" value="1"/><Parameter type="unsignedInteger" name="Row containing Names" value="1"/><Parameter type="unsignedInteger" name="Number of Columns" value="32"/><ParameterGroup name="Object Map"><ParameterGroup name="0"/><ParameterGroup name="1"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[AktpT308],Reference=Concentration"/><Parameter type="unsignedInteger" name="Role" value="2"/></ParameterGroup><ParameterGroup name="2"/><ParameterGroup name="3"/><ParameterGroup name="4"/><ParameterGroup name="5"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[FourEBP1pT37_46],Reference=Concentration"/><Parameter type="unsignedInteger" name="Role" value="2"/></ParameterGroup><ParameterGroup name="6"/><ParameterGroup name="7"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[IRS1pS636_639],Reference=Concentration"/><Parameter type="unsignedInteger" name="Role" value="2"/></ParameterGroup><ParameterGroup name="8"/><ParameterGroup name="9"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[PRAS40pT246],Reference=Concentration"/><Parameter type="unsignedInteger" name="Role" value="2"/></ParameterGroup><ParameterGroup name="10"/><ParameterGroup name="11"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[S6KpT389],Reference=Concentration"/><Parameter type="unsignedInteger" name="Role" value="2"/></ParameterGroup><ParameterGroup name="12"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[TSC2pT1462],Reference=Concentration"/><Parameter type="unsignedInteger" name="Role" value="2"/></ParameterGroup><ParameterGroup name="13"/><ParameterGroup name="14"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Values[Insulin],Reference=InitialValue"/><Parameter type="unsignedInteger" name="Role" value="1"/></ParameterGroup><ParameterGroup name="15"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Values[AA],Reference=InitialValue"/><Parameter type="unsignedInteger" name="Role" value="1"/></ParameterGroup><ParameterGroup name="16"/><ParameterGroup name="17"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[AktpT308],Reference=InitialConcentration"/><Parameter type="unsignedInteger" name="Role" value="1"/></ParameterGroup><ParameterGroup name="18"/><ParameterGroup name="19"/><ParameterGroup name="20"/><ParameterGroup name="21"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[FourEBP1pT37_46],Reference=InitialConcentration"/><Parameter type="unsignedInteger" name="Role" value="1"/></ParameterGroup><ParameterGroup name="22"/><ParameterGroup name="23"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[IRS1pS636_639],Reference=InitialConcentration"/><Parameter type="unsignedInteger" name="Role" value="1"/></ParameterGroup><ParameterGroup name="24"/><ParameterGroup name="25"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[PRAS40pT246],Reference=InitialConcentration"/><Parameter type="unsignedInteger" name="Role" value="1"/></ParameterGroup><ParameterGroup name="26"/><ParameterGroup name="27"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[S6KpT389],Reference=InitialConcentration"/><Parameter type="unsignedInteger" name="Role" value="1"/></ParameterGroup><ParameterGroup name="28"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[TSC2pT1462],Reference=InitialConcentration"/><Parameter type="unsignedInteger" name="Role" value="1"/></ParameterGroup><ParameterGroup name="29"/><ParameterGroup name="30"/><ParameterGroup name="31"/></ParameterGroup></ParameterGroup><ParameterGroup name="not_interpolated_T47D"><Parameter type="key" name="Key" value="Experiment_not_interpolated_T47D"/><Parameter type="file" name="File Name" value="/home/ncw135/Documents/MesiSTRAT2/TransferModel/transfer_model/data/CopasiFormattedData/T47DSheet/not_interpolated_T47D.csv"/><Parameter type="bool" name="Data is Row Oriented" value="1"/><Parameter type="unsignedInteger" name="First Row" value="1"/><Parameter type="unsignedInteger" name="Last Row" value="7"/><Parameter type="unsignedInteger" name="Experiment Type" value="1"/><Parameter type="bool" name="Normalize Weights per Experiment" value="1"/><Parameter type="string" name="Separator" value=","/><Parameter type="unsignedInteger" name="Weight Method" value="1"/><Parameter type="unsignedInteger" name="Row containing Names" value="1"/><Parameter type="unsignedInteger" name="Number of Columns" value="31"/><ParameterGroup name="Object Map"><ParameterGroup name="0"><Parameter type="unsignedInteger" name="Role" value="3"/></ParameterGroup><ParameterGroup name="1"/><ParameterGroup name="2"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[AktpT308],Reference=Concentration"/><Parameter type="unsignedInteger" name="Role" value="2"/></ParameterGroup><ParameterGroup name="3"/><ParameterGroup name="4"/><ParameterGroup name="5"/><ParameterGroup name="6"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[FourEBP1pT37_46],Reference=Concentration"/><Parameter type="unsignedInteger" name="Role" value="2"/></ParameterGroup><ParameterGroup name="7"/><ParameterGroup name="8"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[IRS1pS636_639],Reference=Concentration"/><Parameter type="unsignedInteger" name="Role" value="2"/></ParameterGroup><ParameterGroup name="9"/><ParameterGroup name="10"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[PRAS40pT246],Reference=Concentration"/><Parameter type="unsignedInteger" name="Role" value="2"/></ParameterGroup><ParameterGroup name="11"/><ParameterGroup name="12"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[S6KpT389],Reference=Concentration"/><Parameter type="unsignedInteger" name="Role" value="2"/></ParameterGroup><ParameterGroup name="13"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[TSC2pT1462],Reference=Concentration"/><Parameter type="unsignedInteger" name="Role" value="2"/></ParameterGroup><ParameterGroup name="14"/><ParameterGroup name="15"/><ParameterGroup name="16"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[AktpT308],Reference=InitialConcentration"/><Parameter type="unsignedInteger" name="Role" value="1"/></ParameterGroup><ParameterGroup name="17"/><ParameterGroup name="18"/><ParameterGroup name="19"/><ParameterGroup name="20"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[FourEBP1pT37_46],Reference=InitialConcentration"/><Parameter type="unsignedInteger" name="Role" value="1"/></ParameterGroup><ParameterGroup name="21"/><ParameterGroup name="22"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[IRS1pS636_639],Reference=InitialConcentration"/><Parameter type="unsignedInteger" name="Role" value="1"/></ParameterGroup><ParameterGroup name="23"/><ParameterGroup name="24"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[PRAS40pT246],Reference=InitialConcentration"/><Parameter type="unsignedInteger" name="Role" value="1"/></ParameterGroup><ParameterGroup name="25"/><ParameterGroup name="26"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[S6KpT389],Reference=InitialConcentration"/><Parameter type="unsignedInteger" name="Role" value="1"/></ParameterGroup><ParameterGroup name="27"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[TSC2pT1462],Reference=InitialConcentration"/><Parameter type="unsignedInteger" name="Role" value="1"/></ParameterGroup><ParameterGroup name="28"/><ParameterGroup name="29"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Values[Insulin],Reference=InitialValue"/><Parameter type="unsignedInteger" name="Role" value="1"/></ParameterGroup><ParameterGroup name="30"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Values[AA],Reference=InitialValue"/><Parameter type="unsignedInteger" name="Role" value="1"/></ParameterGroup></ParameterGroup></ParameterGroup><ParameterGroup name="not_interpolated_T47D_steady_state"><Parameter type="key" name="Key" value="Experiment_not_interpolated_T47D_steady_state"/><Parameter type="file" name="File Name" value="/home/ncw135/Documents/MesiSTRAT2/TransferModel/transfer_model/data/CopasiFormattedData/T47DSheet/not_interpolated_T47D_steady_state.csv"/><Parameter type="bool" name="Data is Row Oriented" value="1"/><Parameter type="unsignedInteger" name="First Row" value="1"/><Parameter type="unsignedInteger" name="Last Row" value="2"/><Parameter type="unsignedInteger" name="Experiment Type" value="0"/><Parameter type="bool" name="Normalize Weights per Experiment" value="1"/><Parameter type="string" name="Separator" value=","/><Parameter type="unsignedInteger" name="Weight Method" value="1"/><Parameter type="unsignedInteger" name="Row containing Names" value="1"/><Parameter type="unsignedInteger" name="Number of Columns" value="32"/><ParameterGroup name="Object Map"><ParameterGroup name="0"/><ParameterGroup name="1"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[AktpT308],Reference=Concentration"/><Parameter type="unsignedInteger" name="Role" value="2"/></ParameterGroup><ParameterGroup name="2"/><ParameterGroup name="3"/><ParameterGroup name="4"/><ParameterGroup name="5"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[FourEBP1pT37_46],Reference=Concentration"/><Parameter type="unsignedInteger" name="Role" value="2"/></ParameterGroup><ParameterGroup name="6"/><ParameterGroup name="7"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[IRS1pS636_639],Reference=Concentration"/><Parameter type="unsignedInteger" name="Role" value="2"/></ParameterGroup><ParameterGroup name="8"/><ParameterGroup name="9"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[PRAS40pT246],Reference=Concentration"/><Parameter type="unsignedInteger" name="Role" value="2"/></ParameterGroup><ParameterGroup name="10"/><ParameterGroup name="11"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[S6KpT389],Reference=Concentration"/><Parameter type="unsignedInteger" name="Role" value="2"/></ParameterGroup><ParameterGroup name="12"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[TSC2pT1462],Reference=Concentration"/><Parameter type="unsignedInteger" name="Role" value="2"/></ParameterGroup><ParameterGroup name="13"/><ParameterGroup name="14"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Values[Insulin],Reference=InitialValue"/><Parameter type="unsignedInteger" name="Role" value="1"/></ParameterGroup><ParameterGroup name="15"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Values[AA],Reference=InitialValue"/><Parameter type="unsignedInteger" name="Role" value="1"/></ParameterGroup><ParameterGroup name="16"/><ParameterGroup name="17"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[AktpT308],Reference=InitialConcentration"/><Parameter type="unsignedInteger" name="Role" value="1"/></ParameterGroup><ParameterGroup name="18"/><ParameterGroup name="19"/><ParameterGroup name="20"/><ParameterGroup name="21"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[FourEBP1pT37_46],Reference=InitialConcentration"/><Parameter type="unsignedInteger" name="Role" value="1"/></ParameterGroup><ParameterGroup name="22"/><ParameterGroup name="23"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[IRS1pS636_639],Reference=InitialConcentration"/><Parameter type="unsignedInteger" name="Role" value="1"/></ParameterGroup><ParameterGroup name="24"/><ParameterGroup name="25"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[PRAS40pT246],Reference=InitialConcentration"/><Parameter type="unsignedInteger" name="Role" value="1"/></ParameterGroup><ParameterGroup name="26"/><ParameterGroup name="27"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[S6KpT389],Reference=InitialConcentration"/><Parameter type="unsignedInteger" name="Role" value="1"/></ParameterGroup><ParameterGroup name="28"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[TSC2pT1462],Reference=InitialConcentration"/><Parameter type="unsignedInteger" name="Role" value="1"/></ParameterGroup><ParameterGroup name="29"/><ParameterGroup name="30"/><ParameterGroup name="31"/></ParameterGroup></ParameterGroup><ParameterGroup name="interpolated_MCF7"><Parameter type="key" name="Key" value="Experiment_interpolated_MCF7"/><Parameter type="file" name="File Name" value="/home/ncw135/Documents/MesiSTRAT2/TransferModel/transfer_model/data/CopasiFormattedData/T47DSheet/interpolated_MCF7.csv"/><Parameter type="bool" name="Data is Row Oriented" value="1"/><Parameter type="unsignedInteger" name="First Row" value="1"/><Parameter type="unsignedInteger" name="Last Row" value="13"/><Parameter type="unsignedInteger" name="Experiment Type" value="1"/><Parameter type="bool" name="Normalize Weights per Experiment" value="1"/><Parameter type="string" name="Separator" value=","/><Parameter type="unsignedInteger" name="Weight Method" value="1"/><Parameter type="unsignedInteger" name="Row containing Names" value="1"/><Parameter type="unsignedInteger" name="Number of Columns" value="31"/><ParameterGroup name="Object Map"><ParameterGroup name="0"><Parameter type="unsignedInteger" name="Role" value="3"/></ParameterGroup><ParameterGroup name="1"/><ParameterGroup name="2"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[AktpT308],Reference=Concentration"/><Parameter type="unsignedInteger" name="Role" value="2"/></ParameterGroup><ParameterGroup name="3"/><ParameterGroup name="4"/><ParameterGroup name="5"/><ParameterGroup name="6"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[FourEBP1pT37_46],Reference=Concentration"/><Parameter type="unsignedInteger" name="Role" value="2"/></ParameterGroup><ParameterGroup name="7"/><ParameterGroup name="8"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[IRS1pS636_639],Reference=Concentration"/><Parameter type="unsignedInteger" name="Role" value="2"/></ParameterGroup><ParameterGroup name="9"/><ParameterGroup name="10"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[PRAS40pT246],Reference=Concentration"/><Parameter type="unsignedInteger" name="Role" value="2"/></ParameterGroup><ParameterGroup name="11"/><ParameterGroup name="12"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[S6KpT389],Reference=Concentration"/><Parameter type="unsignedInteger" name="Role" value="2"/></ParameterGroup><ParameterGroup name="13"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[TSC2pT1462],Reference=Concentration"/><Parameter type="unsignedInteger" name="Role" value="2"/></ParameterGroup><ParameterGroup name="14"/><ParameterGroup name="15"/><ParameterGroup name="16"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[AktpT308],Reference=InitialConcentration"/><Parameter type="unsignedInteger" name="Role" value="1"/></ParameterGroup><ParameterGroup name="17"/><ParameterGroup name="18"/><ParameterGroup name="19"/><ParameterGroup name="20"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[FourEBP1pT37_46],Reference=InitialConcentration"/><Parameter type="unsignedInteger" name="Role" value="1"/></ParameterGroup><ParameterGroup name="21"/><ParameterGroup name="22"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[IRS1pS636_639],Reference=InitialConcentration"/><Parameter type="unsignedInteger" name="Role" value="1"/></ParameterGroup><ParameterGroup name="23"/><ParameterGroup name="24"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[PRAS40pT246],Reference=InitialConcentration"/><Parameter type="unsignedInteger" name="Role" value="1"/></ParameterGroup><ParameterGroup name="25"/><ParameterGroup name="26"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[S6KpT389],Reference=InitialConcentration"/><Parameter type="unsignedInteger" name="Role" value="1"/></ParameterGroup><ParameterGroup name="27"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[TSC2pT1462],Reference=InitialConcentration"/><Parameter type="unsignedInteger" name="Role" value="1"/></ParameterGroup><ParameterGroup name="28"/><ParameterGroup name="29"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Values[Insulin],Reference=InitialValue"/><Parameter type="unsignedInteger" name="Role" value="1"/></ParameterGroup><ParameterGroup name="30"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Values[AA],Reference=InitialValue"/><Parameter type="unsignedInteger" name="Role" value="1"/></ParameterGroup></ParameterGroup></ParameterGroup><ParameterGroup name="interpolated_MCF7_steady_state"><Parameter type="key" name="Key" value="Experiment_interpolated_MCF7_steady_state"/><Parameter type="file" name="File Name" value="/home/ncw135/Documents/MesiSTRAT2/TransferModel/transfer_model/data/CopasiFormattedData/T47DSheet/interpolated_MCF7_steady_state.csv"/><Parameter type="bool" name="Data is Row Oriented" value="1"/><Parameter type="unsignedInteger" name="First Row" value="1"/><Parameter type="unsignedInteger" name="Last Row" value="2"/><Parameter type="unsignedInteger" name="Experiment Type" value="0"/><Parameter type="bool" name="Normalize Weights per Experiment" value="1"/><Parameter type="string" name="Separator" value=","/><Parameter type="unsignedInteger" name="Weight Method" value="1"/><Parameter type="unsignedInteger" name="Row containing Names" value="1"/><Parameter type="unsignedInteger" name="Number of Columns" value="32"/><ParameterGroup name="Object Map"><ParameterGroup name="0"/><ParameterGroup name="1"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[AktpT308],Reference=Concentration"/><Parameter type="unsignedInteger" name="Role" value="2"/></ParameterGroup><ParameterGroup name="2"/><ParameterGroup name="3"/><ParameterGroup name="4"/><ParameterGroup name="5"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[FourEBP1pT37_46],Reference=Concentration"/><Parameter type="unsignedInteger" name="Role" value="2"/></ParameterGroup><ParameterGroup name="6"/><ParameterGroup name="7"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[IRS1pS636_639],Reference=Concentration"/><Parameter type="unsignedInteger" name="Role" value="2"/></ParameterGroup><ParameterGroup name="8"/><ParameterGroup name="9"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[PRAS40pT246],Reference=Concentration"/><Parameter type="unsignedInteger" name="Role" value="2"/></ParameterGroup><ParameterGroup name="10"/><ParameterGroup name="11"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[S6KpT389],Reference=Concentration"/><Parameter type="unsignedInteger" name="Role" value="2"/></ParameterGroup><ParameterGroup name="12"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[TSC2pT1462],Reference=Concentration"/><Parameter type="unsignedInteger" name="Role" value="2"/></ParameterGroup><ParameterGroup name="13"/><ParameterGroup name="14"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Values[Insulin],Reference=InitialValue"/><Parameter type="unsignedInteger" name="Role" value="1"/></ParameterGroup><ParameterGroup name="15"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Values[AA],Reference=InitialValue"/><Parameter type="unsignedInteger" name="Role" value="1"/></ParameterGroup><ParameterGroup name="16"/><ParameterGroup name="17"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[AktpT308],Reference=InitialConcentration"/><Parameter type="unsignedInteger" name="Role" value="1"/></ParameterGroup><ParameterGroup name="18"/><ParameterGroup name="19"/><ParameterGroup name="20"/><ParameterGroup name="21"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[FourEBP1pT37_46],Reference=InitialConcentration"/><Parameter type="unsignedInteger" name="Role" value="1"/></ParameterGroup><ParameterGroup name="22"/><ParameterGroup name="23"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[IRS1pS636_639],Reference=InitialConcentration"/><Parameter type="unsignedInteger" name="Role" value="1"/></ParameterGroup><ParameterGroup name="24"/><ParameterGroup name="25"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[PRAS40pT246],Reference=InitialConcentration"/><Parameter type="unsignedInteger" name="Role" value="1"/></ParameterGroup><ParameterGroup name="26"/><ParameterGroup name="27"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[S6KpT389],Reference=InitialConcentration"/><Parameter type="unsignedInteger" name="Role" value="1"/></ParameterGroup><ParameterGroup name="28"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[TSC2pT1462],Reference=InitialConcentration"/><Parameter type="unsignedInteger" name="Role" value="1"/></ParameterGroup><ParameterGroup name="29"/><ParameterGroup name="30"/><ParameterGroup name="31"/></ParameterGroup></ParameterGroup></ParameterGroup>
+        <ParameterGroup name="not_interpolated_T47D_steady_state"><Parameter type="key" name="Key" value="Experiment_not_interpolated_T47D_steady_state"/><Parameter type="file" name="File Name" value="/Users/peter/Documents/GitHub/TransferModel/transfer_model/data/CopasiFormattedData/T47DSheet/not_interpolated_T47D_steady_state.csv"/><Parameter type="bool" name="Data is Row Oriented" value="1"/><Parameter type="unsignedInteger" name="First Row" value="1"/><Parameter type="unsignedInteger" name="Last Row" value="2"/><Parameter type="unsignedInteger" name="Experiment Type" value="0"/><Parameter type="bool" name="Normalize Weights per Experiment" value="1"/><Parameter type="string" name="Separator" value=","/><Parameter type="unsignedInteger" name="Weight Method" value="1"/><Parameter type="unsignedInteger" name="Row containing Names" value="1"/><Parameter type="unsignedInteger" name="Number of Columns" value="32"/><ParameterGroup name="Object Map"><ParameterGroup name="0"/><ParameterGroup name="1"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[AktpT308],Reference=Concentration"/><Parameter type="unsignedInteger" name="Role" value="2"/></ParameterGroup><ParameterGroup name="2"/><ParameterGroup name="3"/><ParameterGroup name="4"/><ParameterGroup name="5"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[FourEBP1pT37_46],Reference=Concentration"/><Parameter type="unsignedInteger" name="Role" value="2"/></ParameterGroup><ParameterGroup name="6"/><ParameterGroup name="7"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[IRS1pS636_639],Reference=Concentration"/><Parameter type="unsignedInteger" name="Role" value="2"/></ParameterGroup><ParameterGroup name="8"/><ParameterGroup name="9"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[PRAS40pT246],Reference=Concentration"/><Parameter type="unsignedInteger" name="Role" value="2"/></ParameterGroup><ParameterGroup name="10"/><ParameterGroup name="11"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[S6KpT389],Reference=Concentration"/><Parameter type="unsignedInteger" name="Role" value="2"/></ParameterGroup><ParameterGroup name="12"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[TSC2pT1462],Reference=Concentration"/><Parameter type="unsignedInteger" name="Role" value="2"/></ParameterGroup><ParameterGroup name="13"/><ParameterGroup name="14"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Values[Insulin],Reference=InitialValue"/><Parameter type="unsignedInteger" name="Role" value="1"/></ParameterGroup><ParameterGroup name="15"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Values[AA],Reference=InitialValue"/><Parameter type="unsignedInteger" name="Role" value="1"/></ParameterGroup><ParameterGroup name="16"/><ParameterGroup name="17"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[AktpT308],Reference=InitialConcentration"/><Parameter type="unsignedInteger" name="Role" value="1"/></ParameterGroup><ParameterGroup name="18"/><ParameterGroup name="19"/><ParameterGroup name="20"/><ParameterGroup name="21"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[FourEBP1pT37_46],Reference=InitialConcentration"/><Parameter type="unsignedInteger" name="Role" value="1"/></ParameterGroup><ParameterGroup name="22"/><ParameterGroup name="23"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[IRS1pS636_639],Reference=InitialConcentration"/><Parameter type="unsignedInteger" name="Role" value="1"/></ParameterGroup><ParameterGroup name="24"/><ParameterGroup name="25"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[PRAS40pT246],Reference=InitialConcentration"/><Parameter type="unsignedInteger" name="Role" value="1"/></ParameterGroup><ParameterGroup name="26"/><ParameterGroup name="27"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[S6KpT389],Reference=InitialConcentration"/><Parameter type="unsignedInteger" name="Role" value="1"/></ParameterGroup><ParameterGroup name="28"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[TSC2pT1462],Reference=InitialConcentration"/><Parameter type="unsignedInteger" name="Role" value="1"/></ParameterGroup><ParameterGroup name="29"/><ParameterGroup name="30"/><ParameterGroup name="31"/></ParameterGroup></ParameterGroup><ParameterGroup name="not_interpolated_T47D"><Parameter type="key" name="Key" value="Experiment_not_interpolated_T47D"/><Parameter type="file" name="File Name" value="/Users/peter/Documents/GitHub/TransferModel/transfer_model/data/CopasiFormattedData/T47DSheet/not_interpolated_T47D.csv"/><Parameter type="bool" name="Data is Row Oriented" value="1"/><Parameter type="unsignedInteger" name="First Row" value="1"/><Parameter type="unsignedInteger" name="Last Row" value="7"/><Parameter type="unsignedInteger" name="Experiment Type" value="1"/><Parameter type="bool" name="Normalize Weights per Experiment" value="1"/><Parameter type="string" name="Separator" value=","/><Parameter type="unsignedInteger" name="Weight Method" value="1"/><Parameter type="unsignedInteger" name="Row containing Names" value="1"/><Parameter type="unsignedInteger" name="Number of Columns" value="31"/><ParameterGroup name="Object Map"><ParameterGroup name="0"><Parameter type="unsignedInteger" name="Role" value="3"/></ParameterGroup><ParameterGroup name="1"/><ParameterGroup name="2"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[AktpT308],Reference=Concentration"/><Parameter type="unsignedInteger" name="Role" value="2"/></ParameterGroup><ParameterGroup name="3"/><ParameterGroup name="4"/><ParameterGroup name="5"/><ParameterGroup name="6"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[FourEBP1pT37_46],Reference=Concentration"/><Parameter type="unsignedInteger" name="Role" value="2"/></ParameterGroup><ParameterGroup name="7"/><ParameterGroup name="8"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[IRS1pS636_639],Reference=Concentration"/><Parameter type="unsignedInteger" name="Role" value="2"/></ParameterGroup><ParameterGroup name="9"/><ParameterGroup name="10"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[PRAS40pT246],Reference=Concentration"/><Parameter type="unsignedInteger" name="Role" value="2"/></ParameterGroup><ParameterGroup name="11"/><ParameterGroup name="12"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[S6KpT389],Reference=Concentration"/><Parameter type="unsignedInteger" name="Role" value="2"/></ParameterGroup><ParameterGroup name="13"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[TSC2pT1462],Reference=Concentration"/><Parameter type="unsignedInteger" name="Role" value="2"/></ParameterGroup><ParameterGroup name="14"/><ParameterGroup name="15"/><ParameterGroup name="16"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[AktpT308],Reference=InitialConcentration"/><Parameter type="unsignedInteger" name="Role" value="1"/></ParameterGroup><ParameterGroup name="17"/><ParameterGroup name="18"/><ParameterGroup name="19"/><ParameterGroup name="20"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[FourEBP1pT37_46],Reference=InitialConcentration"/><Parameter type="unsignedInteger" name="Role" value="1"/></ParameterGroup><ParameterGroup name="21"/><ParameterGroup name="22"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[IRS1pS636_639],Reference=InitialConcentration"/><Parameter type="unsignedInteger" name="Role" value="1"/></ParameterGroup><ParameterGroup name="23"/><ParameterGroup name="24"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[PRAS40pT246],Reference=InitialConcentration"/><Parameter type="unsignedInteger" name="Role" value="1"/></ParameterGroup><ParameterGroup name="25"/><ParameterGroup name="26"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[S6KpT389],Reference=InitialConcentration"/><Parameter type="unsignedInteger" name="Role" value="1"/></ParameterGroup><ParameterGroup name="27"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[TSC2pT1462],Reference=InitialConcentration"/><Parameter type="unsignedInteger" name="Role" value="1"/></ParameterGroup><ParameterGroup name="28"/><ParameterGroup name="29"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Values[Insulin],Reference=InitialValue"/><Parameter type="unsignedInteger" name="Role" value="1"/></ParameterGroup><ParameterGroup name="30"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Values[AA],Reference=InitialValue"/><Parameter type="unsignedInteger" name="Role" value="1"/></ParameterGroup></ParameterGroup></ParameterGroup><ParameterGroup name="not_interpolated_MCF7_steady_state"><Parameter type="key" name="Key" value="Experiment_not_interpolated_MCF7_steady_state"/><Parameter type="file" name="File Name" value="/Users/peter/Documents/GitHub/TransferModel/transfer_model/data/CopasiFormattedData/T47DSheet/not_interpolated_MCF7_steady_state.csv"/><Parameter type="bool" name="Data is Row Oriented" value="1"/><Parameter type="unsignedInteger" name="First Row" value="1"/><Parameter type="unsignedInteger" name="Last Row" value="2"/><Parameter type="unsignedInteger" name="Experiment Type" value="0"/><Parameter type="bool" name="Normalize Weights per Experiment" value="1"/><Parameter type="string" name="Separator" value=","/><Parameter type="unsignedInteger" name="Weight Method" value="1"/><Parameter type="unsignedInteger" name="Row containing Names" value="1"/><Parameter type="unsignedInteger" name="Number of Columns" value="32"/><ParameterGroup name="Object Map"><ParameterGroup name="0"/><ParameterGroup name="1"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[AktpT308],Reference=Concentration"/><Parameter type="unsignedInteger" name="Role" value="2"/></ParameterGroup><ParameterGroup name="2"/><ParameterGroup name="3"/><ParameterGroup name="4"/><ParameterGroup name="5"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[FourEBP1pT37_46],Reference=Concentration"/><Parameter type="unsignedInteger" name="Role" value="2"/></ParameterGroup><ParameterGroup name="6"/><ParameterGroup name="7"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[IRS1pS636_639],Reference=Concentration"/><Parameter type="unsignedInteger" name="Role" value="2"/></ParameterGroup><ParameterGroup name="8"/><ParameterGroup name="9"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[PRAS40pT246],Reference=Concentration"/><Parameter type="unsignedInteger" name="Role" value="2"/></ParameterGroup><ParameterGroup name="10"/><ParameterGroup name="11"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[S6KpT389],Reference=Concentration"/><Parameter type="unsignedInteger" name="Role" value="2"/></ParameterGroup><ParameterGroup name="12"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[TSC2pT1462],Reference=Concentration"/><Parameter type="unsignedInteger" name="Role" value="2"/></ParameterGroup><ParameterGroup name="13"/><ParameterGroup name="14"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Values[Insulin],Reference=InitialValue"/><Parameter type="unsignedInteger" name="Role" value="1"/></ParameterGroup><ParameterGroup name="15"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Values[AA],Reference=InitialValue"/><Parameter type="unsignedInteger" name="Role" value="1"/></ParameterGroup><ParameterGroup name="16"/><ParameterGroup name="17"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[AktpT308],Reference=InitialConcentration"/><Parameter type="unsignedInteger" name="Role" value="1"/></ParameterGroup><ParameterGroup name="18"/><ParameterGroup name="19"/><ParameterGroup name="20"/><ParameterGroup name="21"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[FourEBP1pT37_46],Reference=InitialConcentration"/><Parameter type="unsignedInteger" name="Role" value="1"/></ParameterGroup><ParameterGroup name="22"/><ParameterGroup name="23"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[IRS1pS636_639],Reference=InitialConcentration"/><Parameter type="unsignedInteger" name="Role" value="1"/></ParameterGroup><ParameterGroup name="24"/><ParameterGroup name="25"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[PRAS40pT246],Reference=InitialConcentration"/><Parameter type="unsignedInteger" name="Role" value="1"/></ParameterGroup><ParameterGroup name="26"/><ParameterGroup name="27"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[S6KpT389],Reference=InitialConcentration"/><Parameter type="unsignedInteger" name="Role" value="1"/></ParameterGroup><ParameterGroup name="28"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[TSC2pT1462],Reference=InitialConcentration"/><Parameter type="unsignedInteger" name="Role" value="1"/></ParameterGroup><ParameterGroup name="29"/><ParameterGroup name="30"/><ParameterGroup name="31"/></ParameterGroup></ParameterGroup><ParameterGroup name="not_interpolated_MCF7"><Parameter type="key" name="Key" value="Experiment_not_interpolated_MCF7"/><Parameter type="file" name="File Name" value="/Users/peter/Documents/GitHub/TransferModel/transfer_model/data/CopasiFormattedData/T47DSheet/not_interpolated_MCF7.csv"/><Parameter type="bool" name="Data is Row Oriented" value="1"/><Parameter type="unsignedInteger" name="First Row" value="1"/><Parameter type="unsignedInteger" name="Last Row" value="7"/><Parameter type="unsignedInteger" name="Experiment Type" value="1"/><Parameter type="bool" name="Normalize Weights per Experiment" value="1"/><Parameter type="string" name="Separator" value=","/><Parameter type="unsignedInteger" name="Weight Method" value="1"/><Parameter type="unsignedInteger" name="Row containing Names" value="1"/><Parameter type="unsignedInteger" name="Number of Columns" value="31"/><ParameterGroup name="Object Map"><ParameterGroup name="0"><Parameter type="unsignedInteger" name="Role" value="3"/></ParameterGroup><ParameterGroup name="1"/><ParameterGroup name="2"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[AktpT308],Reference=Concentration"/><Parameter type="unsignedInteger" name="Role" value="2"/></ParameterGroup><ParameterGroup name="3"/><ParameterGroup name="4"/><ParameterGroup name="5"/><ParameterGroup name="6"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[FourEBP1pT37_46],Reference=Concentration"/><Parameter type="unsignedInteger" name="Role" value="2"/></ParameterGroup><ParameterGroup name="7"/><ParameterGroup name="8"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[IRS1pS636_639],Reference=Concentration"/><Parameter type="unsignedInteger" name="Role" value="2"/></ParameterGroup><ParameterGroup name="9"/><ParameterGroup name="10"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[PRAS40pT246],Reference=Concentration"/><Parameter type="unsignedInteger" name="Role" value="2"/></ParameterGroup><ParameterGroup name="11"/><ParameterGroup name="12"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[S6KpT389],Reference=Concentration"/><Parameter type="unsignedInteger" name="Role" value="2"/></ParameterGroup><ParameterGroup name="13"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[TSC2pT1462],Reference=Concentration"/><Parameter type="unsignedInteger" name="Role" value="2"/></ParameterGroup><ParameterGroup name="14"/><ParameterGroup name="15"/><ParameterGroup name="16"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[AktpT308],Reference=InitialConcentration"/><Parameter type="unsignedInteger" name="Role" value="1"/></ParameterGroup><ParameterGroup name="17"/><ParameterGroup name="18"/><ParameterGroup name="19"/><ParameterGroup name="20"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[FourEBP1pT37_46],Reference=InitialConcentration"/><Parameter type="unsignedInteger" name="Role" value="1"/></ParameterGroup><ParameterGroup name="21"/><ParameterGroup name="22"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[IRS1pS636_639],Reference=InitialConcentration"/><Parameter type="unsignedInteger" name="Role" value="1"/></ParameterGroup><ParameterGroup name="23"/><ParameterGroup name="24"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[PRAS40pT246],Reference=InitialConcentration"/><Parameter type="unsignedInteger" name="Role" value="1"/></ParameterGroup><ParameterGroup name="25"/><ParameterGroup name="26"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[S6KpT389],Reference=InitialConcentration"/><Parameter type="unsignedInteger" name="Role" value="1"/></ParameterGroup><ParameterGroup name="27"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[TSC2pT1462],Reference=InitialConcentration"/><Parameter type="unsignedInteger" name="Role" value="1"/></ParameterGroup><ParameterGroup name="28"/><ParameterGroup name="29"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Values[Insulin],Reference=InitialValue"/><Parameter type="unsignedInteger" name="Role" value="1"/></ParameterGroup><ParameterGroup name="30"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Values[AA],Reference=InitialValue"/><Parameter type="unsignedInteger" name="Role" value="1"/></ParameterGroup></ParameterGroup></ParameterGroup><ParameterGroup name="interpolated_T47D_steady_state"><Parameter type="key" name="Key" value="Experiment_interpolated_T47D_steady_state"/><Parameter type="file" name="File Name" value="/Users/peter/Documents/GitHub/TransferModel/transfer_model/data/CopasiFormattedData/T47DSheet/interpolated_T47D_steady_state.csv"/><Parameter type="bool" name="Data is Row Oriented" value="1"/><Parameter type="unsignedInteger" name="First Row" value="1"/><Parameter type="unsignedInteger" name="Last Row" value="2"/><Parameter type="unsignedInteger" name="Experiment Type" value="0"/><Parameter type="bool" name="Normalize Weights per Experiment" value="1"/><Parameter type="string" name="Separator" value=","/><Parameter type="unsignedInteger" name="Weight Method" value="1"/><Parameter type="unsignedInteger" name="Row containing Names" value="1"/><Parameter type="unsignedInteger" name="Number of Columns" value="32"/><ParameterGroup name="Object Map"><ParameterGroup name="0"/><ParameterGroup name="1"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[AktpT308],Reference=Concentration"/><Parameter type="unsignedInteger" name="Role" value="2"/></ParameterGroup><ParameterGroup name="2"/><ParameterGroup name="3"/><ParameterGroup name="4"/><ParameterGroup name="5"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[FourEBP1pT37_46],Reference=Concentration"/><Parameter type="unsignedInteger" name="Role" value="2"/></ParameterGroup><ParameterGroup name="6"/><ParameterGroup name="7"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[IRS1pS636_639],Reference=Concentration"/><Parameter type="unsignedInteger" name="Role" value="2"/></ParameterGroup><ParameterGroup name="8"/><ParameterGroup name="9"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[PRAS40pT246],Reference=Concentration"/><Parameter type="unsignedInteger" name="Role" value="2"/></ParameterGroup><ParameterGroup name="10"/><ParameterGroup name="11"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[S6KpT389],Reference=Concentration"/><Parameter type="unsignedInteger" name="Role" value="2"/></ParameterGroup><ParameterGroup name="12"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[TSC2pT1462],Reference=Concentration"/><Parameter type="unsignedInteger" name="Role" value="2"/></ParameterGroup><ParameterGroup name="13"/><ParameterGroup name="14"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Values[Insulin],Reference=InitialValue"/><Parameter type="unsignedInteger" name="Role" value="1"/></ParameterGroup><ParameterGroup name="15"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Values[AA],Reference=InitialValue"/><Parameter type="unsignedInteger" name="Role" value="1"/></ParameterGroup><ParameterGroup name="16"/><ParameterGroup name="17"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[AktpT308],Reference=InitialConcentration"/><Parameter type="unsignedInteger" name="Role" value="1"/></ParameterGroup><ParameterGroup name="18"/><ParameterGroup name="19"/><ParameterGroup name="20"/><ParameterGroup name="21"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[FourEBP1pT37_46],Reference=InitialConcentration"/><Parameter type="unsignedInteger" name="Role" value="1"/></ParameterGroup><ParameterGroup name="22"/><ParameterGroup name="23"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[IRS1pS636_639],Reference=InitialConcentration"/><Parameter type="unsignedInteger" name="Role" value="1"/></ParameterGroup><ParameterGroup name="24"/><ParameterGroup name="25"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[PRAS40pT246],Reference=InitialConcentration"/><Parameter type="unsignedInteger" name="Role" value="1"/></ParameterGroup><ParameterGroup name="26"/><ParameterGroup name="27"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[S6KpT389],Reference=InitialConcentration"/><Parameter type="unsignedInteger" name="Role" value="1"/></ParameterGroup><ParameterGroup name="28"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[TSC2pT1462],Reference=InitialConcentration"/><Parameter type="unsignedInteger" name="Role" value="1"/></ParameterGroup><ParameterGroup name="29"/><ParameterGroup name="30"/><ParameterGroup name="31"/></ParameterGroup></ParameterGroup><ParameterGroup name="interpolated_MCF7_steady_state"><Parameter type="key" name="Key" value="Experiment_interpolated_MCF7_steady_state"/><Parameter type="file" name="File Name" value="/Users/peter/Documents/GitHub/TransferModel/transfer_model/data/CopasiFormattedData/T47DSheet/interpolated_MCF7_steady_state.csv"/><Parameter type="bool" name="Data is Row Oriented" value="1"/><Parameter type="unsignedInteger" name="First Row" value="1"/><Parameter type="unsignedInteger" name="Last Row" value="2"/><Parameter type="unsignedInteger" name="Experiment Type" value="0"/><Parameter type="bool" name="Normalize Weights per Experiment" value="1"/><Parameter type="string" name="Separator" value=","/><Parameter type="unsignedInteger" name="Weight Method" value="1"/><Parameter type="unsignedInteger" name="Row containing Names" value="1"/><Parameter type="unsignedInteger" name="Number of Columns" value="32"/><ParameterGroup name="Object Map"><ParameterGroup name="0"/><ParameterGroup name="1"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[AktpT308],Reference=Concentration"/><Parameter type="unsignedInteger" name="Role" value="2"/></ParameterGroup><ParameterGroup name="2"/><ParameterGroup name="3"/><ParameterGroup name="4"/><ParameterGroup name="5"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[FourEBP1pT37_46],Reference=Concentration"/><Parameter type="unsignedInteger" name="Role" value="2"/></ParameterGroup><ParameterGroup name="6"/><ParameterGroup name="7"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[IRS1pS636_639],Reference=Concentration"/><Parameter type="unsignedInteger" name="Role" value="2"/></ParameterGroup><ParameterGroup name="8"/><ParameterGroup name="9"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[PRAS40pT246],Reference=Concentration"/><Parameter type="unsignedInteger" name="Role" value="2"/></ParameterGroup><ParameterGroup name="10"/><ParameterGroup name="11"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[S6KpT389],Reference=Concentration"/><Parameter type="unsignedInteger" name="Role" value="2"/></ParameterGroup><ParameterGroup name="12"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[TSC2pT1462],Reference=Concentration"/><Parameter type="unsignedInteger" name="Role" value="2"/></ParameterGroup><ParameterGroup name="13"/><ParameterGroup name="14"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Values[Insulin],Reference=InitialValue"/><Parameter type="unsignedInteger" name="Role" value="1"/></ParameterGroup><ParameterGroup name="15"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Values[AA],Reference=InitialValue"/><Parameter type="unsignedInteger" name="Role" value="1"/></ParameterGroup><ParameterGroup name="16"/><ParameterGroup name="17"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[AktpT308],Reference=InitialConcentration"/><Parameter type="unsignedInteger" name="Role" value="1"/></ParameterGroup><ParameterGroup name="18"/><ParameterGroup name="19"/><ParameterGroup name="20"/><ParameterGroup name="21"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[FourEBP1pT37_46],Reference=InitialConcentration"/><Parameter type="unsignedInteger" name="Role" value="1"/></ParameterGroup><ParameterGroup name="22"/><ParameterGroup name="23"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[IRS1pS636_639],Reference=InitialConcentration"/><Parameter type="unsignedInteger" name="Role" value="1"/></ParameterGroup><ParameterGroup name="24"/><ParameterGroup name="25"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[PRAS40pT246],Reference=InitialConcentration"/><Parameter type="unsignedInteger" name="Role" value="1"/></ParameterGroup><ParameterGroup name="26"/><ParameterGroup name="27"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[S6KpT389],Reference=InitialConcentration"/><Parameter type="unsignedInteger" name="Role" value="1"/></ParameterGroup><ParameterGroup name="28"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[TSC2pT1462],Reference=InitialConcentration"/><Parameter type="unsignedInteger" name="Role" value="1"/></ParameterGroup><ParameterGroup name="29"/><ParameterGroup name="30"/><ParameterGroup name="31"/></ParameterGroup></ParameterGroup><ParameterGroup name="interpolated_T47D"><Parameter type="key" name="Key" value="Experiment_interpolated_T47D"/><Parameter type="file" name="File Name" value="/Users/peter/Documents/GitHub/TransferModel/transfer_model/data/CopasiFormattedData/T47DSheet/interpolated_T47D.csv"/><Parameter type="bool" name="Data is Row Oriented" value="1"/><Parameter type="unsignedInteger" name="First Row" value="1"/><Parameter type="unsignedInteger" name="Last Row" value="13"/><Parameter type="unsignedInteger" name="Experiment Type" value="1"/><Parameter type="bool" name="Normalize Weights per Experiment" value="1"/><Parameter type="string" name="Separator" value=","/><Parameter type="unsignedInteger" name="Weight Method" value="1"/><Parameter type="unsignedInteger" name="Row containing Names" value="1"/><Parameter type="unsignedInteger" name="Number of Columns" value="31"/><ParameterGroup name="Object Map"><ParameterGroup name="0"><Parameter type="unsignedInteger" name="Role" value="3"/></ParameterGroup><ParameterGroup name="1"/><ParameterGroup name="2"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[AktpT308],Reference=Concentration"/><Parameter type="unsignedInteger" name="Role" value="2"/></ParameterGroup><ParameterGroup name="3"/><ParameterGroup name="4"/><ParameterGroup name="5"/><ParameterGroup name="6"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[FourEBP1pT37_46],Reference=Concentration"/><Parameter type="unsignedInteger" name="Role" value="2"/></ParameterGroup><ParameterGroup name="7"/><ParameterGroup name="8"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[IRS1pS636_639],Reference=Concentration"/><Parameter type="unsignedInteger" name="Role" value="2"/></ParameterGroup><ParameterGroup name="9"/><ParameterGroup name="10"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[PRAS40pT246],Reference=Concentration"/><Parameter type="unsignedInteger" name="Role" value="2"/></ParameterGroup><ParameterGroup name="11"/><ParameterGroup name="12"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[S6KpT389],Reference=Concentration"/><Parameter type="unsignedInteger" name="Role" value="2"/></ParameterGroup><ParameterGroup name="13"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[TSC2pT1462],Reference=Concentration"/><Parameter type="unsignedInteger" name="Role" value="2"/></ParameterGroup><ParameterGroup name="14"/><ParameterGroup name="15"/><ParameterGroup name="16"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[AktpT308],Reference=InitialConcentration"/><Parameter type="unsignedInteger" name="Role" value="1"/></ParameterGroup><ParameterGroup name="17"/><ParameterGroup name="18"/><ParameterGroup name="19"/><ParameterGroup name="20"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[FourEBP1pT37_46],Reference=InitialConcentration"/><Parameter type="unsignedInteger" name="Role" value="1"/></ParameterGroup><ParameterGroup name="21"/><ParameterGroup name="22"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[IRS1pS636_639],Reference=InitialConcentration"/><Parameter type="unsignedInteger" name="Role" value="1"/></ParameterGroup><ParameterGroup name="23"/><ParameterGroup name="24"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[PRAS40pT246],Reference=InitialConcentration"/><Parameter type="unsignedInteger" name="Role" value="1"/></ParameterGroup><ParameterGroup name="25"/><ParameterGroup name="26"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[S6KpT389],Reference=InitialConcentration"/><Parameter type="unsignedInteger" name="Role" value="1"/></ParameterGroup><ParameterGroup name="27"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[TSC2pT1462],Reference=InitialConcentration"/><Parameter type="unsignedInteger" name="Role" value="1"/></ParameterGroup><ParameterGroup name="28"/><ParameterGroup name="29"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Values[Insulin],Reference=InitialValue"/><Parameter type="unsignedInteger" name="Role" value="1"/></ParameterGroup><ParameterGroup name="30"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Values[AA],Reference=InitialValue"/><Parameter type="unsignedInteger" name="Role" value="1"/></ParameterGroup></ParameterGroup></ParameterGroup><ParameterGroup name="interpolated_MCF7"><Parameter type="key" name="Key" value="Experiment_interpolated_MCF7"/><Parameter type="file" name="File Name" value="/Users/peter/Documents/GitHub/TransferModel/transfer_model/data/CopasiFormattedData/T47DSheet/interpolated_MCF7.csv"/><Parameter type="bool" name="Data is Row Oriented" value="1"/><Parameter type="unsignedInteger" name="First Row" value="1"/><Parameter type="unsignedInteger" name="Last Row" value="13"/><Parameter type="unsignedInteger" name="Experiment Type" value="1"/><Parameter type="bool" name="Normalize Weights per Experiment" value="1"/><Parameter type="string" name="Separator" value=","/><Parameter type="unsignedInteger" name="Weight Method" value="1"/><Parameter type="unsignedInteger" name="Row containing Names" value="1"/><Parameter type="unsignedInteger" name="Number of Columns" value="31"/><ParameterGroup name="Object Map"><ParameterGroup name="0"><Parameter type="unsignedInteger" name="Role" value="3"/></ParameterGroup><ParameterGroup name="1"/><ParameterGroup name="2"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[AktpT308],Reference=Concentration"/><Parameter type="unsignedInteger" name="Role" value="2"/></ParameterGroup><ParameterGroup name="3"/><ParameterGroup name="4"/><ParameterGroup name="5"/><ParameterGroup name="6"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[FourEBP1pT37_46],Reference=Concentration"/><Parameter type="unsignedInteger" name="Role" value="2"/></ParameterGroup><ParameterGroup name="7"/><ParameterGroup name="8"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[IRS1pS636_639],Reference=Concentration"/><Parameter type="unsignedInteger" name="Role" value="2"/></ParameterGroup><ParameterGroup name="9"/><ParameterGroup name="10"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[PRAS40pT246],Reference=Concentration"/><Parameter type="unsignedInteger" name="Role" value="2"/></ParameterGroup><ParameterGroup name="11"/><ParameterGroup name="12"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[S6KpT389],Reference=Concentration"/><Parameter type="unsignedInteger" name="Role" value="2"/></ParameterGroup><ParameterGroup name="13"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[TSC2pT1462],Reference=Concentration"/><Parameter type="unsignedInteger" name="Role" value="2"/></ParameterGroup><ParameterGroup name="14"/><ParameterGroup name="15"/><ParameterGroup name="16"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[AktpT308],Reference=InitialConcentration"/><Parameter type="unsignedInteger" name="Role" value="1"/></ParameterGroup><ParameterGroup name="17"/><ParameterGroup name="18"/><ParameterGroup name="19"/><ParameterGroup name="20"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[FourEBP1pT37_46],Reference=InitialConcentration"/><Parameter type="unsignedInteger" name="Role" value="1"/></ParameterGroup><ParameterGroup name="21"/><ParameterGroup name="22"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[IRS1pS636_639],Reference=InitialConcentration"/><Parameter type="unsignedInteger" name="Role" value="1"/></ParameterGroup><ParameterGroup name="23"/><ParameterGroup name="24"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[PRAS40pT246],Reference=InitialConcentration"/><Parameter type="unsignedInteger" name="Role" value="1"/></ParameterGroup><ParameterGroup name="25"/><ParameterGroup name="26"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[S6KpT389],Reference=InitialConcentration"/><Parameter type="unsignedInteger" name="Role" value="1"/></ParameterGroup><ParameterGroup name="27"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Compartments[Cell],Vector=Metabolites[TSC2pT1462],Reference=InitialConcentration"/><Parameter type="unsignedInteger" name="Role" value="1"/></ParameterGroup><ParameterGroup name="28"/><ParameterGroup name="29"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Values[Insulin],Reference=InitialValue"/><Parameter type="unsignedInteger" name="Role" value="1"/></ParameterGroup><ParameterGroup name="30"><Parameter type="cn" name="Object CN" value="CN=Root,Model=NoName,Vector=Values[AA],Reference=InitialValue"/><Parameter type="unsignedInteger" name="Role" value="1"/></ParameterGroup></ParameterGroup></ParameterGroup></ParameterGroup>
         <ParameterGroup name="Validation Set">
           <Parameter name="Weight" type="unsignedFloat" value="1"/>
           <Parameter name="Threshold" type="unsignedInteger" value="5"/>
@@ -1934,6 +1935,8 @@ Reaction scheme where the products are created from the reactants and the change
         <Parameter name="OutputStartTime" type="float" value="0"/>
         <Parameter name="Output Event" type="bool" value="0"/>
         <Parameter name="Start in Steady State" type="bool" value="0"/>
+        <Parameter name="Use Values" type="bool" value="0"/>
+        <Parameter name="Values" type="string" value=""/>
         <Parameter name="LimitCrossings" type="bool" value="0"/>
         <Parameter name="NumCrossingsLimit" type="unsignedInteger" value="0"/>
         <Parameter name="LimitOutTime" type="bool" value="0"/>
@@ -1964,6 +1967,31 @@ Reaction scheme where the products are created from the reactants and the change
         <Parameter name="Steady-State" type="key" value="Task_14"/>
       </Problem>
       <Method name="Linear Noise Approximation" type="LinearNoiseApproximation">
+      </Method>
+    </Task>
+    <Task key="Task_27" name="Time-Course Sensitivities" type="timeSensitivities" scheduled="false" updateModel="false">
+      <Problem>
+        <Parameter name="AutomaticStepSize" type="bool" value="0"/>
+        <Parameter name="StepNumber" type="unsignedInteger" value="100"/>
+        <Parameter name="StepSize" type="float" value="0.01"/>
+        <Parameter name="Duration" type="float" value="1"/>
+        <Parameter name="TimeSeriesRequested" type="bool" value="1"/>
+        <Parameter name="OutputStartTime" type="float" value="0"/>
+        <Parameter name="Output Event" type="bool" value="0"/>
+        <Parameter name="Start in Steady State" type="bool" value="0"/>
+        <Parameter name="Use Values" type="bool" value="0"/>
+        <Parameter name="Values" type="string" value=""/>
+        <ParameterGroup name="ListOfParameters">
+        </ParameterGroup>
+        <ParameterGroup name="ListOfTargets">
+        </ParameterGroup>
+      </Problem>
+      <Method name="LSODA Sensitivities" type="Sensitivities(LSODA)">
+        <Parameter name="Integrate Reduced Model" type="bool" value="0"/>
+        <Parameter name="Relative Tolerance" type="unsignedFloat" value="9.9999999999999995e-07"/>
+        <Parameter name="Absolute Tolerance" type="unsignedFloat" value="9.9999999999999998e-13"/>
+        <Parameter name="Max Internal Steps" type="unsignedInteger" value="10000"/>
+        <Parameter name="Max Internal Step Size" type="unsignedFloat" value="0"/>
       </Method>
     </Task>
   </ListOfTasks>
@@ -2227,7 +2255,7 @@ Reaction scheme where the products are created from the reactants and the change
           <rdf:Description rdf:about="#Unit_0">
             <dcterms:created>
               <rdf:Description>
-                <dcterms:W3CDTF>2019-11-26T13:07:34Z</dcterms:W3CDTF>
+                <dcterms:W3CDTF>2019-12-19T21:18:42Z</dcterms:W3CDTF>
               </rdf:Description>
             </dcterms:created>
           </rdf:Description>
@@ -2243,7 +2271,7 @@ Reaction scheme where the products are created from the reactants and the change
           <rdf:Description rdf:about="#Unit_4">
             <dcterms:created>
               <rdf:Description>
-                <dcterms:W3CDTF>2019-11-26T13:07:34Z</dcterms:W3CDTF>
+                <dcterms:W3CDTF>2019-12-19T21:18:42Z</dcterms:W3CDTF>
               </rdf:Description>
             </dcterms:created>
           </rdf:Description>
@@ -2259,7 +2287,7 @@ Reaction scheme where the products are created from the reactants and the change
           <rdf:Description rdf:about="#Unit_12">
             <dcterms:created>
               <rdf:Description>
-                <dcterms:W3CDTF>2019-11-26T13:07:34Z</dcterms:W3CDTF>
+                <dcterms:W3CDTF>2019-12-19T21:18:42Z</dcterms:W3CDTF>
               </rdf:Description>
             </dcterms:created>
           </rdf:Description>
@@ -2275,7 +2303,7 @@ Reaction scheme where the products are created from the reactants and the change
           <rdf:Description rdf:about="#Unit_16">
             <dcterms:created>
               <rdf:Description>
-                <dcterms:W3CDTF>2019-11-26T13:07:34Z</dcterms:W3CDTF>
+                <dcterms:W3CDTF>2019-12-19T21:18:42Z</dcterms:W3CDTF>
               </rdf:Description>
             </dcterms:created>
           </rdf:Description>
@@ -2291,7 +2319,7 @@ Reaction scheme where the products are created from the reactants and the change
           <rdf:Description rdf:about="#Unit_34">
             <dcterms:created>
               <rdf:Description>
-                <dcterms:W3CDTF>2019-11-26T13:07:34Z</dcterms:W3CDTF>
+                <dcterms:W3CDTF>2019-12-19T21:18:42Z</dcterms:W3CDTF>
               </rdf:Description>
             </dcterms:created>
           </rdf:Description>
@@ -2307,7 +2335,7 @@ Reaction scheme where the products are created from the reactants and the change
           <rdf:Description rdf:about="#Unit_40">
             <dcterms:created>
               <rdf:Description>
-                <dcterms:W3CDTF>2019-11-26T13:07:34Z</dcterms:W3CDTF>
+                <dcterms:W3CDTF>2019-12-19T21:18:42Z</dcterms:W3CDTF>
               </rdf:Description>
             </dcterms:created>
           </rdf:Description>

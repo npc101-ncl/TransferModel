@@ -5,7 +5,7 @@ are at the bottom.
 
 """
 import numba
-import os, glob
+import os, glob, re
 import pickle
 from pathlib import Path
 from scipy.spatial.distance import euclidean
@@ -22,6 +22,12 @@ from pyDOE import lhs
 from scipy.stats.distributions import uniform
 import fastdtw
 import multiprocessing as mp
+
+#site.addsitedir('/Users/peter/opt/anaconda3/envs/ver3p6/lib/python3.6/site-packages/pycotools3')
+copasiBinPath = "/Applications/copasi"
+
+if not re.search(copasiBinPath, os.environ["PATH"]):
+    os.environ["PATH"] += os.pathsep + copasiBinPath
 
 # from data.data_analysis import
 wd = os.path.dirname(os.path.dirname(os.path.abspath('')))

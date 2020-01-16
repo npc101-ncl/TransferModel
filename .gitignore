@@ -2,3 +2,15 @@
 .idea
 .pyc
 __pycache__
+transfer_model/.DS_Store
+*.ini
+transfer_model/data/.DS_Store
+transfer_model/data/CopasiFormattedData/.DS_Store
+transfer_model/models/.DS_Store
+transfer_model/models/Problem3/.DS_Store
+transfer_model/models/Problem3/Fit1/.DS_Store
+transfer_model/models/Problem4/.DS_Store
+transfer_model/models/Problem4/Fit1/.DS_Store
+transfer_model/models/simulation_data/.DS_Store
+.DS_Store
+transfer_model/models/TimeCourseData.txt
